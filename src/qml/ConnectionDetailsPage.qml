@@ -3,6 +3,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.ktrip 0.1
+import org.kde.kpublictransport 1.0
 
 Kirigami.Page
 {
@@ -37,10 +38,18 @@ Kirigami.Page
                     id: headerLabel
                     anchors.fill: parent
                     anchors.margins: Kirigami.Units.largeSpacing
-                    text: modelData.route.line.name
                     color: Kirigami.Theme.textColor
                     font.pointSize: Kirigami.Theme.defaultFont.pointSize * root.headerFontScale
                     Layout.fillWidth: true
+
+                    text: {
+
+                        if (modelData.mode == JourneySection.Walking) {
+                            return "Walking"
+                        }
+
+                        return modelData.route.line.name
+                    }
                 }
             }
 

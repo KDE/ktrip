@@ -15,7 +15,7 @@ Kirigami.Page
         model: _queryController.journeyModel
 
         delegate: Kirigami.BasicListItem {
-            text: journey.sections[0].from.name + " - " + journey.sections[journey.sections.length - 1].to.name + " (" + journey.numberOfChanges + " changes)"
+            text: journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat) + " - " + journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat) + " (" + journey.numberOfChanges + " changes)"
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
             reserveSpaceForIcon: false
         }
