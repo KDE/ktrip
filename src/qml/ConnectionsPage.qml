@@ -21,6 +21,7 @@ Kirigami.Page
         delegate: Kirigami.BasicListItem {
             text: journey.sections[0].from.name + " - " + journey.sections[journey.sections.length - 1].to.name + " (" + journey.numberOfChanges + " changes)"
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
+            reserveSpaceForIcon: false
         }
     }
 }

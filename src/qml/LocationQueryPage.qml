@@ -32,6 +32,7 @@ Kirigami.Page
 
         delegate: Kirigami.BasicListItem {
             text: name
+            reserveSpaceForIcon: false
             onClicked: {
                 if (type == "start") {
                     _queryController.start = object

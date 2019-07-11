@@ -12,26 +12,72 @@ Kirigami.Page
 
     Kirigami.CardsListView {
 
+        id: clv
+
         anchors.fill: parent
 
         model: journey.sections
 
-        delegate: Kirigami.Card {
+        delegate: Kirigami.AbstractCard {
+            id: root
 
-            height: Kirigami.Units.gridUnit * 4
+            showClickFeedback: true
 
-            Column {
+            header: Rectangle {
+                id: headerBackground
+                Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
+                Kirigami.Theme.inherit: false
+                color: Kirigami.Theme.backgroundColor
+                implicitHeight: headerLabel.implicitHeight + Kirigami.Units.largeSpacing * 2
+                anchors.leftMargin: -root.leftPadding
+                anchors.topMargin: -root.topPadding
+                anchors.rightMargin: -root.rightPadding
+
                 Label {
-                    anchors.leftMargin: Kirigami.Units.largeSpacing
-                    text: modelData.from.name + " " + modelData.scheduledDepartureTime
-                }
-                Label {
-                    text: modelData.to.name + " " + modelData.scheduledArrivalTime
+                    id: headerLabel
+                    anchors.fill: parent
+                    anchors.margins: Kirigami.Units.largeSpacing
+                    text: modelData.route.line.name
+                    color: Kirigami.Theme.textColor
+                    font.pointSize: Kirigami.Theme.defaultFont.pointSize * root.headerFontScale
+                    Layout.fillWidth: true
                 }
             }
 
-        }
+            contentItem: ColumnLayout {
+                id: topLayout
 
+                RowLayout {
+                    Label {
+                        text: modelData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                    }
+
+                    Label {
+                        text: modelData.from.name
+                        Layout.fillWidth: true
+                    }
+
+                    Label {
+                        text: modelData.scheduledDeparturePlatform
+                    }
+                }
+
+                RowLayout {
+                    Label {
+                        text: modelData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                    }
+
+                    Label {
+                        text: modelData.to.name
+                        Layout.fillWidth: true
+                    }
+
+                    Label {
+                        text: modelData.scheduledArrivalPlatform
+                    }
+                }
+            }
+        }
     }
 }
 
