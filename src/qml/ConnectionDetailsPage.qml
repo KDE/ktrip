@@ -22,8 +22,6 @@ Kirigami.Page
         delegate: Kirigami.AbstractCard {
             id: root
 
-            showClickFeedback: true
-
             header: Rectangle {
                 id: headerBackground
                 Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
@@ -53,10 +51,11 @@ Kirigami.Page
                 }
             }
 
-            contentItem: ColumnLayout {
+            contentItem: Column {
                 id: topLayout
 
                 RowLayout {
+                    width: parent.width
                     Label {
                         text: modelData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
                     }
