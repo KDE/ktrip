@@ -8,10 +8,6 @@ Kirigami.Page
 {
     title: "Connections"
 
-    header: Label {
-        text: _queryController.journeyModel.errorMessage
-    }
-
     ListView {
 
         anchors.fill: parent
