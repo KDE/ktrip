@@ -91,3 +91,24 @@ void QueryController::setDepartureTime(const QString& time)
         Q_EMIT departureTimeChanged();
     }
 }
+
+QVariantList QueryController::cachedLocations() const
+{
+    return m_cachedLocations;
+}
+
+void QueryController::setCachedLocations(const QVariantList& locations)
+{
+    if (locations != m_cachedLocations) {
+        m_cachedLocations = locations;
+        Q_EMIT cachedLocationsChanged();
+    }
+}
+
+void QueryController::addCachedLocation(const KPublicTransport::Location location)
+{
+    if (!m_cachedLocations.contains(QVariant::fromValue(location))) {
+        m_cachedLocations.append(QVariant::fromValue(location));
+    }
+}
+

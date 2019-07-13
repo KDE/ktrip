@@ -15,6 +15,7 @@ class QueryController : public QObject {
     Q_PROPERTY(KPublicTransport::JourneyQueryModel* journeyModel READ journeyModel CONSTANT)
     Q_PROPERTY(QString departureDate READ departureDate WRITE setDepartureDate NOTIFY departureDateChanged)
     Q_PROPERTY(QString departureTime READ departureTime WRITE setDepartureTime NOTIFY departureTimeChanged)
+    Q_PROPERTY(QVariantList cachedLocations READ cachedLocations WRITE setCachedLocations NOTIFY cachedLocationsChanged)
 
 public:
     explicit QueryController(QObject *parent=nullptr);
@@ -33,11 +34,17 @@ public:
     QString departureTime() const;
     void setDepartureTime(const QString& time);
 
+    QVariantList cachedLocations() const;
+    void setCachedLocations(const QVariantList& locations);
+
+    Q_INVOKABLE void addCachedLocation(const KPublicTransport::Location location);
+
 Q_SIGNALS:
     void startChanged();
     void destinationChanged();
     void departureDateChanged();
     void departureTimeChanged();
+    void cachedLocationsChanged();
 
 private Q_SLOTS:
     void createJourneyRequest();
@@ -49,4 +56,5 @@ private:
     KPublicTransport::Manager m_manager;
     QString m_departureDate;
     QString m_departureTime;
+    QVariantList m_cachedLocations;
 };

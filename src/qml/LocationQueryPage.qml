@@ -7,6 +7,7 @@ import org.kde.ktrip 0.1
 Kirigami.Page
 {
     property string type
+    property bool showCached: true
 
     title: {
         if (type == "start") {
@@ -21,19 +22,48 @@ Kirigami.Page
     header: TextField {
         id: queryTextField
         placeholderText: "Search..."
-        onAccepted: queryModel.query = text
+        onAccepted: {
+            queryModel.query = text
+            showCached = false
+        }
     }
 
     ListView {
         anchors.fill: parent
-        model: LocationQueryModel {
-            id: queryModel
+        visible: showCached
+        model: _queryController.cachedLocations
+
+        delegate: Kirigami.BasicListItem {
+            text: modelData.name
+            reserveSpaceForIcon: false
+            onClicked: {
+                _queryController.addCachedLocation(modelData)
+
+                if (type == "start") {
+                    _queryController.start = modelData
+                } else if (type == "destination") {
+                    _queryController.destination = modelData
+                }
+                pageStack.pop()
+            }
         }
+    }
+
+    LocationQueryModel {
+        id: queryModel
+    }
+
+    ListView {
+        anchors.fill: parent
+        visible: !showCached
+        model: queryModel
 
         delegate: Kirigami.BasicListItem {
             text: name
             reserveSpaceForIcon: false
             onClicked: {
+                _queryController.addCachedLocation(object)
+
                 if (type == "start") {
                     _queryController.start = object
                 } else if (type == "destination") {
@@ -43,6 +73,7 @@ Kirigami.Page
             }
         }
     }
+
 }
 
 
