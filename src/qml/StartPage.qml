@@ -37,16 +37,24 @@ Kirigami.Page
             onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {type: "destination"})
         }
 
-        RowLayout {
-            width: parent.width
-            Button {
-                text: "Pick date"
-                Layout.fillWidth: true
-            }
-            Button {
-                text: "Pick time"
-                Layout.fillWidth: true
-            }
+        Label {
+            text: "Departure date:"
+        }
+
+        DatePickerButton {
+            text: _queryController.departureDate
+            Layout.fillWidth: true
+            onDatePicked: _queryController.departureDate = theDate
+        }
+
+        Label {
+            text: "Departure time:"
+        }
+
+        TimePickerButton {
+            text: _queryController.departureTime
+            Layout.fillWidth: true
+            onTimePicked: _queryController.departureTime = theTime
         }
     }
 }

@@ -14,6 +14,10 @@ include(KDECMakeSettings)
 
 find_package(Qt5 REQUIRED COMPONENTS Gui Qml Widgets)
 
+if (ANDROID)
+    find_package(Qt5 REQUIRED COMPONENTS AndroidExtras)
+endif()
+
 find_package(KPublicTransport REQUIRED)
 
 set(CMAKE_AUTOMOC ON)

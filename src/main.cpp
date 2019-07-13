@@ -7,6 +7,8 @@
 #include <KPublicTransport/JourneyQueryModel>
 #include <KPublicTransport/Manager>
 
+#include "androidutils.h"
+
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
 #endif
@@ -20,6 +22,13 @@ int main(int argc, char *argv[])
 
     QueryController queryController;
     engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);
+
+#ifdef Q_OS_ANDROID
+    engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);
+    engine.rootContext()->setContextProperty(QStringLiteral("_androidUtils"), QVariant::fromValue(AndroidUtils::instance()));
+#else
+    engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
+#endif
 
     return app.exec();
 }

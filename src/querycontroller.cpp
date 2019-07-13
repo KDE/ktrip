@@ -2,6 +2,8 @@
 
 #include <QDebug>
 #include <QDateTime>
+#include <QDate>
+#include <QTime>
 
 QueryController::QueryController(QObject* parent)
     : QObject(parent)
@@ -10,10 +12,12 @@ QueryController::QueryController(QObject* parent)
     , m_journeyModel(new KPublicTransport::JourneyQueryModel)
     , m_manager()
 {
+
+    m_departureDate = QDate::currentDate().toString(Qt::ISODate);
+    m_departureTime = QTime::currentTime().toString(Qt::ISODate);
+
     m_journeyModel->setManager(&m_manager);
 
-    connect(this, &QueryController::startChanged, this, &QueryController::createJourneyRequest);
-    connect(this, &QueryController::destinationChanged, this, &QueryController::createJourneyRequest);
 }
 
 void QueryController::setStart(const KPublicTransport::Location start)
@@ -38,8 +42,9 @@ KPublicTransport::Location QueryController::destination() const
     return m_destination;
 }
 
-KPublicTransport::JourneyQueryModel * QueryController::journeyModel() const
+KPublicTransport::JourneyQueryModel * QueryController::journeyModel()
 {
+    createJourneyRequest();
     return m_journeyModel;
 }
 
@@ -54,9 +59,35 @@ void QueryController::createJourneyRequest()
     req.setFrom(m_start);
     req.setTo(m_destination);
 
-    req.setDepartureTime(QDateTime::currentDateTime());
+    QDateTime depTime = QDateTime::fromString(m_departureDate + QStringLiteral("T") + m_departureTime, Qt::ISODate);
+    req.setDepartureTime(depTime);
+    qDebug() << depTime << m_departureDate  + QStringLiteral("T") +  m_departureTime;
 
     m_journeyModel->setJourneyRequest(req);
 }
 
+QString QueryController::departureDate() const
+{
+    return m_departureDate;
+}
 
+void QueryController::setDepartureDate(const QString& date)
+{
+    if (m_departureDate != date) {
+        m_departureDate = date;
+        Q_EMIT departureDateChanged();
+    }
+}
+
+QString QueryController::departureTime() const
+{
+    return m_departureTime;
+}
+
+void QueryController::setDepartureTime(const QString& time)
+{
+    if (m_departureTime != time) {
+        m_departureTime = time;
+        Q_EMIT departureTimeChanged();
+    }
+}

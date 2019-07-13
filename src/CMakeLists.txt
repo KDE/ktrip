@@ -4,9 +4,17 @@ set(ktrip_SRCS
     locationquerymodel.cpp
 )
 
+if (ANDROID)
+    list(APPEND ktrip_SRCS androidutils.cpp)
+endif()
+
 qt5_add_resources(ktrip_SRCS resources.qrc)
 add_executable(ktrip ${ktrip_SRCS})
 target_link_libraries(ktrip Qt5::Qml Qt5::Gui KPublicTransport)
+
+if (ANDROID)
+    target_link_libraries(ktrip Qt5::AndroidExtras)
+endif()
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
 

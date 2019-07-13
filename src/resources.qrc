@@ -5,5 +5,7 @@
     <file>qml/ConnectionsPage.qml</file>
     <file>qml/LocationQueryPage.qml</file>
     <file>qml/ConnectionDetailsPage.qml</file>
+    <file>qml/DatePickerButton.qml</file>
+    <file>qml/TimePickerButton.qml</file>
  </qresource>
 </RCC>
