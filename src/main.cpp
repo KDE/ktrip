@@ -1,4 +1,4 @@
-#include <QApplication>
+#include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
@@ -7,9 +7,12 @@
 #include <KPublicTransport/JourneyQueryModel>
 #include <KPublicTransport/Manager>
 
+#ifdef Q_OS_ANDROID
+Q_DECL_EXPORT
+#endif
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
+    QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
     qmlRegisterType<LocationQueryModel>("org.kde.ktrip", 0, 1, "LocationQueryModel");
