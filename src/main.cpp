@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<KPublicTransport::JourneyQueryModel>("org.kde.ktrip", 0, 1, "JourneyQueryModel");
 
     QueryController queryController;
-    engine.rootContext()->setContextProperty("_queryController", &queryController);
+    engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);
 
     return app.exec();
 }

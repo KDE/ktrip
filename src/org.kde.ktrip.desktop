@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=KTrip
+GenericName=Public transport navigator
+Exec=ktrip
+Icon=map-globe
+Type=Application
+Comment=Public transport navigator.
+Terminal=false
+Categories=Qt;KDE;

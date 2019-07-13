@@ -41,7 +41,7 @@ QVariant LocationQueryModel::data(const QModelIndex& index, int role) const
         case ObjectRole:
             return QVariant::fromValue(m_locations[index.row()]);
         default:
-            return QVariant("deadbeef");
+            return QVariant(QStringLiteral("deadbeef"));
     }
 
 }
