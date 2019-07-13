@@ -1,4 +1,9 @@
+#ifdef Q_OS_ANDROID
 #include <QGuiApplication>
+#else
+#include <QApplication>
+#endif
+
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
@@ -14,7 +19,13 @@ Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
+
+#ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
+#else
+    QApplication app(argc, argv);
+#endif
+
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
     qmlRegisterType<LocationQueryModel>("org.kde.ktrip", 0, 1, "LocationQueryModel");

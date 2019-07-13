@@ -12,10 +12,12 @@ include(FeatureSummary)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 
-find_package(Qt5 REQUIRED COMPONENTS Gui Qml Widgets)
+find_package(Qt5 REQUIRED COMPONENTS Gui Qml)
 
 if (ANDROID)
     find_package(Qt5 REQUIRED COMPONENTS AndroidExtras)
+else()
+    find_package(Qt5 REQUIRED COMPONENTS Widgets)
 endif()
 
 find_package(KPublicTransport REQUIRED)

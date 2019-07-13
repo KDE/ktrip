@@ -14,6 +14,8 @@ target_link_libraries(ktrip Qt5::Qml Qt5::Gui KPublicTransport)
 
 if (ANDROID)
     target_link_libraries(ktrip Qt5::AndroidExtras)
+else()
+    target_link_libraries(ktrip Qt5::Widgets)
 endif()
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
