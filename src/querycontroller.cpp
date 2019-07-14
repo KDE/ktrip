@@ -152,7 +152,7 @@ void QueryController::loadLocationsFromCache()
 {
     m_cachedLocationsJson = QJsonDocument::fromJson(m_locationCacheFile.readAll()).array();
 
-    for (const QJsonValue& val : m_cachedLocationsJson) {
+    for (const QJsonValue& val : qAsConst(m_cachedLocationsJson)) {
         m_cachedLocations.append(QVariant::fromValue(KPublicTransport::Location::fromJson(val.toObject())));
     }
 }
