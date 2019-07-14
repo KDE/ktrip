@@ -16,11 +16,25 @@ find_package(Qt5 REQUIRED COMPONENTS Gui Qml)
 find_package(KF5 REQUIRED COMPONENTS I18n)
 
 if (ANDROID)
-    find_package(Qt5 REQUIRED COMPONENTS AndroidExtras)
+    # runtime dependencies are build-time dependencies on Android
+    find_package(Qt5 REQUIRED COMPONENTS AndroidExtras Svg)
+    find_package(KF5 REQUIRED COMPONENTS Kirigami2)
+    if (NOT DEFINED BREEZEICONS_DIR AND EXISTS ${CMAKE_SOURCE_DIR}/../breeze-icons)
+        set(BREEZEICONS_DIR ${CMAKE_SOURCE_DIR}/../breeze-icons)
+    endif()
+    find_package(OpenSSL REQUIRED)
+
 else()
     find_package(Qt5 REQUIRED COMPONENTS Widgets)
 endif()
 
 find_package(KPublicTransport REQUIRED)
 
+add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
+add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
+add_definitions(-DQT_USE_QSTRINGBUILDER)
+add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x060000)
+
 add_subdirectory(src)
+
+feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
