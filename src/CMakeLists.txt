@@ -21,27 +21,11 @@ if (ANDROID)
     )
 
     kirigami_package_breeze_icons(ICONS
-        checkmark
-        clock
-        dialog-cancel
-        document-edit
-        document-open
-        document-save
-        documentinfo
-        edit-delete
-        edit-download
-        edit-paste
         go-down-symbolic
-        go-home
         go-next-symbolic
         go-up-symbolic
-        help-about
-        map-symbolic
-        meeting-attending
-        question
-        settings-configure
-        view-calendar-day
         view-refresh
+        search
     )
 else()
     target_link_libraries(ktrip Qt5::Widgets)
