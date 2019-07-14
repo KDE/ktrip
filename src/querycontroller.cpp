@@ -2,8 +2,9 @@
 
 #include <QDebug>
 #include <QDateTime>
-#include <QDate>
-#include <QTime>
+#include <QStandardPaths>
+#include <QJsonDocument>
+#include <QJsonObject>
 
 QueryController::QueryController(QObject* parent)
     : QObject(parent)
@@ -11,13 +12,19 @@ QueryController::QueryController(QObject* parent)
     , m_destination()
     , m_journeyModel(new KPublicTransport::JourneyQueryModel)
     , m_manager()
+    , m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache"))
+    , m_cachedLocationsJson()
 {
+    if (!m_locationCacheFile.open(QIODevice::ReadWrite)) {
+        qWarning() << "Could not open location cache file" << m_locationCacheFile.fileName();
+    }
 
     m_departureDate = QDate::currentDate().toString(Qt::ISODate);
     m_departureTime = QTime::currentTime().toString(Qt::ISODate);
 
     m_journeyModel->setManager(&m_manager);
 
+    loadLocationsFromCache();
 }
 
 void QueryController::setStart(const KPublicTransport::Location start)
@@ -107,8 +114,25 @@ void QueryController::setCachedLocations(const QVariantList& locations)
 
 void QueryController::addCachedLocation(const KPublicTransport::Location location)
 {
-    if (!m_cachedLocations.contains(QVariant::fromValue(location))) {
-        m_cachedLocations.append(QVariant::fromValue(location));
+    if (m_cachedLocations.contains(QVariant::fromValue(location))) {
+        return;
     }
+
+    m_cachedLocations.append(QVariant::fromValue(location));
+    m_cachedLocationsJson.append(KPublicTransport::Location::toJson(location));
+
+    QJsonDocument doc(m_cachedLocationsJson);
+
+    m_locationCacheFile.resize(0);
+    m_locationCacheFile.write(doc.toJson());
+    m_locationCacheFile.flush();
 }
 
+void QueryController::loadLocationsFromCache()
+{
+    m_cachedLocationsJson = QJsonDocument::fromJson(m_locationCacheFile.readAll()).array();
+
+    for (const QJsonValue& val : m_cachedLocationsJson) {
+        m_cachedLocations.append(QVariant::fromValue(KPublicTransport::Location::fromJson(val.toObject())));
+    }
+}

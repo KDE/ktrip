@@ -1,11 +1,12 @@
+#include <QQmlApplicationEngine>
+#include <QQmlContext>
+
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 #else
 #include <QApplication>
 #endif
 
-#include <QQmlApplicationEngine>
-#include <QQmlContext>
 
 #include "locationquerymodel.h"
 #include "querycontroller.h"

@@ -1,6 +1,8 @@
 #pragma once
 
 #include <QObject>
+#include <QFile>
+#include <QJsonArray>
 
 #include <KPublicTransport/Location>
 #include <KPublicTransport/JourneyRequest>
@@ -50,6 +52,8 @@ private Q_SLOTS:
     void createJourneyRequest();
 
 private:
+    void loadLocationsFromCache();
+
     KPublicTransport::Location m_start;
     KPublicTransport::Location m_destination;
     KPublicTransport::JourneyQueryModel *m_journeyModel;
@@ -57,4 +61,6 @@ private:
     QString m_departureDate;
     QString m_departureTime;
     QVariantList m_cachedLocations;
+    QFile m_locationCacheFile;
+    QJsonArray m_cachedLocationsJson;
 };
