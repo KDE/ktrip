@@ -7,5 +7,6 @@
     <file>qml/ConnectionDetailsPage.qml</file>
     <file>qml/DatePickerButton.qml</file>
     <file>qml/TimePickerButton.qml</file>
+    <file>qtquickcontrols2.conf</file>
  </qresource>
 </RCC>
