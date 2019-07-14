@@ -31,17 +31,17 @@ Kirigami.Page
 
     title: {
         if (type == "start") {
-            return i18n("Search for start location")
+            return "Search for start location"
         }
         if (type == "destination") {
-            return i18n("Search for destination location")
+            return "Search for destination location"
         }
         return "deadbeef"
     }
 
     header: TextField {
         id: queryTextField
-        placeholderText: i18n("Search...")
+        placeholderText: "Search..."
         onAccepted: {
             queryModel.query = text
             showCached = false
