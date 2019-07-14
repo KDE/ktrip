@@ -34,10 +34,21 @@ Kirigami.Page
 
         model: _queryController.journeyModel
 
-        delegate: Kirigami.BasicListItem {
-            text: journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat) + " - " + journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat) + " (" + journey.numberOfChanges + " changes)"
+        delegate: Kirigami.AbstractListItem {
+
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
-            reserveSpaceForIcon: false
+
+            RowLayout {
+                Label {
+                text: journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat) + " - " + journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                    Layout.fillWidth: true
+                }
+
+                Label {
+                    text: journey.numberOfChanges + " changes"
+                    visible: journey.numberOfChanges > 0
+                }
+            }
         }
     }
 }

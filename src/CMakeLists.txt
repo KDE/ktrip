@@ -28,7 +28,7 @@ if (ANDROID)
         search
     )
 else()
-    target_link_libraries(ktrip Qt5::Widgets)
+    target_link_libraries(ktrip PRIVATE Qt5::Widgets)
 endif()
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
