@@ -28,11 +28,11 @@ Kirigami.Page
     id: rootPage
     property var start;
 
-    title: "Start journey"
+    title: i18n("Start journey")
 
     actions.main: Kirigami.Action {
         icon.name: "search"
-        text: "Search"
+        text: i18n("Search")
         onTriggered: pageStack.push(Qt.resolvedUrl("ConnectionsPage.qml"))
     }
 
@@ -41,11 +41,11 @@ Kirigami.Page
         width: parent.width
 
         Label {
-            text: "From:"
+            text: i18n("From:")
         }
         Button {
             Layout.fillWidth: true
-            text: _queryController.start.name ? _queryController.start.name : "Pick start"
+            text: _queryController.start.name ? _queryController.start.name : i18n("Pick start")
             onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {type: "start"})
         }
         Label {
@@ -53,12 +53,12 @@ Kirigami.Page
         }
         Button {
             Layout.fillWidth: true
-            text: _queryController.start.name ? _queryController.destination.name : "Pick destination"
+            text: _queryController.start.name ? _queryController.destination.name : i18n("Pick destination")
             onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {type: "destination"})
         }
 
         Label {
-            text: "Departure date:"
+            text: i18n("Departure date:")
         }
 
         DatePickerButton {
@@ -68,7 +68,7 @@ Kirigami.Page
         }
 
         Label {
-            text: "Departure time:"
+            text: i18n("Departure time:")
         }
 
         TimePickerButton {

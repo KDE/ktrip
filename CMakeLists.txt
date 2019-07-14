@@ -13,6 +13,7 @@ include(KDEInstallDirs)
 include(KDECMakeSettings)
 
 find_package(Qt5 REQUIRED COMPONENTS Gui Qml)
+find_package(KF5 REQUIRED COMPONENTS I18n)
 
 if (ANDROID)
     find_package(Qt5 REQUIRED COMPONENTS AndroidExtras)
@@ -21,7 +22,5 @@ else()
 endif()
 
 find_package(KPublicTransport REQUIRED)
-
-set(CMAKE_AUTOMOC ON)
 
 add_subdirectory(src)
