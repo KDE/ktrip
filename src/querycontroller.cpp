@@ -90,7 +90,7 @@ void QueryController::createJourneyRequest()
     req.setDepartureTime(depTime);
     qDebug() << depTime << m_departureDate  + QStringLiteral("T") +  m_departureTime;
 
-    m_journeyModel->setJourneyRequest(req);
+    m_journeyModel->setRequest(req);
 }
 
 QString QueryController::departureDate() const
