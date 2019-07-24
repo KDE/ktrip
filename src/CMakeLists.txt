@@ -32,6 +32,7 @@ else()
 endif()
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
+install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 if (NOT ANDROID)
     install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})

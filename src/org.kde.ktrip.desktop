@@ -2,7 +2,7 @@
 Name=KTrip
 GenericName=Public transport navigator
 Exec=ktrip
-Icon=map-globe
+Icon=org.kde.ktrip
 Type=Application
 Comment=Public transport navigator.
 Terminal=false
