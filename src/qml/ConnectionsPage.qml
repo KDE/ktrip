@@ -26,7 +26,7 @@ import org.kde.ktrip 0.1
 
 Kirigami.Page
 {
-    title: "Connections"
+    title: i18n("Connections")
 
     ListView {
 

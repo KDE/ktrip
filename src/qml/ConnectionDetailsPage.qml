@@ -27,7 +27,7 @@ import org.kde.kpublictransport 1.0
 
 Kirigami.Page
 {
-    title: "Details"
+    title: i18n("Details")
 
     property var journey
 
@@ -63,7 +63,7 @@ Kirigami.Page
                     text: {
 
                         if (modelData.mode == JourneySection.Walking) {
-                            return "Walking"
+                            return i18n("Walking")
                         }
 
                         return modelData.route.line.name
