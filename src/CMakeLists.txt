@@ -10,7 +10,7 @@ endif()
 
 qt5_add_resources(ktrip_SRCS resources.qrc)
 add_executable(ktrip ${ktrip_SRCS})
-target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::I18n KPublicTransport)
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE

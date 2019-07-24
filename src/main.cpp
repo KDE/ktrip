@@ -33,6 +33,8 @@
 #include <KPublicTransport/JourneyQueryModel>
 #include <KPublicTransport/Manager>
 
+#include <KLocalizedContext>
+
 #include "androidutils.h"
 
 #ifdef Q_OS_ANDROID
@@ -48,6 +50,7 @@ int main(int argc, char *argv[])
 #endif
 
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
     qmlRegisterType<LocationQueryModel>("org.kde.ktrip", 0, 1, "LocationQueryModel");
     qmlRegisterType<KPublicTransport::JourneyQueryModel>("org.kde.ktrip", 0, 1, "JourneyQueryModel");
