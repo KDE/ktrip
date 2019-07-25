@@ -91,5 +91,3 @@ QHash<int, QByteArray> LocationQueryModel::roleNames() const
     names.insert(ObjectRole, "object");
     return names;
 }
-
-
