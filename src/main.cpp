@@ -18,6 +18,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+#include "androidutils.h"
+#include "locationquerymodel.h"
+#include "querycontroller.h"
+
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
@@ -27,15 +31,8 @@
 #include <QApplication>
 #endif
 
-
-#include "locationquerymodel.h"
-#include "querycontroller.h"
-#include <KPublicTransport/JourneyQueryModel>
 #include <KPublicTransport/Manager>
-
 #include <KLocalizedContext>
-
-#include "androidutils.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -53,10 +50,12 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
     qmlRegisterType<LocationQueryModel>("org.kde.ktrip", 0, 1, "LocationQueryModel");
-    qmlRegisterType<KPublicTransport::JourneyQueryModel>("org.kde.ktrip", 0, 1, "JourneyQueryModel");
 
     QueryController queryController;
     engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);
+
+    KPublicTransport::Manager manager;
+    engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
 
 #ifdef Q_OS_ANDROID
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);

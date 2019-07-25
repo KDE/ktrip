@@ -30,8 +30,6 @@ QueryController::QueryController(QObject* parent)
     : QObject(parent)
     , m_start()
     , m_destination()
-    , m_journeyModel(new KPublicTransport::JourneyQueryModel)
-    , m_manager()
     , m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache"))
     , m_cachedLocationsJson()
 {
@@ -41,8 +39,6 @@ QueryController::QueryController(QObject* parent)
 
     m_departureDate = QDate::currentDate().toString(Qt::ISODate);
     m_departureTime = QTime::currentTime().toString(Qt::ISODate);
-
-    m_journeyModel->setManager(&m_manager);
 
     loadLocationsFromCache();
 }
@@ -69,19 +65,8 @@ KPublicTransport::Location QueryController::destination() const
     return m_destination;
 }
 
-KPublicTransport::JourneyQueryModel * QueryController::journeyModel()
+KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
 {
-    createJourneyRequest();
-    return m_journeyModel;
-}
-
-void QueryController::createJourneyRequest()
-{
-
-    if (m_start.isEmpty() || m_destination.isEmpty()) {
-        return;
-    }
-
     KPublicTransport::JourneyRequest req;
     req.setFrom(m_start);
     req.setTo(m_destination);
@@ -90,7 +75,7 @@ void QueryController::createJourneyRequest()
     req.setDepartureTime(depTime);
     qDebug() << depTime << m_departureDate  + QStringLiteral("T") +  m_departureTime;
 
-    m_journeyModel->setRequest(req);
+    return req;
 }
 
 QString QueryController::departureDate() const

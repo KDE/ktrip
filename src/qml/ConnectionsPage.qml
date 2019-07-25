@@ -23,6 +23,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.ktrip 0.1
+import org.kde.kpublictransport 1.0 as KPT
 
 Kirigami.Page
 {
@@ -32,7 +33,10 @@ Kirigami.Page
 
         anchors.fill: parent
 
-        model: _queryController.journeyModel
+        model: KPT.JourneyQueryModel {
+            request: _queryController.createJourneyRequest()
+            manager: _manager
+        }
 
         delegate: Kirigami.AbstractListItem {
 

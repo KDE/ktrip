@@ -26,15 +26,12 @@
 
 #include <KPublicTransport/Location>
 #include <KPublicTransport/JourneyRequest>
-#include <KPublicTransport/JourneyQueryModel>
-#include <KPublicTransport/Manager>
 
 class QueryController : public QObject {
 
     Q_OBJECT
     Q_PROPERTY(KPublicTransport::Location start READ start WRITE setStart NOTIFY startChanged)
     Q_PROPERTY(KPublicTransport::Location destination READ destination WRITE setDestination NOTIFY destinationChanged)
-    Q_PROPERTY(KPublicTransport::JourneyQueryModel* journeyModel READ journeyModel CONSTANT)
     Q_PROPERTY(QString departureDate READ departureDate WRITE setDepartureDate NOTIFY departureDateChanged)
     Q_PROPERTY(QString departureTime READ departureTime WRITE setDepartureTime NOTIFY departureTimeChanged)
     Q_PROPERTY(QVariantList cachedLocations READ cachedLocations WRITE setCachedLocations NOTIFY cachedLocationsChanged)
@@ -48,8 +45,6 @@ public:
     KPublicTransport::Location destination() const;
     void setDestination(const KPublicTransport::Location destination);
 
-    KPublicTransport::JourneyQueryModel * journeyModel();
-
     QString departureDate() const;
     void setDepartureDate(const QString& date);
 
@@ -60,6 +55,7 @@ public:
     void setCachedLocations(const QVariantList& locations);
 
     Q_INVOKABLE void addCachedLocation(const KPublicTransport::Location location);
+    Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
 
 Q_SIGNALS:
     void startChanged();
@@ -68,16 +64,11 @@ Q_SIGNALS:
     void departureTimeChanged();
     void cachedLocationsChanged();
 
-private Q_SLOTS:
-    void createJourneyRequest();
-
 private:
     void loadLocationsFromCache();
 
     KPublicTransport::Location m_start;
     KPublicTransport::Location m_destination;
-    KPublicTransport::JourneyQueryModel *m_journeyModel;
-    KPublicTransport::Manager m_manager;
     QString m_departureDate;
     QString m_departureTime;
     QVariantList m_cachedLocations;
