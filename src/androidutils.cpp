@@ -26,9 +26,9 @@
 
 #define JSTRING(s) QAndroidJniObject::fromString(s).object<jstring>()
 
-AndroidUtils* AndroidUtils::s_instance = nullptr;
+AndroidUtils *AndroidUtils::s_instance = nullptr;
 
-AndroidUtils* AndroidUtils::instance()
+AndroidUtils *AndroidUtils::instance()
 {
     if (!s_instance) {
         s_instance = new AndroidUtils();
@@ -63,17 +63,11 @@ static void timeCancelled(JNIEnv *env, jobject that)
     AndroidUtils::instance()->_timeCancelled();
 }
 
-static const JNINativeMethod methods[] = {
-    {"dateSelected", "(Ljava/lang/String;)V", (void*)dateSelected},
-    {"cancelled", "()V", (void*)dateCancelled}
-};
+static const JNINativeMethod methods[] = { { "dateSelected", "(Ljava/lang/String;)V", (void *)dateSelected }, { "cancelled", "()V", (void *)dateCancelled } };
 
-static const JNINativeMethod timeMethods[] = {
-    {"timeSelected", "(Ljava/lang/String;)V", (void*)timeSelected},
-    {"cancelled", "()V", (void*)timeCancelled}
-};
+static const JNINativeMethod timeMethods[] = { { "timeSelected", "(Ljava/lang/String;)V", (void *)timeSelected }, { "cancelled", "()V", (void *)timeCancelled } };
 
-Q_DECL_EXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void*)
+Q_DECL_EXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *)
 {
     static bool initialized = false;
     if (initialized)
@@ -81,7 +75,7 @@ Q_DECL_EXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void*)
     initialized = true;
 
     JNIEnv *env = nullptr;
-    if (vm->GetEnv((void**)&env, JNI_VERSION_1_4) != JNI_OK) {
+    if (vm->GetEnv((void **)&env, JNI_VERSION_1_4) != JNI_OK) {
         qWarning() << "Failed to get JNI environment.";
         return -1;
     }

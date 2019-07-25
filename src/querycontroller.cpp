@@ -26,12 +26,8 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 
-QueryController::QueryController(QObject* parent)
-    : QObject(parent)
-    , m_start()
-    , m_destination()
-    , m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache"))
-    , m_cachedLocationsJson()
+QueryController::QueryController(QObject *parent)
+    : QObject(parent), m_start(), m_destination(), m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache")), m_cachedLocationsJson()
 {
     if (!m_locationCacheFile.open(QIODevice::ReadWrite)) {
         qWarning() << "Could not open location cache file" << m_locationCacheFile.fileName();
@@ -73,7 +69,7 @@ KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
 
     QDateTime depTime = QDateTime::fromString(m_departureDate + QStringLiteral("T") + m_departureTime, Qt::ISODate);
     req.setDepartureTime(depTime);
-    qDebug() << depTime << m_departureDate  + QStringLiteral("T") +  m_departureTime;
+    qDebug() << depTime << m_departureDate + QStringLiteral("T") + m_departureTime;
 
     return req;
 }
@@ -83,7 +79,7 @@ QString QueryController::departureDate() const
     return m_departureDate;
 }
 
-void QueryController::setDepartureDate(const QString& date)
+void QueryController::setDepartureDate(const QString &date)
 {
     if (m_departureDate != date) {
         m_departureDate = date;
@@ -96,7 +92,7 @@ QString QueryController::departureTime() const
     return m_departureTime;
 }
 
-void QueryController::setDepartureTime(const QString& time)
+void QueryController::setDepartureTime(const QString &time)
 {
     if (m_departureTime != time) {
         m_departureTime = time;
@@ -109,7 +105,7 @@ QVariantList QueryController::cachedLocations() const
     return m_cachedLocations;
 }
 
-void QueryController::setCachedLocations(const QVariantList& locations)
+void QueryController::setCachedLocations(const QVariantList &locations)
 {
     if (locations != m_cachedLocations) {
         m_cachedLocations = locations;
@@ -137,7 +133,7 @@ void QueryController::loadLocationsFromCache()
 {
     m_cachedLocationsJson = QJsonDocument::fromJson(m_locationCacheFile.readAll()).array();
 
-    for (const QJsonValue& val : qAsConst(m_cachedLocationsJson)) {
+    for (const QJsonValue &val : qAsConst(m_cachedLocationsJson)) {
         m_cachedLocations.append(QVariant::fromValue(KPublicTransport::Location::fromJson(val.toObject())));
     }
 }

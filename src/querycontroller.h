@@ -27,7 +27,8 @@
 #include <KPublicTransport/Location>
 #include <KPublicTransport/JourneyRequest>
 
-class QueryController : public QObject {
+class QueryController : public QObject
+{
 
     Q_OBJECT
     Q_PROPERTY(KPublicTransport::Location start READ start WRITE setStart NOTIFY startChanged)
@@ -37,7 +38,7 @@ class QueryController : public QObject {
     Q_PROPERTY(QVariantList cachedLocations READ cachedLocations WRITE setCachedLocations NOTIFY cachedLocationsChanged)
 
 public:
-    explicit QueryController(QObject *parent=nullptr);
+    explicit QueryController(QObject *parent = nullptr);
 
     KPublicTransport::Location start() const;
     void setStart(const KPublicTransport::Location start);
@@ -46,13 +47,13 @@ public:
     void setDestination(const KPublicTransport::Location destination);
 
     QString departureDate() const;
-    void setDepartureDate(const QString& date);
+    void setDepartureDate(const QString &date);
 
     QString departureTime() const;
-    void setDepartureTime(const QString& time);
+    void setDepartureTime(const QString &time);
 
     QVariantList cachedLocations() const;
-    void setCachedLocations(const QVariantList& locations);
+    void setCachedLocations(const QVariantList &locations);
 
     Q_INVOKABLE void addCachedLocation(const KPublicTransport::Location location);
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();

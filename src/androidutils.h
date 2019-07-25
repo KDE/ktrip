@@ -34,13 +34,12 @@ public:
     void _timeSelected(const QString &data);
     void _timeCancelled();
 
-    static AndroidUtils* instance();
+    static AndroidUtils *instance();
 
 Q_SIGNALS:
     void datePickerFinished(bool accepted, const QString &date);
     void timePickerFinished(bool accepted, const QString &time);
 
 private:
-    static AndroidUtils* s_instance;
-
+    static AndroidUtils *s_instance;
 };

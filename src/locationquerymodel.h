@@ -33,12 +33,9 @@ class LocationQueryModel : public QAbstractListModel
     Q_PROPERTY(QString query READ query WRITE setQuery NOTIFY queryChanged)
 
 public:
-    enum Roles {
-        NameRole = Qt::DisplayRole,
-        ObjectRole = Qt::UserRole + 1
-    };
+    enum Roles { NameRole = Qt::DisplayRole, ObjectRole = Qt::UserRole + 1 };
 
-    explicit LocationQueryModel(QObject *parent=nullptr);
+    explicit LocationQueryModel(QObject *parent = nullptr);
 
     QVariant data(const QModelIndex &index, int role) const override;
     int rowCount(const QModelIndex &parent = QModelIndex()) const override;

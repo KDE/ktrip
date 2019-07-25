@@ -23,9 +23,7 @@
 #include <KPublicTransport/LocationRequest>
 #include <KPublicTransport/LocationReply>
 
-LocationQueryModel::LocationQueryModel(QObject* parent)
-    : QAbstractListModel(parent)
-    , m_manager()
+LocationQueryModel::LocationQueryModel(QObject *parent) : QAbstractListModel(parent), m_manager()
 {
     connect(this, &LocationQueryModel::queryChanged, this, &LocationQueryModel::triggerQuery);
 }
@@ -43,27 +41,22 @@ void LocationQueryModel::triggerQuery()
         m_locations = reply->result();
         endResetModel();
     });
-
 }
 
-QVariant LocationQueryModel::data(const QModelIndex& index, int role) const
+QVariant LocationQueryModel::data(const QModelIndex &index, int role) const
 {
-    if (!index.isValid()
-        || index.row() < 0
-        || index.row() >= rowCount())
-    {
+    if (!index.isValid() || index.row() < 0 || index.row() >= rowCount()) {
         return QVariant();
     }
 
     switch (role) {
-        case NameRole:
-            return m_locations[index.row()].name();
-        case ObjectRole:
-            return QVariant::fromValue(m_locations[index.row()]);
-        default:
-            return QVariant(QStringLiteral("deadbeef"));
+    case NameRole:
+        return m_locations[index.row()].name();
+    case ObjectRole:
+        return QVariant::fromValue(m_locations[index.row()]);
+    default:
+        return QVariant(QStringLiteral("deadbeef"));
     }
-
 }
 
 QString LocationQueryModel::query() const
@@ -71,7 +64,7 @@ QString LocationQueryModel::query() const
     return m_query;
 }
 
-int LocationQueryModel::rowCount(const QModelIndex& parent) const
+int LocationQueryModel::rowCount(const QModelIndex &parent) const
 {
     return m_locations.size();
 }
