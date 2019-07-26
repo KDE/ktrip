@@ -26,7 +26,6 @@ import org.kde.kirigami 2.0 as Kirigami
 Kirigami.Page
 {
     id: rootPage
-    property var start;
 
     title: i18n("Start journey")
 
@@ -53,7 +52,7 @@ Kirigami.Page
         }
         Button {
             Layout.fillWidth: true
-            text: _queryController.start.name ? _queryController.destination.name : i18n("Pick destination")
+            text: _queryController.destination.name ? _queryController.destination.name : i18n("Pick destination")
             onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {type: "destination"})
         }
 
