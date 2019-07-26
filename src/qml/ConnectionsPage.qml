@@ -34,6 +34,7 @@ Kirigami.Page
         anchors.fill: parent
 
         model: KPT.JourneyQueryModel {
+            id: theModel
             request: _queryController.createJourneyRequest()
             manager: _manager
         }
@@ -54,6 +55,11 @@ Kirigami.Page
                 }
             }
         }
+    }
+
+    BusyIndicator {
+        running: theModel.loading
+        anchors.centerIn: parent
     }
 }
 
