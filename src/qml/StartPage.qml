@@ -32,6 +32,7 @@ Kirigami.Page
     actions.main: Kirigami.Action {
         icon.name: "search"
         text: i18n("Search")
+        enabled: _queryController.start.name != "" && _queryController.destination.name != ""
         onTriggered: pageStack.push(Qt.resolvedUrl("ConnectionsPage.qml"))
     }
 
