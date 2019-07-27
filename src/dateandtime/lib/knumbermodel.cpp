@@ -15,7 +15,7 @@
  *  along with this library; see the file COPYING.LIB.  If not, write to
  *  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  *  Boston, MA 02110-1301, USA.
-*/
+ */
 
 #include "knumbermodel.h"
 
@@ -33,13 +33,9 @@ public:
     QLocale::NumberOptions formattingOptions = QLocale::DefaultNumberOptions;
 };
 
-KNumberModel::KNumberModel(QObject *parent):
-    QAbstractListModel(parent),
-    d(new KNumberModelPrivate)
-{}
+KNumberModel::KNumberModel(QObject *parent) : QAbstractListModel(parent), d(new KNumberModelPrivate) {}
 
-KNumberModel::~KNumberModel()
-{}
+KNumberModel::~KNumberModel() {}
 
 void KNumberModel::setMinimumValue(qreal minimumValue)
 {
@@ -100,7 +96,7 @@ void KNumberModel::setFormattingOptions(QLocale::NumberOptions formattingOptions
     if (rowCount() == 0) {
         return;
     }
-    dataChanged(index(0, 0, QModelIndex()), index(rowCount(), 0, QModelIndex()), QVector<int>{DisplayRole});
+    dataChanged(index(0, 0, QModelIndex()), index(rowCount(), 0, QModelIndex()), QVector<int> { DisplayRole });
     emit formattingOptionsChanged();
 }
 
@@ -109,7 +105,7 @@ QLocale::NumberOptions KNumberModel::formattingOptions() const
     return d->formattingOptions;
 }
 
-qreal KNumberModel::value(const QModelIndex &index)  const
+qreal KNumberModel::value(const QModelIndex &index) const
 {
     if (!index.isValid()) {
         return 0.0;
@@ -122,26 +118,25 @@ int KNumberModel::rowCount(const QModelIndex &index) const
     if (index.parent().isValid()) {
         return 0;
     }
-    //1 initial entry (the minimumValue) + the number of valid steps afterwards
+    // 1 initial entry (the minimumValue) + the number of valid steps afterwards
     return 1 + std::max(0, qFloor((d->maximumValue - d->minimumValue) / d->stepSize));
 }
 
 QVariant KNumberModel::data(const QModelIndex &index, int role) const
 {
-    switch(role) {
-        case KNumberModel::DisplayRole: {
-            auto locale = QLocale::system();
-            locale.setNumberOptions(d->formattingOptions);
-            return QVariant(locale.toString(value(index)));
-        }
-        case KNumberModel::ValueRole:
-            return QVariant(value(index));
+    switch (role) {
+    case KNumberModel::DisplayRole: {
+        auto locale = QLocale::system();
+        locale.setNumberOptions(d->formattingOptions);
+        return QVariant(locale.toString(value(index)));
+    }
+    case KNumberModel::ValueRole:
+        return QVariant(value(index));
     }
     return QVariant();
 }
 
 QHash<int, QByteArray> KNumberModel::roleNames() const
 {
-    return {{KNumberModel::DisplayRole, QByteArrayLiteral("display")},
-                  {KNumberModel::ValueRole, QByteArrayLiteral("value")}};
+    return { { KNumberModel::DisplayRole, QByteArrayLiteral("display") }, { KNumberModel::ValueRole, QByteArrayLiteral("value") } };
 }
