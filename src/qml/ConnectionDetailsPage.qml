@@ -81,6 +81,12 @@ Kirigami.Page
                     }
 
                     Label {
+                        text: modelData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                        visible: modelData.departureDelay > 0
+                        color: "red"
+                    }
+
+                    Label {
                         text: modelData.from.name
                         Layout.fillWidth: true
                         elide: Text.ElideRight
@@ -94,6 +100,12 @@ Kirigami.Page
                 RowLayout {
                     Label {
                         text: modelData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                    }
+
+                    Label {
+                        text: modelData.expectedArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                        visible: modelData.arrivalDelay > 0
+                        color: "red"
                     }
 
                     Label {
