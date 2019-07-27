@@ -6,7 +6,7 @@
   <name>Discover</name>
   <summary>Discover</summary>
   <description>
-    <p>Discover helps you find and install applications, games, and tools. You can search or browse by category, and look at screenshots and read reviews to help you pick the perfect app.</p>
+    <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
   </description>
   <project_group>KDE</project_group>
   <provides>
