@@ -1,3 +1,5 @@
+add_subdirectory(dateandtime)
+
 set(ktrip_SRCS
     main.cpp
     querycontroller.cpp

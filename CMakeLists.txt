@@ -12,7 +12,7 @@ include(FeatureSummary)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 
-find_package(Qt5 REQUIRED COMPONENTS Gui Qml)
+find_package(Qt5 REQUIRED COMPONENTS Gui Qml Quick)
 find_package(KF5 REQUIRED COMPONENTS I18n)
 
 if (ANDROID)
