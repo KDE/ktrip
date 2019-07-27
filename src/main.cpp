@@ -46,6 +46,14 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 #endif
 
+    QCoreApplication::setApplicationName(QStringLiteral("ktrip"));
+    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
+    QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
+    QCoreApplication::setApplicationVersion(QStringLiteral("0.1"));
+
+    QGuiApplication::setApplicationDisplayName(QStringLiteral("KTrip"));
+    QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.ktrip"));
+
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
