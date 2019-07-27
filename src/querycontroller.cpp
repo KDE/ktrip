@@ -34,7 +34,7 @@ QueryController::QueryController(QObject *parent)
     }
 
     m_departureDate = QDate::currentDate().toString(Qt::ISODate);
-    m_departureTime = QTime::currentTime().toString(Qt::ISODate);
+    m_departureTime = QTime::currentTime().toString(Qt::SystemLocaleShortDate);
 
     loadLocationsFromCache();
 }
