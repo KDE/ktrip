@@ -46,7 +46,15 @@ Kirigami.Page
             RowLayout {
                 Label {
                 text: journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat) + " - " + journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                    Layout.fillWidth: !delayLabel.visible
+                }
+
+                Label {
+                    id: delayLabel
                     Layout.fillWidth: true
+                    visible: journey.sections[journey.sections.length - 1].hasExpectedArrivalTime
+                    text: i18n("+%1", journey.sections[journey.sections.length - 1].arrivalDelay)
+                    color: journey.sections[journey.sections.length - 1].arrivalDelay > 0 ? "red" : "green"
                 }
 
                 Label {
