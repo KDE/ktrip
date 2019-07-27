@@ -48,7 +48,7 @@ public class TimePicker extends DialogFragment
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         Calendar cal = Calendar.getInstance();
         cal.setTimeInMillis(initialTime);
-        TimePickerDialog dialog = new TimePickerDialog(activity, this, cal.get(Calendar.HOUR), cal.get(Calendar.MINUTE), true);
+        TimePickerDialog dialog = new TimePickerDialog(activity, this, cal.get(Calendar.HOUR_OF_DAY), cal.get(Calendar.MINUTE), true);
         return dialog;
     }
 
