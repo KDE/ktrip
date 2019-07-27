@@ -45,10 +45,24 @@ Button {
 
     Dialog {
         id: dialog
+        anchors.centerIn: parent
         contentItem: KA.TimePicker {
             id: picker
         }
-        standardButtons: Dialog.Ok | Dialog.Cancel
+
+        footer: RowLayout {
+            Button {
+                text: i18n("Cancel")
+                Layout.fillWidth: true
+                onClicked: dialog.reject()
+            }
+            Button {
+                text: i18n("Accept")
+                Layout.fillWidth: true
+                onClicked: dialog.accept()
+            }
+        }
+
         onAccepted: {
             console.log("Accept")
 
