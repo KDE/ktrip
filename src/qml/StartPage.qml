@@ -64,7 +64,11 @@ Kirigami.Page
         DatePickerButton {
             text: _queryController.departureDate
             Layout.fillWidth: true
-            onDatePicked: _queryController.departureDate = theDate
+            onDatePicked: {
+                if (theDate != "") {
+                    _queryController.departureDate = theDate
+                }
+            }
         }
 
         Label {
@@ -74,7 +78,11 @@ Kirigami.Page
         TimePickerButton {
             text: _queryController.departureTime
             Layout.fillWidth: true
-            onTimePicked: _queryController.departureTime = theTime
+            onTimePicked: {
+                if (theTime != "") {
+                    _queryController.departureTime = theTime
+                }
+            }
         }
     }
 }
