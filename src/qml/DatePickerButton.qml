@@ -20,8 +20,10 @@
 
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.4
+import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
+
+import org.kde.kirigamiaddons.dateandtime 0.1 as KA
 
 Button {
 
@@ -30,6 +32,8 @@ Button {
     onClicked: {
         if (_isAndroid) {
             _androidUtils.showDatePicker()
+        } else {
+            dialog.open()
         }
     }
 
@@ -39,4 +43,37 @@ Button {
             datePicked(date)
         }
     }
+
+    Dialog {
+        id: dialog
+        anchors.centerIn: parent
+        height: Kirigami.Units.gridUnit * 6
+        contentItem: KA.DateInput {
+            id: picker
+        }
+
+        footer: RowLayout {
+            Button {
+                text: i18n("Cancel")
+                Layout.fillWidth: true
+                onClicked: dialog.reject()
+            }
+            Button {
+                text: i18n("Accept")
+                Layout.fillWidth: true
+                onClicked: dialog.accept()
+            }
+        }
+
+        onAccepted: {
+            console.log("Accept")
+
+            datePicked(Qt.formatDate(picker.value, Qt.ISODate))
+        }
+
+        onRejected: {
+            console.log("Rejected")
+        }
+    }
+
 }
