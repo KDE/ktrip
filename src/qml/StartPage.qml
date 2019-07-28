@@ -36,6 +36,16 @@ Kirigami.Page
         onTriggered: pageStack.push(Qt.resolvedUrl("ConnectionsPage.qml"))
     }
 
+    function startPicked(data) {
+        console.log("Picked start: " + data.name)
+        _queryController.start = data
+    }
+
+    function destinationPicked(data) {
+        console.log("Picked destination" + data.name)
+        _queryController.destination = data
+    }
+
     ColumnLayout {
 
         width: parent.width
@@ -46,15 +56,16 @@ Kirigami.Page
         Button {
             Layout.fillWidth: true
             text: _queryController.start.name ? _queryController.start.name : i18n("Pick start")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {type: "start"})
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18n("Search for start location"), callback: startPicked})
         }
+
         Label {
             text: "To:"
         }
         Button {
             Layout.fillWidth: true
             text: _queryController.destination.name ? _queryController.destination.name : i18n("Pick destination")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {type: "destination"})
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18n("Search for destination location"), callback: destinationPicked})
         }
 
         Label {

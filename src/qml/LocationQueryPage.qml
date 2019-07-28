@@ -29,15 +29,7 @@ Kirigami.Page
     property string type
     property bool showCached: true
 
-    title: {
-        if (type == "start") {
-            return i18n("Search for start location")
-        }
-        if (type == "destination") {
-            return i18n("Search for destination location")
-        }
-        return "deadbeef"
-    }
+    property var callback
 
     header: TextField {
         id: queryTextField
@@ -58,12 +50,7 @@ Kirigami.Page
             reserveSpaceForIcon: false
             onClicked: {
                 _locationCache.addCachedLocation(modelData)
-
-                if (type == "start") {
-                    _queryController.start = modelData
-                } else if (type == "destination") {
-                    _queryController.destination = modelData
-                }
+                callback(modelData)
                 pageStack.pop()
             }
         }
@@ -83,12 +70,7 @@ Kirigami.Page
             reserveSpaceForIcon: false
             onClicked: {
                 _locationCache.addCachedLocation(object)
-
-                if (type == "start") {
-                    _queryController.start = object
-                } else if (type == "destination") {
-                    _queryController.destination = object
-                }
+                callback(object)
                 pageStack.pop()
             }
         }
