@@ -21,7 +21,7 @@
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
-import org.kde.kirigami 2.0 as Kirigami
+import org.kde.kirigami 2.8 as Kirigami
 import org.kde.ktrip 0.1
 
 Kirigami.Page
@@ -29,9 +29,8 @@ Kirigami.Page
     property bool showCached: true
     property var callback
 
-    header: TextField {
+    header: Kirigami.SearchField {
         id: queryTextField
-        placeholderText: i18n("Search...")
         onAccepted: {
             queryModel.query = text
             showCached = false
