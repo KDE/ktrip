@@ -51,13 +51,13 @@ Kirigami.Page
     ListView {
         anchors.fill: parent
         visible: showCached
-        model: _queryController.cachedLocations
+        model: _locationCache.cachedLocations
 
         delegate: Kirigami.BasicListItem {
             text: modelData.name
             reserveSpaceForIcon: false
             onClicked: {
-                _queryController.addCachedLocation(modelData)
+                _locationCache.addCachedLocation(modelData)
 
                 if (type == "start") {
                     _queryController.start = modelData
@@ -82,7 +82,7 @@ Kirigami.Page
             text: name
             reserveSpaceForIcon: false
             onClicked: {
-                _queryController.addCachedLocation(object)
+                _locationCache.addCachedLocation(object)
 
                 if (type == "start") {
                     _queryController.start = object

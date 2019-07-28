@@ -21,8 +21,6 @@
 #pragma once
 
 #include <QObject>
-#include <QFile>
-#include <QJsonArray>
 
 #include <KPublicTransport/Location>
 #include <KPublicTransport/JourneyRequest>
@@ -35,7 +33,6 @@ class QueryController : public QObject
     Q_PROPERTY(KPublicTransport::Location destination READ destination WRITE setDestination NOTIFY destinationChanged)
     Q_PROPERTY(QString departureDate READ departureDate WRITE setDepartureDate NOTIFY departureDateChanged)
     Q_PROPERTY(QString departureTime READ departureTime WRITE setDepartureTime NOTIFY departureTimeChanged)
-    Q_PROPERTY(QVariantList cachedLocations READ cachedLocations WRITE setCachedLocations NOTIFY cachedLocationsChanged)
 
 public:
     explicit QueryController(QObject *parent = nullptr);
@@ -52,10 +49,6 @@ public:
     QString departureTime() const;
     void setDepartureTime(const QString &time);
 
-    QVariantList cachedLocations() const;
-    void setCachedLocations(const QVariantList &locations);
-
-    Q_INVOKABLE void addCachedLocation(const KPublicTransport::Location location);
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
 
 Q_SIGNALS:
@@ -63,16 +56,11 @@ Q_SIGNALS:
     void destinationChanged();
     void departureDateChanged();
     void departureTimeChanged();
-    void cachedLocationsChanged();
 
 private:
-    void loadLocationsFromCache();
 
     KPublicTransport::Location m_start;
     KPublicTransport::Location m_destination;
     QString m_departureDate;
     QString m_departureTime;
-    QVariantList m_cachedLocations;
-    QFile m_locationCacheFile;
-    QJsonArray m_cachedLocationsJson;
 };

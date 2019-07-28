@@ -21,6 +21,7 @@
 #include "androidutils.h"
 #include "locationquerymodel.h"
 #include "querycontroller.h"
+#include "locationcache.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -61,6 +62,9 @@ int main(int argc, char *argv[])
 
     QueryController queryController;
     engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);
+
+    LocationCache locationCache;
+    engine.rootContext()->setContextProperty(QStringLiteral("_locationCache"), &locationCache);
 
     KPublicTransport::Manager manager;
     engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
