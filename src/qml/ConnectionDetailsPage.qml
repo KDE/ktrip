@@ -39,7 +39,25 @@ Kirigami.Page
 
         model: journey.sections
 
-        delegate: Kirigami.AbstractCard {
+        delegate: Loader {
+            sourceComponent: modelData.mode == JourneySection.Walking ? walking : card
+            property var theData: modelData
+        }
+    }
+
+    Component {
+        id: walking
+        Label {
+            text: i18n("Walking (%1 minutes)", theData.duration / 60)
+            anchors.fill: parent
+            horizontalAlignment: Text.AlignHCenter
+        }
+    }
+
+    Component {
+        id: card
+
+        Kirigami.AbstractCard {
             id: root
 
             header: Rectangle {
@@ -60,14 +78,7 @@ Kirigami.Page
                     font.pointSize: Kirigami.Theme.defaultFont.pointSize * root.headerFontScale
                     Layout.fillWidth: true
 
-                    text: {
-
-                        if (modelData.mode == JourneySection.Walking) {
-                            return i18n("Walking")
-                        }
-
-                        return modelData.route.line.name
-                    }
+                    text: theData.route.line.name
                 }
             }
 
@@ -77,44 +88,44 @@ Kirigami.Page
                 RowLayout {
                     width: parent.width
                     Label {
-                        text: modelData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                        text: theData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
                     }
 
                     Label {
-                        text: modelData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
-                        visible: modelData.departureDelay > 0
+                        text: theData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                        visible: theData.departureDelay > 0
                         color: "red"
                     }
 
                     Label {
-                        text: modelData.from.name
+                        text: theData.from.name
                         Layout.fillWidth: true
                         elide: Text.ElideRight
                     }
 
                     Label {
-                        text: modelData.scheduledDeparturePlatform
+                        text: theData.scheduledDeparturePlatform
                     }
                 }
 
                 RowLayout {
                     Label {
-                        text: modelData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                        text: theData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
                     }
 
                     Label {
-                        text: modelData.expectedArrivalTime.toLocaleTimeString(Locale.ShortFormat)
-                        visible: modelData.arrivalDelay > 0
+                        text: theData.expectedArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                        visible: theData.arrivalDelay > 0
                         color: "red"
                     }
 
                     Label {
-                        text: modelData.to.name
+                        text: theData.to.name
                         Layout.fillWidth: true
                     }
 
                     Label {
-                        text: modelData.scheduledArrivalPlatform
+                        text: theData.scheduledArrivalPlatform
                     }
                 }
             }
