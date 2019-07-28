@@ -5,6 +5,7 @@ set(ktrip_SRCS
     querycontroller.cpp
     locationquerymodel.cpp
     locationcache.cpp
+    formatter.cpp
 )
 
 if (ANDROID)

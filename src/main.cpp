@@ -22,6 +22,7 @@
 #include "locationquerymodel.h"
 #include "querycontroller.h"
 #include "locationcache.h"
+#include "formatter.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -68,6 +69,9 @@ int main(int argc, char *argv[])
 
     KPublicTransport::Manager manager;
     engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
+
+    Formatter formatter;
+    engine.rootContext()->setContextProperty(QStringLiteral("_formatter"), &formatter);
 
 #ifdef Q_OS_ANDROID
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);

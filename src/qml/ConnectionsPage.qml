@@ -53,6 +53,10 @@ Kirigami.Page
             RowLayout {
                 Label {
                 text: journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat) + " - " + journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                }
+
+                Label {
+                    text: "(" + _formatter.formatDuration(journey.duration) + ")"
                     Layout.fillWidth: !delayLabel.visible
                 }
 
