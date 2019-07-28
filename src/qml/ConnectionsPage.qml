@@ -29,6 +29,12 @@ Kirigami.Page
 {
     title: i18n("Connections")
 
+    header: Kirigami.InlineMessage {
+        type: Kirigami.MessageType.Error
+        text: theModel.errorMessage
+        visible: theModel.errorMessage != ""
+    }
+
     ListView {
 
         anchors.fill: parent
