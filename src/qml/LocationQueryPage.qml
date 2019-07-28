@@ -73,8 +73,5 @@ Kirigami.Page
             }
         }
     }
-
 }
-
-
 
