@@ -39,6 +39,13 @@ Kirigami.Page
             manager: _manager
         }
 
+        header: Button {
+            text: i18n("Earlier")
+            width: parent.width
+            visible: theModel.canQueryPrevious
+            onClicked: theModel.queryPrevious()
+        }
+
         delegate: Kirigami.AbstractListItem {
 
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
@@ -62,6 +69,13 @@ Kirigami.Page
                     visible: journey.numberOfChanges > 0
                 }
             }
+        }
+
+        footer: Button {
+            text: i18n("Later")
+            width: parent.width
+            visible: theModel.canQueryNext
+            onClicked: theModel.queryNext()
         }
     }
 
