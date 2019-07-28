@@ -26,9 +26,7 @@ import org.kde.ktrip 0.1
 
 Kirigami.Page
 {
-    property string type
     property bool showCached: true
-
     property var callback
 
     header: TextField {
