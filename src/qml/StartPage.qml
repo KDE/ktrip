@@ -37,12 +37,10 @@ Kirigami.Page
     }
 
     function startPicked(data) {
-        console.log("Picked start: " + data.name)
         _queryController.start = data
     }
 
     function destinationPicked(data) {
-        console.log("Picked destination" + data.name)
         _queryController.destination = data
     }
 
