@@ -66,14 +66,7 @@ Button {
         }
 
         onAccepted: {
-            console.log("Accept")
-
             datePicked(Qt.formatDate(picker.value, Qt.ISODate))
         }
-
-        onRejected: {
-            console.log("Rejected")
-        }
     }
-
 }

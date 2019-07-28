@@ -64,8 +64,6 @@ Button {
         }
 
         onAccepted: {
-            console.log("Accept")
-
             var hours = picker.hours
 
             if (picker.pm && hours != 12) {
@@ -77,10 +75,5 @@ Button {
 
             timePicked(hoursString + ":" + minutesString)
         }
-
-        onRejected: {
-            console.log("Rejected")
-        }
     }
-
 }
