@@ -58,7 +58,11 @@ void LocationCache::addCachedLocation(const KPublicTransport::Location location)
     m_cachedLocations.append(QVariant::fromValue(location));
     m_cachedLocationsJson.append(KPublicTransport::Location::toJson(location));
 
-    QJsonDocument doc(m_cachedLocationsJson);
+    QJsonObject obj;
+    obj[QStringLiteral("version")] = 1;
+    obj[QStringLiteral("locations")] = m_cachedLocationsJson;
+
+    QJsonDocument doc(obj);
 
     m_locationCacheFile.resize(0);
     m_locationCacheFile.write(doc.toJson());
@@ -67,7 +71,7 @@ void LocationCache::addCachedLocation(const KPublicTransport::Location location)
 
 void LocationCache::loadLocationsFromCache()
 {
-    m_cachedLocationsJson = QJsonDocument::fromJson(m_locationCacheFile.readAll()).array();
+    m_cachedLocationsJson = QJsonDocument::fromJson(m_locationCacheFile.readAll()).object()[QStringLiteral("locations")].toArray();
 
     for (const QJsonValue &val : qAsConst(m_cachedLocationsJson)) {
         m_cachedLocations.append(QVariant::fromValue(KPublicTransport::Location::fromJson(val.toObject())));
