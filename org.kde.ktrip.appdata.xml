@@ -3,8 +3,8 @@
   <id>org.kde.ktrip.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
-  <name>Discover</name>
-  <summary>Discover</summary>
+  <name>KTrip</name>
+  <summary>KTrip</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
   </description>
