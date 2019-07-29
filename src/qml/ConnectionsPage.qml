@@ -27,7 +27,7 @@ import org.kde.kpublictransport 1.0 as KPT
 
 Kirigami.Page
 {
-    title: i18n("Connections")
+    title: i18nc("@title", "Connections")
 
     header: Kirigami.InlineMessage {
         type: Kirigami.MessageType.Error
@@ -46,7 +46,7 @@ Kirigami.Page
         }
 
         header: Button {
-            text: i18n("Earlier")
+            text: i18nc("@action:button", "Earlier")
             width: parent.width
             visible: theModel.canQueryPrevious
             onClicked: theModel.queryPrevious()
@@ -58,11 +58,11 @@ Kirigami.Page
 
             RowLayout {
                 Label {
-                text: journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat) + " - " + journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                text: i18n("%1 - %2", journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat), journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat))
                 }
 
                 Label {
-                    text: "(" + _formatter.formatDuration(journey.duration) + ")"
+                    text: i18n("(%1)", _formatter.formatDuration(journey.duration))
                     Layout.fillWidth: !delayLabel.visible
                 }
 
@@ -75,14 +75,14 @@ Kirigami.Page
                 }
 
                 Label {
-                    text: journey.numberOfChanges + " changes"
+                    text: i18np("%1 change", "%2 changes", journey.numberOfChanges)
                     visible: journey.numberOfChanges > 0
                 }
             }
         }
 
         footer: Button {
-            text: i18n("Later")
+            text: i18nc("@action:button", "Later")
             width: parent.width
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()

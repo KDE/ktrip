@@ -54,12 +54,12 @@ Button {
 
         footer: RowLayout {
             Button {
-                text: i18n("Cancel")
+                text: i18nc("@action:button", "Cancel")
                 Layout.fillWidth: true
                 onClicked: dialog.reject()
             }
             Button {
-                text: i18n("Accept")
+                text: i18nc("@action:button", "Accept")
                 Layout.fillWidth: true
                 onClicked: dialog.accept()
             }

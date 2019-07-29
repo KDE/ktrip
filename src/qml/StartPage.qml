@@ -27,11 +27,11 @@ Kirigami.Page
 {
     id: rootPage
 
-    title: i18n("Start journey")
+    title: i18nc("@title", "Start Journey")
 
     actions.main: Kirigami.Action {
         icon.name: "search"
-        text: i18n("Search")
+        text: i18nc("@action", "Search")
         enabled: _queryController.start.name != "" && _queryController.destination.name != ""
         onTriggered: pageStack.push(Qt.resolvedUrl("ConnectionsPage.qml"))
     }
@@ -53,17 +53,17 @@ Kirigami.Page
         }
         Button {
             Layout.fillWidth: true
-            text: _queryController.start.name ? _queryController.start.name : i18n("Pick start")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18n("Search for start location"), callback: startPicked})
+            text: _queryController.start.name ? _queryController.start.name : i18nc("@action:button", "Pick Start")
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Start Location"), callback: startPicked})
         }
 
         Label {
-            text: "To:"
+            text: i18n("To:")
         }
         Button {
             Layout.fillWidth: true
-            text: _queryController.destination.name ? _queryController.destination.name : i18n("Pick destination")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18n("Search for destination location"), callback: destinationPicked})
+            text: _queryController.destination.name ? _queryController.destination.name : i18nc("@action:button", "Pick Destination")
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Destination Location"), callback: destinationPicked})
         }
 
         Label {

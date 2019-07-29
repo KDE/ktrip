@@ -27,7 +27,7 @@ import org.kde.kpublictransport 1.0
 
 Kirigami.Page
 {
-    title: i18n("Details")
+    title: i18nc("@title", "Details")
 
     property var journey
 
@@ -48,7 +48,7 @@ Kirigami.Page
     Component {
         id: walking
         Label {
-            text: i18n("Walking (%1 minutes)", theData.duration / 60)
+            text: i18np("Walking (%1 minute)", "Walking (%1 minutes)", theData.duration / 60)
             anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
         }
