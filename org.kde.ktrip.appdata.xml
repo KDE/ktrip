@@ -4,9 +4,26 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>KTrip</name>
+  <name xml:lang="pt">KTrip</name>
+  <name xml:lang="sk">KTrip</name>
+  <name xml:lang="sv">Ktripp</name>
+  <name xml:lang="uk">KTrip</name>
+  <name xml:lang="x-test">xxKTripxx</name>
   <summary>KTrip</summary>
+  <summary xml:lang="pt">KTrip</summary>
+  <summary xml:lang="sk">KTrip</summary>
+  <summary xml:lang="sv">Ktripp</summary>
+  <summary xml:lang="uk">KTrip</summary>
+  <summary xml:lang="x-test">xxKTripxx</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
+    <p xml:lang="nl">KTrip helpt u in het openbaar vervoer te navigeren. Het biedt u te zoeken naar reizen tussen gespecificeerde locaties.</p>
+    <p xml:lang="pl">KTrip pomaga przemieszczać się transportem publicznym. Umożliwia odpytanie o połączenia pomiędzy dwoma danymi miejscami.</p>
+    <p xml:lang="pt">O KTrip ajuda-o a navegar pelos transportes públicos. Ajuda-o a consultar trajectos entre localizações específicas.</p>
+    <p xml:lang="sk">KTrip vám pomôže orientovať sa vo verejnej doprave. Umožní vám dotazovať medzi určenými lokáciami.</p>
+    <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser.</p>
+    <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями.</p>
+    <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to query journeys between specified locations.xx</p>
   </description>
   <project_group>KDE</project_group>
   <provides>
