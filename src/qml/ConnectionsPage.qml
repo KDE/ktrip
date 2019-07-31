@@ -75,7 +75,7 @@ Kirigami.Page
                 }
 
                 Label {
-                    text: i18np("%1 change", "%2 changes", journey.numberOfChanges)
+                    text: i18np("%1 change", "%1 changes", journey.numberOfChanges)
                     visible: journey.numberOfChanges > 0
                 }
             }
