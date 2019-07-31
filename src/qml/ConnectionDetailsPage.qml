@@ -74,10 +74,10 @@ Kirigami.Page
                     id: headerLabel
                     anchors.fill: parent
                     anchors.margins: Kirigami.Units.largeSpacing
-                    color: Kirigami.Theme.textColor
                     font.pointSize: Kirigami.Theme.defaultFont.pointSize * root.headerFontScale
                     Layout.fillWidth: true
-
+                    font.strikeout: theData.disruptionEffect == Disruption.NoService
+                    color: theData.disruptionEffect == Disruption.NoService ? "red" : Kirigami.Theme.textColor
                     text: theData.route.line.name
                 }
             }
@@ -127,6 +127,11 @@ Kirigami.Page
                     Label {
                         text: theData.scheduledArrivalPlatform
                     }
+                }
+
+                Label {
+                    text: theData.note
+                    wrapMode: Text.Wrap
                 }
             }
         }
