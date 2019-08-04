@@ -5,6 +5,7 @@
   <project_license>GPL-2.0+</project_license>
   <name>KTrip</name>
   <name xml:lang="nl">KTrip</name>
+  <name xml:lang="pl">KTrip</name>
   <name xml:lang="pt">KTrip</name>
   <name xml:lang="sk">KTrip</name>
   <name xml:lang="sv">Ktripp</name>
@@ -12,6 +13,7 @@
   <name xml:lang="x-test">xxKTripxx</name>
   <summary>KTrip</summary>
   <summary xml:lang="nl">KTrip</summary>
+  <summary xml:lang="pl">KTrip</summary>
   <summary xml:lang="pt">KTrip</summary>
   <summary xml:lang="sk">KTrip</summary>
   <summary xml:lang="sv">Ktripp</summary>
