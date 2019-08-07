@@ -27,5 +27,19 @@ Kirigami.ApplicationWindow
     width: 480
     height: 720
 
-    pageStack.initialPage: Qt.resolvedUrl("StartPage.qml")
+    pageStack.initialPage: Qt.resolvedUrl("JourneyQueryPage.qml")
+
+    globalDrawer: Kirigami.GlobalDrawer {
+        actions: [
+            Kirigami.Action {
+                text: i18n("Journey")
+                onTriggered: pageStack.initialPage = Qt.resolvedUrl("JourneyQueryPage.qml")
+            },
+            Kirigami.Action {
+                text: i18n("Departures")
+                onTriggered: pageStack.initialPage = Qt.resolvedUrl("DepartureQueryPage.qml")
+            }
+        ]
+    }
+k
 }

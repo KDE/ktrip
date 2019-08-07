@@ -101,3 +101,12 @@ KPublicTransport::LocationRequest QueryController::createLocationRequest(const Q
 
     return req;
 }
+
+KPublicTransport::DepartureRequest QueryController::createDepartureRequest()
+{
+    KPublicTransport::DepartureRequest req;
+    req.setStop(m_start);
+    QDateTime depTime = QDateTime::fromString(m_departureDate + QStringLiteral("T") + m_departureTime, Qt::ISODate);
+    req.setDateTime(depTime);
+    return req;
+}

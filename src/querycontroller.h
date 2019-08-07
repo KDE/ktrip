@@ -26,6 +26,7 @@
 #include <KPublicTransport/Location>
 #include <KPublicTransport/LocationRequest>
 #include <KPublicTransport/JourneyRequest>
+#include <KPublicTransport/DepartureRequest>
 
 class QueryController : public QObject
 {
@@ -53,6 +54,7 @@ public:
 
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
     Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString name);
+    Q_INVOKABLE KPublicTransport::DepartureRequest createDepartureRequest();
 
 Q_SIGNALS:
     void startChanged();

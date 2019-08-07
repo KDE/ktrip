@@ -22,7 +22,6 @@ import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.8 as Kirigami
-import org.kde.ktrip 0.1
 import org.kde.kpublictransport 1.0 as KPT
 
 Kirigami.Page

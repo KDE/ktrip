@@ -20,6 +20,8 @@
 
 #include "formatter.h"
 
+#include <QDateTime>
+
 QString Formatter::formatDuration(int seconds)
 {
     const int minutes = seconds / 60;
@@ -29,5 +31,10 @@ QString Formatter::formatDuration(int seconds)
     const QString minutesString = minutesRemainder > 9 ? QString::number(minutesRemainder) : QStringLiteral("0") + QString::number(minutesRemainder);
 
     return QString::number(hours) + QStringLiteral(":") + minutesString;
+}
+
+QString Formatter::formatTime(const QDateTime& time)
+{
+    return time.toString(QStringLiteral("hh:mm"));
 }
 

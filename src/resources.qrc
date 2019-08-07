@@ -1,12 +1,14 @@
 <!DOCTYPE RCC><RCC version="1.0">
  <qresource>
     <file>qml/main.qml</file>
-    <file>qml/StartPage.qml</file>
+    <file>qml/JourneyQueryPage.qml</file>
     <file>qml/ConnectionsPage.qml</file>
     <file>qml/LocationQueryPage.qml</file>
     <file>qml/ConnectionDetailsPage.qml</file>
     <file>qml/DatePickerButton.qml</file>
     <file>qml/TimePickerButton.qml</file>
+    <file>qml/DepartureQueryPage.qml</file>
+    <file>qml/DeparturesPage.qml</file>
     <file>qtquickcontrols2.conf</file>
  </qresource>
 </RCC>

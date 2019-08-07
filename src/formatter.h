@@ -29,5 +29,6 @@ class Formatter : public QObject
 
 public:
     Q_INVOKABLE QString formatDuration(int seconds);
+    Q_INVOKABLE QString formatTime(const QDateTime &time);
 };
 
