@@ -23,6 +23,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.8 as Kirigami
 import org.kde.ktrip 0.1
+import org.kde.kpublictransport 1.0 as KPT
 
 Kirigami.Page
 {
@@ -32,7 +33,7 @@ Kirigami.Page
     header: Kirigami.SearchField {
         id: queryTextField
         onAccepted: {
-            queryModel.query = text
+            queryModel.request = _queryController.createLocationRequest(text)
             showCached = false
         }
     }
@@ -53,8 +54,9 @@ Kirigami.Page
         }
     }
 
-    LocationQueryModel {
+    KPT.LocationQueryModel {
         id: queryModel
+        manager: _manager
     }
 
     ListView {
@@ -63,14 +65,19 @@ Kirigami.Page
         model: queryModel
 
         delegate: Kirigami.BasicListItem {
-            text: name
+            text: location.name
             reserveSpaceForIcon: false
             onClicked: {
-                _locationCache.addCachedLocation(object)
-                callback(object)
+                _locationCache.addCachedLocation(location)
+                callback(location)
                 pageStack.pop()
             }
         }
+    }
+
+    BusyIndicator {
+        running: queryModel.loading
+        anchors.centerIn: parent
     }
 }
 

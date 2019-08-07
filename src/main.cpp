@@ -19,7 +19,6 @@
  */
 
 #include "androidutils.h"
-#include "locationquerymodel.h"
 #include "querycontroller.h"
 #include "locationcache.h"
 #include "formatter.h"
@@ -34,6 +33,7 @@
 #endif
 
 #include <KPublicTransport/Manager>
+#include <KPublicTransport/LocationRequest>
 #include <KLocalizedContext>
 
 #ifdef Q_OS_ANDROID
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
-    qmlRegisterType<LocationQueryModel>("org.kde.ktrip", 0, 1, "LocationQueryModel");
+    qRegisterMetaType<KPublicTransport::LocationRequest>();
 
     QueryController queryController;
     engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);

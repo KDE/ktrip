@@ -3,7 +3,6 @@ add_subdirectory(dateandtime)
 set(ktrip_SRCS
     main.cpp
     querycontroller.cpp
-    locationquerymodel.cpp
     locationcache.cpp
     formatter.cpp
 )

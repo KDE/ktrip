@@ -109,6 +109,7 @@ Kirigami.Page
                 }
 
                 RowLayout {
+                    width: parent.width
                     Label {
                         text: theData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
                     }
@@ -126,6 +127,7 @@ Kirigami.Page
 
                     Label {
                         text: theData.scheduledArrivalPlatform
+
                     }
                 }
 

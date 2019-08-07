@@ -21,8 +21,10 @@
 #pragma once
 
 #include <QObject>
+#include <QVariant>
 
 #include <KPublicTransport/Location>
+#include <KPublicTransport/LocationRequest>
 #include <KPublicTransport/JourneyRequest>
 
 class QueryController : public QObject
@@ -50,6 +52,7 @@ public:
     void setDepartureTime(const QString &time);
 
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
+    Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString name);
 
 Q_SIGNALS:
     void startChanged();

@@ -93,3 +93,11 @@ void QueryController::setDepartureTime(const QString &time)
         Q_EMIT departureTimeChanged();
     }
 }
+
+KPublicTransport::LocationRequest QueryController::createLocationRequest(const QString name)
+{
+    KPublicTransport::LocationRequest req;
+    req.setName(name);
+
+    return req;
+}
