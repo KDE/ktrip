@@ -41,5 +41,4 @@ Kirigami.ApplicationWindow
             }
         ]
     }
-k
 }
