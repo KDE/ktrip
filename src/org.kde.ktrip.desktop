@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=KTrip
+Name[ca]=KTrip
 Name[cs]=KTrip
 Name[de]=KTrip
 Name[it]=KTrip
@@ -11,6 +12,7 @@ Name[sv]=Ktripp
 Name[uk]=KTrip
 Name[x-test]=xxKTripxx
 GenericName=Public transport navigator
+GenericName[ca]=Navegador del transport públic
 GenericName[de]=Navigation für öffentliche Verkehrsmittel
 GenericName[it]=Navigatore del trasporto pubblico
 GenericName[nl]=Navigator van openbaar vervoer
@@ -24,6 +26,7 @@ Exec=ktrip
 Icon=org.kde.ktrip
 Type=Application
 Comment=Public transport navigator.
+Comment[ca]=Navegador del transport públic.
 Comment[de]=Navigation für öffentliche Verkehrsmittel.
 Comment[it]=Navigatore del trasporto pubblico.
 Comment[nl]=Navigator van openbaar vervoer.
