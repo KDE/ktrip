@@ -4,6 +4,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>KTrip</name>
+  <name xml:lang="ca">KTrip</name>
   <name xml:lang="cs">KTrip</name>
   <name xml:lang="fr">KTrip</name>
   <name xml:lang="id">KTrip</name>
@@ -16,6 +17,7 @@
   <name xml:lang="uk">KTrip</name>
   <name xml:lang="x-test">xxKTripxx</name>
   <summary>KTrip</summary>
+  <summary xml:lang="ca">KTrip</summary>
   <summary xml:lang="cs">KTrip</summary>
   <summary xml:lang="fr">KTrip</summary>
   <summary xml:lang="id">KTrip</summary>
@@ -29,6 +31,7 @@
   <summary xml:lang="x-test">xxKTripxx</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
+    <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre ubicacions especificades.</p>
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés.</p>
     <p xml:lang="id">KTrip membantu Anda menavigasi dalam transportasi publik. Ini memungkinkan Anda untuk mengkueri perjalanan antara lokasi yang ditentukan.</p>
     <p xml:lang="it">KTrip ti aiuta a navigare nel trasporto pubblico. Ti permette di interrogare i viaggi tra posizioni specificate.</p>
