@@ -44,6 +44,7 @@ Kirigami.Page
 
         delegate: Kirigami.BasicListItem {
             text: modelData.name
+            highlighted: false
             reserveSpaceForIcon: false
             onClicked: {
                 _locationCache.addCachedLocation(modelData)

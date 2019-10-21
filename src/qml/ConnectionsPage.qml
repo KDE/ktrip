@@ -53,6 +53,7 @@ Kirigami.Page
 
         delegate: Kirigami.AbstractListItem {
 
+            highlighted: false
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
             readonly property bool cancelled: {
                 var disrupt = false
