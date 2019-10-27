@@ -88,7 +88,7 @@ public:
     QLocale::NumberOptions formattingOptions() const;
 
     /**
-     * Returns the value represnted at the given index.
+     * Returns the value represented at the given index.
      */
     qreal value(const QModelIndex &index)  const;
 
