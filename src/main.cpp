@@ -35,6 +35,7 @@
 #include <KPublicTransport/Manager>
 #include <KPublicTransport/LocationRequest>
 #include <KLocalizedContext>
+#include <KLocalizedString>
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -55,6 +56,8 @@ int main(int argc, char *argv[])
 
     QGuiApplication::setApplicationDisplayName(QStringLiteral("KTrip"));
     QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.ktrip"));
+
+    KLocalizedString::setApplicationDomain("ktrip");
 
     QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
