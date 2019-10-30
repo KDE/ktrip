@@ -39,7 +39,15 @@ Kirigami.Page
         model: journey.sections
 
         delegate: Loader {
-            sourceComponent: modelData.mode == JourneySection.Walking ? walking : card
+            sourceComponent: {
+                console.log(modelData.mode)
+                switch(modelData.mode) {
+                    case JourneySection.Walking: return walking
+                    case JourneySection.Waiting: return waiting
+                    case JourneySection.Transfer: return transfer
+                    default: return card
+                }
+            }
             property var theData: modelData
         }
     }
@@ -48,6 +56,24 @@ Kirigami.Page
         id: walking
         Label {
             text: i18np("Walking (%1 minute)", "Walking (%1 minutes)", theData.duration / 60)
+            anchors.fill: parent
+            horizontalAlignment: Text.AlignHCenter
+        }
+    }
+
+    Component {
+        id: waiting
+        Label {
+            text: i18np("Waiting (%1 minute)", "Waiting (%1 minutes)", theData.duration / 60)
+            anchors.fill: parent
+            horizontalAlignment: Text.AlignHCenter
+        }
+    }
+
+    Component {
+        id: transfer
+        Label {
+            text: i18np("Transfer (%1 minute)", "Transfer (%1 minutes)", theData.duration / 60)
             anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
         }
