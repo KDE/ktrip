@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
     KLocalizedString::setApplicationDomain("ktrip");
 
-    QQmlApplicationEngine engine(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
 
     qRegisterMetaType<KPublicTransport::LocationRequest>();
@@ -82,6 +82,8 @@ int main(int argc, char *argv[])
 #else
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
+
+    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
     return app.exec();
 }
