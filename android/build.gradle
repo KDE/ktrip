@@ -40,12 +40,6 @@ android {
 
     buildToolsVersion androidBuildToolsVersion
 
-    buildTypes {
-        release {
-            debuggable false
-        }
-    }
-
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
