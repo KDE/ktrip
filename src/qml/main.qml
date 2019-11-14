@@ -24,6 +24,7 @@ import org.kde.kirigami 2.0 as Kirigami
 
 Kirigami.ApplicationWindow
 {
+    id: window
     width: 480
     height: 720
 
@@ -33,11 +34,11 @@ Kirigami.ApplicationWindow
         actions: [
             Kirigami.Action {
                 text: i18n("Journey")
-                onTriggered: pageStack.initialPage = Qt.resolvedUrl("JourneyQueryPage.qml")
+                onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("JourneyQueryPage.qml")
             },
             Kirigami.Action {
                 text: i18n("Departures")
-                onTriggered: pageStack.initialPage = Qt.resolvedUrl("DepartureQueryPage.qml")
+                onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("DepartureQueryPage.qml")
             }
         ]
     }

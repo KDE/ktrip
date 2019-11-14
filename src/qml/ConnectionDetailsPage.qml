@@ -26,6 +26,7 @@ import org.kde.kpublictransport 1.0
 
 Kirigami.Page
 {
+    id: root
     title: i18nc("@title", "Details")
 
     property var journey
@@ -36,19 +37,19 @@ Kirigami.Page
 
         anchors.fill: parent
 
-        model: journey.sections
+        model: root.journey.sections
 
         delegate: Loader {
             sourceComponent: {
-                console.log(modelData.mode)
-                switch(modelData.mode) {
+                console.log(model.modelData.mode)
+                switch(model.modelData.mode) {
                     case JourneySection.Walking: return walking
                     case JourneySection.Waiting: return waiting
                     case JourneySection.Transfer: return transfer
                     default: return card
                 }
             }
-            property var theData: modelData
+            property var theData: model.modelData
         }
     }
 
