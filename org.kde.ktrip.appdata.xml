@@ -8,6 +8,7 @@
   <name xml:lang="cs">KTrip</name>
   <name xml:lang="en-GB">KTrip</name>
   <name xml:lang="es">KTrip</name>
+  <name xml:lang="et">KTrip</name>
   <name xml:lang="fr">KTrip</name>
   <name xml:lang="id">KTrip</name>
   <name xml:lang="it">KTrip</name>
@@ -25,6 +26,7 @@
   <summary xml:lang="cs">KTrip</summary>
   <summary xml:lang="en-GB">KTrip</summary>
   <summary xml:lang="es">KTrip</summary>
+  <summary xml:lang="et">KTrip</summary>
   <summary xml:lang="fr">KTrip</summary>
   <summary xml:lang="id">KTrip</summary>
   <summary xml:lang="it">KTrip</summary>
@@ -42,6 +44,7 @@
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre ubicacions especificades.</p>
     <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
     <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite planear sus viajes entre las localizaciones especificadas.</p>
+    <p xml:lang="et">KTrip aitab liigelda ühistranspordis. See võimaldab esitada päringuid liikumiseks määratud asukohtade vahel.</p>
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés.</p>
     <p xml:lang="id">KTrip membantu Anda menavigasi dalam transportasi publik. Ini memungkinkan Anda untuk mengkueri perjalanan antara lokasi yang ditentukan.</p>
     <p xml:lang="it">KTrip ti aiuta a navigare nel trasporto pubblico. Ti permette di interrogare i viaggi tra posizioni specificate.</p>
