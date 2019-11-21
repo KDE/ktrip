@@ -158,7 +158,9 @@ Kirigami.Page
                 }
 
                 Label {
-                    text: theData.note
+                    text: theData.notes.join("<br>")
+                    topPadding: Kirigami.Units.largeSpacing
+                    width: parent.width
                     wrapMode: Text.Wrap
                 }
             }
