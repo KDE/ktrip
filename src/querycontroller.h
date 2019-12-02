@@ -23,14 +23,13 @@
 #include <QObject>
 #include <QVariant>
 
+#include <KPublicTransport/DepartureRequest>
+#include <KPublicTransport/JourneyRequest>
 #include <KPublicTransport/Location>
 #include <KPublicTransport/LocationRequest>
-#include <KPublicTransport/JourneyRequest>
-#include <KPublicTransport/DepartureRequest>
 
 class QueryController : public QObject
 {
-
     Q_OBJECT
     Q_PROPERTY(KPublicTransport::Location start READ start WRITE setStart NOTIFY startChanged)
     Q_PROPERTY(KPublicTransport::Location destination READ destination WRITE setDestination NOTIFY destinationChanged)
@@ -63,7 +62,6 @@ Q_SIGNALS:
     void departureTimeChanged();
 
 private:
-
     KPublicTransport::Location m_start;
     KPublicTransport::Location m_destination;
     QString m_departureDate;

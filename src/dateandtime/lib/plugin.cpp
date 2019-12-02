@@ -1,8 +1,8 @@
-#include <QQmlExtensionPlugin>
 #include <QQmlEngine>
+#include <QQmlExtensionPlugin>
 
-#include "timezonemodel.h"
 #include "knumbermodel.h"
+#include "timezonemodel.h"
 
 class KirigamiAddonsDataAndTimePlugin : public QQmlExtensionPlugin
 {

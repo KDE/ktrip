@@ -19,9 +19,9 @@
  */
 
 #include "androidutils.h"
-#include "querycontroller.h"
-#include "locationcache.h"
 #include "formatter.h"
+#include "locationcache.h"
+#include "querycontroller.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -32,17 +32,16 @@
 #include <QApplication>
 #endif
 
-#include <KPublicTransport/Manager>
-#include <KPublicTransport/LocationRequest>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#include <KPublicTransport/LocationRequest>
+#include <KPublicTransport/Manager>
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
-
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
 #else

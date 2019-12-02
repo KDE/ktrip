@@ -21,11 +21,12 @@
 #include "timezonemodel.h"
 #include "timezonesi18n.h"
 
-#include <QTimeZone>
-#include <QStringMatcher>
 #include <KLocalizedString>
+#include <QStringMatcher>
+#include <QTimeZone>
 
-TimeZoneFilterProxy::TimeZoneFilterProxy(QObject *parent) : QSortFilterProxyModel(parent)
+TimeZoneFilterProxy::TimeZoneFilterProxy(QObject *parent)
+    : QSortFilterProxyModel(parent)
 {
     m_stringMatcher.setCaseSensitivity(Qt::CaseInsensitive);
 }
@@ -57,12 +58,16 @@ void TimeZoneFilterProxy::setFilterString(const QString &filterString)
 
 //=============================================================================
 
-TimeZoneModel::TimeZoneModel(QObject *parent) : QAbstractListModel(parent), m_timezonesI18n(new TimezonesI18n(this))
+TimeZoneModel::TimeZoneModel(QObject *parent)
+    : QAbstractListModel(parent)
+    , m_timezonesI18n(new TimezonesI18n(this))
 {
     update();
 }
 
-TimeZoneModel::~TimeZoneModel() {}
+TimeZoneModel::~TimeZoneModel()
+{
+}
 
 int TimeZoneModel::rowCount(const QModelIndex &parent) const
 {
@@ -166,8 +171,7 @@ void TimeZoneModel::update()
 
         TimeZoneData newData;
         newData.id = QString::fromUtf8(timeZone.id());
-        newData.region = timeZone.country() == QLocale::AnyCountry ? QString()
-                                                                   : m_timezonesI18n->i18nContinents(cityCountryContinent.at(2)) + QLatin1Char('/') + m_timezonesI18n->i18nCountry(timeZone.country());
+        newData.region = timeZone.country() == QLocale::AnyCountry ? QString() : m_timezonesI18n->i18nContinents(cityCountryContinent.at(2)) + QLatin1Char('/') + m_timezonesI18n->i18nCountry(timeZone.country());
         newData.city = m_timezonesI18n->i18nCity(cityCountryContinent.at(0));
         newData.comment = comment;
         newData.checked = false;
@@ -207,7 +211,7 @@ void TimeZoneModel::selectLocalTimeZone()
 
 QHash<int, QByteArray> TimeZoneModel::roleNames() const
 {
-    return QHash<int, QByteArray>({ { TimeZoneIdRole, "timeZoneId" }, { RegionRole, "region" }, { CityRole, "city" }, { CommentRole, "comment" }, { CheckedRole, "checked" } });
+    return QHash<int, QByteArray>({{TimeZoneIdRole, "timeZoneId"}, {RegionRole, "region"}, {CityRole, "city"}, {CommentRole, "comment"}, {CheckedRole, "checked"}});
 }
 
 void TimeZoneModel::sortTimeZones()

@@ -33,8 +33,7 @@ QString Formatter::formatDuration(int seconds)
     return QString::number(hours) + QStringLiteral(":") + minutesString;
 }
 
-QString Formatter::formatTime(const QDateTime& time)
+QString Formatter::formatTime(const QDateTime &time)
 {
     return time.toString(QStringLiteral("hh:mm"));
 }
-

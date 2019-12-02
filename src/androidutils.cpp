@@ -63,9 +63,9 @@ static void timeCancelled(JNIEnv *env, jobject that)
     AndroidUtils::instance()->_timeCancelled();
 }
 
-static const JNINativeMethod methods[] = { { "dateSelected", "(Ljava/lang/String;)V", (void *)dateSelected }, { "cancelled", "()V", (void *)dateCancelled } };
+static const JNINativeMethod methods[] = {{"dateSelected", "(Ljava/lang/String;)V", (void *)dateSelected}, {"cancelled", "()V", (void *)dateCancelled}};
 
-static const JNINativeMethod timeMethods[] = { { "timeSelected", "(Ljava/lang/String;)V", (void *)timeSelected }, { "cancelled", "()V", (void *)timeCancelled } };
+static const JNINativeMethod timeMethods[] = {{"timeSelected", "(Ljava/lang/String;)V", (void *)timeSelected}, {"cancelled", "()V", (void *)timeCancelled}};
 
 Q_DECL_EXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *)
 {

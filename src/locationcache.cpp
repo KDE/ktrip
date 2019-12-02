@@ -20,14 +20,16 @@
 
 #include "locationcache.h"
 
-#include <QDebug>
 #include <QDateTime>
-#include <QStandardPaths>
+#include <QDebug>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QStandardPaths>
 
 LocationCache::LocationCache(QObject *parent)
-    : QObject(parent), m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache")), m_cachedLocationsJson()
+    : QObject(parent)
+    , m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache"))
+    , m_cachedLocationsJson()
 {
     if (!m_locationCacheFile.open(QIODevice::ReadWrite)) {
         qWarning() << "Could not open location cache file" << m_locationCacheFile.fileName();

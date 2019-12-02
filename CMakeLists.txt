@@ -12,6 +12,7 @@ include(ECMSetupVersion)
 include(FeatureSummary)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
+include(KDEClangFormat)
 
 find_package(Qt5 REQUIRED COMPONENTS Gui Qml Quick)
 find_package(KF5 REQUIRED COMPONENTS I18n)
@@ -42,3 +43,7 @@ install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/
 install(FILES org.kde.ktrip.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+# add clang-format target for all our real source files
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})

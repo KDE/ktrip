@@ -20,14 +20,16 @@
 
 #include "querycontroller.h"
 
-#include <QDebug>
 #include <QDateTime>
-#include <QStandardPaths>
+#include <QDebug>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QStandardPaths>
 
 QueryController::QueryController(QObject *parent)
-    : QObject(parent), m_start(), m_destination()
+    : QObject(parent)
+    , m_start()
+    , m_destination()
 {
     m_departureDate = QDate::currentDate().toString(Qt::ISODate);
     m_departureTime = QTime::currentTime().toString(Qt::SystemLocaleShortDate);

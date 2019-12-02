@@ -33,9 +33,15 @@ public:
     QLocale::NumberOptions formattingOptions = QLocale::DefaultNumberOptions;
 };
 
-KNumberModel::KNumberModel(QObject *parent) : QAbstractListModel(parent), d(new KNumberModelPrivate) {}
+KNumberModel::KNumberModel(QObject *parent)
+    : QAbstractListModel(parent)
+    , d(new KNumberModelPrivate)
+{
+}
 
-KNumberModel::~KNumberModel() {}
+KNumberModel::~KNumberModel()
+{
+}
 
 void KNumberModel::setMinimumValue(qreal minimumValue)
 {
@@ -96,7 +102,7 @@ void KNumberModel::setFormattingOptions(QLocale::NumberOptions formattingOptions
     if (rowCount() == 0) {
         return;
     }
-    dataChanged(index(0, 0, QModelIndex()), index(rowCount(), 0, QModelIndex()), QVector<int> { DisplayRole });
+    dataChanged(index(0, 0, QModelIndex()), index(rowCount(), 0, QModelIndex()), QVector<int> {DisplayRole});
     emit formattingOptionsChanged();
 }
 
@@ -138,5 +144,5 @@ QVariant KNumberModel::data(const QModelIndex &index, int role) const
 
 QHash<int, QByteArray> KNumberModel::roleNames() const
 {
-    return { { KNumberModel::DisplayRole, QByteArrayLiteral("display") }, { KNumberModel::ValueRole, QByteArrayLiteral("value") } };
+    return {{KNumberModel::DisplayRole, QByteArrayLiteral("display")}, {KNumberModel::ValueRole, QByteArrayLiteral("value")}};
 }

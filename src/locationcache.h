@@ -20,9 +20,9 @@
 
 #pragma once
 
-#include <QObject>
 #include <QFile>
 #include <QJsonArray>
+#include <QObject>
 
 #include <KPublicTransport/Location>
 
@@ -49,4 +49,3 @@ private:
     QFile m_locationCacheFile;
     QJsonArray m_cachedLocationsJson;
 };
-

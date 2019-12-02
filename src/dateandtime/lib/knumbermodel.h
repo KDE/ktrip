@@ -15,14 +15,14 @@
  *  along with this library; see the file COPYING.LIB.  If not, write to
  *  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  *  Boston, MA 02110-1301, USA.
-*/
+ */
 
 #ifndef KNUMBERMODEL_H
 #define KNUMBERMODEL_H
 
 #include <QAbstractListModel>
-#include <QScopedPointer>
 #include <QLocale>
+#include <QScopedPointer>
 
 // #include "kitemmodels_export.h"
 
@@ -40,19 +40,16 @@ class KNumberModelPrivate;
 class KNumberModel : public QAbstractListModel
 {
     Q_OBJECT
-    Q_PROPERTY (qreal minimumValue READ minimumValue WRITE setMinimumValue NOTIFY minimumValueChanged)
-    Q_PROPERTY (qreal maximumValue READ maximumValue WRITE setMaximumValue NOTIFY maximumValueChanged)
-    Q_PROPERTY (qreal stepSize READ stepSize WRITE setStepSize NOTIFY stepSizeChanged)
-    Q_PROPERTY (QLocale::NumberOptions formattingOptions READ formattingOptions WRITE setFormattingOptions NOTIFY formattingOptionsChanged)
+    Q_PROPERTY(qreal minimumValue READ minimumValue WRITE setMinimumValue NOTIFY minimumValueChanged)
+    Q_PROPERTY(qreal maximumValue READ maximumValue WRITE setMaximumValue NOTIFY maximumValueChanged)
+    Q_PROPERTY(qreal stepSize READ stepSize WRITE setStepSize NOTIFY stepSizeChanged)
+    Q_PROPERTY(QLocale::NumberOptions formattingOptions READ formattingOptions WRITE setFormattingOptions NOTIFY formattingOptionsChanged)
 
 public:
     KNumberModel(QObject *parent = nullptr);
     ~KNumberModel() override;
 
-    enum Roles {
-        DisplayRole = Qt::DisplayRole,
-        ValueRole = Qt::UserRole
-    };
+    enum Roles { DisplayRole = Qt::DisplayRole, ValueRole = Qt::UserRole };
 
     /**
      * The minimum value for the model.
@@ -90,10 +87,10 @@ public:
     /**
      * Returns the value represented at the given index.
      */
-    qreal value(const QModelIndex &index)  const;
+    qreal value(const QModelIndex &index) const;
 
     int rowCount(const QModelIndex &index = QModelIndex()) const override;
-    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const  override;
+    QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
 
 Q_SIGNALS:
