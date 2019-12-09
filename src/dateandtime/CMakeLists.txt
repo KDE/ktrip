@@ -20,6 +20,5 @@ install(FILES
         ClockFace.qml
         DateInput.qml
         Hand.qml
-        TimezoneTable.qml
         TimePicker.qml
         DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/kirigamiaddons/dateandtime)
