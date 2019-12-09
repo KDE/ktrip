@@ -1,7 +1,6 @@
 set(dateandtime_SRCS
     lib/timezonemodel.cpp
     lib/timezonesi18n.cpp
-    lib/knumbermodel.cpp
     lib/plugin.cpp)
 
 add_definitions(-DTRANSLATION_DOMAIN=\"kirigami_dateandtime\")

@@ -21,7 +21,6 @@
 #include <QQmlEngine>
 #include <QQmlExtensionPlugin>
 
-#include "knumbermodel.h"
 #include "timezonemodel.h"
 
 class KirigamiAddonsDataAndTimePlugin : public QQmlExtensionPlugin
@@ -40,7 +39,6 @@ void KirigamiAddonsDataAndTimePlugin::registerTypes(const char *uri)
 {
     qmlRegisterType<TimeZoneModel>(uri, 0, 1, "TimeZoneModel");
     qmlRegisterType<TimeZoneFilterProxy>(uri, 0, 1, "TimeZoneFilterModel");
-    qmlRegisterType<KNumberModel>(uri, 0, 1, "NumberModel");
 }
 
 #include "plugin.moc"

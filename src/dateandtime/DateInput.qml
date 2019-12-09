@@ -22,6 +22,7 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.3
 
 import org.kde.kirigami 2.4 as Kirigami
+import org.kde.kitemmodels 1.0
 
 import org.kde.kirigamiaddons.dateandtime 0.1
 
@@ -115,7 +116,7 @@ RowLayout {
         id: daySelectTouchComponent
         Tumbler {
             delegate: tumberDelegate
-            model: NumberModel {
+            model: KNumberModel {
                 minimumValue: 1
                 maximumValue: 31
             }
@@ -141,7 +142,7 @@ RowLayout {
         id: monthSelectTouchComponent
         Tumbler {
             delegate: tumberDelegate
-            model: NumberModel {
+            model: KNumberModel {
                 minimumValue: 1
                 maximumValue: 12
             }
@@ -166,7 +167,7 @@ RowLayout {
         id: yearSelectTouchComponent
         Tumbler {
             delegate: tumberDelegate
-            model: NumberModel {
+            model: KNumberModel {
                 minimumValue: 1970
                 maximumValue: 2100
             }

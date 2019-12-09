@@ -18,6 +18,7 @@ target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::I18n KPublicTransport
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE
         KF5::Kirigami2
+        KF5::ItemModels
         Qt5::Svg
         OpenSSL::SSL
         Qt5::AndroidExtras
