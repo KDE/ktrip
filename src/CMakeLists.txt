@@ -36,7 +36,4 @@ else()
 endif()
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
-
-if (NOT ANDROID)
-    install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-endif()
+install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})
