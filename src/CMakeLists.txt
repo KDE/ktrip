@@ -5,13 +5,13 @@ set(ktrip_SRCS
     querycontroller.cpp
     locationcache.cpp
     formatter.cpp
+    resources.qrc
 )
 
 if (ANDROID)
     list(APPEND ktrip_SRCS androidutils.cpp)
 endif()
 
-qt5_add_resources(ktrip_SRCS resources.qrc)
 add_executable(ktrip ${ktrip_SRCS})
 target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::I18n KPublicTransport)
 
