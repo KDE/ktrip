@@ -22,7 +22,6 @@ import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
-import org.kde.kirigamiaddons.dateandtime 0.1 as KA
 
 Button {
 
@@ -46,7 +45,7 @@ Button {
     Dialog {
         id: dialog
         anchors.centerIn: parent
-        contentItem: KA.TimePicker {
+        contentItem: TimePicker {
             id: picker
         }
 

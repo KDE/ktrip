@@ -24,8 +24,6 @@ import QtQuick.Controls 2.3
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kitemmodels 1.0
 
-import org.kde.kirigamiaddons.dateandtime 0.1
-
 /**
  * This Item provides an entry box for inputting a date.
  * It is represented in a form suitable for entering a known date (i.e date of birth, current date)

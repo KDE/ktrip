@@ -23,8 +23,6 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
 
-import org.kde.kirigamiaddons.dateandtime 0.1 as KA
-
 Button {
 
     signal datePicked(string theDate)
@@ -48,7 +46,7 @@ Button {
         id: dialog
         anchors.centerIn: parent
         height: Kirigami.Units.gridUnit * 6
-        contentItem: KA.DateInput {
+        contentItem: DateInput {
             id: picker
         }
 
