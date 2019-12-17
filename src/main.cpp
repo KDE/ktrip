@@ -22,6 +22,7 @@
 #include "formatter.h"
 #include "locationcache.h"
 #include "querycontroller.h"
+#include "ktripsettings.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -70,7 +71,18 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty(QStringLiteral("_locationCache"), &locationCache);
 
     KPublicTransport::Manager manager;
+    manager.setAllowInsecureBackends(true);
     engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
+
+    KTripSettings settings;
+    manager.setDisabledBackends(settings.disabledBackends());
+    manager.setEnabledBackends(settings.enabledBackends());
+
+    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, &settings, [&settings, &manager]{
+        settings.setEnabledBackends(manager.enabledBackends());
+        settings.setDisabledBackends(manager.disabledBackends());
+        settings.save();
+    });
 
     Formatter formatter;
     engine.rootContext()->setContextProperty(QStringLiteral("_formatter"), &formatter);

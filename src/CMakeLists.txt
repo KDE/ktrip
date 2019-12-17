@@ -8,12 +8,14 @@ set(ktrip_SRCS
     resources.qrc
 )
 
+kconfig_add_kcfg_files(ktrip_SRCS ktripsettings.kcfgc GENERATE_MOC)
+
 if (ANDROID)
     list(APPEND ktrip_SRCS androidutils.cpp)
 endif()
 
 add_executable(ktrip ${ktrip_SRCS})
-target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::I18n KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::I18n KF5::ConfigGui KPublicTransport)
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE

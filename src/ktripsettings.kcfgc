@@ -1,0 +1,6 @@
+File=ktripsettings.kcfg
+ClassName=KTripSettings
+Mutators=true
+DefaultValueGetters=true
+GenerateProperties=true
+ParentInConstructor=true

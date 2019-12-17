@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name="ktriprc" />
+  <group name="Backends">
+    <entry name="EnabledBackends" type="StringList">
+      <label>Enabled backends</label>
+      <default></default>
+    </entry>
+    <entry name="DisabledBackends" type="StringList">
+      <label>Disabled backends</label>
+      <default>at_6_vvst,be_sncb,ch_sbb,pl_pkp,railteam</default>
+    </entry>
+  </group>
+</kcfg>
