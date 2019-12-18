@@ -17,7 +17,7 @@
     </entry>
     <entry name="DisabledBackends" type="StringList">
       <label>Disabled backends</label>
-      <default>at_6_vvst,be_sncb,ch_sbb,pl_pkp,railteam</default>
+      <default>at_3_vor,at_4_linz,at_4_ooevv,at_5_svv,at_6_vvst,at_7_vvt,at_8_vvv,at_oebb,au_nsw,be_sncb,ch_sbb,de_bb_vbb,de_be_bvg,de_bw_kvv,de_bw_vvs,de_by_bayern,de_by_mvv,de_by_vgn,de_db,de_he_rmv,de_ni_gvh,de_nw_avv,de_nw_vrr,de_sh_sh,de_st_insa,dk_dsb,fr_sncf,ie_tfi,lu_mobiliteitszentral,navitia,nl_ns,pl_pkp,railteam,se_resrobot,uk_traveline,us_ca_bart,us_il_chicago</default>
     </entry>
   </group>
 </kcfg>
