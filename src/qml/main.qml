@@ -31,6 +31,7 @@ Kirigami.ApplicationWindow
     pageStack.initialPage: Qt.resolvedUrl("JourneyQueryPage.qml")
 
     globalDrawer: Kirigami.GlobalDrawer {
+        isMenu: true
         actions: [
             Kirigami.Action {
                 text: i18n("Journey")
