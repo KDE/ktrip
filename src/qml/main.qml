@@ -46,7 +46,7 @@ Kirigami.ApplicationWindow
             },
             Kirigami.Action {
                 text: i18n("Providers")
-                onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("BackendPage.qml")
+                onTriggered: window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
             }
         ]
     }
