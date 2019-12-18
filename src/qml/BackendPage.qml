@@ -66,6 +66,7 @@ Kirigami.ScrollablePage {
                     Layout.fillWidth: true
                     text: model.description
                     font.italic: true
+                    elide: Text.ElideRight
                 }
             }
 
