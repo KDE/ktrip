@@ -31,6 +31,8 @@ if (ANDROID)
         view-refresh
         search
         dialog-ok
+        channel-secure-symbolic
+        channel-insecure-symbolic
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt5::Widgets)
