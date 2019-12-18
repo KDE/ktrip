@@ -30,6 +30,12 @@ Kirigami.ScrollablePage {
         visible: true
     }
 
+    actions.main: Kirigami.Action {
+        text: i18n("Save")
+        iconName: "dialog-ok"
+        onTriggered: pageStack.pop()
+    }
+
     KPublicTransport.BackendModel {
         id: backendModel
         manager: _manager

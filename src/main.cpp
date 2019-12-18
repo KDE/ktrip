@@ -84,6 +84,8 @@ int main(int argc, char *argv[])
         settings.save();
     });
 
+    engine.rootContext()->setContextProperty(QStringLiteral("_settings"), &settings);
+
     Formatter formatter;
     engine.rootContext()->setContextProperty(QStringLiteral("_formatter"), &formatter);
 

@@ -4,6 +4,12 @@
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
   <kcfgfile name="ktriprc" />
+  <group name="General">
+    <entry name="firstRun" type="bool">
+      <label>First run</label>
+      <default>true</default>
+    </entry>
+  </group>
   <group name="Backends">
     <entry name="EnabledBackends" type="StringList">
       <label>Enabled backends</label>

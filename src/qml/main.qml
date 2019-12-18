@@ -30,6 +30,14 @@ Kirigami.ApplicationWindow
 
     pageStack.initialPage: Qt.resolvedUrl("JourneyQueryPage.qml")
 
+    Component.onCompleted: {
+        if (_settings.firstRun) {
+            window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
+            _settings.firstRun = false
+            _settings.save()
+        }
+    }
+
     globalDrawer: Kirigami.GlobalDrawer {
         isMenu: true
         actions: [

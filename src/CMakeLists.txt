@@ -30,6 +30,7 @@ if (ANDROID)
         go-up-symbolic
         view-refresh
         search
+        dialog-ok
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt5::Widgets)
