@@ -42,6 +42,9 @@ Kirigami.ApplicationWindow
                 onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("DepartureQueryPage.qml")
             },
             Kirigami.Action {
+                separator: true
+            },
+            Kirigami.Action {
                 text: i18n("Providers")
                 onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("BackendPage.qml")
             }
