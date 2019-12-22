@@ -20,7 +20,7 @@
 
 import QtQuick 2.2
 import QtQuick.Controls 2.4
-import org.kde.kirigami 2.0 as Kirigami
+import org.kde.kirigami 2.6 as Kirigami
 
 Kirigami.ApplicationWindow
 {
@@ -55,7 +55,18 @@ Kirigami.ApplicationWindow
             Kirigami.Action {
                 text: i18n("Providers")
                 onTriggered: window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
+            },
+            Kirigami.Action {
+                text: i18n("About")
+                onTriggered: window.pageStack.push(aboutPage)
             }
         ]
+    }
+
+    Component {
+        id: aboutPage
+        Kirigami.AboutPage {
+            aboutData: _aboutData
+        }
     }
 }

@@ -33,6 +33,7 @@
 #include <QApplication>
 #endif
 
+#include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
 #include <KPublicTransport/LocationRequest>
@@ -83,6 +84,13 @@ int main(int argc, char *argv[])
         settings.setDisabledBackends(manager.disabledBackends());
         settings.save();
     });
+
+    KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"),
+                     KAboutLicense::GPL, i18n("© 2019 KDE Community"));
+    about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
+    KAboutData::setApplicationData(about);
+
+    engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
 
     engine.rootContext()->setContextProperty(QStringLiteral("_settings"), &settings);
 
