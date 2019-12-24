@@ -45,7 +45,7 @@ Kirigami.Page
                     case JourneySection.Walking: return walking
                     case JourneySection.Waiting: return waiting
                     case JourneySection.Transfer: return transfer
-                    default: return card
+                    default: return cardComponent
                 }
             }
             property var theData: model.modelData
@@ -77,10 +77,10 @@ Kirigami.Page
     }
 
     Component {
-        id: card
+        id: cardComponent
 
         Kirigami.AbstractCard {
-            id: root
+            id: cardDelegate
 
             header: Rectangle {
                 id: headerBackground
@@ -88,16 +88,16 @@ Kirigami.Page
                 Kirigami.Theme.inherit: false
                 color: Kirigami.Theme.backgroundColor
                 implicitHeight: headerLabel.implicitHeight + Kirigami.Units.largeSpacing * 2
-                anchors.leftMargin: -root.leftPadding
-                anchors.topMargin: -root.topPadding
-                anchors.rightMargin: -root.rightPadding
+                anchors.leftMargin: -cardDelegate.leftPadding
+                anchors.topMargin: -cardDelegate.topPadding
+                anchors.rightMargin: -cardDelegate.rightPadding
 
                 Label {
                     id: headerLabel
-                    anchors.fill: parent
-                    anchors.margins: Kirigami.Units.largeSpacing
-                    font.pointSize: Kirigami.Theme.defaultFont.pointSize * root.headerFontScale
-                    Layout.fillWidth: true
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: Kirigami.Units.largeSpacing
+                    font.pointSize: Kirigami.Theme.defaultFont.pointSize * cardDelegate.headerFontScale
                     font.strikeout: theData.disruptionEffect == Disruption.NoService
                     color: theData.disruptionEffect == Disruption.NoService ? "red" : Kirigami.Theme.textColor
                     text: theData.route.line.name
