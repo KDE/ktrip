@@ -41,7 +41,6 @@ Kirigami.Page
 
         delegate: Loader {
             sourceComponent: {
-                console.log(model.modelData.mode)
                 switch(model.modelData.mode) {
                     case JourneySection.Walking: return walking
                     case JourneySection.Waiting: return waiting
