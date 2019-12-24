@@ -39,7 +39,7 @@
             <meta-data android:value="@string/fatal_error_msg" android:name="android.app.fatal_error_msg"/>
 
             <!-- Splash screen -->
-<!--             <meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/splash"/> -->
+            <meta-data android:name="android.app.splash_screen_drawable" android:resource="@drawable/splash"/>
 
             <!-- Background running -->
             <meta-data android:name="android.app.background_running" android:value="false"/>
