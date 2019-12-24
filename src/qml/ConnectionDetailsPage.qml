@@ -57,7 +57,6 @@ Kirigami.Page
         id: walking
         Label {
             text: i18np("Walking (%1 minute)", "Walking (%1 minutes)", theData.duration / 60)
-            anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
         }
     }
@@ -66,7 +65,6 @@ Kirigami.Page
         id: waiting
         Label {
             text: i18np("Waiting (%1 minute)", "Waiting (%1 minutes)", theData.duration / 60)
-            anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
         }
     }
@@ -75,7 +73,6 @@ Kirigami.Page
         id: transfer
         Label {
             text: i18np("Transfer (%1 minute)", "Transfer (%1 minutes)", theData.duration / 60)
-            anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
         }
     }
