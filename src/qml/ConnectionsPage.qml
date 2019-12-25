@@ -36,6 +36,8 @@ Kirigami.Page
 
     ListView {
 
+        id: connectionList
+
         anchors.fill: parent
 
         model: KPT.JourneyQueryModel {
@@ -100,6 +102,12 @@ Kirigami.Page
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()
         }
+    }
+
+    Label {
+        text: i18n("No connections found")
+        anchors.centerIn: parent
+        visible: connectionList.count === 0 && !theModel.loading
     }
 
     BusyIndicator {
