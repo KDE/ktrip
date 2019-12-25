@@ -111,18 +111,20 @@ Kirigami.Page
                     width: parent.width
                     Label {
                         text: theData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                        anchors.top: parent.top
                     }
 
                     Label {
                         text: theData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
                         visible: theData.departureDelay > 0
+                        anchors.top: parent.top
                         color: "red"
                     }
 
                     Label {
                         text: theData.from.name
                         Layout.fillWidth: true
-                        elide: Text.ElideRight
+                        wrapMode: Text.Wrap
                     }
 
                     Label {
@@ -134,17 +136,20 @@ Kirigami.Page
                     width: parent.width
                     Label {
                         text: theData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
+                        anchors.top: parent.top
                     }
 
                     Label {
                         text: theData.expectedArrivalTime.toLocaleTimeString(Locale.ShortFormat)
                         visible: theData.arrivalDelay > 0
+                        anchors.top: parent.top
                         color: "red"
                     }
 
                     Label {
                         text: theData.to.name
                         Layout.fillWidth: true
+                        wrapMode: Text.Wrap
                     }
 
                     Label {
