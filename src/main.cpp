@@ -27,6 +27,8 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
+#include <QImage>
+
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 #else
@@ -88,6 +90,7 @@ int main(int argc, char *argv[])
     KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"),
                      KAboutLicense::GPL, i18n("© 2019 KDE Community"));
     about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
+    about.setProgramLogo(QImage(QStringLiteral(":/org.kde.ktrip.svg")));
     KAboutData::setApplicationData(about);
 
     engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
