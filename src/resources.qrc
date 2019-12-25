@@ -1,20 +1,21 @@
-<!DOCTYPE RCC><RCC version="1.0">
- <qresource>
-    <file>qml/main.qml</file>
-    <file>qml/BackendPage.qml</file>
-    <file>qml/JourneyQueryPage.qml</file>
-    <file>qml/ConnectionsPage.qml</file>
-    <file>qml/LocationQueryPage.qml</file>
-    <file>qml/ConnectionDetailsPage.qml</file>
-    <file>qml/DatePickerButton.qml</file>
-    <file>qml/TimePickerButton.qml</file>
-    <file>qml/DepartureQueryPage.qml</file>
-    <file>qml/DeparturesPage.qml</file>
-    <file>qml/TimePicker.qml</file>
-    <file>qml/Hand.qml</file>
-    <file>qml/DateInput.qml</file>
-    <file>qml/ClockFace.qml</file>
-    <file>qml/ClockElement.qml</file>
-    <file>qtquickcontrols2.conf</file>
- </qresource>
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/BackendPage.qml</file>
+        <file>qml/JourneyQueryPage.qml</file>
+        <file>qml/ConnectionsPage.qml</file>
+        <file>qml/LocationQueryPage.qml</file>
+        <file>qml/ConnectionDetailsPage.qml</file>
+        <file>qml/DatePickerButton.qml</file>
+        <file>qml/TimePickerButton.qml</file>
+        <file>qml/DepartureQueryPage.qml</file>
+        <file>qml/DeparturesPage.qml</file>
+        <file>qml/TimePicker.qml</file>
+        <file>qml/Hand.qml</file>
+        <file>qml/DateInput.qml</file>
+        <file>qml/ClockFace.qml</file>
+        <file>qml/ClockElement.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>org.kde.ktrip.svg</file>
+    </qresource>
 </RCC>
