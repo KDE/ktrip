@@ -63,6 +63,7 @@ Kirigami.Page
         anchors.fill: parent
         visible: !showCached
         model: queryModel
+        id: locationList
 
         delegate: Kirigami.BasicListItem {
             text: location.name
@@ -73,6 +74,12 @@ Kirigami.Page
                 pageStack.pop()
             }
         }
+    }
+
+    Label {
+        text: i18n("No locations found")
+        visible: locationList.count === 0 && locationList.visible && !queryModel.loading
+        anchors.centerIn: parent
     }
 
     BusyIndicator {
