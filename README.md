@@ -7,7 +7,7 @@ It allows to query journeys for a wide range of countries/public transport provi
 
 Nightly Android APKs can be found at [KDE's binary factory](https://binary-factory.kde.org/view/Android/job/KTrip_android/).
 
-Nightly Windows installers can be found at [KDE's binary factory](https://binary-factory.kde.org/view/Windows%2064-bit/job/KTrip_Nightly_win64/)
+Nightly Windows installers can be found at [KDE's binary factory](https://binary-factory.kde.org/view/Windows%2064-bit/job/KTrip_Nightly_win64/).
 
 # Building
 
