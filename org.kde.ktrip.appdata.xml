@@ -21,6 +21,7 @@
   <name xml:lang="sv">Ktripp</name>
   <name xml:lang="uk">KTrip</name>
   <name xml:lang="x-test">xxKTripxx</name>
+  <name xml:lang="zh-TW">KTrip</name>
   <summary>KTrip</summary>
   <summary xml:lang="ca">KTrip</summary>
   <summary xml:lang="cs">KTrip</summary>
@@ -39,6 +40,7 @@
   <summary xml:lang="sv">Ktripp</summary>
   <summary xml:lang="uk">KTrip</summary>
   <summary xml:lang="x-test">xxKTripxx</summary>
+  <summary xml:lang="zh-TW">KTrip</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre ubicacions especificades.</p>
