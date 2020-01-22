@@ -16,6 +16,6 @@
         <file>qml/ClockFace.qml</file>
         <file>qml/ClockElement.qml</file>
         <file>qtquickcontrols2.conf</file>
-        <file>org.kde.ktrip.svg</file>
+        <file>ktrip.svg</file>
     </qresource>
 </RCC>
