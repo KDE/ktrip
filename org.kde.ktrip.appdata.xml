@@ -63,4 +63,7 @@
   <provides>
     <binary>ktrip</binary>
   </provides>
+  <categories>
+    <category>Utility</category>
+  </categories>
 </component>
