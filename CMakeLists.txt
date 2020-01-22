@@ -14,7 +14,7 @@ include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEClangFormat)
 
-find_package(Qt5 REQUIRED COMPONENTS Gui Qml Quick)
+find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml Quick)
 find_package(KF5 REQUIRED COMPONENTS CoreAddons I18n ItemModels Config)
 
 if (ANDROID)
@@ -30,7 +30,8 @@ else()
     find_package(Qt5 REQUIRED COMPONENTS Widgets)
 endif()
 
-find_package(KPublicTransport REQUIRED)
+find_package(KPublicTransport)
+set_package_properties(KPublicTransport PROPERTIES TYPE REQUIRED PURPOSE "Query online journey information")
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
