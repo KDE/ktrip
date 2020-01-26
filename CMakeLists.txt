@@ -15,7 +15,7 @@ include(KDECMakeSettings)
 include(KDEClangFormat)
 
 find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml Quick)
-find_package(KF5 REQUIRED COMPONENTS CoreAddons I18n ItemModels Config)
+find_package(KF5 REQUIRED COMPONENTS CoreAddons I18n ItemModels Config Contacts)
 
 if (ANDROID)
     # runtime dependencies are build-time dependencies on Android

@@ -3,6 +3,7 @@ set(ktrip_SRCS
     querycontroller.cpp
     locationcache.cpp
     formatter.cpp
+    localizer.cpp
     resources.qrc
 )
 
@@ -13,7 +14,7 @@ if (ANDROID)
 endif()
 
 add_executable(ktrip ${ktrip_SRCS})
-target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::CoreAddons KF5::I18n KF5::ConfigGui KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::CoreAddons KF5::I18n KF5::ConfigGui KF5::Contacts KPublicTransport)
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE

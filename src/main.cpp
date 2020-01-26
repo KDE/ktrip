@@ -23,6 +23,7 @@
 #include "locationcache.h"
 #include "querycontroller.h"
 #include "ktripsettings.h"
+#include "localizer.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -106,6 +107,10 @@ int main(int argc, char *argv[])
 #else
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
+
+    qmlRegisterSingletonType("org.kde.ktrip", 1, 0, "Localizer", [](QQmlEngine*, QJSEngine *engine) -> QJSValue {
+        return engine->toScriptValue(Localizer());
+    });
 
     engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
