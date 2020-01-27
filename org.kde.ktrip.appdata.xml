@@ -59,7 +59,7 @@
     <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями.</p>
     <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to query journeys between specified locations.xx</p>
   </description>
-    <screenshots>
+  <screenshots>
     <screenshot type="default">
       <caption>Journey view</caption>
       <image width="945" height="879" type="source">https://cdn.kde.org/screenshots/ktrip/ktrip.png</image>
