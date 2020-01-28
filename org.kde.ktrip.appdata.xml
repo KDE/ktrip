@@ -62,6 +62,14 @@
   <screenshots>
     <screenshot type="default">
       <caption>Journey view</caption>
+      <caption xml:lang="ca">Vista del viatge</caption>
+      <caption xml:lang="es">Vista de viaje</caption>
+      <caption xml:lang="et">Teekonnavaade</caption>
+      <caption xml:lang="nl">Weergave van reis</caption>
+      <caption xml:lang="pt">Área da viagem</caption>
+      <caption xml:lang="sv">Resevisning</caption>
+      <caption xml:lang="uk">Перегляд подорожі</caption>
+      <caption xml:lang="x-test">xxJourney viewxx</caption>
       <image width="945" height="879" type="source">https://cdn.kde.org/screenshots/ktrip/ktrip.png</image>
     </screenshot>
   </screenshots>
