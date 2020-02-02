@@ -5,7 +5,7 @@
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
   <kcfgfile name="ktriprc" />
   <group name="General">
-    <entry name="firstRun" type="bool">
+    <entry name="firstRun" type="Bool">
       <label>First run</label>
       <default>true</default>
     </entry>
