@@ -5,6 +5,7 @@
   <project_license>GPL-2.0+</project_license>
   <name>KTrip</name>
   <name xml:lang="ca">KTrip</name>
+  <name xml:lang="ca-valencia">KTrip</name>
   <name xml:lang="cs">KTrip</name>
   <name xml:lang="en-GB">KTrip</name>
   <name xml:lang="es">KTrip</name>
@@ -24,6 +25,7 @@
   <name xml:lang="zh-TW">KTrip</name>
   <summary>KTrip</summary>
   <summary xml:lang="ca">KTrip</summary>
+  <summary xml:lang="ca-valencia">KTrip</summary>
   <summary xml:lang="cs">KTrip</summary>
   <summary xml:lang="en-GB">KTrip</summary>
   <summary xml:lang="es">KTrip</summary>
@@ -44,6 +46,7 @@
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre ubicacions especificades.</p>
+    <p xml:lang="ca-valencia">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre ubicacions especificades.</p>
     <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
     <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite planear sus viajes entre las localizaciones especificadas.</p>
     <p xml:lang="et">KTrip abistab ühistranspordi kasutamisel. See võimaldab paika panna reise määratud asukohtade vahel.</p>
@@ -63,6 +66,7 @@
     <screenshot type="default">
       <caption>Journey view</caption>
       <caption xml:lang="ca">Vista del viatge</caption>
+      <caption xml:lang="ca-valencia">Vista del viatge</caption>
       <caption xml:lang="es">Vista de viaje</caption>
       <caption xml:lang="et">Teekonnavaade</caption>
       <caption xml:lang="it">Vista del viaggio</caption>
