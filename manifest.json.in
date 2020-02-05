@@ -1,0 +1,15 @@
+{
+    "name": "ktrip.nicofee",
+    "description": "Public Transport Assistant",
+    "architecture": "@CLICK_ARCH@",
+    "title": "KTrip",
+    "hooks": {
+        "ktrip": {
+            "apparmor": "ktrip.apparmor",
+            "desktop":  "org.kde.ktrip.desktop"
+        }
+    },
+    "version": "0.99",
+    "maintainer": "Nicolas Fella <nicolas.fella@gmx.de>",
+    "framework" : "ubuntu-sdk-16.04"
+}

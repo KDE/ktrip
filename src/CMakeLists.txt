@@ -42,4 +42,4 @@ endif()
 install(FILES ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
-install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${CMAKE_INSTALL_PREFIX})

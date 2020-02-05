@@ -42,6 +42,14 @@ add_subdirectory(src)
 
 install(FILES org.kde.ktrip.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
+execute_process(
+    COMMAND dpkg-architecture -qDEB_HOST_ARCH
+    OUTPUT_VARIABLE CLICK_ARCH
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+)
+configure_file(manifest.json.in ${CMAKE_CURRENT_BINARY_DIR}/manifest.json)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/manifest.json DESTINATION ${CMAKE_INSTALL_PREFIX})
+
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 # add clang-format target for all our real source files
