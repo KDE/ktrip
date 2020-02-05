@@ -331,11 +331,11 @@
             "x11proto-xf86vidmode-dev",
             "x11proto-xinerama-dev"
         ],
-       "build": "cd ${SRC_DIR} && ./configure -v -prefix ${ROOT}/prefix -opensource -confirm-license -nomake examples -nomake tests -opengl es2 -xplatform linux-arm-gnueabi-g++ -prefix '/usr' -device-option CROSS_COMPILE=arm-linux-gnueabihf- && make -j8 && make install",
+       "build": "cd ${SRC_DIR} && ./configure -v -prefix ${ROOT}/prefix -opensource -confirm-license -nomake examples -nomake tests -opengl es2 -xplatform linux-arm-gnueabi-g++ -prefix 'prefix' -device-option CROSS_COMPILE=arm-linux-gnueabihf- && make -j8 && make install",
 
        "build_args": [
        ],
-       "prebuild": "git clone git://code.qt.io/qt/qtbase.git --branch 5.12.6 libs/qtbase && cp qmake.conf libs/qtbase/mkspecs/linux-arm-gnueabi-g++/qmake.conf"
+       "prebuild": "git clone git://code.qt.io/qt/qtbase.git --branch 5.12.6 libs/qtbase || true && cp qmake.conf libs/qtbase/mkspecs/linux-arm-gnueabi-g++/qmake.conf"
     },
     "qtdeclarative": {
         "template": "qmake",
