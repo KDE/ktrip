@@ -335,7 +335,7 @@
 
        "build_args": [
        ],
-       "prebuild": "git clone git://code.qt.io/qt/qtbase.git --branch 5.12.6 libs/qtbase || true"
+       "prebuild": "git clone git://code.qt.io/qt/qtbase.git --branch 5.12.6 libs/qtbase && cp qmake.conf libs/qtbase/mkspecs/linux-arm-gnueabi-g++/qmake.conf"
     },
     "qtdeclarative": {
         "template": "qmake",
