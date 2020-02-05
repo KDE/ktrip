@@ -448,7 +448,7 @@
             "xz-utils",
             "zlib1g-dev"
         ],
-       "build": "find /usr/lib/ -name libGLESv2.so && cd ${SRC_DIR} && echo $(pwd) && ./configure -v -prefix ${ROOT}/prefix -opensource -confirm-license && make -j8 && make install",
+       "build": "find /usr/lib/ -name libGLESv2.so && cd ${SRC_DIR} && echo $(pwd) && ./configure -v -prefix ${ROOT}/prefix -opensource -confirm-license -nomake examples -nomake tests -opengl es2 && make -j8 && make install",
 
        "build_args": [
        ],
