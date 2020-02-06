@@ -13,6 +13,7 @@ include(FeatureSummary)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEClangFormat)
+include(ECMQMLModules)
 
 find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml Quick)
 find_package(KF5 REQUIRED COMPONENTS CoreAddons I18n ItemModels Config Contacts)
@@ -32,6 +33,8 @@ endif()
 
 find_package(KPublicTransport)
 set_package_properties(KPublicTransport PROPERTIES TYPE REQUIRED PURPOSE "Query online journey information")
+
+ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
