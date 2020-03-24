@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="org.kde.ktrip"
-          android:versionName="0.0.1"
-          android:versionCode="1"
+          android:versionName="0.99.3"
+          android:versionCode="2"
           android:installLocation="auto">
     <application android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="KTrip" android:icon="@drawable/ktrip">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
