@@ -32,7 +32,7 @@ QueryController::QueryController(QObject *parent)
     , m_destination()
 {
     m_departureDate = QDate::currentDate().toString(Qt::ISODate);
-    m_departureTime = QTime::currentTime().toString(Qt::SystemLocaleShortDate);
+    m_departureTime = QLocale::system().toString(QTime::currentTime(), QLocale::ShortFormat);
 }
 
 void QueryController::setStart(const KPublicTransport::Location start)
