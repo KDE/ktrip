@@ -76,15 +76,14 @@ int main(int argc, char *argv[])
 
     KPublicTransport::Manager manager;
     manager.setAllowInsecureBackends(true);
+    manager.setBackendsEnabledByDefault(false);
     engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
 
     KTripSettings settings;
-    manager.setDisabledBackends(settings.disabledBackends());
     manager.setEnabledBackends(settings.enabledBackends());
 
     QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, &settings, [&settings, &manager]{
         settings.setEnabledBackends(manager.enabledBackends());
-        settings.setDisabledBackends(manager.disabledBackends());
         settings.save();
     });
 
