@@ -24,7 +24,7 @@ import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0
 
-Kirigami.Page
+Kirigami.ScrollablePage
 {
     id: root
     title: i18nc("@title", "Details")
@@ -32,11 +32,6 @@ Kirigami.Page
     property var journey
 
     Kirigami.CardsListView {
-
-        id: clv
-
-        anchors.fill: parent
-
         model: root.journey.sections
 
         delegate: Loader {

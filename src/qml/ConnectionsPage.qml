@@ -24,7 +24,7 @@ import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
 
-Kirigami.Page
+Kirigami.ScrollablePage
 {
     title: i18nc("@title", "Connections")
 
@@ -37,8 +37,6 @@ Kirigami.Page
     ListView {
 
         id: connectionList
-
-        anchors.fill: parent
 
         model: KPT.JourneyQueryModel {
             id: theModel
@@ -102,17 +100,17 @@ Kirigami.Page
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()
         }
-    }
 
-    Label {
-        text: i18n("No connections found")
-        anchors.centerIn: parent
-        visible: connectionList.count === 0 && !theModel.loading
-    }
+        Label {
+            text: i18n("No connections found")
+            anchors.centerIn: parent
+            visible: connectionList.count === 0 && !theModel.loading
+        }
 
-    BusyIndicator {
-        running: theModel.loading
-        anchors.centerIn: parent
+        BusyIndicator {
+            running: theModel.loading
+            anchors.centerIn: parent
+        }
     }
 }
 
