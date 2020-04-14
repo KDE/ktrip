@@ -106,13 +106,11 @@ Kirigami.ScrollablePage
                     width: parent.width
                     Label {
                         text: theData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
-                        anchors.top: parent.top
                     }
 
                     Label {
                         text: theData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
                         visible: theData.departureDelay > 0
-                        anchors.top: parent.top
                         color: "red"
                     }
 
@@ -131,13 +129,11 @@ Kirigami.ScrollablePage
                     width: parent.width
                     Label {
                         text: theData.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat)
-                        anchors.top: parent.top
                     }
 
                     Label {
                         text: theData.expectedArrivalTime.toLocaleTimeString(Locale.ShortFormat)
                         visible: theData.arrivalDelay > 0
-                        anchors.top: parent.top
                         color: "red"
                     }
 
