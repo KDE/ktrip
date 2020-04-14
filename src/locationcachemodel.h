@@ -22,26 +22,22 @@
 
 #include <QFile>
 #include <QJsonArray>
-#include <QObject>
+#include <QAbstractListModel>
 
 #include <KPublicTransport/Location>
 
-class LocationCache : public QObject
+class LocationCacheModel : public QAbstractListModel
 {
     Q_OBJECT
-    Q_PROPERTY(QVariantList cachedLocations READ cachedLocations WRITE setCachedLocations NOTIFY cachedLocationsChanged)
 
 public:
-    explicit LocationCache(QObject *parent = nullptr);
+    explicit LocationCacheModel(QObject *parent = nullptr);
 
-    QVariantList cachedLocations() const;
-    void setCachedLocations(const QVariantList &locations);
+    QVariant data(const QModelIndex &index, int role) const override;
+    int rowCount(const QModelIndex &parent) const override;
+    QHash<int, QByteArray> roleNames() const override;
 
     Q_INVOKABLE void addCachedLocation(const KPublicTransport::Location location);
-
-Q_SIGNALS:
-    void cachedLocationsChanged();
-
 private:
     void loadLocationsFromCache();
 

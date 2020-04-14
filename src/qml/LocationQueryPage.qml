@@ -18,19 +18,21 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.2
+import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.8 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
+import org.kde.ktrip 1.0
 
-Kirigami.Page
+Kirigami.ScrollablePage
 {
     property bool showCached: true
     property var callback
 
     header: Kirigami.SearchField {
         id: queryTextField
+        width: parent.width
         onAccepted: {
             queryModel.request = _queryController.createLocationRequest(text)
             showCached = false
@@ -38,53 +40,38 @@ Kirigami.Page
     }
 
     ListView {
-        anchors.fill: parent
-        visible: showCached
-        model: _locationCache.cachedLocations
-
-        delegate: Kirigami.BasicListItem {
-            text: modelData.name
-            highlighted: false
-            reserveSpaceForIcon: false
-            onClicked: {
-                _locationCache.addCachedLocation(modelData)
-                callback(modelData)
-                pageStack.pop()
-            }
-        }
-    }
-
-    KPT.LocationQueryModel {
-        id: queryModel
-        manager: _manager
-    }
-
-    ListView {
-        anchors.fill: parent
-        visible: !showCached
-        model: queryModel
-        id: locationList
+        id: locationView
+        model: showCached ? cacheModel : queryModel
 
         delegate: Kirigami.BasicListItem {
             text: location.name
+            highlighted: false
             reserveSpaceForIcon: false
             onClicked: {
-                _locationCache.addCachedLocation(location)
+                cacheModel.addCachedLocation(location)
                 callback(location)
                 pageStack.pop()
             }
         }
-    }
 
-    Label {
-        text: i18n("No locations found")
-        visible: locationList.count === 0 && locationList.visible && !queryModel.loading
-        anchors.centerIn: parent
-    }
+        Label {
+            text: i18n("No locations found")
+            visible: locationView.count === 0 && !queryModel.loading
+            anchors.centerIn: parent
+        }
 
-    BusyIndicator {
-        running: queryModel.loading
-        anchors.centerIn: parent
+        BusyIndicator {
+            running: queryModel.loading
+            anchors.centerIn: parent
+        }
+
+        KPT.LocationQueryModel {
+            id: queryModel
+            manager: _manager
+        }
+
+        LocationCacheModel {
+            id: cacheModel
+        }
     }
 }
-

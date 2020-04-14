@@ -20,7 +20,7 @@
 
 #include "androidutils.h"
 #include "formatter.h"
-#include "locationcache.h"
+#include "locationcachemodel.h"
 #include "querycontroller.h"
 #include "ktripsettings.h"
 #include "localizer.h"
@@ -68,11 +68,10 @@ int main(int argc, char *argv[])
 
     qRegisterMetaType<KPublicTransport::LocationRequest>();
 
+    qmlRegisterType<LocationCacheModel>("org.kde.ktrip", 1, 0, "LocationCacheModel");
+
     QueryController queryController;
     engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);
-
-    LocationCache locationCache;
-    engine.rootContext()->setContextProperty(QStringLiteral("_locationCache"), &locationCache);
 
     KPublicTransport::Manager manager;
     manager.setAllowInsecureBackends(true);

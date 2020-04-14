@@ -18,7 +18,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#include "locationcache.h"
+#include "locationcachemodel.h"
 
 #include <QDateTime>
 #include <QDebug>
@@ -26,8 +26,8 @@
 #include <QJsonObject>
 #include <QStandardPaths>
 
-LocationCache::LocationCache(QObject *parent)
-    : QObject(parent)
+LocationCacheModel::LocationCacheModel(QObject *parent)
+    : QAbstractListModel(parent)
     , m_locationCacheFile(QStandardPaths::writableLocation(QStandardPaths::CacheLocation) + QStringLiteral("/locations.cache"))
     , m_cachedLocationsJson()
 {
@@ -38,20 +38,7 @@ LocationCache::LocationCache(QObject *parent)
     loadLocationsFromCache();
 }
 
-QVariantList LocationCache::cachedLocations() const
-{
-    return m_cachedLocations;
-}
-
-void LocationCache::setCachedLocations(const QVariantList &locations)
-{
-    if (locations != m_cachedLocations) {
-        m_cachedLocations = locations;
-        Q_EMIT cachedLocationsChanged();
-    }
-}
-
-void LocationCache::addCachedLocation(const KPublicTransport::Location location)
+void LocationCacheModel::addCachedLocation(const KPublicTransport::Location location)
 {
     if (m_cachedLocations.contains(QVariant::fromValue(location))) {
         return;
@@ -71,11 +58,36 @@ void LocationCache::addCachedLocation(const KPublicTransport::Location location)
     m_locationCacheFile.flush();
 }
 
-void LocationCache::loadLocationsFromCache()
+void LocationCacheModel::loadLocationsFromCache()
 {
     m_cachedLocationsJson = QJsonDocument::fromJson(m_locationCacheFile.readAll()).object()[QStringLiteral("locations")].toArray();
 
     for (const QJsonValue &val : qAsConst(m_cachedLocationsJson)) {
         m_cachedLocations.append(QVariant::fromValue(KPublicTransport::Location::fromJson(val.toObject())));
     }
+}
+
+QVariant LocationCacheModel::data(const QModelIndex& index, int role) const
+{
+    Q_ASSERT(index.row() >= 0);
+    Q_ASSERT(index.row() <= m_cachedLocations.count());
+
+    if (role == Qt::UserRole + 1) {
+        return m_cachedLocations[index.row()];
+    }
+
+    return QStringLiteral("deadbeef");
+}
+
+int LocationCacheModel::rowCount(const QModelIndex& parent) const
+{
+    Q_UNUSED(parent);
+    return m_cachedLocations.count();
+}
+
+QHash<int, QByteArray> LocationCacheModel::roleNames() const
+{
+    QHash<int, QByteArray> roles;
+    roles.insert((Qt::UserRole + 1), "location");
+    return roles;
 }
