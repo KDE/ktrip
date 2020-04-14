@@ -44,11 +44,11 @@ Kirigami.ScrollablePage
             manager: _manager
         }
 
-        header: Button {
-            text: i18nc("@action:button", "Earlier")
+        header: ToolButton {
             width: parent.width
             visible: theModel.canQueryPrevious
             onClicked: theModel.queryPrevious()
+            icon.name: "arrow-up"
         }
 
         delegate: Kirigami.AbstractListItem {
@@ -94,11 +94,11 @@ Kirigami.ScrollablePage
             }
         }
 
-        footer: Button {
-            text: i18nc("@action:button", "Later")
+        footer: ToolButton {
             width: parent.width
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()
+            icon.name: "arrow-down"
         }
 
         Label {
