@@ -55,15 +55,7 @@ Kirigami.ScrollablePage
 
             highlighted: false
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
-            readonly property bool cancelled: {
-                var disrupt = false
-                journey.sections.forEach(sec => {
-                    if (sec.disruptionEffect == KPT.Disruption.NoService) {
-                        disrupt = true
-                    }
-                })
-                return disrupt
-            }
+            readonly property bool cancelled: journey.sections.some(sec => sec.disruptionEffect == KPT.Disruption.NoService)
 
             RowLayout {
                 Label {
