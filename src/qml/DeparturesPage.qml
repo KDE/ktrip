@@ -24,7 +24,7 @@ import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
 
-Kirigami.Page
+Kirigami.ScrollablePage
 {
     title: i18nc("@title", "Departures")
 
@@ -35,8 +35,6 @@ Kirigami.Page
     }
 
     ListView {
-
-        anchors.fill: parent
 
         model: KPT.DepartureQueryModel {
             id: theModel
@@ -56,17 +54,17 @@ Kirigami.Page
             }
         }
 
-        footer: Button {
-            text: i18nc("@action:button", "Later")
+        footer: ToolButton {
             width: parent.width
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()
+            icon.name: "arrow-down"
         }
-    }
 
-    BusyIndicator {
-        running: theModel.loading
-        anchors.centerIn: parent
+        BusyIndicator {
+            running: theModel.loading
+            anchors.centerIn: parent
+        }
     }
 }
 
