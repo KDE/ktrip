@@ -91,4 +91,7 @@
   <categories>
     <category>Utility</category>
   </categories>
+  <custom>
+    <value key="KDE::f_droid">https://f-droid.org/packages/org.kde.ktrip//</value>
+  </custom>
 </component>
