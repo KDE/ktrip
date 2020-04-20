@@ -27,17 +27,23 @@ Kirigami.Page
 {
     id: rootPage
 
-    title: i18nc("@title", "Query Departures")
+    title: departures ? i18nc("@title", "Query Departures") : i18nc("@title", "Start Journey")
+
+    property bool departures: false
 
     actions.main: Kirigami.Action {
         icon.name: "search"
         text: i18nc("@action", "Search")
-        enabled: _queryController.start.name != ""
-        onTriggered: pageStack.push(Qt.resolvedUrl("DeparturesPage.qml"))
+        enabled: _queryController.start.name != "" && (_queryController.destination.name != "" || departures)
+        onTriggered: pageStack.push(departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
     }
 
     function startPicked(data) {
         _queryController.start = data
+    }
+
+    function destinationPicked(data) {
+        _queryController.destination = data
     }
 
     ColumnLayout {
@@ -54,11 +60,22 @@ Kirigami.Page
         }
 
         Label {
+            text: i18n("To:")
+            visible: !departures
+        }
+        Button {
+            Layout.fillWidth: true
+            visible: !departures
+            text: _queryController.destination.name ? _queryController.destination.name : i18nc("@action:button", "Pick Destination")
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Destination Location"), callback: destinationPicked})
+        }
+
+        Label {
             text: i18n("Departure date:")
         }
 
         DatePickerButton {
-            text: _queryController.departureDate
+            text: Qt.formatDate(_queryController.departureDate, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
             onDatePicked: {
                 if (theDate != "") {
@@ -72,7 +89,7 @@ Kirigami.Page
         }
 
         TimePickerButton {
-            text: _queryController.departureTime
+            text: Qt.formatTime(_queryController.departureTime, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
             onTimePicked: {
                 if (theTime != "") {
@@ -82,6 +99,5 @@ Kirigami.Page
         }
     }
 }
-
 
 

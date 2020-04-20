@@ -28,7 +28,7 @@ Kirigami.ApplicationWindow
     width: 480
     height: 720
 
-    pageStack.initialPage: Qt.resolvedUrl("JourneyQueryPage.qml")
+    pageStack.initialPage: Qt.resolvedUrl("QueryPage.qml")
 
     Component.onCompleted: {
         if (_settings.firstRun) {
@@ -43,11 +43,17 @@ Kirigami.ApplicationWindow
         actions: [
             Kirigami.Action {
                 text: i18n("Journey")
-                onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("JourneyQueryPage.qml")
+                onTriggered: {
+                    window.pageStack.clear()
+                    window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {departures: false})
+                }
             },
             Kirigami.Action {
                 text: i18n("Departures")
-                onTriggered: window.pageStack.initialPage = Qt.resolvedUrl("DepartureQueryPage.qml")
+                onTriggered: {
+                    window.pageStack.clear()
+                    window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {departures: true})
+                }
             },
             Kirigami.Action {
                 separator: true
