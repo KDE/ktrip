@@ -35,6 +35,7 @@ find_package(KPublicTransport)
 set_package_properties(KPublicTransport PROPERTIES TYPE REQUIRED PURPOSE "Query online journey information")
 
 ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
+ecm_find_qmlmodule(org.kde.kirigamiaddons.dateandtime 0.1)
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)

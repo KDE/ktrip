@@ -23,6 +23,8 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
 
+import org.kde.kirigamiaddons.dateandtime 0.1 as KDT
+
 Button {
 
     signal timePicked(string theTime)
@@ -44,9 +46,11 @@ Button {
 
     Dialog {
         id: dialog
-        anchors.centerIn: parent
-        contentItem: TimePicker {
+        anchors.centerIn: Overlay.overlay
+        contentItem: KDT.TimePicker {
             id: picker
+            implicitWidth: 300
+            implicitHeight: 300
         }
 
         footer: RowLayout {
