@@ -85,7 +85,7 @@ Kirigami.Page
         }
 
         TimePickerButton {
-            text: _queryController.departureTime
+            text: Qt.formatTime(_queryController.departureTime, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
             onTimePicked: {
                 if (theTime != "") {

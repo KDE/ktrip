@@ -23,6 +23,7 @@
 #include <QObject>
 #include <QVariant>
 #include <QDate>
+#include <QTime>
 
 #include <KPublicTransport/DepartureRequest>
 #include <KPublicTransport/JourneyRequest>
@@ -35,7 +36,7 @@ class QueryController : public QObject
     Q_PROPERTY(KPublicTransport::Location start READ start WRITE setStart NOTIFY startChanged)
     Q_PROPERTY(KPublicTransport::Location destination READ destination WRITE setDestination NOTIFY destinationChanged)
     Q_PROPERTY(QDate departureDate READ departureDate WRITE setDepartureDate NOTIFY departureDateChanged)
-    Q_PROPERTY(QString departureTime READ departureTime WRITE setDepartureTime NOTIFY departureTimeChanged)
+    Q_PROPERTY(QTime departureTime READ departureTime WRITE setDepartureTime NOTIFY departureTimeChanged)
 
 public:
     explicit QueryController(QObject *parent = nullptr);
@@ -49,8 +50,8 @@ public:
     QDate departureDate() const;
     void setDepartureDate(const QDate &date);
 
-    QString departureTime() const;
-    void setDepartureTime(const QString &time);
+    QTime departureTime() const;
+    void setDepartureTime(const QTime &time);
 
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
     Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString name);
@@ -66,5 +67,5 @@ private:
     KPublicTransport::Location m_start;
     KPublicTransport::Location m_destination;
     QDate m_departureDate;
-    QString m_departureTime;
+    QTime m_departureTime;
 };

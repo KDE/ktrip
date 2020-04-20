@@ -32,7 +32,7 @@ QueryController::QueryController(QObject *parent)
     , m_destination()
 {
     m_departureDate = QDate::currentDate();
-    m_departureTime = QLocale::system().toString(QTime::currentTime(), QLocale::ShortFormat);
+    m_departureTime = QTime::currentTime();
 }
 
 void QueryController::setStart(const KPublicTransport::Location start)
@@ -63,7 +63,7 @@ KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
     req.setFrom(m_start);
     req.setTo(m_destination);
 
-    QDateTime depTime(m_departureDate);
+    QDateTime depTime(m_departureDate, m_departureTime);
     req.setDepartureTime(depTime);
 
     return req;
@@ -82,12 +82,12 @@ void QueryController::setDepartureDate(const QDate &date)
     }
 }
 
-QString QueryController::departureTime() const
+QTime QueryController::departureTime() const
 {
     return m_departureTime;
 }
 
-void QueryController::setDepartureTime(const QString &time)
+void QueryController::setDepartureTime(const QTime &time)
 {
     if (m_departureTime != time) {
         m_departureTime = time;
@@ -107,7 +107,7 @@ KPublicTransport::DepartureRequest QueryController::createDepartureRequest()
 {
     KPublicTransport::DepartureRequest req;
     req.setStop(m_start);
-    QDateTime depTime(m_departureDate);
+    QDateTime depTime(m_departureDate, m_departureTime);
     req.setDateTime(depTime);
     return req;
 }

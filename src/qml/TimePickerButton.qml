@@ -27,7 +27,7 @@ import org.kde.kirigamiaddons.dateandtime 0.1 as KDT
 
 Button {
 
-    signal timePicked(string theTime)
+    signal timePicked(date theTime)
 
     onClicked: {
         if (_isAndroid) {
@@ -72,11 +72,10 @@ Button {
             if (picker.pm && hours != 12) {
                 hours += 12
             }
-
-            var hoursString = hours < 10 ? "0" + hours : hours
-            var minutesString = picker.minutes < 10 ? "0" + picker.minutes : picker.minutes
-
-            timePicked(hoursString + ":" + minutesString)
+            var d = new Date()
+            d.setHours(hours)
+            d.setMinutes(picker.minutes)
+            timePicked(d)
         }
     }
 }
