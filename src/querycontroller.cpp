@@ -31,7 +31,7 @@ QueryController::QueryController(QObject *parent)
     , m_start()
     , m_destination()
 {
-    m_departureDate = QDate::currentDate().toString(Qt::ISODate);
+    m_departureDate = QDate::currentDate();
     m_departureTime = QLocale::system().toString(QTime::currentTime(), QLocale::ShortFormat);
 }
 
@@ -63,19 +63,18 @@ KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
     req.setFrom(m_start);
     req.setTo(m_destination);
 
-    QDateTime depTime = QDateTime::fromString(m_departureDate + QStringLiteral("T") + m_departureTime, Qt::ISODate);
+    QDateTime depTime(m_departureDate);
     req.setDepartureTime(depTime);
-    qDebug() << depTime << m_departureDate + QStringLiteral("T") + m_departureTime;
 
     return req;
 }
 
-QString QueryController::departureDate() const
+QDate QueryController::departureDate() const
 {
     return m_departureDate;
 }
 
-void QueryController::setDepartureDate(const QString &date)
+void QueryController::setDepartureDate(const QDate &date)
 {
     if (m_departureDate != date) {
         m_departureDate = date;
@@ -108,7 +107,7 @@ KPublicTransport::DepartureRequest QueryController::createDepartureRequest()
 {
     KPublicTransport::DepartureRequest req;
     req.setStop(m_start);
-    QDateTime depTime = QDateTime::fromString(m_departureDate + QStringLiteral("T") + m_departureTime, Qt::ISODate);
+    QDateTime depTime(m_departureDate);
     req.setDateTime(depTime);
     return req;
 }

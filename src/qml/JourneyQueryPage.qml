@@ -71,7 +71,7 @@ Kirigami.Page
         }
 
         DatePickerButton {
-            text: _queryController.departureDate
+            text: Qt.formatDate(_queryController.departureDate, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
             onDatePicked: {
                 if (theDate != "") {

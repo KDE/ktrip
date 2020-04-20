@@ -10,7 +10,6 @@
         <file>qml/TimePickerButton.qml</file>
         <file>qml/DepartureQueryPage.qml</file>
         <file>qml/DeparturesPage.qml</file>
-        <file>qml/DateInput.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>ktrip.svg</file>
     </qresource>

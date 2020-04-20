@@ -23,9 +23,11 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
 
+import org.kde.kirigamiaddons.dateandtime 0.1 as KDT
+
 Button {
 
-    signal datePicked(string theDate)
+    signal datePicked(date theDate)
 
     onClicked: {
         if (_isAndroid) {
@@ -44,9 +46,9 @@ Button {
 
     Dialog {
         id: dialog
-        anchors.centerIn: parent
+        anchors.centerIn: Overlay.overlay
         height: Kirigami.Units.gridUnit * 6
-        contentItem: DateInput {
+        contentItem: KDT.DateInput {
             id: picker
         }
 
@@ -63,8 +65,6 @@ Button {
             }
         }
 
-        onAccepted: {
-            datePicked(Qt.formatDate(picker.value, Qt.ISODate))
-        }
+        onAccepted: datePicked(picker.selectedDate)
     }
 }
