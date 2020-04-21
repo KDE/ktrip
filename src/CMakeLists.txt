@@ -1,6 +1,6 @@
 set(ktrip_SRCS
     main.cpp
-    querycontroller.cpp
+    controller.cpp
     locationcachemodel.cpp
     formatter.cpp
     localizer.cpp

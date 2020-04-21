@@ -30,7 +30,7 @@
 #include <KPublicTransport/Location>
 #include <KPublicTransport/LocationRequest>
 
-class QueryController : public QObject
+class Controller : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(KPublicTransport::Location start READ start WRITE setStart NOTIFY startChanged)
@@ -39,7 +39,7 @@ class QueryController : public QObject
     Q_PROPERTY(QTime departureTime READ departureTime WRITE setDepartureTime NOTIFY departureTimeChanged)
 
 public:
-    explicit QueryController(QObject *parent = nullptr);
+    explicit Controller(QObject *parent = nullptr);
 
     KPublicTransport::Location start() const;
     void setStart(const KPublicTransport::Location start);

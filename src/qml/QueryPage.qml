@@ -34,16 +34,16 @@ Kirigami.Page
     actions.main: Kirigami.Action {
         icon.name: "search"
         text: i18nc("@action", "Search")
-        enabled: _queryController.start.name != "" && (_queryController.destination.name != "" || departures)
+        enabled: _controller.start.name != "" && (_controller.destination.name != "" || departures)
         onTriggered: pageStack.push(departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
     }
 
     function startPicked(data) {
-        _queryController.start = data
+        _controller.start = data
     }
 
     function destinationPicked(data) {
-        _queryController.destination = data
+        _controller.destination = data
     }
 
     ColumnLayout {
@@ -55,7 +55,7 @@ Kirigami.Page
         }
         Button {
             Layout.fillWidth: true
-            text: _queryController.start.name ? _queryController.start.name : i18nc("@action:button", "Pick Start")
+            text: _controller.start.name ? _controller.start.name : i18nc("@action:button", "Pick Start")
             onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Start Location"), callback: startPicked})
         }
 
@@ -66,7 +66,7 @@ Kirigami.Page
         Button {
             Layout.fillWidth: true
             visible: !departures
-            text: _queryController.destination.name ? _queryController.destination.name : i18nc("@action:button", "Pick Destination")
+            text: _controller.destination.name ? _controller.destination.name : i18nc("@action:button", "Pick Destination")
             onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Destination Location"), callback: destinationPicked})
         }
 
@@ -75,11 +75,11 @@ Kirigami.Page
         }
 
         DatePickerButton {
-            text: Qt.formatDate(_queryController.departureDate, Qt.DefaultLocaleShortDate)
+            text: Qt.formatDate(_controller.departureDate, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
             onDatePicked: {
                 if (theDate != "") {
-                    _queryController.departureDate = theDate
+                    _controller.departureDate = theDate
                 }
             }
         }
@@ -89,11 +89,11 @@ Kirigami.Page
         }
 
         TimePickerButton {
-            text: Qt.formatTime(_queryController.departureTime, Qt.DefaultLocaleShortDate)
+            text: Qt.formatTime(_controller.departureTime, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
             onTimePicked: {
                 if (theTime != "") {
-                    _queryController.departureTime = theTime
+                    _controller.departureTime = theTime
                 }
             }
         }

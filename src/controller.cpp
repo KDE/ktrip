@@ -18,7 +18,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#include "querycontroller.h"
+#include "controller.h"
 
 #include <QDateTime>
 #include <QDebug>
@@ -26,7 +26,7 @@
 #include <QJsonObject>
 #include <QStandardPaths>
 
-QueryController::QueryController(QObject *parent)
+Controller::Controller(QObject *parent)
     : QObject(parent)
     , m_start()
     , m_destination()
@@ -35,29 +35,29 @@ QueryController::QueryController(QObject *parent)
     m_departureTime = QTime::currentTime();
 }
 
-void QueryController::setStart(const KPublicTransport::Location start)
+void Controller::setStart(const KPublicTransport::Location start)
 {
     m_start = start;
     Q_EMIT startChanged();
 }
 
-KPublicTransport::Location QueryController::start() const
+KPublicTransport::Location Controller::start() const
 {
     return m_start;
 }
 
-void QueryController::setDestination(const KPublicTransport::Location destination)
+void Controller::setDestination(const KPublicTransport::Location destination)
 {
     m_destination = destination;
     Q_EMIT destinationChanged();
 }
 
-KPublicTransport::Location QueryController::destination() const
+KPublicTransport::Location Controller::destination() const
 {
     return m_destination;
 }
 
-KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
+KPublicTransport::JourneyRequest Controller::createJourneyRequest()
 {
     KPublicTransport::JourneyRequest req;
     req.setFrom(m_start);
@@ -70,12 +70,12 @@ KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
     return req;
 }
 
-QDate QueryController::departureDate() const
+QDate Controller::departureDate() const
 {
     return m_departureDate;
 }
 
-void QueryController::setDepartureDate(const QDate &date)
+void Controller::setDepartureDate(const QDate &date)
 {
     if (m_departureDate != date) {
         m_departureDate = date;
@@ -83,12 +83,12 @@ void QueryController::setDepartureDate(const QDate &date)
     }
 }
 
-QTime QueryController::departureTime() const
+QTime Controller::departureTime() const
 {
     return m_departureTime;
 }
 
-void QueryController::setDepartureTime(const QTime &time)
+void Controller::setDepartureTime(const QTime &time)
 {
     if (m_departureTime != time) {
         m_departureTime = time;
@@ -96,7 +96,7 @@ void QueryController::setDepartureTime(const QTime &time)
     }
 }
 
-KPublicTransport::LocationRequest QueryController::createLocationRequest(const QString name)
+KPublicTransport::LocationRequest Controller::createLocationRequest(const QString name)
 {
     KPublicTransport::LocationRequest req;
     req.setName(name);
@@ -104,7 +104,7 @@ KPublicTransport::LocationRequest QueryController::createLocationRequest(const Q
     return req;
 }
 
-KPublicTransport::DepartureRequest QueryController::createDepartureRequest()
+KPublicTransport::DepartureRequest Controller::createDepartureRequest()
 {
     KPublicTransport::DepartureRequest req;
     req.setStop(m_start);

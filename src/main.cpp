@@ -23,7 +23,7 @@
 #include "ktripsettings.h"
 #include "localizer.h"
 #include "locationcachemodel.h"
-#include "querycontroller.h"
+#include "controller.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -70,8 +70,8 @@ int main(int argc, char *argv[])
 
     qmlRegisterType<LocationCacheModel>("org.kde.ktrip", 1, 0, "LocationCacheModel");
 
-    QueryController queryController;
-    engine.rootContext()->setContextProperty(QStringLiteral("_queryController"), &queryController);
+    Controller controller;
+    engine.rootContext()->setContextProperty(QStringLiteral("_controller"), &controller);
 
     KPublicTransport::Manager manager;
     manager.setAllowInsecureBackends(true);
