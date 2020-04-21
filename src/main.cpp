@@ -20,10 +20,10 @@
 
 #include "androidutils.h"
 #include "formatter.h"
-#include "locationcachemodel.h"
-#include "querycontroller.h"
 #include "ktripsettings.h"
 #include "localizer.h"
+#include "locationcachemodel.h"
+#include "querycontroller.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -81,13 +81,12 @@ int main(int argc, char *argv[])
     KTripSettings *settings = new KTripSettings;
     manager.setEnabledBackends(settings->enabledBackends());
 
-    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, settings, [settings, &manager]{
+    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, settings, [settings, &manager] {
         settings->setEnabledBackends(manager.enabledBackends());
         settings->save();
     });
 
-    KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"),
-                     KAboutLicense::GPL, i18n("© 2019 KDE Community"));
+    KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"), KAboutLicense::GPL, i18n("© 2019 KDE Community"));
     about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
     about.setProgramLogo(QImage(QStringLiteral(":/ktrip.svg")));
     KAboutData::setApplicationData(about);
@@ -104,11 +103,9 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
 
-    qmlRegisterSingletonType("org.kde.ktrip", 1, 0, "Localizer", [](QQmlEngine*, QJSEngine *engine) -> QJSValue {
-        return engine->toScriptValue(Localizer());
-    });
+    qmlRegisterSingletonType("org.kde.ktrip", 1, 0, "Localizer", [](QQmlEngine *, QJSEngine *engine) -> QJSValue { return engine->toScriptValue(Localizer()); });
 
-    qmlRegisterSingletonType<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", [settings](QQmlEngine*, QJSEngine *engine) -> QObject* {
+    qmlRegisterSingletonType<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", [settings](QQmlEngine *, QJSEngine *engine) -> QObject * {
         Q_UNUSED(engine);
         return settings;
     });

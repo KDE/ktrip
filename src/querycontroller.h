@@ -20,10 +20,10 @@
 
 #pragma once
 
-#include <QObject>
-#include <QVariant>
 #include <QDate>
+#include <QObject>
 #include <QTime>
+#include <QVariant>
 
 #include <KPublicTransport/DepartureRequest>
 #include <KPublicTransport/JourneyRequest>

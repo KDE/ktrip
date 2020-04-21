@@ -19,12 +19,12 @@
 
 #include <KContacts/Address>
 
-QString Localizer::countryName(const QString& isoCode) const
+QString Localizer::countryName(const QString &isoCode) const
 {
     return KContacts::Address::ISOtoCountry(isoCode);
 }
 
-QString Localizer::countryFlag(const QString& isoCode) const
+QString Localizer::countryFlag(const QString &isoCode) const
 {
     if (isoCode.size() != 2) {
         return {};

@@ -67,7 +67,7 @@ void LocationCacheModel::loadLocationsFromCache()
     }
 }
 
-QVariant LocationCacheModel::data(const QModelIndex& index, int role) const
+QVariant LocationCacheModel::data(const QModelIndex &index, int role) const
 {
     Q_ASSERT(index.row() >= 0);
     Q_ASSERT(index.row() <= m_cachedLocations.count());
@@ -79,7 +79,7 @@ QVariant LocationCacheModel::data(const QModelIndex& index, int role) const
     return QStringLiteral("deadbeef");
 }
 
-int LocationCacheModel::rowCount(const QModelIndex& parent) const
+int LocationCacheModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
     return m_cachedLocations.count();

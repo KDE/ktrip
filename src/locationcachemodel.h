@@ -20,9 +20,9 @@
 
 #pragma once
 
+#include <QAbstractListModel>
 #include <QFile>
 #include <QJsonArray>
-#include <QAbstractListModel>
 
 #include <KPublicTransport/Location>
 
@@ -38,6 +38,7 @@ public:
     QHash<int, QByteArray> roleNames() const override;
 
     Q_INVOKABLE void addCachedLocation(const KPublicTransport::Location location);
+
 private:
     void loadLocationsFromCache();
 

@@ -139,5 +139,3 @@ Kirigami.ScrollablePage
         }
     }
 }
-
-
