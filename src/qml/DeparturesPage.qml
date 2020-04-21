@@ -23,6 +23,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
+import org.kde.ktrip 1.0
 
 Kirigami.ScrollablePage
 {
@@ -38,7 +39,7 @@ Kirigami.ScrollablePage
 
         model: KPT.DepartureQueryModel {
             id: theModel
-            request: _controller.createDepartureRequest()
+            request: Controller.createDepartureRequest()
             manager: _manager
         }
 

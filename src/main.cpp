@@ -70,9 +70,6 @@ int main(int argc, char *argv[])
 
     qmlRegisterType<LocationCacheModel>("org.kde.ktrip", 1, 0, "LocationCacheModel");
 
-    Controller controller;
-    engine.rootContext()->setContextProperty(QStringLiteral("_controller"), &controller);
-
     KPublicTransport::Manager manager;
     manager.setAllowInsecureBackends(true);
     manager.setBackendsEnabledByDefault(false);
@@ -108,6 +105,11 @@ int main(int argc, char *argv[])
     qmlRegisterSingletonType<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", [settings](QQmlEngine *, QJSEngine *engine) -> QObject * {
         Q_UNUSED(engine);
         return settings;
+    });
+
+    qmlRegisterSingletonType<Controller>("org.kde.ktrip", 1, 0, "Controller", [](QQmlEngine *, QJSEngine *engine) -> QObject * {
+        Q_UNUSED(engine);
+        return new Controller;
     });
 
     engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));

@@ -34,7 +34,7 @@ Kirigami.ScrollablePage
         id: queryTextField
         width: parent.width
         onAccepted: {
-            queryModel.request = _controller.createLocationRequest(text)
+            queryModel.request = Controller.createLocationRequest(text)
             showCached = false
         }
     }

@@ -23,6 +23,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0
+import org.kde.ktrip 1.0
 
 Kirigami.ScrollablePage
 {
@@ -133,7 +134,7 @@ Kirigami.ScrollablePage
                         visible: theData.from.hasCoordinate
                         icon.name: "map-symbolic"
                         flat: true
-                        onClicked: _controller.showOnMap(theData.from)
+                        onClicked: Controller.showOnMap(theData.from)
                     }
 
                     Item {
@@ -169,7 +170,7 @@ Kirigami.ScrollablePage
                         visible: theData.to.hasCoordinate
                         icon.name: "map-symbolic"
                         flat: true
-                        onClicked: _controller.showOnMap(theData.to)
+                        onClicked: Controller.showOnMap(theData.to)
                     }
 
                     Item {
