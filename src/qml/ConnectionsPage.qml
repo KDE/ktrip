@@ -74,7 +74,7 @@ Kirigami.ScrollablePage
                     Layout.fillWidth: true
                     visible: journey.sections[journey.sections.length - 1].hasExpectedArrivalTime
                     text: i18n("+%1", journey.sections[journey.sections.length - 1].arrivalDelay)
-                    color: journey.sections[journey.sections.length - 1].arrivalDelay > 0 ? "red" : "green"
+                    color: journey.sections[journey.sections.length - 1].arrivalDelay > 0 ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.positiveTextColor
                     font.strikeout: cancelled
                 }
 

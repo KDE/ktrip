@@ -91,7 +91,7 @@ Kirigami.ScrollablePage
                         id: headerLabel
                         level: 4
                         font.strikeout: theData.disruptionEffect == Disruption.NoService
-                        color: theData.disruptionEffect == Disruption.NoService ? "red" : Kirigami.Theme.textColor
+                        color: theData.disruptionEffect == Disruption.NoService ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
                         text: theData.route.line.name
                     }
                 }
@@ -121,7 +121,7 @@ Kirigami.ScrollablePage
                     Label {
                         text: theData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
                         visible: theData.departureDelay > 0
-                        color: "red"
+                        color: Kirigami.Theme.negativeTextColor
                     }
 
                     Label {
@@ -144,7 +144,7 @@ Kirigami.ScrollablePage
                     Label {
                         text: theData.expectedArrivalTime.toLocaleTimeString(Locale.ShortFormat)
                         visible: theData.arrivalDelay > 0
-                        color: "red"
+                        color: Kirigami.Theme.negativeTextColor
                     }
 
                     Label {
