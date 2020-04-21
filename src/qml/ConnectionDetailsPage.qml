@@ -126,8 +126,18 @@ Kirigami.ScrollablePage
 
                     Label {
                         text: theData.from.name
-                        Layout.fillWidth: true
                         wrapMode: Text.Wrap
+                    }
+
+                    Button {
+                        visible: theData.from.hasCoordinate
+                        icon.name: "map-symbolic"
+                        flat: true
+                        onClicked: _controller.showOnMap(theData.from)
+                    }
+
+                    Item {
+                        Layout.fillWidth: true
                     }
 
                     Label {
@@ -148,14 +158,26 @@ Kirigami.ScrollablePage
                     }
 
                     Label {
+                        Component.onCompleted: {
+                            console.log("Geo", theData.to.latitude, theData.to.longitude)
+                        }
                         text: theData.to.name
-                        Layout.fillWidth: true
                         wrapMode: Text.Wrap
+                    }
+
+                    Button {
+                        visible: theData.to.hasCoordinate
+                        icon.name: "map-symbolic"
+                        flat: true
+                        onClicked: _controller.showOnMap(theData.to)
+                    }
+
+                    Item {
+                        Layout.fillWidth: true
                     }
 
                     Label {
                         text: theData.scheduledArrivalPlatform
-
                     }
                 }
 

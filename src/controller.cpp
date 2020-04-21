@@ -22,9 +22,11 @@
 
 #include <QDateTime>
 #include <QDebug>
+#include <QDesktopServices>
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QStandardPaths>
+#include <QUrl>
 
 Controller::Controller(QObject *parent)
     : QObject(parent)
@@ -111,4 +113,17 @@ KPublicTransport::DepartureRequest Controller::createDepartureRequest()
     QDateTime depTime(m_departureDate, m_departureTime);
     req.setDateTime(depTime);
     return req;
+}
+
+void Controller::showOnMap(KPublicTransport::Location location)
+{
+    QUrl url;
+    url.setScheme(QStringLiteral("https"));
+    url.setHost(QStringLiteral("www.openstreetmap.org"));
+    url.setPath(QStringLiteral("/"));
+    const QString fragment = QLatin1String("map=") + QString::number(17)
+                                + QLatin1Char('/') + QString::number(location.latitude())
+                                + QLatin1Char('/') + QString::number(location.longitude());
+    url.setFragment(fragment);
+    QDesktopServices::openUrl(url);
 }
