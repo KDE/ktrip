@@ -159,9 +159,6 @@ Kirigami.ScrollablePage
                     }
 
                     Label {
-                        Component.onCompleted: {
-                            console.log("Geo", theData.to.latitude, theData.to.longitude)
-                        }
                         text: theData.to.name
                         wrapMode: Text.Wrap
                     }
