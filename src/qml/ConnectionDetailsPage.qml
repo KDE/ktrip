@@ -78,12 +78,22 @@ Kirigami.ScrollablePage
             id: cardDelegate
 
             header: Column {
-                Kirigami.Heading {
-                    id: headerLabel
-                    level: 4
-                    font.strikeout: theData.disruptionEffect == Disruption.NoService
-                    color: theData.disruptionEffect == Disruption.NoService ? "red" : Kirigami.Theme.textColor
-                    text: theData.route.line.name
+
+                RowLayout {
+                    Kirigami.Icon {
+                        visible: theData.route.line.hasLogo
+                        source: theData.route.line.logo
+                        Layout.fillHeight: true
+                        Layout.preferredWidth: height
+                    }
+
+                    Kirigami.Heading {
+                        id: headerLabel
+                        level: 4
+                        font.strikeout: theData.disruptionEffect == Disruption.NoService
+                        color: theData.disruptionEffect == Disruption.NoService ? "red" : Kirigami.Theme.textColor
+                        text: theData.route.line.name
+                    }
                 }
 
                 Item {

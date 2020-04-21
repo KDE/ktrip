@@ -62,6 +62,7 @@ KPublicTransport::JourneyRequest QueryController::createJourneyRequest()
     KPublicTransport::JourneyRequest req;
     req.setFrom(m_start);
     req.setTo(m_destination);
+    req.setDownloadAssets(true);
 
     QDateTime depTime(m_departureDate, m_departureTime);
     req.setDepartureTime(depTime);
