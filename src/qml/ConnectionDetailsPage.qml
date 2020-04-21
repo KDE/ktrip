@@ -74,10 +74,30 @@ Kirigami.ScrollablePage
     Component {
         id: cardComponent
 
-        Kirigami.Card {
+        Kirigami.AbstractCard {
             id: cardDelegate
 
-            banner.title: theData.route.line.name
+            header: Rectangle {
+                id: headerBackground
+                Kirigami.Theme.colorSet: Kirigami.Theme.Complementary
+                Kirigami.Theme.inherit: false
+                color: Kirigami.Theme.backgroundColor
+                implicitHeight: headerLabel.implicitHeight + Kirigami.Units.largeSpacing * 2
+                anchors.leftMargin: -cardDelegate.leftPadding
+                anchors.topMargin: -cardDelegate.topPadding
+                anchors.rightMargin: -cardDelegate.rightPadding
+
+                Label {
+                    id: headerLabel
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: parent.left
+                    anchors.leftMargin: Kirigami.Units.largeSpacing
+                    font.pointSize: Kirigami.Theme.defaultFont.pointSize * cardDelegate.headerFontScale
+                    font.strikeout: theData.disruptionEffect == Disruption.NoService
+                    color: theData.disruptionEffect == Disruption.NoService ? "red" : Kirigami.Theme.textColor
+                    text: theData.route.line.name
+                }
+            }
 
             contentItem: Column {
                 id: topLayout
