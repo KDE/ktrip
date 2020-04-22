@@ -52,18 +52,7 @@ Button {
             id: picker
         }
 
-        footer: RowLayout {
-            Button {
-                text: i18nc("@action:button", "Cancel")
-                Layout.fillWidth: true
-                onClicked: dialog.reject()
-            }
-            Button {
-                text: i18nc("@action:button", "Accept")
-                Layout.fillWidth: true
-                onClicked: dialog.accept()
-            }
-        }
+        standardButtons: Dialog.Ok | Dialog.Cancel
 
         onAccepted: datePicked(picker.selectedDate)
     }

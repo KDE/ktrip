@@ -53,18 +53,7 @@ Button {
             implicitHeight: 300
         }
 
-        footer: RowLayout {
-            Button {
-                text: i18nc("@action:button", "Cancel")
-                Layout.fillWidth: true
-                onClicked: dialog.reject()
-            }
-            Button {
-                text: i18nc("@action:button", "Accept")
-                Layout.fillWidth: true
-                onClicked: dialog.accept()
-            }
-        }
+        standardButtons: Dialog.Ok | Dialog.Cancel
 
         onAccepted: {
             var hours = picker.hours
