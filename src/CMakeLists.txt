@@ -34,6 +34,9 @@ if (ANDROID)
         dialog-ok
         channel-secure-symbolic
         channel-insecure-symbolic
+        arrow-up
+        arrow-down
+        map-symbolic
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt5::Widgets)
