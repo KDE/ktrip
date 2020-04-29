@@ -19,11 +19,11 @@
  */
 
 #include "androidutils.h"
+#include "controller.h"
 #include "formatter.h"
 #include "ktripsettings.h"
 #include "localizer.h"
 #include "locationcachemodel.h"
-#include "controller.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>

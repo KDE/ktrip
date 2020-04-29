@@ -121,9 +121,7 @@ void Controller::showOnMap(KPublicTransport::Location location)
     url.setScheme(QStringLiteral("https"));
     url.setHost(QStringLiteral("www.openstreetmap.org"));
     url.setPath(QStringLiteral("/"));
-    const QString fragment = QLatin1String("map=") + QString::number(17)
-                                + QLatin1Char('/') + QString::number(location.latitude())
-                                + QLatin1Char('/') + QString::number(location.longitude());
+    const QString fragment = QLatin1String("map=") + QString::number(17) + QLatin1Char('/') + QString::number(location.latitude()) + QLatin1Char('/') + QString::number(location.longitude());
     url.setFragment(fragment);
     QDesktopServices::openUrl(url);
 }
