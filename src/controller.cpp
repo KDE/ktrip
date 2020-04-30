@@ -106,9 +106,9 @@ KPublicTransport::LocationRequest Controller::createLocationRequest(const QStrin
     return req;
 }
 
-KPublicTransport::DepartureRequest Controller::createDepartureRequest()
+KPublicTransport::StopoverRequest Controller::createStopoverRequest()
 {
-    KPublicTransport::DepartureRequest req;
+    KPublicTransport::StopoverRequest req;
     req.setStop(m_start);
     QDateTime depTime(m_departureDate, m_departureTime);
     req.setDateTime(depTime);

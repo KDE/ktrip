@@ -25,7 +25,7 @@
 #include <QTime>
 #include <QVariant>
 
-#include <KPublicTransport/DepartureRequest>
+#include <KPublicTransport/StopoverRequest>
 #include <KPublicTransport/JourneyRequest>
 #include <KPublicTransport/Location>
 #include <KPublicTransport/LocationRequest>
@@ -55,7 +55,7 @@ public:
 
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
     Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString name);
-    Q_INVOKABLE KPublicTransport::DepartureRequest createDepartureRequest();
+    Q_INVOKABLE KPublicTransport::StopoverRequest createStopoverRequest();
 
     Q_INVOKABLE void showOnMap(KPublicTransport::Location location);
 
