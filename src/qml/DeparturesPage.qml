@@ -39,7 +39,7 @@ Kirigami.ScrollablePage
 
         model: KPT.DepartureQueryModel {
             id: theModel
-            request: Controller.createDepartureRequest()
+            request: Controller.createStopoverRequest()
             manager: _manager
         }
 
