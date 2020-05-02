@@ -75,12 +75,12 @@ int main(int argc, char *argv[])
     manager.setBackendsEnabledByDefault(false);
     engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
 
-    KTripSettings *settings = new KTripSettings;
-    manager.setEnabledBackends(settings->enabledBackends());
+    KTripSettings settings;
+    manager.setEnabledBackends(settings.enabledBackends());
 
-    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, settings, [settings, &manager] {
-        settings->setEnabledBackends(manager.enabledBackends());
-        settings->save();
+    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, &settings, [&settings, &manager]{
+        settings.setEnabledBackends(manager.enabledBackends());
+        settings.save();
     });
 
     KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"), KAboutLicense::GPL, i18n("© 2019 KDE Community"));
@@ -89,6 +89,8 @@ int main(int argc, char *argv[])
     KAboutData::setApplicationData(about);
 
     engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
+
+    engine.rootContext()->setContextProperty(QStringLiteral("_settings"), &settings);
 
     Formatter formatter;
     engine.rootContext()->setContextProperty(QStringLiteral("_formatter"), &formatter);
@@ -101,11 +103,6 @@ int main(int argc, char *argv[])
 #endif
 
     qmlRegisterSingletonType("org.kde.ktrip", 1, 0, "Localizer", [](QQmlEngine *, QJSEngine *engine) -> QJSValue { return engine->toScriptValue(Localizer()); });
-
-    qmlRegisterSingletonType<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", [settings](QQmlEngine *, QJSEngine *engine) -> QObject * {
-        Q_UNUSED(engine);
-        return settings;
-    });
 
     qmlRegisterSingletonType<Controller>("org.kde.ktrip", 1, 0, "Controller", [](QQmlEngine *, QJSEngine *engine) -> QObject * {
         Q_UNUSED(engine);
