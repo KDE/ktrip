@@ -49,7 +49,7 @@ Kirigami.ScrollablePage
             width: parent.width
             visible: theModel.canQueryPrevious
             onClicked: theModel.queryPrevious()
-            icon.name: "arrow-up"
+            icon.name: "go-up-symbolic"
         }
 
         delegate: Kirigami.AbstractListItem {
@@ -91,7 +91,7 @@ Kirigami.ScrollablePage
             width: parent.width
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()
-            icon.name: "arrow-down"
+            icon.name: "go-down-symbolic"
         }
 
         Label {
