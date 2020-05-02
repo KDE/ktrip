@@ -33,7 +33,7 @@ Kirigami.ScrollablePage {
 
     actions.main: Kirigami.Action {
         text: i18n("Save")
-        iconName: "dialog-ok"
+        iconName: "emblem-ok-symbolic"
         onTriggered: pageStack.pop()
     }
 

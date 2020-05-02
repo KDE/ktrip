@@ -132,7 +132,7 @@ Kirigami.ScrollablePage
 
                     Button {
                         visible: theData.from.hasCoordinate
-                        icon.name: "map-symbolic"
+                        icon.name: "mark-location-symbolic"
                         flat: true
                         onClicked: Controller.showOnMap(theData.from)
                     }
