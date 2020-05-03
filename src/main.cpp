@@ -42,6 +42,8 @@
 #include <KPublicTransport/LocationRequest>
 #include <KPublicTransport/Manager>
 
+#include <QIcon>
+
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
 #endif
@@ -52,6 +54,8 @@ int main(int argc, char *argv[])
 #else
     QApplication app(argc, argv);
 #endif
+
+    QIcon::setFallbackSearchPaths(QIcon::fallbackSearchPaths() << QStringLiteral("/home/nico/myicons"));
 
     QCoreApplication::setApplicationName(QStringLiteral("ktrip"));
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));

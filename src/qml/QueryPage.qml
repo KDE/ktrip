@@ -33,7 +33,7 @@ Kirigami.Page
     property bool departures: false
 
     actions.main: Kirigami.Action {
-        icon.name: "system-search-symbolic"
+        icon.name: "nicesicon"
         text: i18nc("@action", "Search")
         enabled: Controller.start.name != "" && (Controller.destination.name != "" || departures)
         onTriggered: pageStack.push(departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
