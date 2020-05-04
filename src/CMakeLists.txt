@@ -27,16 +27,13 @@ if (ANDROID)
 
     kirigami_package_breeze_icons(ICONS
         go-down-symbolic
-        go-next-symbolic
         go-up-symbolic
-        view-refresh
-        search
-        dialog-ok
         channel-secure-symbolic
         channel-insecure-symbolic
-        arrow-up
         arrow-down
-        map-symbolic
+        emblem-ok-symbolic
+        mark-location-symbolic
+        system-search-symbolic
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt5::Widgets)
