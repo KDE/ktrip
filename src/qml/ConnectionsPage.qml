@@ -57,32 +57,54 @@ Kirigami.ScrollablePage
             highlighted: false
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
             readonly property bool cancelled: journey.disruptionEffect == KPT.Disruption.NoService
+            readonly property var firstSection: journey.sections[0]
+            readonly property var lastSection: journey.sections[journey.sections.length - 1]
 
-            RowLayout {
-                Label {
-                    text: i18n("%1 - %2", journey.sections[0].scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat), journey.sections[journey.sections.length - 1].scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat))
-                    font.strikeout: cancelled
+            Column {
+
+                ConnectionHeading {
+                    journey: model.journey
                 }
 
-                Label {
-                    text: i18n("(%1)", _formatter.formatDuration(journey.duration))
-                    Layout.fillWidth: !delayLabel.visible
-                    font.strikeout: cancelled
+                RowLayout {
+                    width: parent.width
+                    Label {
+                        text: i18n("%1 %2", firstSection.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat), firstSection.from.name)
+                        font.strikeout: cancelled
+                    }
+
+                    Label {
+                        visible: firstSection.hasExpectedDepartureTime
+                        text: i18n("+%1", firstSection.departureDelay)
+                        color: firstSection.departureDelay > 0 ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.positiveTextColor
+                        font.strikeout: cancelled
+                    }
+
+                    Item {
+                        Layout.fillWidth: true
+                    }
+
+                    Label {
+                        text: i18np("%1 change", "%1 changes", journey.numberOfChanges)
+                        visible: journey.numberOfChanges > 0
+                        font.strikeout: cancelled
+                        Layout.alignment: Qt.AlignRight
+                    }
                 }
 
-                Label {
-                    id: delayLabel
-                    Layout.fillWidth: true
-                    visible: journey.sections[journey.sections.length - 1].hasExpectedArrivalTime
-                    text: i18n("+%1", journey.sections[journey.sections.length - 1].arrivalDelay)
-                    color: journey.sections[journey.sections.length - 1].arrivalDelay > 0 ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.positiveTextColor
-                    font.strikeout: cancelled
-                }
-
-                Label {
-                    text: i18np("%1 change", "%1 changes", journey.numberOfChanges)
-                    visible: journey.numberOfChanges > 0
-                    font.strikeout: cancelled
+                RowLayout {
+                    width: parent.width
+                    Label {
+                        text: i18n("%1 %2", lastSection.scheduledArrivalTime.toLocaleTimeString(Locale.ShortFormat), lastSection.to.name)
+                        font.strikeout: cancelled
+                    }
+                    Label {
+                        Layout.fillWidth: true
+                        visible: lastSection.hasExpectedArrivalTime
+                        text: i18n("+%1", lastSection.arrivalDelay)
+                        color: lastSection.arrivalDelay > 0 ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.positiveTextColor
+                        font.strikeout: cancelled
+                    }
                 }
             }
         }
