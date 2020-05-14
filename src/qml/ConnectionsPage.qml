@@ -21,7 +21,7 @@
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
-import org.kde.kirigami 2.4 as Kirigami
+import org.kde.kirigami 2.12 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
 import org.kde.ktrip 1.0
 
@@ -116,7 +116,7 @@ Kirigami.ScrollablePage
             icon.name: "go-down-symbolic"
         }
 
-        Label {
+        Kirigami.PlaceholderMessage {
             text: i18n("No connections found")
             anchors.centerIn: parent
             visible: connectionList.count === 0 && !theModel.loading

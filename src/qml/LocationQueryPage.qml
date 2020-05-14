@@ -21,7 +21,7 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
-import org.kde.kirigami 2.8 as Kirigami
+import org.kde.kirigami 2.12 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
 import org.kde.ktrip 1.0
 
@@ -54,7 +54,7 @@ Kirigami.ScrollablePage
             }
         }
 
-        Label {
+        Kirigami.PlaceholderMessage {
             text: i18n("No locations found")
             visible: locationView.count === 0 && !queryModel.loading
             anchors.centerIn: parent
