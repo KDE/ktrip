@@ -181,6 +181,7 @@ Kirigami.ScrollablePage
 
                 Label {
                     text: theData.notes.join("<br>")
+                    onLinkActivated: link => Qt.openUrlExternally(link)
                     topPadding: Kirigami.Units.largeSpacing
                     width: parent.width
                     wrapMode: Text.Wrap
