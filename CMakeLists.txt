@@ -1,8 +1,12 @@
 cmake_minimum_required(VERSION 3.0)
 project(ktrip VERSION 0.0.1)
 
-find_package(ECM 5.38 REQUIRED NO_MODULE)
+set(QT_MIN_VERSION "5.12.0")
+set(KF5_MIN_VERSION "5.70.0")
+
+find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_SOURCE_DIR}/cmake)
+
 
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(ECMAddTests)
@@ -15,20 +19,20 @@ include(KDECMakeSettings)
 include(KDEClangFormat)
 include(ECMQMLModules)
 
-find_package(Qt5 REQUIRED COMPONENTS Core Gui Qml Quick)
-find_package(KF5 REQUIRED COMPONENTS CoreAddons I18n ItemModels Config Contacts)
+find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml Quick)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n ItemModels Config Contacts)
 
 if (ANDROID)
     # runtime dependencies are build-time dependencies on Android
-    find_package(Qt5 REQUIRED COMPONENTS AndroidExtras Svg)
-    find_package(KF5 REQUIRED COMPONENTS Kirigami2)
+    find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS AndroidExtras Svg)
+    find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
     if (NOT DEFINED BREEZEICONS_DIR AND EXISTS ${CMAKE_SOURCE_DIR}/../breeze-icons)
         set(BREEZEICONS_DIR ${CMAKE_SOURCE_DIR}/../breeze-icons)
     endif()
     find_package(OpenSSL REQUIRED)
 
 else()
-    find_package(Qt5 REQUIRED COMPONENTS Widgets)
+    find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
 endif()
 
 find_package(KPublicTransport)
