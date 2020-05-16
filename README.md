@@ -25,7 +25,7 @@ KTrip depends on Qt 5 and a number of KDE Frameworks:
 
 ## Linux
 
-`git clone https://invent.kde.org/kde/ktrip`
+`git clone https://invent.kde.org/utilities/ktrip`
 
 `cd ktrip`
 
