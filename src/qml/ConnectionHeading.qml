@@ -26,6 +26,7 @@ import org.kde.kpublictransport 1.0 as KPT
 import org.kde.ktrip 1.0
 
 Row {
+    id: root
     property var journey
 
     spacing: Kirigami.Units.smallSpacing
@@ -33,12 +34,12 @@ Row {
     Kirigami.Heading {
         id: durationHeading
         level: 2
-        text: _formatter.formatDuration(journey.duration)
-        font.strikeout: journey.disruptionEffect == KPT.Disruption.NoService
+        text: _formatter.formatDuration(root.journey.duration)
+        font.strikeout: root.journey.disruptionEffect == KPT.Disruption.NoService
     }
 
     Repeater {
-        model: journey.sections
+        model: root.journey.sections
 
         delegate: Loader {
             sourceComponent: model.modelData.route.line.hasLogo ? secIcon : secLabel

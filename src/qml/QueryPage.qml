@@ -26,7 +26,7 @@ import org.kde.ktrip 1.0
 
 Kirigami.Page
 {
-    id: rootPage
+    id: root
 
     title: departures ? i18nc("@title", "Query Departures") : i18nc("@title", "Start Journey")
 
@@ -35,8 +35,8 @@ Kirigami.Page
     actions.main: Kirigami.Action {
         icon.name: "system-search-symbolic"
         text: i18nc("@action", "Search")
-        enabled: Controller.start.name != "" && (Controller.destination.name != "" || departures)
-        onTriggered: pageStack.push(departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
+        enabled: Controller.start.name != "" && (Controller.destination.name != "" || root.departures)
+        onTriggered: pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
     }
 
     function startPicked(data) {
@@ -57,18 +57,18 @@ Kirigami.Page
         Button {
             Layout.fillWidth: true
             text: Controller.start.name ? Controller.start.name : i18nc("@action:button", "Pick Start")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Start Location"), callback: startPicked})
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Start Location"), callback: root.startPicked})
         }
 
         Label {
             text: i18n("To:")
-            visible: !departures
+            visible: !root.departures
         }
         Button {
             Layout.fillWidth: true
-            visible: !departures
+            visible: !root.departures
             text: Controller.destination.name ? Controller.destination.name : i18nc("@action:button", "Pick Destination")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Destination Location"), callback: destinationPicked})
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Destination Location"), callback: root.destinationPicked})
         }
 
         Label {
