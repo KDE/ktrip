@@ -42,10 +42,10 @@ public:
     explicit Controller(QObject *parent = nullptr);
 
     KPublicTransport::Location start() const;
-    void setStart(const KPublicTransport::Location start);
+    void setStart(const KPublicTransport::Location &start);
 
     KPublicTransport::Location destination() const;
-    void setDestination(const KPublicTransport::Location destination);
+    void setDestination(const KPublicTransport::Location &destination);
 
     QDate departureDate() const;
     void setDepartureDate(const QDate &date);
@@ -54,10 +54,10 @@ public:
     void setDepartureTime(const QTime &time);
 
     Q_INVOKABLE KPublicTransport::JourneyRequest createJourneyRequest();
-    Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString name);
+    Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString &name);
     Q_INVOKABLE KPublicTransport::StopoverRequest createStopoverRequest();
 
-    Q_INVOKABLE void showOnMap(KPublicTransport::Location location);
+    Q_INVOKABLE void showOnMap(KPublicTransport::Location &location);
 
 Q_SIGNALS:
     void startChanged();

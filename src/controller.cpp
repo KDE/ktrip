@@ -37,7 +37,7 @@ Controller::Controller(QObject *parent)
     m_departureTime = QTime::currentTime();
 }
 
-void Controller::setStart(const KPublicTransport::Location start)
+void Controller::setStart(const KPublicTransport::Location &start)
 {
     m_start = start;
     Q_EMIT startChanged();
@@ -48,7 +48,7 @@ KPublicTransport::Location Controller::start() const
     return m_start;
 }
 
-void Controller::setDestination(const KPublicTransport::Location destination)
+void Controller::setDestination(const KPublicTransport::Location &destination)
 {
     m_destination = destination;
     Q_EMIT destinationChanged();
@@ -98,7 +98,7 @@ void Controller::setDepartureTime(const QTime &time)
     }
 }
 
-KPublicTransport::LocationRequest Controller::createLocationRequest(const QString name)
+KPublicTransport::LocationRequest Controller::createLocationRequest(const QString &name)
 {
     KPublicTransport::LocationRequest req;
     req.setName(name);
@@ -115,7 +115,7 @@ KPublicTransport::StopoverRequest Controller::createStopoverRequest()
     return req;
 }
 
-void Controller::showOnMap(KPublicTransport::Location location)
+void Controller::showOnMap(KPublicTransport::Location &location)
 {
     QUrl url;
     url.setScheme(QStringLiteral("https"));
