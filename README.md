@@ -52,3 +52,5 @@ You can build KTrip on Windows using KDE's [Craft](https://community.kde.org/Cra
 ## macOS and iOS
 
 Running on macOS and iOS should be possible in theory, but is untested. Building on macOS should be possible using KDE's [Craft](https://community.kde.org/Craft). Patches are welcome.
+
+Test
