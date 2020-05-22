@@ -23,6 +23,7 @@ KTrip depends on Qt 5 and a number of KDE Frameworks:
 - Kirigami
 - KPublicTransport
 - kirigami-addons
+- Kcontacts
 
 ## Linux
 
