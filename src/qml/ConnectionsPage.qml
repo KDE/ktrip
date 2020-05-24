@@ -42,7 +42,7 @@ Kirigami.ScrollablePage
         model: KPT.JourneyQueryModel {
             id: theModel
             request: Controller.createJourneyRequest()
-            manager: _manager
+            manager: Manager
         }
 
         header: ToolButton {

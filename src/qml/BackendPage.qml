@@ -39,7 +39,7 @@ Kirigami.ScrollablePage {
 
     KPublicTransport.BackendModel {
         id: backendModel
-        manager: _manager
+        manager: Manager
     }
 
     Component {

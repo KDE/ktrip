@@ -20,9 +20,9 @@
 
 #include <QObject>
 
-class Localizer
+class Localizer : public QObject
 {
-    Q_GADGET
+    Q_OBJECT
 public:
     Q_INVOKABLE QString countryName(const QString &isoCode) const;
     /** Emoji representation of @p isoCode.

@@ -21,6 +21,7 @@
 import QtQuick 2.2
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.6 as Kirigami
+import org.kde.ktrip 1.0
 
 Kirigami.ApplicationWindow
 {
@@ -31,10 +32,10 @@ Kirigami.ApplicationWindow
     pageStack.initialPage: Qt.resolvedUrl("QueryPage.qml")
 
     Component.onCompleted: {
-        if (_settings.firstRun) {
+        if (Settings.firstRun) {
             window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
-            _settings.firstRun = false
-            _settings.save()
+            Settings.firstRun = false
+            Settings.save()
         }
     }
 

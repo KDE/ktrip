@@ -34,7 +34,7 @@ Row {
     Kirigami.Heading {
         id: durationHeading
         level: 2
-        text: _formatter.formatDuration(root.journey.duration)
+        text: Formatter.formatDuration(root.journey.duration)
         font.strikeout: root.journey.disruptionEffect == KPT.Disruption.NoService
     }
 

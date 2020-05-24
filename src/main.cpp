@@ -73,7 +73,8 @@ int main(int argc, char *argv[])
     KPublicTransport::Manager manager;
     manager.setAllowInsecureBackends(true);
     manager.setBackendsEnabledByDefault(false);
-    engine.rootContext()->setContextProperty(QStringLiteral("_manager"), &manager);
+
+    qmlRegisterSingletonInstance<KPublicTransport::Manager>("org.kde.ktrip", 1, 0, "Manager", &manager);
 
     KTripSettings settings;
     manager.setEnabledBackends(settings.enabledBackends());
@@ -83,6 +84,8 @@ int main(int argc, char *argv[])
         settings.save();
     });
 
+    qmlRegisterSingletonInstance<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", &settings);
+
     KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"), KAboutLicense::GPL, i18n("© 2019 KDE Community"));
     about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
     about.setProgramLogo(QImage(QStringLiteral(":/ktrip.svg")));
@@ -90,10 +93,8 @@ int main(int argc, char *argv[])
 
     engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
 
-    engine.rootContext()->setContextProperty(QStringLiteral("_settings"), &settings);
-
     Formatter formatter;
-    engine.rootContext()->setContextProperty(QStringLiteral("_formatter"), &formatter);
+    qmlRegisterSingletonInstance<Formatter>("org.kde.ktrip", 1, 0, "Formatter", &formatter);
 
 #ifdef Q_OS_ANDROID
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);
@@ -102,12 +103,11 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
 
-    qmlRegisterSingletonType("org.kde.ktrip", 1, 0, "Localizer", [](QQmlEngine *, QJSEngine *engine) -> QJSValue { return engine->toScriptValue(Localizer()); });
+    Localizer localizer;
+    qmlRegisterSingletonInstance<Localizer>("org.kde.ktrip", 1, 0, "Localizer", &localizer);
 
-    qmlRegisterSingletonType<Controller>("org.kde.ktrip", 1, 0, "Controller", [](QQmlEngine *, QJSEngine *engine) -> QObject * {
-        Q_UNUSED(engine);
-        return new Controller;
-    });
+    Controller controller;
+    qmlRegisterSingletonInstance<Controller>("org.kde.ktrip", 1, 0, "Controller", &controller);
 
     engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 

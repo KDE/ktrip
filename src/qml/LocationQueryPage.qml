@@ -67,7 +67,7 @@ Kirigami.ScrollablePage
 
         KPT.LocationQueryModel {
             id: queryModel
-            manager: _manager
+            manager: Manager
         }
 
         LocationCacheModel {

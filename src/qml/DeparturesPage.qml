@@ -40,13 +40,13 @@ Kirigami.ScrollablePage
         model: KPT.DepartureQueryModel {
             id: theModel
             request: Controller.createStopoverRequest()
-            manager: _manager
+            manager: Manager
         }
 
         delegate: Kirigami.AbstractListItem {
             RowLayout {
                 Label {
-                    text: i18n("%3 %1 (%2)", departure.route.line.name, departure.route.direction, _formatter.formatTime(departure.scheduledDepartureTime))
+                    text: i18n("%3 %1 (%2)", departure.route.line.name, departure.route.direction, Formatter.formatTime(departure.scheduledDepartureTime))
                     Layout.fillWidth: true
                 }
                 Label {
