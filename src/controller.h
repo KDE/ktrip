@@ -25,10 +25,10 @@
 #include <QTime>
 #include <QVariant>
 
-#include <KPublicTransport/StopoverRequest>
 #include <KPublicTransport/JourneyRequest>
 #include <KPublicTransport/Location>
 #include <KPublicTransport/LocationRequest>
+#include <KPublicTransport/StopoverRequest>
 
 class Controller : public QObject
 {

@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
     KTripSettings settings;
     manager.setEnabledBackends(settings.enabledBackends());
 
-    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, &settings, [&settings, &manager]{
+    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, &settings, [&settings, &manager] {
         settings.setEnabledBackends(manager.enabledBackends());
         settings.save();
     });
