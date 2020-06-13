@@ -20,6 +20,7 @@
   <name xml:lang="pt-BR">KTrip</name>
   <name xml:lang="ru">KTrip</name>
   <name xml:lang="sk">KTrip</name>
+  <name xml:lang="sl">KTrip</name>
   <name xml:lang="sv">Ktripp</name>
   <name xml:lang="uk">KTrip</name>
   <name xml:lang="x-test">xxKTripxx</name>
@@ -41,6 +42,7 @@
   <summary xml:lang="pt-BR">KTrip</summary>
   <summary xml:lang="ru">KTrip</summary>
   <summary xml:lang="sk">KTrip</summary>
+  <summary xml:lang="sl">KTrip</summary>
   <summary xml:lang="sv">Ktripp</summary>
   <summary xml:lang="uk">KTrip</summary>
   <summary xml:lang="x-test">xxKTripxx</summary>
@@ -61,6 +63,7 @@
     <p xml:lang="pt">O KTrip ajuda-o a navegar pelos transportes públicos. Ajuda-o a consultar trajectos entre localizações específicas.</p>
     <p xml:lang="pt-BR">KTrip ajuda-o a locomover-se com transportes públicos. Ajuda-o a consultar trajetos entre os locais indicados.</p>
     <p xml:lang="sk">KTrip vám pomôže orientovať sa vo verejnej doprave. Umožní vám dotazovať medzi určenými lokáciami.</p>
+    <p xml:lang="sl">KTrip vam pomaga pri navigaciji v javnem prevozu. Omogoča vam poizvedbo o potovanjih med določenimi lokacijami.</p>
     <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser.</p>
     <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями.</p>
     <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to query journeys between specified locations.xx</p>
@@ -80,6 +83,7 @@
       <caption xml:lang="nl">Weergave van reis</caption>
       <caption xml:lang="pt">Área da viagem</caption>
       <caption xml:lang="pt-BR">Visualização da jornada</caption>
+      <caption xml:lang="sl">Pogled na potovanje</caption>
       <caption xml:lang="sv">Resevisning</caption>
       <caption xml:lang="uk">Перегляд подорожі</caption>
       <caption xml:lang="x-test">xxJourney viewxx</caption>
