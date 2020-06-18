@@ -23,6 +23,7 @@
   <name xml:lang="sl">KTrip</name>
   <name xml:lang="sv">Ktripp</name>
   <name xml:lang="uk">KTrip</name>
+  <name xml:lang="x-test">xxKTripxx</name>
   <name xml:lang="zh-TW">KTrip</name>
   <summary>KTrip</summary>
   <summary xml:lang="ca">KTrip</summary>
@@ -44,6 +45,7 @@
   <summary xml:lang="sl">KTrip</summary>
   <summary xml:lang="sv">Ktripp</summary>
   <summary xml:lang="uk">KTrip</summary>
+  <summary xml:lang="x-test">xxKTripxx</summary>
   <summary xml:lang="zh-TW">KTrip</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
@@ -64,6 +66,7 @@
     <p xml:lang="sl">KTrip vam pomaga pri navigaciji v javnem prevozu. Omogoča vam poizvedbo o potovanjih med določenimi lokacijami.</p>
     <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser.</p>
     <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями.</p>
+    <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to query journeys between specified locations.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -83,6 +86,7 @@
       <caption xml:lang="sl">Pogled na potovanje</caption>
       <caption xml:lang="sv">Resevisning</caption>
       <caption xml:lang="uk">Перегляд подорожі</caption>
+      <caption xml:lang="x-test">xxJourney viewxx</caption>
       <image width="945" height="879" type="source">https://cdn.kde.org/screenshots/ktrip/ktrip.png</image>
     </screenshot>
   </screenshots>
