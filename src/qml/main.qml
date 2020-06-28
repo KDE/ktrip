@@ -65,7 +65,7 @@ Kirigami.ApplicationWindow
             },
             Kirigami.Action {
                 text: i18n("About")
-                onTriggered: window.pageStack.push(aboutPage)
+                onTriggered: window.pageStack.layers.push(aboutPage)
             }
         ]
     }
