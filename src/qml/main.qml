@@ -64,8 +64,13 @@ Kirigami.ApplicationWindow
                 onTriggered: window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
             },
             Kirigami.Action {
-                text: i18n("About")
-                onTriggered: window.pageStack.layers.push(aboutPage)
+                text: i18n("About KTrip")
+                // TODO add help-about icon when other actions have icons too
+                onTriggered: {
+                    if (window.pageStack.layers.depth < 2) {
+                        window.pageStack.layers.push(aboutPage)
+                    }
+                }
             }
         ]
     }
