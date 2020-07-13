@@ -115,7 +115,7 @@ KPublicTransport::StopoverRequest Controller::createStopoverRequest()
     return req;
 }
 
-void Controller::showOnMap(KPublicTransport::Location &location)
+void Controller::showOnMap(KPublicTransport::Location location)
 {
     QUrl url;
     url.setScheme(QStringLiteral("https"));

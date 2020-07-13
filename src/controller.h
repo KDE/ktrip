@@ -57,7 +57,7 @@ public:
     Q_INVOKABLE KPublicTransport::LocationRequest createLocationRequest(const QString &name);
     Q_INVOKABLE KPublicTransport::StopoverRequest createStopoverRequest();
 
-    Q_INVOKABLE void showOnMap(KPublicTransport::Location &location);
+    Q_INVOKABLE void showOnMap(KPublicTransport::Location location);
 
 Q_SIGNALS:
     void startChanged();
