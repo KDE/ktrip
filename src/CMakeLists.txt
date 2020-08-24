@@ -34,6 +34,8 @@ if (ANDROID)
         emblem-ok-symbolic
         mark-location-symbolic
         system-search-symbolic
+        collapse
+        expand
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt5::Widgets)

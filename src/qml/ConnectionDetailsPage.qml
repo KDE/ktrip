@@ -67,6 +67,7 @@ Kirigami.ScrollablePage
             header: Column {
 
                 RowLayout {
+                    width: parent.width
                     Kirigami.Icon {
                         visible: theData.route.line.hasLogo
                         source: theData.route.line.logo
@@ -80,6 +81,18 @@ Kirigami.ScrollablePage
                         font.strikeout: theData.disruptionEffect == Disruption.NoService
                         color: theData.disruptionEffect == Disruption.NoService ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
                         text: theData.route.line.name
+                    }
+
+                    Item {
+                        Layout.fillWidth: true
+                    }
+
+                    Button {
+                        icon.name: intermediateStops.expanded ? "collapse" : "expand"
+                        text: intermediateStops.expanded ? i18n("Hide intermediate Stops") : i18n("Show intermediate Stops")
+                        display: Button.IconOnly
+                        flat: true
+                        onClicked: intermediateStops.expanded = !intermediateStops.expanded
                     }
                 }
 
@@ -129,6 +142,45 @@ Kirigami.ScrollablePage
 
                     Label {
                         text: theData.scheduledDeparturePlatform
+                    }
+                }
+
+                Repeater {
+                    id: intermediateStops
+
+                    property var expanded: true
+                    model: theData.intermediateStops
+
+                    delegate: RowLayout {
+                        visible: intermediateStops.expanded
+                        width: parent.width
+
+                        Item {
+                            width: 3 * Kirigami.Units.largeSpacing
+                        }
+
+                        Label {
+                            text: modelData.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                        }
+
+                        Label {
+                            text: modelData.expectedDepartureTime.toLocaleTimeString(Locale.ShortFormat)
+                            visible: modelData.departureDelay > 0
+                            color: Kirigami.Theme.negativeTextColor
+                        }
+
+                        Label {
+                            text: modelData.stopPoint.name
+                            wrapMode: Text.Wrap
+                        }
+
+                        Item {
+                            Layout.fillWidth: true
+                        }
+
+                        Label {
+                            text: modelData.scheduledPlatform
+                        }
                     }
                 }
 
