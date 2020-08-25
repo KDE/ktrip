@@ -36,6 +36,7 @@ if (ANDROID)
         system-search-symbolic
         collapse
         expand
+        configure
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt5::Widgets)

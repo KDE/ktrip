@@ -18,6 +18,8 @@ Kirigami.ScrollablePage
 
     header: Kirigami.SearchField {
         id: queryTextField
+
+        visible: Manager.enabledBackends.length !== 0
         width: parent.width
         onAccepted: {
             queryModel.request = Controller.createLocationRequest(text)
@@ -30,6 +32,7 @@ Kirigami.ScrollablePage
         model: showCached ? cacheModel : queryModel
 
         delegate: Kirigami.BasicListItem {
+            visible: Manager.enabledBackends.length !== 0
             text: location.name
             highlighted: false
             reserveSpaceForIcon: false
@@ -43,6 +46,17 @@ Kirigami.ScrollablePage
         Kirigami.PlaceholderMessage {
             text: i18n("No locations found")
             visible: locationView.count === 0 && !queryModel.loading
+            anchors.centerIn: parent
+        }
+
+        Kirigami.PlaceholderMessage {
+            text: i18n("No providers enabled")
+            visible: Manager.enabledBackends.length === 0
+            helpfulAction: Action {
+                text: i18n("Configure providers")
+                icon.name: "configure"
+                onTriggered: window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
+            }
             anchors.centerIn: parent
         }
 
