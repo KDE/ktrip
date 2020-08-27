@@ -11,6 +11,7 @@
   <name xml:lang="es">KTrip</name>
   <name xml:lang="et">KTrip</name>
   <name xml:lang="fr">KTrip</name>
+  <name xml:lang="hi">केट्रिप (KTrip)</name>
   <name xml:lang="id">KTrip</name>
   <name xml:lang="it">KTrip</name>
   <name xml:lang="ko">KTrip</name>
@@ -33,6 +34,7 @@
   <summary xml:lang="es">KTrip</summary>
   <summary xml:lang="et">KTrip</summary>
   <summary xml:lang="fr">KTrip</summary>
+  <summary xml:lang="hi">केट्रिप (KTrip)</summary>
   <summary xml:lang="id">KTrip</summary>
   <summary xml:lang="it">KTrip</summary>
   <summary xml:lang="ko">KTrip</summary>
@@ -55,6 +57,7 @@
     <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite planear sus viajes entre las localizaciones especificadas.</p>
     <p xml:lang="et">KTrip abistab ühistranspordi kasutamisel. See võimaldab paika panna reise määratud asukohtade vahel.</p>
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés.</p>
+    <p xml:lang="hi">केट्रिप आपको सार्वजनिक परिवाहन पर मार्गनिर्देशन देता है. यह आपको दो स्थानों के बीच यात्रा विवरण पूछने देता है</p>
     <p xml:lang="id">KTrip membantu Anda menavigasi dalam transportasi publik. Ini memungkinkan Anda untuk mengkueri perjalanan antara lokasi yang ditentukan.</p>
     <p xml:lang="it">KTrip ti aiuta a navigare nel trasporto pubblico. Ti permette di interrogare i viaggi tra posizioni specificate.</p>
     <p xml:lang="ko">KTrip을 사용하여 대중 교통을 탐색할 수 있습니다. 지정한 두 지점간 이동 수단을 확인할 수 있습니다.</p>
@@ -78,6 +81,7 @@
       <caption xml:lang="es">Vista de viaje</caption>
       <caption xml:lang="et">Teekonnavaade</caption>
       <caption xml:lang="fr">Vue itinéraire</caption>
+      <caption xml:lang="hi">यात्रा दृश्य</caption>
       <caption xml:lang="it">Vista del viaggio</caption>
       <caption xml:lang="ko">여정 보기</caption>
       <caption xml:lang="nl">Weergave van reis</caption>
