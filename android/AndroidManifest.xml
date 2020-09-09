@@ -4,7 +4,7 @@
           android:versionName="0.99.3"
           android:versionCode="2"
           android:installLocation="auto">
-    <application android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="KTrip" android:icon="@drawable/ktrip">
+    <application android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="KTrip" android:icon="@mipmap/ic_launcher">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
                   android:name="org.kde.ktrip.Activity"
                   android:label="KTrip"
