@@ -88,12 +88,12 @@ void AndroidUtils::showDatePicker()
 
 void AndroidUtils::_dateSelected(const QString &data)
 {
-    Q_EMIT datePickerFinished(true, data);
+    Q_EMIT datePickerFinished(true, QDate::fromString(data, QStringLiteral("yyyy-MM-dd")));
 }
 
 void AndroidUtils::_dateCancelled()
 {
-    Q_EMIT datePickerFinished(false, QString());
+    Q_EMIT datePickerFinished(false, QDate());
 }
 
 void AndroidUtils::showTimePicker()
@@ -104,10 +104,10 @@ void AndroidUtils::showTimePicker()
 
 void AndroidUtils::_timeSelected(const QString &data)
 {
-    Q_EMIT timePickerFinished(true, data);
+    Q_EMIT timePickerFinished(true, QTime::fromString(data, QStringLiteral("HH:mm")));
 }
 
 void AndroidUtils::_timeCancelled()
 {
-    Q_EMIT timePickerFinished(false, QString());
+    Q_EMIT timePickerFinished(false, QTime());
 }

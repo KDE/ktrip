@@ -23,8 +23,8 @@ public:
     static AndroidUtils *instance();
 
 Q_SIGNALS:
-    void datePickerFinished(bool accepted, const QString &date);
-    void timePickerFinished(bool accepted, const QString &time);
+    void datePickerFinished(bool accepted, const QDate &date);
+    void timePickerFinished(bool accepted, const QTime &time);
 
 private:
     static AndroidUtils *s_instance;
