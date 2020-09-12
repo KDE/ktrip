@@ -14,11 +14,12 @@ import android.app.DialogFragment;
 import android.app.Activity;
 
 import java.util.Calendar;
+import java.util.Locale;
 
 public class DatePicker extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
-    private Activity activity;
-    private long initialDate;
+    private final Activity activity;
+    private final long initialDate;
 
     private native void dateSelected(String date);
     private native void cancelled();
@@ -33,9 +34,7 @@ public class DatePicker extends DialogFragment implements DatePickerDialog.OnDat
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         Calendar cal = Calendar.getInstance();
         cal.setTimeInMillis(initialDate);
-        DatePickerDialog dialog = new DatePickerDialog(activity, this, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DAY_OF_MONTH));
-        android.widget.DatePicker picker = dialog.getDatePicker();
-        return dialog;
+        return new DatePickerDialog(activity, this, cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DAY_OF_MONTH));
     }
 
     @Override
@@ -45,20 +44,7 @@ public class DatePicker extends DialogFragment implements DatePickerDialog.OnDat
 
     public void onDateSet(android.widget.DatePicker view, int year, int month, int day) {
         // Android reports month starting with 0
-        month++;
-
-        // Add leading zero if needed
-        String monthFormated = Integer.toString(month);
-        if (month < 10) {
-            monthFormated = "0" + monthFormated;
-        }
-
-        String dayFormated = Integer.toString(day);
-        if (day < 10) {
-            dayFormated = "0" + dayFormated;
-        }
-
-        dateSelected(String.format("%d-%s-%s", year, monthFormated, dayFormated));
+        dateSelected(String.format(Locale.ENGLISH, "%4d-%02d-%02d", year, month+1, day));
     }
 
     public void doShow() {

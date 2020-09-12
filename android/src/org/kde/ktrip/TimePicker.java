@@ -14,12 +14,13 @@ import android.app.DialogFragment;
 import android.app.Activity;
 
 import java.util.Calendar;
+import java.util.Locale;
 
 public class TimePicker extends DialogFragment
         implements TimePickerDialog.OnTimeSetListener {
 
-    private Activity activity;
-    private long initialTime;
+    private final Activity activity;
+    private final long initialTime;
 
     private native void timeSelected(String time);
     private native void cancelled();
@@ -34,24 +35,11 @@ public class TimePicker extends DialogFragment
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         Calendar cal = Calendar.getInstance();
         cal.setTimeInMillis(initialTime);
-        TimePickerDialog dialog = new TimePickerDialog(activity, this, cal.get(Calendar.HOUR_OF_DAY), cal.get(Calendar.MINUTE), true);
-        return dialog;
+        return new TimePickerDialog(activity, this, cal.get(Calendar.HOUR_OF_DAY), cal.get(Calendar.MINUTE), true);
     }
 
     public void onTimeSet(android.widget.TimePicker view, int hourOfDay, int minute) {
-
-        // Add leading zero if needed
-        String hourFormatted = Integer.toString(hourOfDay);
-        if (hourOfDay < 10) {
-            hourFormatted = "0" + hourFormatted;
-        }
-
-        String minuteFormatted = Integer.toString(minute);
-        if (minute < 10) {
-            minuteFormatted = "0" + minuteFormatted;
-        }
-
-        timeSelected(String.format("%s:%s", hourFormatted, minuteFormatted));
+        timeSelected(String.format(Locale.ENGLISH, "%02d:%02d", hourOfDay, minute));
     }
 
     @Override
