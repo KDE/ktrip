@@ -148,7 +148,7 @@ Kirigami.ScrollablePage
                 Repeater {
                     id: intermediateStops
 
-                    property var expanded: true
+                    property var expanded: false
                     model: theData.intermediateStops
 
                     delegate: RowLayout {
