@@ -92,6 +92,7 @@ Kirigami.ScrollablePage
                         text: intermediateStops.expanded ? i18n("Hide intermediate Stops") : i18n("Show intermediate Stops")
                         display: Button.IconOnly
                         flat: true
+                        Layout.preferredWidth: height // Work around Material button being too wide
                         onClicked: intermediateStops.expanded = !intermediateStops.expanded
                     }
                 }
@@ -127,17 +128,15 @@ Kirigami.ScrollablePage
                     Label {
                         text: theData.from.name
                         wrapMode: Text.Wrap
+                        Layout.fillWidth: true
                     }
 
                     Button {
                         visible: theData.from.hasCoordinate
                         icon.name: "mark-location-symbolic"
                         flat: true
+                        Layout.preferredWidth: height // Work around Material button being too wide
                         onClicked: Controller.showOnMap(theData.from)
-                    }
-
-                    Item {
-                        Layout.fillWidth: true
                     }
 
                     Label {
@@ -172,9 +171,6 @@ Kirigami.ScrollablePage
                         Label {
                             text: modelData.stopPoint.name
                             wrapMode: Text.Wrap
-                        }
-
-                        Item {
                             Layout.fillWidth: true
                         }
 
@@ -199,17 +195,15 @@ Kirigami.ScrollablePage
                     Label {
                         text: theData.to.name
                         wrapMode: Text.Wrap
+                        Layout.fillWidth: true
                     }
 
                     Button {
                         visible: theData.to.hasCoordinate
                         icon.name: "mark-location-symbolic"
                         flat: true
+                        Layout.preferredWidth: height // Work around Material button being too wide
                         onClicked: Controller.showOnMap(theData.to)
-                    }
-
-                    Item {
-                        Layout.fillWidth: true
                     }
 
                     Label {
