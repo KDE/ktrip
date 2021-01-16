@@ -72,7 +72,12 @@ int main(int argc, char *argv[])
 
     qmlRegisterSingletonInstance<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", &settings);
 
-    KAboutData about(QStringLiteral("ktrip"), i18n("KTrip"), QStringLiteral("0.1"), i18n("Public transport assistant"), KAboutLicense::GPL, i18n("© 2019 KDE Community"));
+    KAboutData about(QStringLiteral("ktrip"),
+                     i18n("KTrip"),
+                     QStringLiteral("0.1"),
+                     i18n("Public transport assistant"),
+                     KAboutLicense::GPL,
+                     i18n("© 2019 KDE Community"));
     about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
     about.setProgramLogo(QImage(QStringLiteral(":/ktrip.svg")));
     KAboutData::setApplicationData(about);

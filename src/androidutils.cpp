@@ -82,7 +82,10 @@ Q_DECL_EXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *)
 
 void AndroidUtils::showDatePicker()
 {
-    QAndroidJniObject picker("org/kde/ktrip/DatePicker", "(Landroid/app/Activity;J)V", QtAndroid::androidActivity().object(), QDateTime::currentDateTime().toMSecsSinceEpoch());
+    QAndroidJniObject picker("org/kde/ktrip/DatePicker",
+                             "(Landroid/app/Activity;J)V",
+                             QtAndroid::androidActivity().object(),
+                             QDateTime::currentDateTime().toMSecsSinceEpoch());
     picker.callMethod<void>("doShow");
 }
 
@@ -98,7 +101,10 @@ void AndroidUtils::_dateCancelled()
 
 void AndroidUtils::showTimePicker()
 {
-    QAndroidJniObject picker("org/kde/ktrip/TimePicker", "(Landroid/app/Activity;J)V", QtAndroid::androidActivity().object(), QDateTime::currentDateTime().toMSecsSinceEpoch());
+    QAndroidJniObject picker("org/kde/ktrip/TimePicker",
+                             "(Landroid/app/Activity;J)V",
+                             QtAndroid::androidActivity().object(),
+                             QDateTime::currentDateTime().toMSecsSinceEpoch());
     picker.callMethod<void>("doShow");
 }
 
