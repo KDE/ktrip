@@ -45,11 +45,12 @@ Kirigami.ScrollablePage
 
         Kirigami.PlaceholderMessage {
             text: i18n("No locations found")
-            visible: locationView.count === 0 && !queryModel.loading
+            visible: locationView.count === 0 && !queryModel.loading && !noProvidersMessage.visible
             anchors.centerIn: parent
         }
 
         Kirigami.PlaceholderMessage {
+            id: noProvidersMessage
             text: i18n("No providers enabled")
             visible: Manager.enabledBackends.length === 0
             helpfulAction: Action {
