@@ -20,6 +20,7 @@
 #include <QGuiApplication>
 #else
 #include <QApplication>
+#include <QQuickStyle>
 #endif
 
 #include <KAboutData>
@@ -37,6 +38,10 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 #else
     QApplication app(argc, argv);
+    // Default to org.kde.desktop style unless the user forces another style
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
 #endif
 
     QCoreApplication::setApplicationName(QStringLiteral("ktrip"));

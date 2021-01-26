@@ -39,7 +39,7 @@ if (ANDROID)
         configure
     )
 else()
-    target_link_libraries(ktrip PRIVATE Qt5::Widgets)
+    target_link_libraries(ktrip PRIVATE Qt5::Widgets Qt5::QuickControls2)
 endif()
 
 install(FILES ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
