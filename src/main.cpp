@@ -44,6 +44,10 @@ int main(int argc, char *argv[])
     }
 #endif
 
+#ifdef Q_OS_WINDOWS
+    QApplication::setStyle(QStringLiteral("breeze"));
+#endif
+
     QCoreApplication::setApplicationName(QStringLiteral("ktrip"));
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
