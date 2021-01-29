@@ -14,15 +14,15 @@ if (ANDROID)
 endif()
 
 add_executable(ktrip ${ktrip_SRCS})
-target_link_libraries(ktrip PRIVATE Qt5::Qml Qt5::Gui KF5::CoreAddons KF5::I18n KF5::ConfigGui KF5::Contacts KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui KF5::CoreAddons KF5::I18n KF5::ConfigGui KF5::Contacts KPublicTransport)
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE
         KF5::Kirigami2
         KF5::ItemModels
-        Qt5::Svg
+        Qt::Svg
         OpenSSL::SSL
-        Qt5::AndroidExtras
+        Qt::AndroidExtras
     )
 
     kirigami_package_breeze_icons(ICONS
@@ -39,7 +39,7 @@ if (ANDROID)
         configure
     )
 else()
-    target_link_libraries(ktrip PRIVATE Qt5::Widgets Qt5::QuickControls2)
+    target_link_libraries(ktrip PRIVATE Qt::Widgets Qt::QuickControls2)
 endif()
 
 install(FILES ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
