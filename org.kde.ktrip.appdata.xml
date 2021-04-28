@@ -57,6 +57,7 @@
     <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre les ubicacions especificades.</p>
     <p xml:lang="ca-valencia">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre les ubicacions especificades.</p>
+    <p xml:lang="de">KTrip hilft Ihnen bei der Navigation in öffentlichen Verkehrsmitteln. Es ermöglicht Ihnen die Abfrage von Fahrten zwischen bestimmten Orten.</p>
     <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
     <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite planear sus viajes entre las localizaciones especificadas.</p>
     <p xml:lang="et">KTrip abistab ühistranspordi kasutamisel. See võimaldab paika panna reise määratud asukohtade vahel.</p>
@@ -82,6 +83,7 @@
       <caption xml:lang="ca">Vista del viatge</caption>
       <caption xml:lang="ca-valencia">Vista del viatge</caption>
       <caption xml:lang="cs">Pohled na cestu</caption>
+      <caption xml:lang="de">Fahrtansicht</caption>
       <caption xml:lang="en-GB">Journey view</caption>
       <caption xml:lang="es">Vista de viaje</caption>
       <caption xml:lang="et">Teekonnavaade</caption>
