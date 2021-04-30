@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.16)
 project(ktrip VERSION 0.0.1)
 
 set(QT_MIN_VERSION "5.15.0")
