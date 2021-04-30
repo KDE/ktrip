@@ -30,16 +30,8 @@ Button {
         }
     }
 
-    Dialog {
+    KDT.DatePopup {
         id: dialog
-        anchors.centerIn: Overlay.overlay
-        height: Kirigami.Units.gridUnit * 6
-        contentItem: KDT.DateInput {
-            id: picker
-        }
-
-        standardButtons: Dialog.Ok | Dialog.Cancel
-
-        onAccepted: datePicked(picker.selectedDate)
+        onAccepted: datePicked(selectedDate)
     }
 }
