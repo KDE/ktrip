@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
 
     KAboutData about(QStringLiteral("ktrip"),
                      i18n("KTrip"),
-                     QStringLiteral("0.1"),
+                     QStringLiteral(KTRIP_VERSION_STRING),
                      i18n("Public transport assistant"),
                      KAboutLicense::GPL,
                      i18n("© 2019 KDE Community"));
