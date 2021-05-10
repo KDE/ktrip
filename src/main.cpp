@@ -10,9 +10,12 @@
 #include "ktripsettings.h"
 #include "localizer.h"
 #include "locationcachemodel.h"
+#include "version.h"
 
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QCommandLineParser>
+#include <QCommandLineOption>
 
 #include <QImage>
 
@@ -34,6 +37,7 @@ Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
+    QCommandLineParser parser;
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
 #else
@@ -51,12 +55,14 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationName(QStringLiteral("ktrip"));
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
-    QCoreApplication::setApplicationVersion(QStringLiteral("0.1"));
+    QCoreApplication::setApplicationVersion(QStringLiteral(KTRIP_VERSION_STRING));
 
     QGuiApplication::setApplicationDisplayName(QStringLiteral("KTrip"));
     QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.ktrip"));
 
     KLocalizedString::setApplicationDomain("ktrip");
+    parser.addVersionOption();
+    parser.process(app);
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));

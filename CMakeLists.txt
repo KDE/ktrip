@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
-project(ktrip VERSION 0.0.1)
+project(ktrip)
+
+set(PROJECT_VERSION "21.05")
 
 set(QT_MIN_VERSION "5.15.0")
 set(KF5_MIN_VERSION "5.70.0")
@@ -20,6 +22,11 @@ include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEClangFormat)
 include(ECMQMLModules)
+
+ecm_setup_version(${PROJECT_VERSION}
+    VARIABLE_PREFIX KTRIP
+    VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/version.h
+)
 
 find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml Quick QuickControls2)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n ItemModels Config Contacts)

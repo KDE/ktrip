@@ -15,6 +15,7 @@ endif()
 
 add_executable(ktrip ${ktrip_SRCS})
 target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui KF5::CoreAddons KF5::I18n KF5::ConfigGui KF5::Contacts KPublicTransport)
+target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE
