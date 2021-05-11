@@ -12,10 +12,10 @@
 #include "locationcachemodel.h"
 #include "version.h"
 
+#include <QCommandLineOption>
+#include <QCommandLineParser>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QCommandLineParser>
-#include <QCommandLineOption>
 
 #include <QImage>
 
