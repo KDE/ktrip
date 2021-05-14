@@ -94,7 +94,6 @@ int main(int argc, char *argv[])
                      KAboutLicense::GPL,
                      i18n("© 2019 KDE Community"));
     about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
-    about.setProgramLogo(QImage(QStringLiteral(":/ktrip.svg")));
     KAboutData::setApplicationData(about);
 
     engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
