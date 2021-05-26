@@ -1,3 +1,8 @@
+<!--
+  - SPDX-License-Identifier: BSD-2-Clause
+  - SPDX-FileCopyrightText: 2019 Nicolas Fella <nicolas.fella@gmx.de>
+  - SPDX-FileCopyrightText: 2019 Volker Krause <vkrause@kde.org>
+ -->
 <?xml version='1.0' encoding='utf-8'?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="org.kde.ktrip"

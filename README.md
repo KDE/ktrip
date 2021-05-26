@@ -1,3 +1,8 @@
+<!--
+    SPDX-FileCopyrightText: 2019-2020 Nicolas Fella <nicolas.fella@gmx.de>
+    SPDX-License-Identifier: CC0-1.0
+-->
+
 # Summary
 KTrip is a public transport assistant targeted towards mobile Linux and Android.
 
