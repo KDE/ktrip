@@ -41,6 +41,8 @@ if (ANDROID)
     endif()
     find_package(OpenSSL REQUIRED)
 
+    configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
+
 else()
     find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
 endif()
