@@ -34,6 +34,7 @@ Kirigami.ScrollablePage
                 Label {
                     text: i18n("%3 %1 (%2)", departure.route.line.name, departure.route.direction, Formatter.formatTime(departure.scheduledDepartureTime))
                     Layout.fillWidth: true
+                    elide: Text.ElideRight
                 }
                 Label {
                     text: departure.scheduledPlatform
