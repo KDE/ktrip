@@ -17,3 +17,7 @@ License: CC0-1.0
 Files: src/ktrip.svg android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/res/drawable/ktrip.png android/ic_launcher-playstore.png android/res/drawable-v24/ic_launcher_background.xml android/res/drawable-v24/ic_launcher_foreground.xml
 Copyright: 2020 Mathis Brüchert <mbblp@protonmail.ch>
 License: CC-BY-SA-4.0
+
+Files: .gitlab-ci.yml
+Copyright: None
+License: CC0-1.0
