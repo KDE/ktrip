@@ -123,6 +123,7 @@
     <value key="KDE::f_droid">https://f-droid.org/packages/org.kde.ktrip//</value>
   </custom>
   <releases>
+    <release version="21.06" date="2021-06-10"/>
     <release version="21.05" date="2021-05-10"/>
   </releases>
 </component>
