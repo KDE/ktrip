@@ -73,4 +73,4 @@ Comment[sv]=Kollektivtrafiknavigering
 Comment[uk]=Навігатор громадським транспортом.
 Comment[x-test]=xxPublic transport navigator.xx
 Terminal=false
-Categories=Qt;KDE;
+Categories=Qt;KDE;Network;
