@@ -123,7 +123,17 @@
     <value key="KDE::f_droid">https://f-droid.org/packages/org.kde.ktrip//</value>
   </custom>
   <releases>
-    <release version="21.06" date="2021-06-10"/>
+    <release version="21.06" date="2021-06-10">
+      <description>
+        <p>Plasma Mobile Gear 21.06 release</p>
+        <ul>
+          <li>Show correct version number in About page</li>
+          <li>Fix app icon being unsharp in About page</li>
+          <li>Fix text overflow in departures page</li>
+          <li>Set proper category in desktop file</li>
+        </ul>
+      </description>
+    </release>
     <release version="21.05" date="2021-05-10"/>
   </releases>
 </component>
