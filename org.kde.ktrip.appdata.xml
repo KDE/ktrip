@@ -37,7 +37,7 @@
   <summary xml:lang="uk">Навігатор громадським транспортом</summary>
   <summary xml:lang="x-test">xxPublic transport navigatorxx</summary>
   <description>
-    <p>KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
+    <p>KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and distruption information.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre les ubicacions especificades.</p>
     <p xml:lang="ca-valencia">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre les ubicacions especificades.</p>
     <p xml:lang="de">KTrip hilft Ihnen bei der Navigation in öffentlichen Verkehrsmitteln. Es ermöglicht Ihnen die Abfrage von Fahrten zwischen bestimmten Orten.</p>
