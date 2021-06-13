@@ -43,7 +43,7 @@ else()
     target_link_libraries(ktrip PRIVATE Qt::Widgets Qt::QuickControls2)
 endif()
 
-install(FILES ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
+install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
 install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})

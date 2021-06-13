@@ -11,6 +11,6 @@
         <file>qml/DeparturesPage.qml</file>
         <file>qml/ConnectionHeading.qml</file>
         <file>qtquickcontrols2.conf</file>
-        <file>ktrip.svg</file>
+        <file>org.kde.ktrip.svg</file>
     </qresource>
 </RCC>
