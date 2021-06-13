@@ -32,33 +32,14 @@
   <summary>Public transport navigator</summary>
   <summary xml:lang="ca">Navegador de transport públic</summary>
   <summary xml:lang="de">Navigation für öffentliche Verkehrsmittel</summary>
+  <summary xml:lang="en-GB">Public transport navigator</summary>
   <summary xml:lang="es">Navegador de transporte público</summary>
   <summary xml:lang="nl">Navigator van openbaar vervoer</summary>
+  <summary xml:lang="pl">Przemieszczanie się transportem publicznym</summary>
   <summary xml:lang="uk">Навігатор громадським транспортом</summary>
   <summary xml:lang="x-test">xxPublic transport navigatorxx</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and distruption information.</p>
-    <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre les ubicacions especificades.</p>
-    <p xml:lang="ca-valencia">El KTrip ajuda a navegar pel transport públic. Permet consultar viatges entre les ubicacions especificades.</p>
-    <p xml:lang="de">KTrip hilft Ihnen bei der Navigation in öffentlichen Verkehrsmitteln. Es ermöglicht Ihnen die Abfrage von Fahrten zwischen bestimmten Orten.</p>
-    <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to query journeys between specified locations.</p>
-    <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite planear sus viajes entre las localizaciones especificadas.</p>
-    <p xml:lang="et">KTrip abistab ühistranspordi kasutamisel. See võimaldab paika panna reise määratud asukohtade vahel.</p>
-    <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés.</p>
-    <p xml:lang="hi">केट्रिप आपको सार्वजनिक परिवाहन पर मार्गनिर्देशन देता है. यह आपको दो स्थानों के बीच यात्रा विवरण पूछने देता है</p>
-    <p xml:lang="id">KTrip membantu kamu menavigasi dalam transportasi publik. Ini memungkinkan kamu untuk mengancer-ancer perjalanan antara lokasi yang ditentukan.</p>
-    <p xml:lang="it">KTrip ti aiuta a navigare nel trasporto pubblico. Ti permette di interrogare i viaggi tra posizioni specificate.</p>
-    <p xml:lang="ko">KTrip을 사용하여 대중 교통을 탐색할 수 있습니다. 지정한 두 지점간 이동 수단을 확인할 수 있습니다.</p>
-    <p xml:lang="nl">KTrip helpt u in het openbaar vervoer te navigeren. Het biedt u te zoeken naar reizen tussen gespecificeerde locaties.</p>
-    <p xml:lang="nn">KTrip hjelper deg å finna fram i kollektiv­transporten. Du kan slå opp reiser mellom ulike stadar.</p>
-    <p xml:lang="pl">KTrip pomaga przemieszczać się transportem publicznym. Umożliwia odpytanie o połączenia pomiędzy dwoma danymi miejscami.</p>
-    <p xml:lang="pt">O KTrip ajuda-o a navegar pelos transportes públicos. Ajuda-o a consultar trajectos entre localizações específicas.</p>
-    <p xml:lang="pt-BR">KTrip ajuda-o a locomover-se com transportes públicos. Ajuda-o a consultar trajetos entre os locais indicados.</p>
-    <p xml:lang="sk">KTrip vám pomôže orientovať sa vo verejnej doprave. Umožní vám dotazovať medzi určenými lokáciami.</p>
-    <p xml:lang="sl">KTrip vam pomaga pri navigaciji v javnem prevozu. Omogoča vam poizvedbo o potovanjih med določenimi lokacijami.</p>
-    <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser.</p>
-    <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями.</p>
-    <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to query journeys between specified locations.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
