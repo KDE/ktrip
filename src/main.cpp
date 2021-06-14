@@ -14,16 +14,15 @@
 
 #include <QCommandLineOption>
 #include <QCommandLineParser>
+#include <QImage>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-
-#include <QImage>
+#include <QQuickStyle>
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 #else
 #include <QApplication>
-#include <QQuickStyle>
 #endif
 
 #include <KAboutData>
@@ -40,6 +39,7 @@ int main(int argc, char *argv[])
     QCommandLineParser parser;
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
 #else
     QApplication app(argc, argv);
     // Default to org.kde.desktop style unless the user forces another style

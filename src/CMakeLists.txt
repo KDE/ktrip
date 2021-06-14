@@ -14,7 +14,7 @@ if (ANDROID)
 endif()
 
 add_executable(ktrip ${ktrip_SRCS})
-target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui KF5::CoreAddons KF5::I18n KF5::ConfigGui KF5::Contacts KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF5::CoreAddons KF5::I18n KF5::ConfigGui KF5::Contacts KPublicTransport)
 target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
 if (ANDROID)
@@ -40,7 +40,7 @@ if (ANDROID)
         configure
     )
 else()
-    target_link_libraries(ktrip PRIVATE Qt::Widgets Qt::QuickControls2)
+    target_link_libraries(ktrip PRIVATE Qt::Widgets)
 endif()
 
 install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
