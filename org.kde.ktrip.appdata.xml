@@ -36,10 +36,12 @@
   <summary xml:lang="es">Navegador de transporte público</summary>
   <summary xml:lang="nl">Navigator van openbaar vervoer</summary>
   <summary xml:lang="pl">Przemieszczanie się transportem publicznym</summary>
+  <summary xml:lang="pt">Navegador de transportes públicos</summary>
   <summary xml:lang="uk">Навігатор громадським транспортом</summary>
   <summary xml:lang="x-test">xxPublic transport navigatorxx</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
+    <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями, часом відправлення з певних станцій і показує в інтерактивному режимі дані щодо затримок і скасувань рейсів.</p>
   </description>
   <screenshots>
     <screenshot type="default">
