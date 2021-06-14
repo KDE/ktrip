@@ -3,6 +3,8 @@ KTrip is a public transport assistant targeted towards mobile Linux and Android.
 
 It allows to query journeys for a wide range of countries/public transport providers by leveraging [KPublicTransport](https://cgit.kde.org/kpublictransport.git/).
 
+<a href='https://flathub.org/apps/details/org.kde.ktrip'><img width='190px' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-i-en.png'/></a>
+
 # Get it
 
 Nightly [Android APKs](https://binary-factory.kde.org/view/Android/job/KTrip_android/) and [Windows installers](https://binary-factory.kde.org/view/Windows%2064-bit/job/KTrip_Nightly_win64/) can be found at KDE's binary factory.
