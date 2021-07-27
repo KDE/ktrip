@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
 {
     QCommandLineParser parser;
 #ifdef Q_OS_ANDROID
+    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
 #else
