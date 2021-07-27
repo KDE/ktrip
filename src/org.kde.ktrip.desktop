@@ -74,3 +74,4 @@ Comment[uk]=Навігатор громадським транспортом.
 Comment[x-test]=xxPublic transport navigator.xx
 Terminal=false
 Categories=Qt;KDE;Network;
+X-KDE-FormFactor=desktop;tablet;handset;
