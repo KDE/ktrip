@@ -22,6 +22,8 @@ Kirigami.ScrollablePage
         model: root.journey.sections
 
         delegate: Loader {
+            width: parent.width
+
             sourceComponent: {
                 switch(model.modelData.mode) {
                     case JourneySection.Walking: return walking
