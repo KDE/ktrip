@@ -37,9 +37,6 @@ if (ANDROID)
     # runtime dependencies are build-time dependencies on Android
     find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS AndroidExtras Svg)
     find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
-    if (NOT DEFINED BREEZEICONS_DIR AND EXISTS ${CMAKE_SOURCE_DIR}/../breeze-icons)
-        set(BREEZEICONS_DIR ${CMAKE_SOURCE_DIR}/../breeze-icons)
-    endif()
     find_package(OpenSSL REQUIRED)
 
     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/android/version.gradle.in ${CMAKE_BINARY_DIR}/version.gradle)
