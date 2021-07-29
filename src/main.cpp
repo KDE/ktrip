@@ -14,6 +14,7 @@
 
 #include <QCommandLineOption>
 #include <QCommandLineParser>
+#include <QIcon>
 #include <QImage>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -38,10 +39,10 @@ int main(int argc, char *argv[])
 {
     QCommandLineParser parser;
 #ifdef Q_OS_ANDROID
-    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
 #else
+    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
     QApplication app(argc, argv);
     // Default to org.kde.desktop style unless the user forces another style
     if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
