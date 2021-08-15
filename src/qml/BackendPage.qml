@@ -89,9 +89,9 @@ Kirigami.ScrollablePage {
         model: backendModel
         delegate: backendDelegate
 
-        section.property: "primaryCountryCode"
+        section.property: "countryCode"
         section.delegate: Kirigami.ListSectionHeader {
-            text: section == "" ? i18n("Global") : Localizer.countryFlag(section) + " " + Localizer.countryName(section)
+            text: section == "" || section == "UN" ? i18n("Global") : Localizer.countryFlag(section) + " " + Localizer.countryName(section)
         }
         section.criteria: ViewSection.FullString
         section.labelPositioning: ViewSection.CurrentLabelAtStart | ViewSection.InlineLabels

@@ -23,7 +23,7 @@ Kirigami.ScrollablePage
 
     ListView {
 
-        model: KPT.DepartureQueryModel {
+        model: KPT.StopoverQueryModel {
             id: theModel
             request: Controller.createStopoverRequest()
             manager: Manager
