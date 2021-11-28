@@ -11,4 +11,8 @@ Dependencies:
     'frameworks/kitemmodels': '@stable'
     'frameworks/kcontacts': '@stable'
     'frameworks/kirigami': '@stable'
-    'libraries/kpublictransport': "@same"
+    'libraries/kpublictransport': "@latest"
+
+- 'on': ['Linux', 'FreeBSD', 'Windows']
+  'require':
+    'frameworks/qqc2-desktop-style': '@stable'
