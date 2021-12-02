@@ -4,7 +4,7 @@ project(ktrip)
 set(PROJECT_VERSION "21.12")
 
 set(QT_MIN_VERSION "5.15.0")
-set(KF5_MIN_VERSION "5.70.0")
+set(KF5_MIN_VERSION "5.88.0")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -31,7 +31,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml Quick QuickControls2)
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n ItemModels Config Contacts)
+find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n ItemModels Config)
 
 if (ANDROID)
     # runtime dependencies are build-time dependencies on Android

@@ -7,6 +7,7 @@
 import QtQuick 2.5
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.1 as QQC2
+import org.kde.i18n.localeData 1.0
 import org.kde.kirigami 2.10 as Kirigami
 import org.kde.kpublictransport 1.0 as KPublicTransport
 import org.kde.ktrip 1.0
@@ -91,7 +92,18 @@ Kirigami.ScrollablePage {
 
         section.property: "countryCode"
         section.delegate: Kirigami.ListSectionHeader {
-            text: section == "" || section == "UN" ? i18n("Global") : Localizer.countryFlag(section) + " " + Localizer.countryName(section)
+            text: {
+                switch (section) {
+                    case "":
+                    case "UN":
+                        return i18n("Global")
+                    case "EU":
+                        return i18n("🇪🇺 European Union");
+                    default:
+                        const c = Country.fromAlpha2(section);
+                        return i18nc("emoji flag, country name", "%1 %2", c.emojiFlag, c.name);
+                }
+            }
         }
         section.criteria: ViewSection.FullString
         section.labelPositioning: ViewSection.CurrentLabelAtStart | ViewSection.InlineLabels

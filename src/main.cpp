@@ -8,7 +8,6 @@
 #include "controller.h"
 #include "formatter.h"
 #include "ktripsettings.h"
-#include "localizer.h"
 #include "locationcachemodel.h"
 #include "version.h"
 
@@ -109,9 +108,6 @@ int main(int argc, char *argv[])
 #else
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
-
-    Localizer localizer;
-    qmlRegisterSingletonInstance<Localizer>("org.kde.ktrip", 1, 0, "Localizer", &localizer);
 
     Controller controller;
     qmlRegisterSingletonInstance<Controller>("org.kde.ktrip", 1, 0, "Controller", &controller);
