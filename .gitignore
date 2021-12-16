@@ -1,7 +1,6 @@
 build/
 *.kdev4
 .cmake/
-.clang-format
 
 # LSP & IDE
 /.clang-format
