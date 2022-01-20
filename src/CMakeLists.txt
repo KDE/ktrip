@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2019-2021 Nicolas Fella <nicolas.fella@gmx.de>
+# SPDX-License-Identifier: BSD-2-Clause
+
 set(ktrip_SRCS
     main.cpp
     controller.cpp
