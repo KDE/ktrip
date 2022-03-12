@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 
-include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
+include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMAddTests)
 include(ECMGenerateHeaders)
 include(ECMQtDeclareLoggingCategory)
