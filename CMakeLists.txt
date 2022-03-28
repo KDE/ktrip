@@ -27,6 +27,7 @@ include(KDEClangFormat)
 include(ECMQMLModules)
 include(KDEGitCommitHooks)
 include(ECMCheckOutboundLicense)
+include(ECMAddAppIcon)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KTRIP

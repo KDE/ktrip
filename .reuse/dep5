@@ -14,7 +14,7 @@ Files: fastlane/metadata/android/en-US/full_description.txt fastlane/metadata/an
 Copyright: 2020 Nicolas Fella <nicolas.fella@gmx.de>
 License: CC0-1.0
 
-Files: src/org.kde.ktrip.svg src/ktrip.svg android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/res/drawable/ktrip.png android/ic_launcher-playstore.png android/res/drawable-v24/ic_launcher_background.xml android/res/drawable-v24/ic_launcher_foreground.xml
+Files: src/org.kde.ktrip.svg src/ktrip.svg android/res/mipmap-xxxhdpi/ic_launcher.png android/res/mipmap-xxhdpi/ic_launcher.png android/res/mipmap-xhdpi/ic_launcher.png android/res/mipmap-hdpi/ic_launcher.png android/res/mipmap-mdpi/ic_launcher.png android/res/drawable/ktrip.png android/ic_launcher-playstore.png android/res/drawable-v24/ic_launcher_background.xml android/res/drawable-v24/ic_launcher_foreground.xml src/256-org.kde.ktrip.png
 Copyright: 2020 Mathis Brüchert <mbblp@protonmail.ch>
 License: CC-BY-SA-4.0
 

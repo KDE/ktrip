@@ -45,6 +45,8 @@ else()
     target_link_libraries(ktrip PRIVATE Qt::Widgets)
 endif()
 
+ecm_add_app_icon(ktrip ICONS 256-org.kde.ktrip.png)
+
 install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
