@@ -61,6 +61,8 @@ add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
 
+ki18n_install(po)
+
 add_subdirectory(src)
 
 install(FILES org.kde.ktrip.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
