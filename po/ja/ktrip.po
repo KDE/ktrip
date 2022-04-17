@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-04-03 00:54+0000\n"
+"PO-Revision-Date: 2019-08-04 18:23-0700\n"
+"Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: main.cpp:95
+#, kde-format
+msgid "KTrip"
+msgstr ""
+
+#: main.cpp:97
+#, kde-format
+msgid "Public transport assistant"
+msgstr ""
+
+#: main.cpp:99
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr ""
+
+#: main.cpp:100
+#, kde-format
+msgid "Nicolas Fella"
+msgstr ""
+
+#: qml/BackendPage.qml:17 qml/main.qml:49
+#, kde-format
+msgid "Providers"
+msgstr ""
+
+#: qml/BackendPage.qml:20
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr ""
+
+#: qml/BackendPage.qml:25
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: qml/BackendPage.qml:99
+#, kde-format
+msgid "Global"
+msgstr ""
+
+#: qml/BackendPage.qml:101
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr ""
+
+#: qml/BackendPage.qml:104
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:42
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionDetailsPage.qml:50
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionDetailsPage.qml:58
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionDetailsPage.qml:94
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:94
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr ""
+
+#: qml/ConnectionsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr ""
+
+#: qml/ConnectionsPage.qml:58 qml/ConnectionsPage.qml:84
+#, kde-format
+msgid "%1 %2"
+msgstr ""
+
+#: qml/ConnectionsPage.qml:64 qml/ConnectionsPage.qml:90
+#, kde-format
+msgid "+%1"
+msgstr ""
+
+#: qml/ConnectionsPage.qml:74
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionsPage.qml:106
+#, kde-format
+msgid "No connections found"
+msgstr ""
+
+#: qml/DeparturesPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr ""
+
+#: qml/DeparturesPage.qml:35
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr ""
+
+#: qml/LocationQueryPage.qml:47
+#, kde-format
+msgid "No locations found"
+msgstr ""
+
+#: qml/LocationQueryPage.qml:54
+#, kde-format
+msgid "No providers enabled"
+msgstr ""
+
+#: qml/LocationQueryPage.qml:57
+#, kde-format
+msgid "Configure providers"
+msgstr ""
+
+#: qml/main.qml:32
+#, kde-format
+msgid "Journey"
+msgstr ""
+
+#: qml/main.qml:39
+#, kde-format
+msgid "Departures"
+msgstr ""
+
+#: qml/main.qml:53
+#, kde-format
+msgid "About KTrip"
+msgstr ""
+
+#: qml/QueryPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr ""
+
+#: qml/QueryPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr ""
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr ""
+
+#: qml/QueryPage.qml:41
+#, kde-format
+msgid "From:"
+msgstr ""
+
+#: qml/QueryPage.qml:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr ""
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr ""
+
+#: qml/QueryPage.qml:50
+#, kde-format
+msgid "To:"
+msgstr ""
+
+#: qml/QueryPage.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr ""
+
+#: qml/QueryPage.qml:57
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr ""
+
+#: qml/QueryPage.qml:61
+#, kde-format
+msgid "Departure date:"
+msgstr ""
+
+#: qml/QueryPage.qml:75
+#, kde-format
+msgid "Departure time:"
+msgstr ""

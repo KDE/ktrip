@@ -1,0 +1,259 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the ktrip package.
+#
+# Matjaž Jeran <matjaz.jeran@amis.net>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-04-03 00:54+0000\n"
+"PO-Revision-Date: 2021-12-20 07:01+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Matjaž Jeran"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "matjaz.jeran@amis.net"
+
+#: main.cpp:95
+#, kde-format
+msgid "KTrip"
+msgstr "KTrip"
+
+#: main.cpp:97
+#, kde-format
+msgid "Public transport assistant"
+msgstr "Pomočnik javnega transporta"
+
+#: main.cpp:99
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© 2019 skupnost KDE"
+
+#: main.cpp:100
+#, kde-format
+msgid "Nicolas Fella"
+msgstr "Nicolas Fella"
+
+#: qml/BackendPage.qml:17 qml/main.qml:49
+#, kde-format
+msgid "Providers"
+msgstr "Ponudniki"
+
+#: qml/BackendPage.qml:20
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr "Izberite ponudnike, ki so pomembni na vašemu območju"
+
+#: qml/BackendPage.qml:25
+#, kde-format
+msgid "Save"
+msgstr "Shrani"
+
+#: qml/BackendPage.qml:99
+#, kde-format
+msgid "Global"
+msgstr "Globalno"
+
+#: qml/BackendPage.qml:101
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 Evropska unija"
+
+#: qml/BackendPage.qml:104
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionDetailsPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: qml/ConnectionDetailsPage.qml:42
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] "Hoja (%1 minuta)"
+msgstr[1] "Hoja (%1 minuti)"
+msgstr[2] "Hoja (%1 minute)"
+msgstr[3] "Hoja (%1 minut)"
+
+#: qml/ConnectionDetailsPage.qml:50
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] "Čakanje (%1 minuta)"
+msgstr[1] "Čakanje (%1 minuti)"
+msgstr[2] "Čakanje (%1 minute)"
+msgstr[3] "Čakanje (%1 minut)"
+
+#: qml/ConnectionDetailsPage.qml:58
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] "Prestop (%1 minuta)"
+msgstr[1] "Prestop (%1 minuti)"
+msgstr[2] "Prestop (%1 minute)"
+msgstr[3] "Prestop (%1 minut)"
+
+#: qml/ConnectionDetailsPage.qml:94
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr "Skrij vmesne postaje"
+
+#: qml/ConnectionDetailsPage.qml:94
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr "Prikaži vmesne postaje"
+
+#: qml/ConnectionsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr "Povezave"
+
+#: qml/ConnectionsPage.qml:58 qml/ConnectionsPage.qml:84
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionsPage.qml:64 qml/ConnectionsPage.qml:90
+#, kde-format
+msgid "+%1"
+msgstr "+%1"
+
+#: qml/ConnectionsPage.qml:74
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] "%1 sprememba"
+msgstr[1] "%1 spremembi"
+msgstr[2] "%1 spremembe"
+msgstr[3] "%1 sprememb"
+
+#: qml/ConnectionsPage.qml:106
+#, kde-format
+msgid "No connections found"
+msgstr "Ni najdenih povezav"
+
+#: qml/DeparturesPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr "Odhodi"
+
+#: qml/DeparturesPage.qml:35
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr "%3 %1 (%2)"
+
+#: qml/LocationQueryPage.qml:47
+#, kde-format
+msgid "No locations found"
+msgstr "Ni najdenih lokacij"
+
+#: qml/LocationQueryPage.qml:54
+#, kde-format
+msgid "No providers enabled"
+msgstr "Ni omogočenega nobenega ponudnika"
+
+#: qml/LocationQueryPage.qml:57
+#, kde-format
+msgid "Configure providers"
+msgstr "Nastavi ponudnike"
+
+#: qml/main.qml:32
+#, kde-format
+msgid "Journey"
+msgstr "Potovanje"
+
+#: qml/main.qml:39
+#, kde-format
+msgid "Departures"
+msgstr "Odhodi"
+
+#: qml/main.qml:53
+#, kde-format
+msgid "About KTrip"
+msgstr "O programu KTrip"
+
+#: qml/QueryPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr "Poizvedi za odhode"
+
+#: qml/QueryPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr "Začetek potovanja"
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr "Išči"
+
+#: qml/QueryPage.qml:41
+#, kde-format
+msgid "From:"
+msgstr "Od:"
+
+#: qml/QueryPage.qml:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr "Izberi začetek"
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr "Išči začetno lokacijo"
+
+#: qml/QueryPage.qml:50
+#, kde-format
+msgid "To:"
+msgstr "Do:"
+
+#: qml/QueryPage.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr "Izberi cilj"
+
+#: qml/QueryPage.qml:57
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr "Išči lokacijo cilja"
+
+#: qml/QueryPage.qml:61
+#, kde-format
+msgid "Departure date:"
+msgstr "Datum odhoda:"
+
+#: qml/QueryPage.qml:75
+#, kde-format
+msgid "Departure time:"
+msgstr "Čas odhoda:"
+
+#~ msgid "About"
+#~ msgstr "O programu"
