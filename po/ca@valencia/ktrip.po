@@ -176,7 +176,7 @@ msgstr "Configura els proveïdors"
 #: qml/main.qml:32
 #, kde-format
 msgid "Journey"
-msgstr "Viage"
+msgstr "Viatge"
 
 #: qml/main.qml:39
 #, kde-format
@@ -198,7 +198,7 @@ msgstr "Consulta les sortides"
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
-msgstr "Inici del viage"
+msgstr "Inici del viatge"
 
 #: qml/QueryPage.qml:23
 #, kde-format
