@@ -130,6 +130,12 @@
   </custom>
   <releases>
     <release version="22.06" date="2022-06-24">
+      <description>
+        <p>Plasma Mobile Gear 22.06 release</p>
+        <ul>
+          <li>Translation updates</li>
+        </ul>
+      </description>
       <url>https://www.plasma-mobile.org/2022/06/28/plasma-mobile-gear-22-06/</url>
     </release>
     <release version="22.04" date="2022-04-26">
