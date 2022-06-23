@@ -1,0 +1,247 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the ktrip package.
+#
+# Emir SARI <emir_sari@icloud.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-04-03 00:54+0000\n"
+"PO-Revision-Date: 2022-06-22 13:36+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Emir SARI"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "emir_sari@icloud.com"
+
+#: main.cpp:95
+#, kde-format
+msgid "KTrip"
+msgstr "KTrip"
+
+#: main.cpp:97
+#, kde-format
+msgid "Public transport assistant"
+msgstr "Toplu taşıma asistanı"
+
+#: main.cpp:99
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© 2019 KDE Community"
+
+#: main.cpp:100
+#, kde-format
+msgid "Nicolas Fella"
+msgstr "Nicolas Fella"
+
+#: qml/BackendPage.qml:17 qml/main.qml:49
+#, kde-format
+msgid "Providers"
+msgstr "Sağlayıcılar"
+
+#: qml/BackendPage.qml:20
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr "Yaşadığınız bölge için olan sağlayıcıları seçin"
+
+#: qml/BackendPage.qml:25
+#, kde-format
+msgid "Save"
+msgstr "Kaydet"
+
+#: qml/BackendPage.qml:99
+#, kde-format
+msgid "Global"
+msgstr "Global"
+
+#: qml/BackendPage.qml:101
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 Avrupa Birliği"
+
+#: qml/BackendPage.qml:104
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionDetailsPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: qml/ConnectionDetailsPage.qml:42
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] "Yürüme (%1 dakika)"
+msgstr[1] "Yürüme (%1 dakika)"
+
+#: qml/ConnectionDetailsPage.qml:50
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] "Bekleme (%1 dakika)"
+msgstr[1] "Bekleme (%1 dakika)"
+
+#: qml/ConnectionDetailsPage.qml:58
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] "Aktarma (%1 dakika)"
+msgstr[1] "Aktarma (%1 dakika)"
+
+#: qml/ConnectionDetailsPage.qml:94
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr "Ara Durakları Gizle"
+
+#: qml/ConnectionDetailsPage.qml:94
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr "Ara Durakları Göster"
+
+#: qml/ConnectionsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr "Bağlantılar"
+
+#: qml/ConnectionsPage.qml:58 qml/ConnectionsPage.qml:84
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionsPage.qml:64 qml/ConnectionsPage.qml:90
+#, kde-format
+msgid "+%1"
+msgstr "+%1"
+
+#: qml/ConnectionsPage.qml:74
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] "%1 değişiklik"
+msgstr[1] "%1 değişiklik"
+
+#: qml/ConnectionsPage.qml:106
+#, kde-format
+msgid "No connections found"
+msgstr "Bağlantı bulunamadı"
+
+#: qml/DeparturesPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr "Kalkışlar"
+
+#: qml/DeparturesPage.qml:35
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr "%3 %1 (%2)"
+
+#: qml/LocationQueryPage.qml:47
+#, kde-format
+msgid "No locations found"
+msgstr "Konum bulunamadı"
+
+#: qml/LocationQueryPage.qml:54
+#, kde-format
+msgid "No providers enabled"
+msgstr "Etkin sağlayıcı yok"
+
+#: qml/LocationQueryPage.qml:57
+#, kde-format
+msgid "Configure providers"
+msgstr "Sağlayıcıları yapılandır"
+
+#: qml/main.qml:32
+#, kde-format
+msgid "Journey"
+msgstr "Yolculuk"
+
+#: qml/main.qml:39
+#, kde-format
+msgid "Departures"
+msgstr "Kalkışlar"
+
+#: qml/main.qml:53
+#, kde-format
+msgid "About KTrip"
+msgstr "KTrip Hakkında"
+
+#: qml/QueryPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr "Kalkışları Sorgula"
+
+#: qml/QueryPage.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr "Yolculuğu Başlat"
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr "Ara"
+
+#: qml/QueryPage.qml:41
+#, kde-format
+msgid "From:"
+msgstr "Nereden:"
+
+#: qml/QueryPage.qml:45
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr "Başlangıç Seç"
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr "Başlangıç Konumu Ara"
+
+#: qml/QueryPage.qml:50
+#, kde-format
+msgid "To:"
+msgstr "Nereye:"
+
+#: qml/QueryPage.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr "Hedef Konum Seç"
+
+#: qml/QueryPage.qml:57
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr "Hedef Konum Ara"
+
+#: qml/QueryPage.qml:61
+#, kde-format
+msgid "Departure date:"
+msgstr "Kalkış tarihi:"
+
+#: qml/QueryPage.qml:75
+#, kde-format
+msgid "Departure time:"
+msgstr "Kalkış zamanı:"
