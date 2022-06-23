@@ -32,6 +32,7 @@
   <name xml:lang="sk">KTrip</name>
   <name xml:lang="sl">KTrip</name>
   <name xml:lang="sv">Ktripp</name>
+  <name xml:lang="tr">KTrip</name>
   <name xml:lang="uk">KTrip</name>
   <name xml:lang="x-test">xxKTripxx</name>
   <name xml:lang="zh-TW">KTrip</name>
@@ -54,6 +55,7 @@
   <summary xml:lang="pt-BR">Navegador de transportes públicos</summary>
   <summary xml:lang="sl">Navigator po javnem prometu</summary>
   <summary xml:lang="sv">Kollektivtrafiknavigering</summary>
+  <summary xml:lang="tr">Toplu taşıma için yol bulucu</summary>
   <summary xml:lang="uk">Навігатор громадським транспортом</summary>
   <summary xml:lang="x-test">xxPublic transport navigatorxx</summary>
   <description>
@@ -75,6 +77,7 @@
     <p xml:lang="pt-BR">O KTrip ajuda-o a locomover-se com transportes públicos. Ajuda-o a encontrar trajetos entre os locais indicados, partidas de uma estação específica, mostra atrasos em tempo real e informações sobre interrupções.</p>
     <p xml:lang="sl">KTrip vam pomaga pri navigaciji v javnem prevozu. Omogoča vam najti o potovanja med določenimi lokacijami, odhode z navedenih postaj in zamude v realnem času ter informacije o motnjah obratovanja.</p>
     <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser, avgångar från en viss station, samt visar realtidsfördröjningar och störningsinformation.</p>
+    <p xml:lang="tr">KTrip, toplu taşımada yolunuzu bulmanıza yardımcı olur. Belirli konumlar arasındaki yolları, istasyon kalkışlarını, anlık gecikme ve iptal bilgilerini bulmanıza izin verir.</p>
     <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями, часом відправлення з певних станцій і показує в інтерактивному режимі дані щодо затримок і скасувань рейсів.</p>
     <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.xx</p>
   </description>
@@ -102,6 +105,7 @@
       <caption xml:lang="pt-BR">Visualização da jornada</caption>
       <caption xml:lang="sl">Pogled na potovanje</caption>
       <caption xml:lang="sv">Resevisning</caption>
+      <caption xml:lang="tr">Yolculuk görünümü</caption>
       <caption xml:lang="uk">Перегляд подорожі</caption>
       <caption xml:lang="x-test">xxJourney viewxx</caption>
       <image width="1714" height="1631" type="source">https://cdn.kde.org/screenshots/ktrip/ktrip.png</image>
