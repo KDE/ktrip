@@ -127,6 +127,7 @@
   </categories>
   <custom>
     <value key="KDE::f_droid">https://f-droid.org/packages/org.kde.ktrip//</value>
+    <value key="KDE::matrix">#plasmamobile:kde.org</value>
   </custom>
   <releases>
     <release version="22.06" date="2022-06-24">
