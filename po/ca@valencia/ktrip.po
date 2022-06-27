@@ -151,7 +151,7 @@ msgstr "No s'ha trobat cap connexió"
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
-msgstr "Sortides"
+msgstr "Eixides"
 
 #: qml/DeparturesPage.qml:35
 #, kde-format
@@ -181,7 +181,7 @@ msgstr "Viatge"
 #: qml/main.qml:39
 #, kde-format
 msgid "Departures"
-msgstr "Sortides"
+msgstr "Eixides"
 
 #: qml/main.qml:53
 #, kde-format
@@ -192,7 +192,7 @@ msgstr "Quant a KTrip"
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
-msgstr "Consulta les sortides"
+msgstr "Consulta les eixides"
 
 #: qml/QueryPage.qml:17
 #, kde-format
