@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: KTrip
 Upstream-Contact: Nicolas Fella <nicolas.fella@gmx.de>
 
-Files: .gitignore .editorconfig src/Messages.sh src/resources.qrc src/qtquickcontrols2.conf
+Files: .gitignore .editorconfig src/Messages.sh src/resources.qrc src/qtquickcontrols2.conf .flatpak-manifest.json
 Copyright: None
 License: CC0-1.0
 
