@@ -122,6 +122,7 @@
   <provides>
     <binary>ktrip</binary>
   </provides>
+  <launchable type="desktop-id">org.kde.ktrip.desktop</launchable>
   <categories>
     <category>Utility</category>
   </categories>
