@@ -131,6 +131,9 @@
     <value key="KDE::matrix">#plasmamobile:kde.org</value>
   </custom>
   <releases>
+    <release version="22.09" date="2022-09-27">
+      <url>https://www.plasma-mobile.org/2022/09/27/plasma-mobile-gear-22-09/</url>
+    </release>
     <release version="22.06" date="2022-06-24">
       <description>
         <p>Plasma Mobile Gear 22.06 release</p>
