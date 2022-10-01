@@ -22,6 +22,7 @@
   <name xml:lang="ia">KTrip</name>
   <name xml:lang="id">KTrip</name>
   <name xml:lang="it">KTrip</name>
+  <name xml:lang="ka">KTrip</name>
   <name xml:lang="ko">KTrip</name>
   <name xml:lang="nl">KTrip</name>
   <name xml:lang="nn">KTrip</name>
@@ -47,6 +48,7 @@
   <summary xml:lang="fr">Navigateur pour transports publics</summary>
   <summary xml:lang="ia">Navigator de transporto public</summary>
   <summary xml:lang="it">Navigatore di trasporto pubblico</summary>
+  <summary xml:lang="ka">საჯარო ტრანსპორტის ნავიგატორი</summary>
   <summary xml:lang="ko">대중 교통 탐색기</summary>
   <summary xml:lang="nl">Navigator van openbaar vervoer</summary>
   <summary xml:lang="nn">Navigering med kollektiv­transport</summary>
@@ -97,6 +99,7 @@
       <caption xml:lang="ia">Vista de viage</caption>
       <caption xml:lang="id">Journey view</caption>
       <caption xml:lang="it">Vista del viaggio</caption>
+      <caption xml:lang="ka">მგზავრობის ხედი</caption>
       <caption xml:lang="ko">여정 보기</caption>
       <caption xml:lang="nl">Weergave van reis</caption>
       <caption xml:lang="nn">Reisevising</caption>
