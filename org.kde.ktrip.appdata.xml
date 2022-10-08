@@ -47,6 +47,7 @@
   <summary xml:lang="fi">Julkisen liikenteen navigoija</summary>
   <summary xml:lang="fr">Navigateur pour transports publics</summary>
   <summary xml:lang="ia">Navigator de transporto public</summary>
+  <summary xml:lang="id">Penavigasi transportasi umum</summary>
   <summary xml:lang="it">Navigatore di trasporto pubblico</summary>
   <summary xml:lang="ka">საჯარო ტრანსპორტის ნავიგატორი</summary>
   <summary xml:lang="ko">대중 교통 탐색기</summary>
@@ -70,6 +71,7 @@
     <p xml:lang="fi">KTrip auttaa navigoimaan julkisessa liikenteessä. Se etsii matkat annettujen paikkojen välillä, lähdöt tietyltä asemalta ja näyttää tosiaikaisesti viive- ja häiriötilannetietoa.</p>
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés et des départs à partir d'une gare spécifique. Il vous affiche aussi les retards en temps réel et des informations sur des interruptions de services.</p>
     <p xml:lang="ia">KTrip te adjuta a navigar in trnsporto public. Illo te permitte trovar viages inter locationes specificate, partitas per un specific station e monstra retardos in tempore real e information de interruption.</p>
+    <p xml:lang="id">KTrip membantu kamu bernavigasi di transportasi umum. Hal ini memungkinkan kamu untuk menemukan perjalanan antara lokasi tertentu, keberangkatan untuk stasiun tertentu dan menunjukkan informasi penundaan dan gangguan secara real-time.</p>
     <p xml:lang="it">KTrip ti aiuta a navigare nel trasporto pubblico. Ti permette di trovare dei viaggi tra posizioni specificate e le partenze da una stazione specifica, inoltre mostra informazioni in tempo reale su ritardi e interruzioni.</p>
     <p xml:lang="ko">KTrip을 사용하여 대중 교통을 탐색할 수 있습니다. 지정한 두 지점간 이동 수단을 확인하고, 지정한 정거장에서의 출발 정보를 확인하고, 실시간 지연과 운행 문제를 확인할 수 있습니다.</p>
     <p xml:lang="nl">KTrip helpt u in het openbaar vervoer te reizen. Het biedt u het zoeken van reizen tussen gespecificeerde locaties, vertrektijden voor een specifiek station en toont informatie over werkelijke vertraging en verstoringen.</p>
@@ -97,7 +99,7 @@
       <caption xml:lang="fr">Vue itinéraire</caption>
       <caption xml:lang="hi">यात्रा दृश्य</caption>
       <caption xml:lang="ia">Vista de viage</caption>
-      <caption xml:lang="id">Journey view</caption>
+      <caption xml:lang="id">Tampilan perjalanan</caption>
       <caption xml:lang="it">Vista del viaggio</caption>
       <caption xml:lang="ka">მგზავრობის ხედი</caption>
       <caption xml:lang="ko">여정 보기</caption>
