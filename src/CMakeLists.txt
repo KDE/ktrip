@@ -40,6 +40,10 @@ if (ANDROID)
         collapse
         expand
         configure
+        globe
+        settings-configure
+        arrow-right-double
+        help-about
     )
 else()
     target_link_libraries(ktrip PRIVATE Qt::Widgets)

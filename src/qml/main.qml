@@ -30,6 +30,7 @@ Kirigami.ApplicationWindow
         actions: [
             Kirigami.Action {
                 text: i18n("Journey")
+                icon.name: "globe"
                 onTriggered: {
                     window.pageStack.clear()
                     window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {departures: false})
@@ -37,6 +38,7 @@ Kirigami.ApplicationWindow
             },
             Kirigami.Action {
                 text: i18n("Departures")
+                icon.name: "arrow-right-double"
                 onTriggered: {
                     window.pageStack.clear()
                     window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {departures: true})
@@ -47,11 +49,13 @@ Kirigami.ApplicationWindow
             },
             Kirigami.Action {
                 text: i18n("Providers")
+                icon.name: "settings-configure"
                 onTriggered: window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
             },
             Kirigami.Action {
                 text: i18n("About KTrip")
                 // TODO add help-about icon when other actions have icons too
+                icon.name: "help-about"
                 onTriggered: {
                     if (window.pageStack.layers.depth < 2) {
                         window.pageStack.layers.push(aboutPage)
