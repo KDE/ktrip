@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 Dependencies:
-- 'on': ['@all']
+- 'on': ['Linux/Qt5', 'Android/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
   'require':
     'frameworks/extra-cmake-modules': '@stable'
     'frameworks/kcoreaddons': '@stable'
@@ -13,9 +13,24 @@ Dependencies:
     'frameworks/kirigami': '@stable'
     'libraries/kpublictransport': "@latest"
 
-- 'on': ['Linux', 'FreeBSD', 'Windows']
+- 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
   'require':
     'frameworks/qqc2-desktop-style': '@stable'
+
+- 'on': ['Linux/Qt6', 'Android/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
+  'require':
+    'frameworks/extra-cmake-modules': '@latest-kf6'
+    'frameworks/kcoreaddons': '@latest-kf6'
+    'frameworks/kconfig': '@latest-kf6'
+    'frameworks/ki18n': '@latest-kf6'
+    'frameworks/kitemmodels': '@latest-kf6'
+    'frameworks/kcontacts': '@latest-kf6'
+    'frameworks/kirigami': '@latest-kf6'
+    'libraries/kpublictransport': "@latest-kf6"
+
+- 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
+  'require':
+    'frameworks/qqc2-desktop-style': '@latest-kf6'
 
 Options:
   require-passing-tests-on: [ '@all' ]
