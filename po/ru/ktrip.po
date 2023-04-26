@@ -3,41 +3,42 @@
 #
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
 # Alexander Yavorsky <kekcuha@gmail.com>, 2021.
+# Olesya Gerasimenko <translation-team@basealt.ru>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-29 00:50+0000\n"
-"PO-Revision-Date: 2021-02-08 09:41+0300\n"
-"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
-"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"PO-Revision-Date: 2023-04-25 14:30+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 20.12.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Олеся Герасименко"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "translation-team@basealt.ru"
 
 #: main.cpp:95
 #, kde-format
 msgid "KTrip"
-msgstr ""
+msgstr "KTrip"
 
 #: main.cpp:97
 #, kde-format
 msgid "Public transport assistant"
-msgstr ""
+msgstr "Навигатор общественного транспорта"
 
 #: main.cpp:99
 #, kde-format
@@ -52,12 +53,12 @@ msgstr "Nicolas Fella"
 #: qml/BackendPage.qml:17 qml/main.qml:51
 #, kde-format
 msgid "Providers"
-msgstr ""
+msgstr "Поставщики данных"
 
 #: qml/BackendPage.qml:20
 #, kde-format
 msgid "Select the providers relevant for your area"
-msgstr ""
+msgstr "Выберите поставщиков данных, которые соответствуют вашему региону"
 
 #: qml/BackendPage.qml:25
 #, kde-format
@@ -67,18 +68,18 @@ msgstr "Сохранить"
 #: qml/BackendPage.qml:99
 #, kde-format
 msgid "Global"
-msgstr ""
+msgstr "Глобальный"
 
 #: qml/BackendPage.qml:101
 #, kde-format
 msgid "🇪🇺 European Union"
-msgstr ""
+msgstr "🇪🇺 Европейский союз"
 
 #: qml/BackendPage.qml:104
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: qml/ConnectionDetailsPage.qml:17
 #, kde-format
@@ -90,121 +91,121 @@ msgstr "Подробности"
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Пешком (%1 минута)"
+msgstr[1] "Пешком (%1 минуты)"
+msgstr[2] "Пешком (%1 минут)"
+msgstr[3] "Пешком (%1 минута)"
 
 #: qml/ConnectionDetailsPage.qml:50
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Ожидание (%1 минута)"
+msgstr[1] "Ожидание (%1 минуты)"
+msgstr[2] "Ожидание (%1 минут)"
+msgstr[3] "Ожидание (%1 минута)"
 
 #: qml/ConnectionDetailsPage.qml:58
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Пересадка (%1 минута)"
+msgstr[1] "Пересадка (%1 минуты)"
+msgstr[2] "Пересадка (%1 минут)"
+msgstr[3] "Пересадка (%1 минута)"
 
 #: qml/ConnectionDetailsPage.qml:94
 #, kde-format
 msgid "Hide intermediate Stops"
-msgstr ""
+msgstr "Скрыть промежуточные остановки"
 
 #: qml/ConnectionDetailsPage.qml:94
 #, kde-format
 msgid "Show intermediate Stops"
-msgstr ""
+msgstr "Показать промежуточные остановки"
 
 #: qml/ConnectionsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
-msgstr ""
+msgstr "Подходящие рейсы"
 
 #: qml/ConnectionsPage.qml:58 qml/ConnectionsPage.qml:84
 #, kde-format
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: qml/ConnectionsPage.qml:64 qml/ConnectionsPage.qml:90
 #, kde-format
 msgid "+%1"
-msgstr ""
+msgstr "+%1"
 
 #: qml/ConnectionsPage.qml:74
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 изменение"
+msgstr[1] "%1 изменения"
+msgstr[2] "%1 изменений"
+msgstr[3] "%1 изменение"
 
 #: qml/ConnectionsPage.qml:106
 #, kde-format
 msgid "No connections found"
-msgstr ""
+msgstr "Подходящие рейсы не найдены"
 
 #: qml/DeparturesPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
-msgstr ""
+msgstr "Отправления"
 
 #: qml/DeparturesPage.qml:35
 #, kde-format
 msgid "%3 %1 (%2)"
-msgstr ""
+msgstr "%3 %1 (%2)"
 
 #: qml/LocationQueryPage.qml:47
 #, kde-format
 msgid "No locations found"
-msgstr ""
+msgstr "Расположения не найдены"
 
 #: qml/LocationQueryPage.qml:54
 #, kde-format
 msgid "No providers enabled"
-msgstr ""
+msgstr "Не включён ни один поставщик данных"
 
 #: qml/LocationQueryPage.qml:57
 #, kde-format
 msgid "Configure providers"
-msgstr ""
+msgstr "Настроить поставщиков данных"
 
 #: qml/main.qml:32
 #, kde-format
 msgid "Journey"
-msgstr ""
+msgstr "Маршрут"
 
 #: qml/main.qml:40
 #, kde-format
 msgid "Departures"
-msgstr ""
+msgstr "Отправления"
 
 #: qml/main.qml:56
 #, kde-format
 msgid "About KTrip"
-msgstr ""
+msgstr "О программе KTrip"
 
 #: qml/QueryPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
-msgstr ""
+msgstr "Запрос отправлений"
 
 #: qml/QueryPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
-msgstr ""
+msgstr "Начало маршрута"
 
 #: qml/QueryPage.qml:23
 #, kde-format
@@ -215,36 +216,36 @@ msgstr "Поиск"
 #: qml/QueryPage.qml:41
 #, kde-format
 msgid "From:"
-msgstr ""
+msgstr "Из:"
 
 #: qml/QueryPage.qml:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
-msgstr ""
+msgstr "Выбрать место начала"
 
 #: qml/QueryPage.qml:46
 #, kde-format
 msgctxt "@title"
 msgid "Search for Start Location"
-msgstr ""
+msgstr "Поиск начального расположения"
 
 #: qml/QueryPage.qml:50
 #, kde-format
 msgid "To:"
-msgstr ""
+msgstr "В:"
 
 #: qml/QueryPage.qml:56
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
-msgstr ""
+msgstr "Выбрать место назначения"
 
 #: qml/QueryPage.qml:57
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
-msgstr ""
+msgstr "Поиск конечного расположения"
 
 #: qml/QueryPage.qml:61
 #, kde-format
