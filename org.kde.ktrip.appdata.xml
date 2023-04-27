@@ -56,6 +56,7 @@
   <summary xml:lang="pl">Przemieszczanie się transportem publicznym</summary>
   <summary xml:lang="pt">Navegador de transportes públicos</summary>
   <summary xml:lang="pt-BR">Navegador de transportes públicos</summary>
+  <summary xml:lang="ru">Навигатор общественного транспорта</summary>
   <summary xml:lang="sl">Navigator po javnem prometu</summary>
   <summary xml:lang="sv">Kollektivtrafiknavigering</summary>
   <summary xml:lang="tr">Toplu Taşıma için Yol Bulucu</summary>
@@ -80,6 +81,7 @@
     <p xml:lang="pl">KTrip pomaga przemieszczać się transportem publicznym. Umożliwia odpytanie o połączenia pomiędzy dwoma danymi miejscami, odjazdy z danego przystanku wraz z opóźnieniami i utrudnieniami w czasie rzeczywistym.</p>
     <p xml:lang="pt">O KTrip ajuda-o a navegar pelos transportes públicos. Ajuda-o a consultar trajectos entre localizações específicas, partidas de uma dada estação e mostra informações de atrasos e disrupção em tempo-real.</p>
     <p xml:lang="pt-BR">O KTrip ajuda-o a locomover-se com transportes públicos. Ajuda-o a encontrar trajetos entre os locais indicados, partidas de uma estação específica, mostra atrasos em tempo real e informações sobre interrupções.</p>
+    <p xml:lang="ru">KTrip помогает планировать поездки на общественном транспорте. Программа позволяет находить маршруты между указанными местами, просматривать время отправления с определённых станций, а также в режиме реального времени показывает данные о задержках и отмене рейсов.</p>
     <p xml:lang="sl">KTrip vam pomaga pri navigaciji v javnem prevozu. Omogoča vam najti o potovanja med določenimi lokacijami, odhode z navedenih postaj in zamude v realnem času ter informacije o motnjah obratovanja.</p>
     <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser, avgångar från en viss station, samt visar realtidsfördröjningar och störningsinformation.</p>
     <p xml:lang="tr">K Yolculuk, toplu taşımada yolunuzu bulmanıza yardımcı olur. Belirli konumlar arasındaki yolları, istasyon kalkışlarını, anlık gecikme ve iptal bilgilerini bulmanıza izin verir.</p>
@@ -109,6 +111,7 @@
       <caption xml:lang="pl">Widok podróży</caption>
       <caption xml:lang="pt">Área da viagem</caption>
       <caption xml:lang="pt-BR">Visualização da jornada</caption>
+      <caption xml:lang="ru">Просмотр маршрута</caption>
       <caption xml:lang="sl">Pogled na potovanje</caption>
       <caption xml:lang="sv">Resevisning</caption>
       <caption xml:lang="tr">Yolculuk görünümü</caption>
