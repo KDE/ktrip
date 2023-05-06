@@ -14,17 +14,23 @@ import org.kde.ktrip
 Kirigami.ScrollablePage {
     id: root
 
-    property bool showCached: true
+    property bool showCached: !(queryTextField.text)
     property var callback
+
+    property string _lastQuery
 
     header: Kirigami.SearchField {
         id: queryTextField
 
         visible: Controller.manager.enabledBackends.length !== 0
         width: parent.width
-        onAccepted: {
-            queryModel.request = Controller.createLocationRequest(text);
-            showCached = false;
+        onAccepted: query()
+    }
+
+    function query() {
+        if (queryTextField.text && queryTextField.text !==  _lastQuery && !queryModel.loading) {
+            _lastQuery = queryTextField.text
+            queryModel.request = Controller.createLocationRequest(_lastQuery)
         }
     }
 
@@ -69,6 +75,10 @@ Kirigami.ScrollablePage {
         KPT.LocationQueryModel {
             id: queryModel
             manager: Controller.manager
+            onLoadingChanged: {
+                if (!loading && queryTextField.text)
+                    Qt.callLater(query)
+            }
         }
 
         LocationCacheModel {
