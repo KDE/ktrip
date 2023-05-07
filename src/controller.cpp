@@ -103,12 +103,8 @@ KPublicTransport::StopoverRequest Controller::createStopoverRequest()
 
 void Controller::showOnMap(KPublicTransport::Location location)
 {
-    QUrl url;
-    url.setScheme(QStringLiteral("https"));
-    url.setHost(QStringLiteral("www.openstreetmap.org"));
-    url.setPath(QStringLiteral("/"));
-    const QString fragment = QLatin1String("map=") + QString::number(17) + QLatin1Char('/') + QString::number(location.latitude()) + QLatin1Char('/')
-        + QString::number(location.longitude());
-    url.setFragment(fragment);
+    if (!location.hasCoordinate())
+        return;
+    QUrl url(QLatin1String("geo:") + QString::number(location.latitude()) + QLatin1Char(',') + QString::number(location.longitude()));
     QDesktopServices::openUrl(url);
 }
