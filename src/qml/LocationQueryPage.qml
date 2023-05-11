@@ -75,6 +75,7 @@ Kirigami.ScrollablePage {
         KPT.LocationQueryModel {
             id: queryModel
             manager: Controller.manager
+            queryDelay: 500
             onLoadingChanged: {
                 if (!loading && queryTextField.text)
                     Qt.callLater(query)
