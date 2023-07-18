@@ -14,7 +14,6 @@
   <name xml:lang="cs">KTrip</name>
   <name xml:lang="de">KTrip</name>
   <name xml:lang="en-GB">KTrip</name>
-  <name xml:lang="eo">KTrip</name>
   <name xml:lang="es">KTrip</name>
   <name xml:lang="et">KTrip</name>
   <name xml:lang="fi">KTrip</name>
@@ -45,7 +44,6 @@
   <summary xml:lang="cs">Průvodce veřejnou dopravou</summary>
   <summary xml:lang="de">Navigation für öffentliche Verkehrsmittel</summary>
   <summary xml:lang="en-GB">Public transport navigator</summary>
-  <summary xml:lang="eo">Publiktransporta navigilo</summary>
   <summary xml:lang="es">Navegador de transporte público</summary>
   <summary xml:lang="fi">Julkisen liikenteen navigoija</summary>
   <summary xml:lang="fr">Navigateur pour transports publics</summary>
@@ -101,7 +99,6 @@
       <caption xml:lang="cs">Pohled na cestu</caption>
       <caption xml:lang="de">Fahrtansicht</caption>
       <caption xml:lang="en-GB">Journey view</caption>
-      <caption xml:lang="eo">Vojaĝa vido</caption>
       <caption xml:lang="es">Vista de viaje</caption>
       <caption xml:lang="et">Teekonnavaade</caption>
       <caption xml:lang="fi">Matkanäkymä</caption>
