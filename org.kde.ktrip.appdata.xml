@@ -49,7 +49,7 @@
   <summary xml:lang="es">Navegador de transporte público</summary>
   <summary xml:lang="fi">Julkisen liikenteen navigoija</summary>
   <summary xml:lang="fr">Navigateur pour transports publics</summary>
-  <summary xml:lang="gl">Asistente de transporte público</summary>
+  <summary xml:lang="gl">Asistente de transporte público.</summary>
   <summary xml:lang="ia">Navigator de transporto public</summary>
   <summary xml:lang="id">Penavigasi transportasi umum</summary>
   <summary xml:lang="it">Navigatore di trasporto pubblico</summary>
@@ -107,7 +107,7 @@
       <caption xml:lang="et">Teekonnavaade</caption>
       <caption xml:lang="fi">Matkanäkymä</caption>
       <caption xml:lang="fr">Vue itinéraire</caption>
-      <caption xml:lang="gl">Vista da viaxe</caption>
+      <caption xml:lang="gl">Vista da viaxe.</caption>
       <caption xml:lang="hi">यात्रा दृश्य</caption>
       <caption xml:lang="ia">Vista de viage</caption>
       <caption xml:lang="id">Tampilan perjalanan</caption>
