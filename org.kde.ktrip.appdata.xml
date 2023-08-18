@@ -17,6 +17,7 @@
   <name xml:lang="eo">KTrip</name>
   <name xml:lang="es">KTrip</name>
   <name xml:lang="et">KTrip</name>
+  <name xml:lang="eu">KTrip</name>
   <name xml:lang="fi">KTrip</name>
   <name xml:lang="fr">KTrip</name>
   <name xml:lang="gl">KTrip</name>
@@ -47,6 +48,7 @@
   <summary xml:lang="en-GB">Public transport navigator</summary>
   <summary xml:lang="eo">Publiktransporta navigilo</summary>
   <summary xml:lang="es">Navegador de transporte público</summary>
+  <summary xml:lang="eu">Garraio publikoko nabigatzailea</summary>
   <summary xml:lang="fi">Julkisen liikenteen navigoija</summary>
   <summary xml:lang="fr">Navigateur pour transports publics</summary>
   <summary xml:lang="gl">Asistente de transporte público.</summary>
@@ -74,6 +76,7 @@
     <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
     <p xml:lang="eo">KTrip helpas vin navigi en publika transporto. Ĝi permesas vin trovi vojaĝojn inter specifitaj lokoj, forirojn al specifa stacio kaj montras realtempajn informojn pri prokrasto kaj interrompo.</p>
     <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite encontrar viajes entre las ubicaciones indicadas, salidas desde una determinada estación y muestra información de retrasos y alteraciones en tiempo real.</p>
+    <p xml:lang="eu">«KTrip»ek garraio publikoan nabigatzen laguntzen dizu. Zehaztutako kokapenen arteko bidaiak, geltoki jakin baterako irteerak, aurkitzen laguntzen dizu, eta atzerapenei eta zerbitzu-eteteak denbora errealean erakusten ditu.</p>
     <p xml:lang="fi">KTrip auttaa navigoimaan julkisessa liikenteessä. Se etsii matkat annettujen paikkojen välillä, lähdöt tietyltä asemalta ja näyttää tosiaikaisesti viive- ja häiriötilannetietoa.</p>
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés et des départs à partir d'une gare spécifique. Il vous affiche aussi les retards en temps réel et des informations sur des interruptions de services.</p>
     <p xml:lang="gl">KTrip axúdalle a viaxar en transporte público. Permítelle atopar rutas e saídas de estacións, e mostra información de atrasos e interrupcións en tempo real.</p>
@@ -105,6 +108,7 @@
       <caption xml:lang="eo">Vojaĝa vido</caption>
       <caption xml:lang="es">Vista de viaje</caption>
       <caption xml:lang="et">Teekonnavaade</caption>
+      <caption xml:lang="eu">Bidaia ikuspegia</caption>
       <caption xml:lang="fi">Matkanäkymä</caption>
       <caption xml:lang="fr">Vue itinéraire</caption>
       <caption xml:lang="gl">Vista da viaxe.</caption>
