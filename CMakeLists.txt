@@ -47,7 +47,10 @@ find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAdd
 
 if (ANDROID)
     # runtime dependencies are build-time dependencies on Android
-    find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS AndroidExtras Svg)
+    if (${QT_MAJOR_VERSION} STREQUAL "5")
+        find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS AndroidExtras)
+    endif()
+    find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Svg)
     find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
     find_package(OpenSSL REQUIRED)
 

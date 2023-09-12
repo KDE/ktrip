@@ -25,8 +25,10 @@ if (ANDROID)
         KF${QT_MAJOR_VERSION}::ItemModels
         Qt::Svg
         OpenSSL::SSL
-        Qt::AndroidExtras
     )
+    if (${QT_MAJOR_VERSION} STREQUAL "5")
+        target_link_libraries(ktrip PRIVATE Qt::AndroidExtras)
+    endif()
 
     kirigami_package_breeze_icons(ICONS
         go-down-symbolic
