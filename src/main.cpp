@@ -101,7 +101,9 @@ int main(int argc, char *argv[])
     about.setBugAddress("https://invent.kde.org/utilities/ktrip/-/issues");
     KAboutData::setApplicationData(about);
 
-    engine.rootContext()->setContextProperty(QStringLiteral("_aboutData"), QVariant::fromValue(about));
+    qmlRegisterSingletonType("org.kde.ktrip", 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
+        return engine->toScriptValue(KAboutData::applicationData());
+    });
 
     Formatter formatter;
     qmlRegisterSingletonInstance<Formatter>("org.kde.ktrip", 1, 0, "Formatter", &formatter);

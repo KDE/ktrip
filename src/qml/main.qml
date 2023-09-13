@@ -7,6 +7,7 @@
 import QtQuick 2.2
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.6 as Kirigami
+import org.kde.kirigamiaddons.formcard 1.0 as FormCard
 import org.kde.ktrip 1.0
 
 Kirigami.ApplicationWindow
@@ -67,8 +68,8 @@ Kirigami.ApplicationWindow
 
     Component {
         id: aboutPage
-        Kirigami.AboutPage {
-            aboutData: _aboutData
+        FormCard.AboutPage {
+            aboutData: About
         }
     }
 }
