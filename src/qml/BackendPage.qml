@@ -21,11 +21,13 @@ Kirigami.ScrollablePage {
         visible: true
     }
 
-    actions.main: Kirigami.Action {
-        text: i18n("Save")
-        iconName: "emblem-ok-symbolic"
-        onTriggered: pageStack.pop()
-    }
+    actions: [
+        Kirigami.Action {
+            text: i18n("Save")
+            icon.name: "emblem-ok-symbolic"
+            onTriggered: pageStack.pop()
+        }
+    ]
 
     KPublicTransport.BackendModel {
         id: backendModel

@@ -16,13 +16,13 @@ if (ANDROID)
 endif()
 
 add_executable(ktrip ${ktrip_SRCS})
-target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF${QT_MAJOR_VERSION}::CoreAddons KF${QT_MAJOR_VERSION}::I18n KF${QT_MAJOR_VERSION}::ConfigGui KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF6::CoreAddons KF6::I18n KF6::ConfigGui KPublicTransport)
 target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE
-        KF${QT_MAJOR_VERSION}::Kirigami2
-        KF${QT_MAJOR_VERSION}::ItemModels
+        KF6::Kirigami2
+        KF6::ItemModels
         Qt::Svg
         OpenSSL::SSL
         Qt::AndroidExtras

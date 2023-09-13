@@ -18,12 +18,14 @@ Kirigami.Page
 
     property bool departures: false
 
-    actions.main: Kirigami.Action {
-        icon.name: "system-search-symbolic"
-        text: i18nc("@action", "Search")
-        enabled: Controller.start.name != "" && (Controller.destination.name != "" || root.departures)
-        onTriggered: pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
-    }
+    actions: [
+        Kirigami.Action {
+            icon.name: "system-search-symbolic"
+            text: i18nc("@action", "Search")
+            enabled: Controller.start.name != "" && (Controller.destination.name != "" || root.departures)
+            onTriggered: pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
+        }
+    ]
 
     function startPicked(data) {
         Controller.start = data
