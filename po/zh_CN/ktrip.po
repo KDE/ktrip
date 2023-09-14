@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-29 00:50+0000\n"
+"POT-Creation-Date: 2023-09-14 00:48+0000\n"
 "PO-Revision-Date: 2023-09-02 02:57\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -57,22 +57,22 @@ msgstr ""
 msgid "Select the providers relevant for your area"
 msgstr ""
 
-#: qml/BackendPage.qml:25
+#: qml/BackendPage.qml:26
 #, kde-format
 msgid "Save"
 msgstr "保存"
 
-#: qml/BackendPage.qml:99
+#: qml/BackendPage.qml:101
 #, kde-format
 msgid "Global"
 msgstr "全球"
 
-#: qml/BackendPage.qml:101
+#: qml/BackendPage.qml:103
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 欧盟"
 
-#: qml/BackendPage.qml:104
+#: qml/BackendPage.qml:106
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
@@ -192,52 +192,52 @@ msgctxt "@title"
 msgid "Start Journey"
 msgstr "启程"
 
-#: qml/QueryPage.qml:23
+#: qml/QueryPage.qml:24
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "搜索"
 
-#: qml/QueryPage.qml:41
+#: qml/QueryPage.qml:43
 #, kde-format
 msgid "From:"
 msgstr "起始地："
 
-#: qml/QueryPage.qml:45
+#: qml/QueryPage.qml:47
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
 msgstr "选择起始地"
 
-#: qml/QueryPage.qml:46
+#: qml/QueryPage.qml:48
 #, kde-format
 msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "搜索起始地"
 
-#: qml/QueryPage.qml:50
+#: qml/QueryPage.qml:52
 #, kde-format
 msgid "To:"
 msgstr "目的地："
 
-#: qml/QueryPage.qml:56
+#: qml/QueryPage.qml:58
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "选择目的地"
 
-#: qml/QueryPage.qml:57
+#: qml/QueryPage.qml:59
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "搜索目的地"
 
-#: qml/QueryPage.qml:61
+#: qml/QueryPage.qml:63
 #, kde-format
 msgid "Departure date:"
 msgstr "出发日期："
 
-#: qml/QueryPage.qml:75
+#: qml/QueryPage.qml:77
 #, kde-format
 msgid "Departure time:"
 msgstr "出发时间："

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-29 00:50+0000\n"
+"POT-Creation-Date: 2023-09-14 00:48+0000\n"
 "PO-Revision-Date: 2021-12-17 11:00+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -57,22 +57,22 @@ msgstr "Leveranciers"
 msgid "Select the providers relevant for your area"
 msgstr "Relevante leveranciers voor uw omgeving selecteren"
 
-#: qml/BackendPage.qml:25
+#: qml/BackendPage.qml:26
 #, kde-format
 msgid "Save"
 msgstr "Opslaan"
 
-#: qml/BackendPage.qml:99
+#: qml/BackendPage.qml:101
 #, kde-format
 msgid "Global"
 msgstr "Globaal"
 
-#: qml/BackendPage.qml:101
+#: qml/BackendPage.qml:103
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 Europese Unie"
 
-#: qml/BackendPage.qml:104
+#: qml/BackendPage.qml:106
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
@@ -196,52 +196,52 @@ msgctxt "@title"
 msgid "Start Journey"
 msgstr "Begin van reis"
 
-#: qml/QueryPage.qml:23
+#: qml/QueryPage.qml:24
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "Zoeken"
 
-#: qml/QueryPage.qml:41
+#: qml/QueryPage.qml:43
 #, kde-format
 msgid "From:"
 msgstr "Vanaf:"
 
-#: qml/QueryPage.qml:45
+#: qml/QueryPage.qml:47
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
 msgstr "Begin kiezen"
 
-#: qml/QueryPage.qml:46
+#: qml/QueryPage.qml:48
 #, kde-format
 msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "Naar startlocatie zoeken"
 
-#: qml/QueryPage.qml:50
+#: qml/QueryPage.qml:52
 #, kde-format
 msgid "To:"
 msgstr "Naar:"
 
-#: qml/QueryPage.qml:56
+#: qml/QueryPage.qml:58
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "Bestemming kiezen"
 
-#: qml/QueryPage.qml:57
+#: qml/QueryPage.qml:59
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "Zoeken naar locatie bestemming"
 
-#: qml/QueryPage.qml:61
+#: qml/QueryPage.qml:63
 #, kde-format
 msgid "Departure date:"
 msgstr "Vertrekdatum:"
 
-#: qml/QueryPage.qml:75
+#: qml/QueryPage.qml:77
 #, kde-format
 msgid "Departure time:"
 msgstr "Vertrektijd:"

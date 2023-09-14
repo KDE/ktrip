@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-29 00:50+0000\n"
+"POT-Creation-Date: 2023-09-14 00:48+0000\n"
 "PO-Revision-Date: 2019-11-05 20:23+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -57,22 +57,22 @@ msgstr ""
 msgid "Select the providers relevant for your area"
 msgstr ""
 
-#: qml/BackendPage.qml:25
+#: qml/BackendPage.qml:26
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: qml/BackendPage.qml:99
+#: qml/BackendPage.qml:101
 #, kde-format
 msgid "Global"
 msgstr ""
 
-#: qml/BackendPage.qml:101
+#: qml/BackendPage.qml:103
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr ""
 
-#: qml/BackendPage.qml:104
+#: qml/BackendPage.qml:106
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
@@ -213,56 +213,56 @@ msgctxt "@title"
 msgid "Start Journey"
 msgstr "Spustiť cestu"
 
-#: qml/QueryPage.qml:23
+#: qml/QueryPage.qml:24
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "Hľadať"
 
-#: qml/QueryPage.qml:41
+#: qml/QueryPage.qml:43
 #, kde-format
 msgid "From:"
 msgstr "Od:"
 
-#: qml/QueryPage.qml:45
+#: qml/QueryPage.qml:47
 #, fuzzy, kde-format
 #| msgid "Pick start"
 msgctxt "@action:button"
 msgid "Pick Start"
 msgstr "Vybrať štart"
 
-#: qml/QueryPage.qml:46
+#: qml/QueryPage.qml:48
 #, fuzzy, kde-format
 #| msgid "Search for start location"
 msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "Hľadať miesto štartu"
 
-#: qml/QueryPage.qml:50
+#: qml/QueryPage.qml:52
 #, fuzzy, kde-format
 msgid "To:"
 msgstr "Pre:"
 
-#: qml/QueryPage.qml:56
+#: qml/QueryPage.qml:58
 #, fuzzy, kde-format
 #| msgid "Pick destination"
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "Vybrať destináciu"
 
-#: qml/QueryPage.qml:57
+#: qml/QueryPage.qml:59
 #, fuzzy, kde-format
 #| msgid "Search for destination location"
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "Hľadať miesto destinácie"
 
-#: qml/QueryPage.qml:61
+#: qml/QueryPage.qml:63
 #, kde-format
 msgid "Departure date:"
 msgstr "Dátum odchodu:"
 
-#: qml/QueryPage.qml:75
+#: qml/QueryPage.qml:77
 #, kde-format
 msgid "Departure time:"
 msgstr "Čas odchodu:"
