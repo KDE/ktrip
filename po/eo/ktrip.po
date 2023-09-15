@@ -1,33 +1,32 @@
-# Translation of ktrip to Norwegian Nynorsk
+# translation of ktrip.pot to esperanto
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the ktrip package.
+# Oliver Kellogg <okellogg@users.sourceforge.net, 2023.
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-14 00:48+0000\n"
-"PO-Revision-Date: 2022-06-19 13:48+0200\n"
-"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
-"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
-"Language: nn\n"
+"PO-Revision-Date: 2023-09-14 23:18+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.04.2\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Karl Ove Hufthammer"
+msgstr "Oliver Kellogg"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "karl@huftis.org"
+msgstr "okellogg@users.sourceforge.net"
 
 #: main.cpp:95
 #, kde-format
@@ -37,12 +36,12 @@ msgstr "KTrip"
 #: main.cpp:97
 #, kde-format
 msgid "Public transport assistant"
-msgstr "Assistent for kollektiv­transport"
+msgstr "Asistanto pri publika transporto"
 
 #: main.cpp:99
 #, kde-format
 msgid "© 2019 KDE Community"
-msgstr "© 2019 KDE-fellesskapet"
+msgstr "© 2019 KDE-Komunumo"
 
 #: main.cpp:100
 #, kde-format
@@ -52,28 +51,27 @@ msgstr "Nicolas Fella"
 #: qml/BackendPage.qml:17 qml/main.qml:51
 #, kde-format
 msgid "Providers"
-msgstr "Leverandørar"
+msgstr "Provizantoj"
 
 #: qml/BackendPage.qml:20
 #, kde-format
 msgid "Select the providers relevant for your area"
-msgstr "Vel leverandørane som er aktuelle for området ditt"
+msgstr "Elekti la provizantojn rilatajn al via regiono"
 
 #: qml/BackendPage.qml:26
 #, kde-format
 msgid "Save"
-msgstr "Lagra"
+msgstr "Konservi"
 
 #: qml/BackendPage.qml:101
 #, kde-format
 msgid "Global"
-msgstr "Globalt"
+msgstr "Ĉiea"
 
-# Dei to første teikna er Unicode for EU-flagget (vert ikkje nødvendigvis vist rett i Lokalize).
 #: qml/BackendPage.qml:103
 #, kde-format
 msgid "🇪🇺 European Union"
-msgstr "🇪🇺 Den europeiske unionen"
+msgstr "🇪🇺 Eŭropa Unio"
 
 #: qml/BackendPage.qml:106
 #, kde-format
@@ -85,44 +83,44 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "@title"
 msgid "Details"
-msgstr "Detaljar"
+msgstr "Detaloj"
 
 #: qml/ConnectionDetailsPage.qml:42
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
-msgstr[0] "Går (%1 minutt)"
-msgstr[1] "Går (%1 minutt)"
+msgstr[0] "Promenante (%1 minuto)"
+msgstr[1] "Promenante (%1 minutoj)"
 
 #: qml/ConnectionDetailsPage.qml:50
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
-msgstr[0] "Ventar (%1 minutt)"
-msgstr[1] "Ventar (%1 minutt)"
+msgstr[0] "Atendante (%1 minuto)"
+msgstr[1] "Atendante (%1 minutoj)"
 
 #: qml/ConnectionDetailsPage.qml:58
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
-msgstr[0] "Overgang (%1 minutt)"
-msgstr[1] "Overgang (%1 minutt)"
+msgstr[0] "Transiĝo (%1 minuto)"
+msgstr[1] "Transiĝo (%1 minutoj)"
 
 #: qml/ConnectionDetailsPage.qml:94
 #, kde-format
 msgid "Hide intermediate Stops"
-msgstr "Gøym mellom­stopp"
+msgstr "Kaŝi mezajn Haltojn"
 
 #: qml/ConnectionDetailsPage.qml:94
 #, kde-format
 msgid "Show intermediate Stops"
-msgstr "Vis mellom­stopp"
+msgstr "Montri mezajn Haltojn"
 
 #: qml/ConnectionsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
-msgstr "Samband"
+msgstr "Konektoj"
 
 #: qml/ConnectionsPage.qml:58 qml/ConnectionsPage.qml:84
 #, kde-format
@@ -138,19 +136,19 @@ msgstr "+%1"
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] "%1 endring"
-msgstr[1] "%1 endringar"
+msgstr[0] "%1 ŝanĝo"
+msgstr[1] "%1 ŝanĝoj"
 
 #: qml/ConnectionsPage.qml:106
 #, kde-format
 msgid "No connections found"
-msgstr "Fann ingen samband"
+msgstr "Neniuj konektoj trovitaj"
 
 #: qml/DeparturesPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
-msgstr "Avgangar"
+msgstr "Foriroj"
 
 #: qml/DeparturesPage.qml:35
 #, kde-format
@@ -160,91 +158,91 @@ msgstr "%3 %1 (%2)"
 #: qml/LocationQueryPage.qml:47
 #, kde-format
 msgid "No locations found"
-msgstr "Fann ingen stadar"
+msgstr "Neniuj lokoj trovitaj"
 
 #: qml/LocationQueryPage.qml:54
 #, kde-format
 msgid "No providers enabled"
-msgstr "Ingen leverandørar er påslegne"
+msgstr "Neniuj provizantoj ebligitaj"
 
 #: qml/LocationQueryPage.qml:57
 #, kde-format
 msgid "Configure providers"
-msgstr "Set opp leverandørar"
+msgstr "Agordi provizantojn"
 
 #: qml/main.qml:32
 #, kde-format
 msgid "Journey"
-msgstr "Reise"
+msgstr "Vojaĝo"
 
 #: qml/main.qml:40
 #, kde-format
 msgid "Departures"
-msgstr "Avgangar"
+msgstr "Foriroj"
 
 #: qml/main.qml:56
 #, kde-format
 msgid "About KTrip"
-msgstr "Om KTrip"
+msgstr "Pri KTrip"
 
 #: qml/QueryPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
-msgstr "Søk etter avgangar"
+msgstr "Aldemandi Forirojn"
 
 #: qml/QueryPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
-msgstr "Start reisa"
+msgstr "Komenci Vojaĝon"
 
 #: qml/QueryPage.qml:24
 #, kde-format
 msgctxt "@action"
 msgid "Search"
-msgstr "Søk"
+msgstr "Serĉi"
 
 #: qml/QueryPage.qml:43
 #, kde-format
 msgid "From:"
-msgstr "Frå:"
+msgstr "De:"
 
 #: qml/QueryPage.qml:47
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
-msgstr "Vel startstad"
+msgstr "Elekti Komencon"
 
 #: qml/QueryPage.qml:48
 #, kde-format
 msgctxt "@title"
 msgid "Search for Start Location"
-msgstr "Søk etter startstad"
+msgstr "Serĉi Komencan Lokon"
 
 #: qml/QueryPage.qml:52
 #, kde-format
 msgid "To:"
-msgstr "Til:"
+msgstr "Al:"
 
 #: qml/QueryPage.qml:58
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
-msgstr "Vel reisemål"
+msgstr "Elekti Celon"
 
 #: qml/QueryPage.qml:59
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
-msgstr "Søk etter reisemål"
+msgstr "Serĉi Cel-Lokon"
 
 #: qml/QueryPage.qml:63
 #, kde-format
 msgid "Departure date:"
-msgstr "Dato avgang:"
+msgstr "Foriro dato:"
 
 #: qml/QueryPage.qml:77
 #, kde-format
 msgid "Departure time:"
-msgstr "Klokkeslett avgang:"
+msgstr "Forirtempo:"
