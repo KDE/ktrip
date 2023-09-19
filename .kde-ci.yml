@@ -11,7 +11,7 @@ Dependencies:
     'frameworks/kitemmodels': '@stable'
     'frameworks/kcontacts': '@stable'
     'frameworks/kirigami': '@stable'
-    'libraries/kpublictransport': "@latest"
+    'libraries/kpublictransport': "@stable"
 
 - 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
   'require':
