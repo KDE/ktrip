@@ -60,11 +60,18 @@ set_package_properties(KPublicTransport PROPERTIES TYPE REQUIRED PURPOSE "Query 
 
 ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
 ecm_find_qmlmodule(org.kde.kirigamiaddons.dateandtime 0.1)
+ecm_find_qmlmodule(org.kde.kirigamiaddons.formcard 1.0)
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
+
+find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.11.0 REQUIRED)
+set_package_properties(KF6KirigamiAddons PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required runtime dependency (all modules are required)"
+)
 
 ki18n_install(po)
 

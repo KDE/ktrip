@@ -4,11 +4,12 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.2
-import QtQuick.Controls 2.4
-import org.kde.kirigami 2.6 as Kirigami
-import org.kde.kirigamiaddons.formcard 1.0 as FormCard
-import org.kde.ktrip 1.0
+import QtQuick
+import QtQuick.Controls
+import org.kde.kcoreaddons as KCA
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
+import org.kde.ktrip
 
 Kirigami.ApplicationWindow
 {
@@ -69,7 +70,7 @@ Kirigami.ApplicationWindow
     Component {
         id: aboutPage
         FormCard.AboutPage {
-            aboutData: About
+            aboutData: KCA.AboutData
         }
     }
 }
