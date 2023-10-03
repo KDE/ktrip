@@ -6,7 +6,7 @@
 
 import QtQuick
 import QtQuick.Controls
-import org.kde.kcoreaddons as KCA
+import org.kde.coreaddons as KCA
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.ktrip
