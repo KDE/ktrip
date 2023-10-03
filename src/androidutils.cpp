@@ -5,10 +5,11 @@
  */
 
 #include "androidutils.h"
-#include <QAndroidJniObject>
+
+#include <QCoreApplication>
 #include <QDateTime>
 #include <QDebug>
-#include <QtAndroid>
+#include <QJniObject>
 
 #define JSTRING(s) QAndroidJniObject::fromString(s).object<jstring>()
 
@@ -82,10 +83,10 @@ Q_DECL_EXPORT jint JNICALL JNI_OnLoad(JavaVM *vm, void *)
 
 void AndroidUtils::showDatePicker()
 {
-    QAndroidJniObject picker("org/kde/ktrip/DatePicker",
-                             "(Landroid/app/Activity;J)V",
-                             QtAndroid::androidActivity().object(),
-                             QDateTime::currentDateTime().toMSecsSinceEpoch());
+    QJniObject picker("org/kde/ktrip/DatePicker",
+                      "(Landroid/app/Activity;J)V",
+                      QNativeInterface::QAndroidApplication::context(),
+                      QDateTime::currentDateTime().toMSecsSinceEpoch());
     picker.callMethod<void>("doShow");
 }
 
@@ -101,10 +102,10 @@ void AndroidUtils::_dateCancelled()
 
 void AndroidUtils::showTimePicker()
 {
-    QAndroidJniObject picker("org/kde/ktrip/TimePicker",
-                             "(Landroid/app/Activity;J)V",
-                             QtAndroid::androidActivity().object(),
-                             QDateTime::currentDateTime().toMSecsSinceEpoch());
+    QJniObject picker("org/kde/ktrip/TimePicker",
+                      "(Landroid/app/Activity;J)V",
+                      QNativeInterface::QAndroidApplication::context(),
+                      QDateTime::currentDateTime().toMSecsSinceEpoch());
     picker.callMethod<void>("doShow");
 }
 

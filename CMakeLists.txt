@@ -44,7 +44,7 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n ItemModel
 
 if (ANDROID)
     # runtime dependencies are build-time dependencies on Android
-    find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS AndroidExtras Svg)
+    find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Svg)
     find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2)
     find_package(OpenSSL REQUIRED)
 

@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 Dependencies:
-- 'on': ['Linux/Qt6', 'Android/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
+- 'on': ['Linux', 'Android', 'FreeBSD', 'Windows']
   'require':
     'frameworks/extra-cmake-modules': '@latest-kf6'
     'frameworks/kcoreaddons': '@latest-kf6'
@@ -14,7 +14,7 @@ Dependencies:
     'libraries/kpublictransport': "@latest-kf6"
     'libraries/kirigami-addons': '@latest-kf6'
 
-- 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
+- 'on': ['Linux', 'FreeBSD', 'Windows']
   'require':
     'frameworks/qqc2-desktop-style': '@latest-kf6'
 
