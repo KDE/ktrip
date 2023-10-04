@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-14 00:48+0000\n"
+"POT-Creation-Date: 2023-10-04 01:40+0000\n"
 "PO-Revision-Date: 2023-09-14 23:18+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -48,32 +48,32 @@ msgstr "© 2019 KDE-Komunumo"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:17 qml/main.qml:51
+#: qml/BackendPage.qml:20 qml/main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "Provizantoj"
 
-#: qml/BackendPage.qml:20
+#: qml/BackendPage.qml:23
 #, kde-format
 msgid "Select the providers relevant for your area"
 msgstr "Elekti la provizantojn rilatajn al via regiono"
 
-#: qml/BackendPage.qml:26
+#: qml/BackendPage.qml:29
 #, kde-format
 msgid "Save"
 msgstr "Konservi"
 
-#: qml/BackendPage.qml:101
+#: qml/BackendPage.qml:105
 #, kde-format
 msgid "Global"
 msgstr "Ĉiea"
 
-#: qml/BackendPage.qml:103
+#: qml/BackendPage.qml:107
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 Eŭropa Unio"
 
-#: qml/BackendPage.qml:106
+#: qml/BackendPage.qml:110
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
@@ -170,17 +170,17 @@ msgstr "Neniuj provizantoj ebligitaj"
 msgid "Configure providers"
 msgstr "Agordi provizantojn"
 
-#: qml/main.qml:32
+#: qml/main.qml:34
 #, kde-format
 msgid "Journey"
 msgstr "Vojaĝo"
 
-#: qml/main.qml:40
+#: qml/main.qml:42
 #, kde-format
 msgid "Departures"
 msgstr "Foriroj"
 
-#: qml/main.qml:56
+#: qml/main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "Pri KTrip"

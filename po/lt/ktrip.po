@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-14 00:48+0000\n"
+"POT-Creation-Date: 2023-10-04 01:40+0000\n"
 "PO-Revision-Date: 2019-12-03 03:18+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -48,32 +48,32 @@ msgstr ""
 msgid "Nicolas Fella"
 msgstr ""
 
-#: qml/BackendPage.qml:17 qml/main.qml:51
+#: qml/BackendPage.qml:20 qml/main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr ""
 
-#: qml/BackendPage.qml:20
+#: qml/BackendPage.qml:23
 #, kde-format
 msgid "Select the providers relevant for your area"
 msgstr ""
 
-#: qml/BackendPage.qml:26
+#: qml/BackendPage.qml:29
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: qml/BackendPage.qml:101
+#: qml/BackendPage.qml:105
 #, kde-format
 msgid "Global"
 msgstr ""
 
-#: qml/BackendPage.qml:103
+#: qml/BackendPage.qml:107
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr ""
 
-#: qml/BackendPage.qml:106
+#: qml/BackendPage.qml:110
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
@@ -174,17 +174,17 @@ msgstr ""
 msgid "Configure providers"
 msgstr ""
 
-#: qml/main.qml:32
+#: qml/main.qml:34
 #, kde-format
 msgid "Journey"
 msgstr ""
 
-#: qml/main.qml:40
+#: qml/main.qml:42
 #, kde-format
 msgid "Departures"
 msgstr ""
 
-#: qml/main.qml:56
+#: qml/main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr ""
