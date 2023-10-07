@@ -33,6 +33,7 @@ include(ECMQMLModules)
 include(KDEGitCommitHooks)
 include(ECMCheckOutboundLicense)
 include(ECMAddAppIcon)
+include(ECMAddAndroidApk)
 
 ecm_setup_version(${PROJECT_VERSION}
     VARIABLE_PREFIX KTRIP
