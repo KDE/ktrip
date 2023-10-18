@@ -9,7 +9,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
 
-import org.kde.kirigamiaddons.dateandtime 0.1 as KDT
+import org.kde.kirigamiaddons.dateandtime as KDT
 
 Button {
 
@@ -30,27 +30,8 @@ Button {
         }
     }
 
-    Dialog {
+    KDT.TimePopup {
         id: dialog
-        anchors.centerIn: Overlay.overlay
-        contentItem: KDT.TimePicker {
-            id: picker
-            implicitWidth: 300
-            implicitHeight: 300
-        }
-
-        standardButtons: Dialog.Ok | Dialog.Cancel
-
-        onAccepted: {
-            var hours = picker.hours
-
-            if (picker.pm && hours != 12) {
-                hours += 12
-            }
-            var d = new Date()
-            d.setHours(hours)
-            d.setMinutes(picker.minutes)
-            timePicked(d)
-        }
+        onAccepted: timePicked(value)
     }
 }

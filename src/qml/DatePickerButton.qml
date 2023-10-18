@@ -9,7 +9,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.5
 import org.kde.kirigami 2.4 as Kirigami
 
-import org.kde.kirigamiaddons.dateandtime 0.1 as KDT
+import org.kde.kirigamiaddons.dateandtime as KDT
 
 Button {
 
@@ -32,6 +32,6 @@ Button {
 
     KDT.DatePopup {
         id: dialog
-        onAccepted: datePicked(selectedDate)
+        onAccepted: datePicked(value)
     }
 }

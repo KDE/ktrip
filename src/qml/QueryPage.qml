@@ -66,7 +66,7 @@ Kirigami.Page
         DatePickerButton {
             text: Qt.formatDate(Controller.departureDate, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
-            onDatePicked: {
+            onDatePicked: theDate => {
                 if (theDate != "") {
                     Controller.departureDate = theDate
                 }
@@ -80,7 +80,7 @@ Kirigami.Page
         TimePickerButton {
             text: Qt.formatTime(Controller.departureTime, Qt.DefaultLocaleShortDate)
             Layout.fillWidth: true
-            onTimePicked: {
+            onTimePicked: theTime => {
                 if (theTime != "") {
                     Controller.departureTime = theTime
                 }
