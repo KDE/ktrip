@@ -31,11 +31,10 @@ Kirigami.ScrollablePage
         id: locationView
         model: showCached ? cacheModel : queryModel
 
-        delegate: Kirigami.BasicListItem {
+        delegate: ItemDelegate {
             visible: Manager.enabledBackends.length !== 0
             text: location.name
-            highlighted: false
-            reserveSpaceForIcon: false
+            width: ListView.view.width
             onClicked: {
                 cacheModel.addCachedLocation(location)
                 callback(location)

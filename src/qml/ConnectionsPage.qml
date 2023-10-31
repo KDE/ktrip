@@ -38,15 +38,16 @@ Kirigami.ScrollablePage
             icon.name: "go-up-symbolic"
         }
 
-        delegate: Kirigami.AbstractListItem {
+        delegate: ItemDelegate {
 
-            highlighted: false
+            width: ListView.view.width
+
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
             readonly property bool cancelled: journey.disruptionEffect == KPT.Disruption.NoService
             readonly property var firstSection: journey.sections[0]
             readonly property var lastSection: journey.sections[journey.sections.length - 1]
 
-            Column {
+            contentItem: Column {
 
                 ConnectionHeading {
                     journey: model.journey

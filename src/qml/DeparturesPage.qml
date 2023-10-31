@@ -29,8 +29,11 @@ Kirigami.ScrollablePage
             manager: Manager
         }
 
-        delegate: Kirigami.AbstractListItem {
-            RowLayout {
+        delegate: ItemDelegate {
+
+            width: ListView.view.width
+
+            contentItem: RowLayout {
                 Label {
                     text: i18n("%3 %1 (%2)", departure.route.line.name, departure.route.direction, Formatter.formatTime(departure.scheduledDepartureTime))
                     Layout.fillWidth: true
