@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-04 01:40+0000\n"
+"POT-Creation-Date: 2023-11-01 01:42+0000\n"
 "PO-Revision-Date: 2022-03-26 23:07+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -867,24 +867,24 @@ msgctxt "@title"
 msgid "Connections"
 msgstr "Ligações"
 
-#: qml/ConnectionsPage.qml:58 qml/ConnectionsPage.qml:84
+#: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionsPage.qml:64 qml/ConnectionsPage.qml:90
+#: qml/ConnectionsPage.qml:65 qml/ConnectionsPage.qml:91
 #, kde-format
 msgid "+%1"
 msgstr "+%1"
 
-#: qml/ConnectionsPage.qml:74
+#: qml/ConnectionsPage.qml:75
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
 msgstr[0] "%1 alteração"
 msgstr[1] "%1 alterações"
 
-#: qml/ConnectionsPage.qml:106
+#: qml/ConnectionsPage.qml:107
 #, kde-format
 msgid "No connections found"
 msgstr "Não foram encontradas ligações"
@@ -895,22 +895,22 @@ msgctxt "@title"
 msgid "Departures"
 msgstr "Partidas"
 
-#: qml/DeparturesPage.qml:35
+#: qml/DeparturesPage.qml:38
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:47
+#: qml/LocationQueryPage.qml:46
 #, kde-format
 msgid "No locations found"
 msgstr "Não foram encontradas localizações"
 
-#: qml/LocationQueryPage.qml:54
+#: qml/LocationQueryPage.qml:53
 #, kde-format
 msgid "No providers enabled"
 msgstr "Sem fornecedores activos"
 
-#: qml/LocationQueryPage.qml:57
+#: qml/LocationQueryPage.qml:56
 #, kde-format
 msgid "Configure providers"
 msgstr "Configurar os fornecedores"
