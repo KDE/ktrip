@@ -41,7 +41,7 @@ ecm_setup_version(${PROJECT_VERSION}
 )
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml Quick QuickControls2)
-find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n ItemModels Config)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAddons I18n Config)
 
 if (ANDROID)
     # runtime dependencies are build-time dependencies on Android
@@ -59,7 +59,6 @@ endif()
 find_package(KPublicTransport)
 set_package_properties(KPublicTransport PROPERTIES TYPE REQUIRED PURPOSE "Query online journey information")
 
-ecm_find_qmlmodule(org.kde.kitemmodels 1.0)
 ecm_find_qmlmodule(org.kde.kirigamiaddons.dateandtime 0.1)
 ecm_find_qmlmodule(org.kde.kirigamiaddons.formcard 1.0)
 
