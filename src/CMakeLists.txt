@@ -21,7 +21,7 @@ target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
 if (ANDROID)
     target_link_libraries(ktrip PRIVATE
-        KF6::Kirigami2
+        KF6::Kirigami
         KF6::ItemModels
         Qt::Svg
         OpenSSL::SSL
