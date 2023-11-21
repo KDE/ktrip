@@ -107,8 +107,6 @@ Kirigami.ScrollablePage
                 Kirigami.Separator {
                     anchors.left: parent.left
                     anchors.right: parent.right
-                    anchors.leftMargin: -cardDelegate.leftPadding
-                    anchors.rightMargin: -cardDelegate.rightPadding
                 }
             }
 
