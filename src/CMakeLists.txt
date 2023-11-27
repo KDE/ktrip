@@ -40,8 +40,11 @@ if (ANDROID)
         configure
         globe
         settings-configure
+        arrow-right
         arrow-right-double
         help-about
+        license
+        ktrip
     )
 
     ecm_add_android_apk(ktrip ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
@@ -51,7 +54,9 @@ endif()
 
 ecm_add_app_icon(ktrip ICONS 256-org.kde.ktrip.png 150-org.kde.ktrip.png)
 
-install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
+if (NOT ANDROID)
+    install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
+    install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+endif()
 
 install(TARGETS ktrip ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})
