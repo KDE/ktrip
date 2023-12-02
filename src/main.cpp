@@ -114,7 +114,7 @@ int main(int argc, char *argv[])
     Controller controller;
     qmlRegisterSingletonInstance<Controller>("org.kde.ktrip", 1, 0, "Controller", &controller);
 
-    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
+    engine.loadFromModule("org.kde.ktrip", "Main");
 
     return app.exec();
 }

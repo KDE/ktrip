@@ -1,15 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>qml/main.qml</file>
-        <file>qml/BackendPage.qml</file>
-        <file>qml/QueryPage.qml</file>
-        <file>qml/ConnectionsPage.qml</file>
-        <file>qml/LocationQueryPage.qml</file>
-        <file>qml/ConnectionDetailsPage.qml</file>
-        <file>qml/DatePickerButton.qml</file>
-        <file>qml/TimePickerButton.qml</file>
-        <file>qml/DeparturesPage.qml</file>
-        <file>qml/ConnectionHeading.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>org.kde.ktrip.svg</file>
     </qresource>

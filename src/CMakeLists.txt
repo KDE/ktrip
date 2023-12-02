@@ -16,6 +16,21 @@ if (ANDROID)
 endif()
 
 add_executable(ktrip ${ktrip_SRCS})
+
+ecm_add_qml_module(ktrip URI "org.kde.ktrip" VERSION 1.0
+    QML_FILES
+    qml/Main.qml
+    qml/BackendPage.qml
+    qml/QueryPage.qml
+    qml/ConnectionsPage.qml
+    qml/LocationQueryPage.qml
+    qml/ConnectionDetailsPage.qml
+    qml/DatePickerButton.qml
+    qml/TimePickerButton.qml
+    qml/DeparturesPage.qml
+    qml/ConnectionHeading.qml
+)
+
 target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF6::CoreAddons KF6::I18n KF6::ConfigGui KPublicTransport)
 target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
