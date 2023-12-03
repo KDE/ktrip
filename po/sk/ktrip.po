@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-01 01:42+0000\n"
+"POT-Creation-Date: 2023-12-03 01:37+0000\n"
 "PO-Revision-Date: 2019-11-05 20:23+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Nicolas Fella"
 msgstr ""
 
-#: qml/BackendPage.qml:20 qml/main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr ""
@@ -180,19 +180,19 @@ msgstr ""
 msgid "Configure providers"
 msgstr ""
 
-#: qml/main.qml:34
+#: qml/Main.qml:34
 #, fuzzy, kde-format
 #| msgid "Start journey"
 msgid "Journey"
 msgstr "Spustiť cestu"
 
-#: qml/main.qml:42
+#: qml/Main.qml:42
 #, fuzzy, kde-format
 #| msgid "Departure date:"
 msgid "Departures"
 msgstr "Dátum odchodu:"
 
-#: qml/main.qml:58
+#: qml/Main.qml:58
 #, fuzzy, kde-format
 #| msgctxt "This is a city associated with particular time zone"
 #| msgid "Tripoli"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-01 01:42+0000\n"
+"POT-Creation-Date: 2023-12-03 01:37+0000\n"
 "PO-Revision-Date: 2019-08-04 18:23-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Nicolas Fella"
 msgstr ""
 
-#: qml/BackendPage.qml:20 qml/main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr ""
@@ -162,17 +162,17 @@ msgstr ""
 msgid "Configure providers"
 msgstr ""
 
-#: qml/main.qml:34
+#: qml/Main.qml:34
 #, kde-format
 msgid "Journey"
 msgstr ""
 
-#: qml/main.qml:42
+#: qml/Main.qml:42
 #, kde-format
 msgid "Departures"
 msgstr ""
 
-#: qml/main.qml:58
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr ""

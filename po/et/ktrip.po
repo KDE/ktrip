@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-01 01:42+0000\n"
+"POT-Creation-Date: 2023-12-03 01:37+0000\n"
 "PO-Revision-Date: 2020-05-05 12:00+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -47,7 +47,7 @@ msgstr "© 2019: KDE kogukond"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "Teenusepakkujad"
@@ -170,17 +170,17 @@ msgstr ""
 msgid "Configure providers"
 msgstr ""
 
-#: qml/main.qml:34
+#: qml/Main.qml:34
 #, kde-format
 msgid "Journey"
 msgstr "Reis"
 
-#: qml/main.qml:42
+#: qml/Main.qml:42
 #, kde-format
 msgid "Departures"
 msgstr "Väljumised"
 
-#: qml/main.qml:58
+#: qml/Main.qml:58
 #, fuzzy, kde-format
 #| msgid "KTrip"
 msgid "About KTrip"

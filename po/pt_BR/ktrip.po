@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-01 01:42+0000\n"
+"POT-Creation-Date: 2023-12-03 01:37+0000\n"
 "PO-Revision-Date: 2021-12-21 09:05-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -49,7 +49,7 @@ msgstr "© 2019 KDE Community"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "Fornecedores"
@@ -171,17 +171,17 @@ msgstr "Nenhum fornecedor habilitado"
 msgid "Configure providers"
 msgstr "Configurar fornecedores"
 
-#: qml/main.qml:34
+#: qml/Main.qml:34
 #, kde-format
 msgid "Journey"
 msgstr "Viagem"
 
-#: qml/main.qml:42
+#: qml/Main.qml:42
 #, kde-format
 msgid "Departures"
 msgstr "Partidas"
 
-#: qml/main.qml:58
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "Sobre o KTrip"

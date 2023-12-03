@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-01 01:42+0000\n"
+"POT-Creation-Date: 2023-12-03 01:37+0000\n"
 "PO-Revision-Date: 2023-04-25 14:30+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -50,7 +50,7 @@ msgstr "© 2019 Сообщество KDE"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "Поставщики данных"
@@ -180,17 +180,17 @@ msgstr "Не включён ни один поставщик данных"
 msgid "Configure providers"
 msgstr "Настроить поставщиков данных"
 
-#: qml/main.qml:34
+#: qml/Main.qml:34
 #, kde-format
 msgid "Journey"
 msgstr "Маршрут"
 
-#: qml/main.qml:42
+#: qml/Main.qml:42
 #, kde-format
 msgid "Departures"
 msgstr "Отправления"
 
-#: qml/main.qml:58
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "О программе KTrip"
