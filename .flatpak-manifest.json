@@ -2,7 +2,7 @@
     "id": "org.kde.ktrip",
     "branch": "master",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "6.6-kf6preview",
     "sdk": "org.kde.Sdk",
     "command": "ktrip",
     "tags": ["nightly"],
@@ -17,10 +17,27 @@
 
     "modules": [
         {
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
             "name": "kpublictransport",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DBUILD_WITH_QT6=ON"
+            ],
             "buildsystem": "cmake-ninja",
-            "sources": [ { "type": "git", "url": "https://invent.kde.org/libraries/kpublictransport.git"} ]
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://invent.kde.org/libraries/kpublictransport",
+                    "branch": "master"
+                }
+            ],
+            "cleanup": [
+                "/include",
+                "/lib/cmake",
+                "/mkspecs",
+                "/etc/xdg/*categories",
+                "/share/qlogging-categories5"
+            ]
         },
         {
             "name": "kirigami-addons",
