@@ -69,6 +69,7 @@
   <summary xml:lang="tr">Toplu Taşıma için Yol Bulucu</summary>
   <summary xml:lang="uk">Навігатор громадським транспортом</summary>
   <summary xml:lang="x-test">xxPublic transport navigatorxx</summary>
+  <summary xml:lang="zh-TW">公共運輸導覽工具</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet trobar viatges entre les ubicacions especificades, sortides des d'una estació concreta, i mostrar en temps real la informació de retards i interrupcions.</p>
@@ -97,6 +98,7 @@
     <p xml:lang="tr">K Yolculuk, toplu taşımada yolunuzu bulmanıza yardımcı olur. Belirli konumlar arasındaki yolları, istasyon kalkışlarını, anlık gecikme ve iptal bilgilerini bulmanıza izin verir.</p>
     <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями, часом відправлення з певних станцій і показує в інтерактивному режимі дані щодо затримок і скасувань рейсів.</p>
     <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.xx</p>
+    <p xml:lang="zh-TW">KTrip 幫助您在公共運輸上找到您的方向。它讓您尋找指定地點之間可用的旅程、顯示指定車站的出發時間，並可以即時告知您誤點與服務受影響的資訊。</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -130,6 +132,7 @@
       <caption xml:lang="tr">Yolculuk görünümü</caption>
       <caption xml:lang="uk">Перегляд подорожі</caption>
       <caption xml:lang="x-test">xxJourney viewxx</caption>
+      <caption xml:lang="zh-TW">旅程檢視</caption>
       <image width="1714" height="1631" type="source">https://cdn.kde.org/screenshots/ktrip/ktrip.png</image>
     </screenshot>
   </screenshots>
