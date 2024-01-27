@@ -69,7 +69,7 @@ Kirigami.ScrollablePage {
                 QQC2.Switch {
                     id: toggle
                     checked: model.backendEnabled
-                    onToggled: model.backendEnabled = checked;
+                    onToggled: model.backendEnabled = checked
                     anchors.top: parent.top
                     anchors.right: parent.right
                 }
@@ -100,14 +100,14 @@ Kirigami.ScrollablePage {
             delegate: Kirigami.ListSectionHeader {
                 text: {
                     switch (section) {
-                        case "":
-                        case "UN":
-                            return i18n("Global")
-                        case "EU":
-                            return i18n("🇪🇺 European Union");
-                        default:
-                            const c = Country.fromAlpha2(section);
-                            return i18nc("emoji flag, country name", "%1 %2", c.emojiFlag, c.name);
+                    case "":
+                    case "UN":
+                        return i18n("Global");
+                    case "EU":
+                        return i18n("🇪🇺 European Union");
+                    default:
+                        const c = Country.fromAlpha2(section);
+                        return i18nc("emoji flag, country name", "%1 %2", c.emojiFlag, c.name);
                     }
                 }
             }

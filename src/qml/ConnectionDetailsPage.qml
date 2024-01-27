@@ -11,8 +11,7 @@ import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0
 import org.kde.ktrip 1.0
 
-Kirigami.ScrollablePage
-{
+Kirigami.ScrollablePage {
     id: root
     title: i18nc("@title", "Details")
 
@@ -25,11 +24,15 @@ Kirigami.ScrollablePage
             width: parent.width
 
             sourceComponent: {
-                switch(model.modelData.mode) {
-                    case JourneySection.Walking: return walking
-                    case JourneySection.Waiting: return waiting
-                    case JourneySection.Transfer: return transfer
-                    default: return cardComponent
+                switch (model.modelData.mode) {
+                case JourneySection.Walking:
+                    return walking;
+                case JourneySection.Waiting:
+                    return waiting;
+                case JourneySection.Transfer:
+                    return transfer;
+                default:
+                    return cardComponent;
                 }
             }
             property var theData: model.modelData

@@ -17,16 +17,16 @@ Button {
 
     onClicked: {
         if (_isAndroid) {
-            _androidUtils.showDatePicker()
+            _androidUtils.showDatePicker();
         } else {
-            dialog.open()
+            dialog.open();
         }
     }
 
-     Connections {
+    Connections {
         target: _androidUtils
         onDatePickerFinished: {
-            datePicked(date)
+            datePicked(date);
         }
     }
 

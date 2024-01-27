@@ -10,8 +10,7 @@ import QtQuick.Controls 2.4
 import org.kde.kirigami 2.0 as Kirigami
 import org.kde.ktrip 1.0
 
-Kirigami.Page
-{
+Kirigami.Page {
     id: root
 
     title: departures ? i18nc("@title", "Query Departures") : i18nc("@title", "Start Journey")
@@ -28,11 +27,11 @@ Kirigami.Page
     ]
 
     function startPicked(data) {
-        Controller.start = data
+        Controller.start = data;
     }
 
     function destinationPicked(data) {
-        Controller.destination = data
+        Controller.destination = data;
     }
 
     ColumnLayout {
@@ -45,7 +44,10 @@ Kirigami.Page
         Button {
             Layout.fillWidth: true
             text: Controller.start.name ? Controller.start.name : i18nc("@action:button", "Pick Start")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Start Location"), callback: root.startPicked})
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {
+                title: i18nc("@title", "Search for Start Location"),
+                callback: root.startPicked
+            })
         }
 
         Label {
@@ -56,7 +58,10 @@ Kirigami.Page
             Layout.fillWidth: true
             visible: !root.departures
             text: Controller.destination.name ? Controller.destination.name : i18nc("@action:button", "Pick Destination")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {title: i18nc("@title", "Search for Destination Location"), callback: root.destinationPicked})
+            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {
+                title: i18nc("@title", "Search for Destination Location"),
+                callback: root.destinationPicked
+            })
         }
 
         Label {
@@ -68,7 +73,7 @@ Kirigami.Page
             Layout.fillWidth: true
             onDatePicked: theDate => {
                 if (theDate != "") {
-                    Controller.departureDate = theDate
+                    Controller.departureDate = theDate;
                 }
             }
         }
@@ -82,11 +87,9 @@ Kirigami.Page
             Layout.fillWidth: true
             onTimePicked: theTime => {
                 if (theTime != "") {
-                    Controller.departureTime = theTime
+                    Controller.departureTime = theTime;
                 }
             }
         }
     }
 }
-
-

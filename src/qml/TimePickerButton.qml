@@ -17,16 +17,16 @@ Button {
 
     onClicked: {
         if (_isAndroid) {
-            _androidUtils.showTimePicker()
+            _androidUtils.showTimePicker();
         } else {
-            dialog.open()
+            dialog.open();
         }
     }
 
-     Connections {
+    Connections {
         target: _androidUtils
         onTimePickerFinished: {
-            timePicked(time)
+            timePicked(time);
         }
     }
 

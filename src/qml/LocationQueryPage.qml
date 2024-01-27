@@ -11,8 +11,7 @@ import org.kde.kirigami 2.12 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
 import org.kde.ktrip 1.0
 
-Kirigami.ScrollablePage
-{
+Kirigami.ScrollablePage {
     property bool showCached: true
     property var callback
 
@@ -22,8 +21,8 @@ Kirigami.ScrollablePage
         visible: Manager.enabledBackends.length !== 0
         width: parent.width
         onAccepted: {
-            queryModel.request = Controller.createLocationRequest(text)
-            showCached = false
+            queryModel.request = Controller.createLocationRequest(text);
+            showCached = false;
         }
     }
 
@@ -36,9 +35,9 @@ Kirigami.ScrollablePage
             text: location.name
             width: ListView.view.width
             onClicked: {
-                cacheModel.addCachedLocation(location)
-                callback(location)
-                pageStack.pop()
+                cacheModel.addCachedLocation(location);
+                callback(location);
+                pageStack.pop();
             }
         }
 

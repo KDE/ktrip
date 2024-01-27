@@ -11,8 +11,7 @@ import org.kde.kirigami 2.12 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
 import org.kde.ktrip 1.0
 
-Kirigami.ScrollablePage
-{
+Kirigami.ScrollablePage {
     title: i18nc("@title", "Connections")
 
     header: Kirigami.InlineMessage {
@@ -22,7 +21,6 @@ Kirigami.ScrollablePage
     }
 
     ListView {
-
         id: connectionList
 
         model: KPT.JourneyQueryModel {
@@ -42,7 +40,9 @@ Kirigami.ScrollablePage
 
             width: ListView.view.width
 
-            onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {journey: journey})
+            onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {
+                journey: journey
+            })
             readonly property bool cancelled: journey.disruptionEffect == KPT.Disruption.NoService
             readonly property var firstSection: journey.sections[0]
             readonly property var lastSection: journey.sections[journey.sections.length - 1]

@@ -11,8 +11,7 @@ import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.ktrip
 
-Kirigami.ApplicationWindow
-{
+Kirigami.ApplicationWindow {
     id: window
     width: 480
     height: 720
@@ -21,9 +20,9 @@ Kirigami.ApplicationWindow
 
     Component.onCompleted: {
         if (Settings.firstRun) {
-            window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
-            Settings.firstRun = false
-            Settings.save()
+            window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"));
+            Settings.firstRun = false;
+            Settings.save();
         }
     }
 
@@ -34,16 +33,20 @@ Kirigami.ApplicationWindow
                 text: i18n("Journey")
                 icon.name: "globe"
                 onTriggered: {
-                    window.pageStack.clear()
-                    window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {departures: false})
+                    window.pageStack.clear();
+                    window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {
+                        departures: false
+                    });
                 }
             },
             Kirigami.Action {
                 text: i18n("Departures")
                 icon.name: "arrow-right-double"
                 onTriggered: {
-                    window.pageStack.clear()
-                    window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {departures: true})
+                    window.pageStack.clear();
+                    window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {
+                        departures: true
+                    });
                 }
             },
             Kirigami.Action {
@@ -60,7 +63,7 @@ Kirigami.ApplicationWindow
                 icon.name: "help-about"
                 onTriggered: {
                     if (window.pageStack.layers.depth < 2) {
-                        window.pageStack.layers.push(aboutPage)
+                        window.pageStack.layers.push(aboutPage);
                     }
                 }
             }
