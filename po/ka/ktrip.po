@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-01-28 00:39+0000\n"
 "PO-Revision-Date: 2022-09-30 06:27+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -48,7 +48,7 @@ msgstr "© 2019 KDE-ის საზოგადოება"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:56
 #, kde-format
 msgid "Providers"
 msgstr "მომწოდებლები"
@@ -79,44 +79,44 @@ msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionDetailsPage.qml:17
+#: qml/ConnectionDetailsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "დეტალები"
 
-#: qml/ConnectionDetailsPage.qml:42
+#: qml/ConnectionDetailsPage.qml:45
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "სიარული (%1 წუთი)"
 msgstr[1] "სიარული (%1 წუთი)"
 
-#: qml/ConnectionDetailsPage.qml:50
+#: qml/ConnectionDetailsPage.qml:53
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "მოლოდინი (%1 წუთი)"
 msgstr[1] "მოლოდინი (%1 წუთი)"
 
-#: qml/ConnectionDetailsPage.qml:58
+#: qml/ConnectionDetailsPage.qml:61
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "გადატანა (%1 წუთი)"
 msgstr[1] "გადატანა (%1 წუთი)"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "შუალედური გაჩერებების დამალვა"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "შუალედური გაჩერებების ჩვენება"
 
-#: qml/ConnectionsPage.qml:16
+#: qml/ConnectionsPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
@@ -144,71 +144,71 @@ msgstr[1] "%1 ცვლილება"
 msgid "No connections found"
 msgstr "შეერთება ვერ ვიპოვე"
 
-#: qml/DeparturesPage.qml:16
+#: qml/DeparturesPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "გასვლები"
 
-#: qml/DeparturesPage.qml:38
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:46
+#: qml/LocationQueryPage.qml:45
 #, kde-format
 msgid "No locations found"
 msgstr "მდებარეობები ვერ მოიძებნა"
 
-#: qml/LocationQueryPage.qml:53
+#: qml/LocationQueryPage.qml:52
 #, kde-format
 msgid "No providers enabled"
 msgstr "მომწოდებლები ჩართული არაა"
 
-#: qml/LocationQueryPage.qml:56
+#: qml/LocationQueryPage.qml:55
 #, kde-format
 msgid "Configure providers"
 msgstr "მომწოდებლების მორგება"
 
-#: qml/Main.qml:34
+#: qml/Main.qml:33
 #, kde-format
 msgid "Journey"
 msgstr "მგზავრობა"
 
-#: qml/Main.qml:42
+#: qml/Main.qml:43
 #, kde-format
 msgid "Departures"
 msgstr "გასვლები"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:61
 #, kde-format
 msgid "About KTrip"
 msgstr "KTrip-ის შესახებ"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "გასვლების გამოთხოვა"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "მგზავრობის დაწყება"
 
-#: qml/QueryPage.qml:24
+#: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "ძებნა"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "From:"
 msgstr "ვისგან:"
 
-#: qml/QueryPage.qml:47
+#: qml/QueryPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
@@ -220,29 +220,29 @@ msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "საწყისი მდებარეობის მოძებნა"
 
-#: qml/QueryPage.qml:52
+#: qml/QueryPage.qml:54
 #, kde-format
 msgid "To:"
 msgstr "ვის:"
 
-#: qml/QueryPage.qml:58
+#: qml/QueryPage.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "აირჩიეთ დანიშნულება"
 
-#: qml/QueryPage.qml:59
+#: qml/QueryPage.qml:62
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "დანიშნულების პუნქტის მოძებნა"
 
-#: qml/QueryPage.qml:63
+#: qml/QueryPage.qml:68
 #, kde-format
 msgid "Departure date:"
 msgstr "გასვლის თარიღი:"
 
-#: qml/QueryPage.qml:77
+#: qml/QueryPage.qml:82
 #, kde-format
 msgid "Departure time:"
 msgstr "გასვლის დრო:"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-01-28 00:39+0000\n"
 "PO-Revision-Date: 2023-08-16 14:22+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -50,7 +50,7 @@ msgstr "© 2019 KDE Community"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:56
 #, kde-format
 msgid "Providers"
 msgstr "Hornitzaileak"
@@ -81,44 +81,44 @@ msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionDetailsPage.qml:17
+#: qml/ConnectionDetailsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Xehetasunak"
 
-#: qml/ConnectionDetailsPage.qml:42
+#: qml/ConnectionDetailsPage.qml:45
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "Oinez (minutu %1)"
 msgstr[1] "Oinez (%1 minutu)"
 
-#: qml/ConnectionDetailsPage.qml:50
+#: qml/ConnectionDetailsPage.qml:53
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Zain (minutu %1)"
 msgstr[1] "Zain (%1 minutu)"
 
-#: qml/ConnectionDetailsPage.qml:58
+#: qml/ConnectionDetailsPage.qml:61
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Ibilgailu-aldaketa (minutu %1)"
 msgstr[1] "Ibilgailu-aldaketa (%1 minutu)"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Ezkutatu tarteko geldialdiak"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Erakutsi tarteko geldialdiak"
 
-#: qml/ConnectionsPage.qml:16
+#: qml/ConnectionsPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
@@ -146,71 +146,71 @@ msgstr[1] "%1 aldaketa"
 msgid "No connections found"
 msgstr "Ez da konexiorik aurkitu"
 
-#: qml/DeparturesPage.qml:16
+#: qml/DeparturesPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Irteerak"
 
-#: qml/DeparturesPage.qml:38
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:46
+#: qml/LocationQueryPage.qml:45
 #, kde-format
 msgid "No locations found"
 msgstr "Ez du kokalekurik aurkitu"
 
-#: qml/LocationQueryPage.qml:53
+#: qml/LocationQueryPage.qml:52
 #, kde-format
 msgid "No providers enabled"
 msgstr "Ez da hornitzailerik gaitu"
 
-#: qml/LocationQueryPage.qml:56
+#: qml/LocationQueryPage.qml:55
 #, kde-format
 msgid "Configure providers"
 msgstr "Konfiguratu hornitzaileak"
 
-#: qml/Main.qml:34
+#: qml/Main.qml:33
 #, kde-format
 msgid "Journey"
 msgstr "Bidaia"
 
-#: qml/Main.qml:42
+#: qml/Main.qml:43
 #, kde-format
 msgid "Departures"
 msgstr "Irteerak"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:61
 #, kde-format
 msgid "About KTrip"
 msgstr "«KTrip»eri buruz"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "Kontsultatu irteerak"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "Abiatu bidaia"
 
-#: qml/QueryPage.qml:24
+#: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "Bilatu"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "From:"
 msgstr "Nondik:"
 
-#: qml/QueryPage.qml:47
+#: qml/QueryPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
@@ -222,29 +222,29 @@ msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "Bilatu hasierako kokalekua"
 
-#: qml/QueryPage.qml:52
+#: qml/QueryPage.qml:54
 #, kde-format
 msgid "To:"
 msgstr "Nora:"
 
-#: qml/QueryPage.qml:58
+#: qml/QueryPage.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "Hautatu helmuga"
 
-#: qml/QueryPage.qml:59
+#: qml/QueryPage.qml:62
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "Bilatu helmugako kokalekua"
 
-#: qml/QueryPage.qml:63
+#: qml/QueryPage.qml:68
 #, kde-format
 msgid "Departure date:"
 msgstr "Irteera data:"
 
-#: qml/QueryPage.qml:77
+#: qml/QueryPage.qml:82
 #, kde-format
 msgid "Departure time:"
 msgstr "Irteera ordua:"

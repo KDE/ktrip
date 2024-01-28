@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-01-28 00:39+0000\n"
 "PO-Revision-Date: 2024-01-08 19:17+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -51,7 +51,7 @@ msgstr "© 2019 KDE 社群"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:56
 #, kde-format
 msgid "Providers"
 msgstr "提供者"
@@ -82,41 +82,41 @@ msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionDetailsPage.qml:17
+#: qml/ConnectionDetailsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "詳細資訊"
 
-#: qml/ConnectionDetailsPage.qml:42
+#: qml/ConnectionDetailsPage.qml:45
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "走路（%1 分鐘）"
 
-#: qml/ConnectionDetailsPage.qml:50
+#: qml/ConnectionDetailsPage.qml:53
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "等待（%1 分鐘）"
 
-#: qml/ConnectionDetailsPage.qml:58
+#: qml/ConnectionDetailsPage.qml:61
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "轉乘（%1 分鐘）"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "隱藏中繼站"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "顯示中繼站"
 
-#: qml/ConnectionsPage.qml:16
+#: qml/ConnectionsPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
@@ -143,71 +143,71 @@ msgstr[0] "%1 個變更"
 msgid "No connections found"
 msgstr "找不到轉乘"
 
-#: qml/DeparturesPage.qml:16
+#: qml/DeparturesPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "出發"
 
-#: qml/DeparturesPage.qml:38
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:46
+#: qml/LocationQueryPage.qml:45
 #, kde-format
 msgid "No locations found"
 msgstr "找不到位置"
 
-#: qml/LocationQueryPage.qml:53
+#: qml/LocationQueryPage.qml:52
 #, kde-format
 msgid "No providers enabled"
 msgstr "沒有啟用任何提供者"
 
-#: qml/LocationQueryPage.qml:56
+#: qml/LocationQueryPage.qml:55
 #, kde-format
 msgid "Configure providers"
 msgstr "設定提供者"
 
-#: qml/Main.qml:34
+#: qml/Main.qml:33
 #, kde-format
 msgid "Journey"
 msgstr "旅程"
 
-#: qml/Main.qml:42
+#: qml/Main.qml:43
 #, kde-format
 msgid "Departures"
 msgstr "出發"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:61
 #, kde-format
 msgid "About KTrip"
 msgstr "關於 KTrip"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "查詢出發"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "開始旅程"
 
-#: qml/QueryPage.qml:24
+#: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "搜尋"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "From:"
 msgstr "從："
 
-#: qml/QueryPage.qml:47
+#: qml/QueryPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
@@ -219,29 +219,29 @@ msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "搜尋起始位置"
 
-#: qml/QueryPage.qml:52
+#: qml/QueryPage.qml:54
 #, kde-format
 msgid "To:"
 msgstr "到："
 
-#: qml/QueryPage.qml:58
+#: qml/QueryPage.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "選擇目的地"
 
-#: qml/QueryPage.qml:59
+#: qml/QueryPage.qml:62
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "搜尋目的地位置"
 
-#: qml/QueryPage.qml:63
+#: qml/QueryPage.qml:68
 #, kde-format
 msgid "Departure date:"
 msgstr "出發日期："
 
-#: qml/QueryPage.qml:77
+#: qml/QueryPage.qml:82
 #, kde-format
 msgid "Departure time:"
 msgstr "出發時間："

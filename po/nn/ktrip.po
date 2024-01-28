@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-01-28 00:39+0000\n"
 "PO-Revision-Date: 2022-06-19 13:48+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -49,7 +49,7 @@ msgstr "© 2019 KDE-fellesskapet"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:56
 #, kde-format
 msgid "Providers"
 msgstr "Leverandørar"
@@ -81,44 +81,44 @@ msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionDetailsPage.qml:17
+#: qml/ConnectionDetailsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Detaljar"
 
-#: qml/ConnectionDetailsPage.qml:42
+#: qml/ConnectionDetailsPage.qml:45
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "Går (%1 minutt)"
 msgstr[1] "Går (%1 minutt)"
 
-#: qml/ConnectionDetailsPage.qml:50
+#: qml/ConnectionDetailsPage.qml:53
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Ventar (%1 minutt)"
 msgstr[1] "Ventar (%1 minutt)"
 
-#: qml/ConnectionDetailsPage.qml:58
+#: qml/ConnectionDetailsPage.qml:61
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Overgang (%1 minutt)"
 msgstr[1] "Overgang (%1 minutt)"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Gøym mellom­stopp"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Vis mellom­stopp"
 
-#: qml/ConnectionsPage.qml:16
+#: qml/ConnectionsPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
@@ -146,71 +146,71 @@ msgstr[1] "%1 endringar"
 msgid "No connections found"
 msgstr "Fann ingen samband"
 
-#: qml/DeparturesPage.qml:16
+#: qml/DeparturesPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Avgangar"
 
-#: qml/DeparturesPage.qml:38
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:46
+#: qml/LocationQueryPage.qml:45
 #, kde-format
 msgid "No locations found"
 msgstr "Fann ingen stadar"
 
-#: qml/LocationQueryPage.qml:53
+#: qml/LocationQueryPage.qml:52
 #, kde-format
 msgid "No providers enabled"
 msgstr "Ingen leverandørar er påslegne"
 
-#: qml/LocationQueryPage.qml:56
+#: qml/LocationQueryPage.qml:55
 #, kde-format
 msgid "Configure providers"
 msgstr "Set opp leverandørar"
 
-#: qml/Main.qml:34
+#: qml/Main.qml:33
 #, kde-format
 msgid "Journey"
 msgstr "Reise"
 
-#: qml/Main.qml:42
+#: qml/Main.qml:43
 #, kde-format
 msgid "Departures"
 msgstr "Avgangar"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:61
 #, kde-format
 msgid "About KTrip"
 msgstr "Om KTrip"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "Søk etter avgangar"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "Start reisa"
 
-#: qml/QueryPage.qml:24
+#: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "Søk"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "From:"
 msgstr "Frå:"
 
-#: qml/QueryPage.qml:47
+#: qml/QueryPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
@@ -222,29 +222,29 @@ msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "Søk etter startstad"
 
-#: qml/QueryPage.qml:52
+#: qml/QueryPage.qml:54
 #, kde-format
 msgid "To:"
 msgstr "Til:"
 
-#: qml/QueryPage.qml:58
+#: qml/QueryPage.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "Vel reisemål"
 
-#: qml/QueryPage.qml:59
+#: qml/QueryPage.qml:62
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "Søk etter reisemål"
 
-#: qml/QueryPage.qml:63
+#: qml/QueryPage.qml:68
 #, kde-format
 msgid "Departure date:"
 msgstr "Dato avgang:"
 
-#: qml/QueryPage.qml:77
+#: qml/QueryPage.qml:82
 #, kde-format
 msgid "Departure time:"
 msgstr "Klokkeslett avgang:"

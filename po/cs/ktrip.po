@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-01-28 00:39+0000\n"
 "PO-Revision-Date: 2021-12-17 16:45+0100\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -47,7 +47,7 @@ msgstr "© 2019 Komunita KDE"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:56
 #, kde-format
 msgid "Providers"
 msgstr "Poskytovatelé"
@@ -78,20 +78,20 @@ msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionDetailsPage.qml:17
+#: qml/ConnectionDetailsPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: qml/ConnectionDetailsPage.qml:42
+#: qml/ConnectionDetailsPage.qml:45
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/ConnectionDetailsPage.qml:50
+#: qml/ConnectionDetailsPage.qml:53
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
@@ -99,7 +99,7 @@ msgstr[0] "Čekání (%1 minuta)"
 msgstr[1] "Čekání (%1 minuty)"
 msgstr[2] "Čekání (%1 minut)"
 
-#: qml/ConnectionDetailsPage.qml:58
+#: qml/ConnectionDetailsPage.qml:61
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
@@ -107,17 +107,17 @@ msgstr[0] "Přenos (%1 minuta)"
 msgstr[1] "Přenos (%1 minuty)"
 msgstr[2] "Přenos (%1 minut)"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Skrýt mezizastávky"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Zobrazit mezizastávky"
 
-#: qml/ConnectionsPage.qml:16
+#: qml/ConnectionsPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
@@ -146,71 +146,71 @@ msgstr[2] "%1 přestupů"
 msgid "No connections found"
 msgstr "Nenalezeno žádné připojení"
 
-#: qml/DeparturesPage.qml:16
+#: qml/DeparturesPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Odjezdy"
 
-#: qml/DeparturesPage.qml:38
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:46
+#: qml/LocationQueryPage.qml:45
 #, kde-format
 msgid "No locations found"
 msgstr "Nenalezeno žádné místo"
 
-#: qml/LocationQueryPage.qml:53
+#: qml/LocationQueryPage.qml:52
 #, kde-format
 msgid "No providers enabled"
 msgstr "Nejsou zapnuti poskytovatelé"
 
-#: qml/LocationQueryPage.qml:56
+#: qml/LocationQueryPage.qml:55
 #, kde-format
 msgid "Configure providers"
 msgstr "Nastavit poskytovatele"
 
-#: qml/Main.qml:34
+#: qml/Main.qml:33
 #, kde-format
 msgid "Journey"
 msgstr "Cesta"
 
-#: qml/Main.qml:42
+#: qml/Main.qml:43
 #, kde-format
 msgid "Departures"
 msgstr "Odjezdy"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:61
 #, kde-format
 msgid "About KTrip"
 msgstr "O aplikaci KTrip"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr ""
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "Započít cestu"
 
-#: qml/QueryPage.qml:24
+#: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "Hledat"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "From:"
 msgstr "Z:"
 
-#: qml/QueryPage.qml:47
+#: qml/QueryPage.qml:46
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
@@ -222,29 +222,29 @@ msgctxt "@title"
 msgid "Search for Start Location"
 msgstr ""
 
-#: qml/QueryPage.qml:52
+#: qml/QueryPage.qml:54
 #, kde-format
 msgid "To:"
 msgstr "Do:"
 
-#: qml/QueryPage.qml:58
+#: qml/QueryPage.qml:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr ""
 
-#: qml/QueryPage.qml:59
+#: qml/QueryPage.qml:62
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr ""
 
-#: qml/QueryPage.qml:63
+#: qml/QueryPage.qml:68
 #, kde-format
 msgid "Departure date:"
 msgstr "Datum odjezdu:"
 
-#: qml/QueryPage.qml:77
+#: qml/QueryPage.qml:82
 #, kde-format
 msgid "Departure time:"
 msgstr "Čas odjezdu:"

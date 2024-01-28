@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-01-28 00:39+0000\n"
 "PO-Revision-Date: 2019-11-05 20:23+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Nicolas Fella"
 msgstr ""
 
-#: qml/BackendPage.qml:20 qml/Main.qml:53
+#: qml/BackendPage.qml:20 qml/Main.qml:56
 #, kde-format
 msgid "Providers"
 msgstr ""
@@ -78,14 +78,14 @@ msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr ""
 
-#: qml/ConnectionDetailsPage.qml:17
+#: qml/ConnectionDetailsPage.qml:16
 #, fuzzy, kde-format
 #| msgid "Details"
 msgctxt "@title"
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: qml/ConnectionDetailsPage.qml:42
+#: qml/ConnectionDetailsPage.qml:45
 #, fuzzy, kde-format
 #| msgid "Walking (%1 minutes)"
 msgid "Walking (%1 minute)"
@@ -94,7 +94,7 @@ msgstr[0] "Chôdza (%1 minút)"
 msgstr[1] "Chôdza (%1 minút)"
 msgstr[2] "Chôdza (%1 minút)"
 
-#: qml/ConnectionDetailsPage.qml:50
+#: qml/ConnectionDetailsPage.qml:53
 #, fuzzy, kde-format
 #| msgid "Walking (%1 minutes)"
 msgid "Waiting (%1 minute)"
@@ -103,7 +103,7 @@ msgstr[0] "Chôdza (%1 minút)"
 msgstr[1] "Chôdza (%1 minút)"
 msgstr[2] "Chôdza (%1 minút)"
 
-#: qml/ConnectionDetailsPage.qml:58
+#: qml/ConnectionDetailsPage.qml:61
 #, fuzzy, kde-format
 #| msgid "Walking (%1 minutes)"
 msgid "Transfer (%1 minute)"
@@ -112,17 +112,17 @@ msgstr[0] "Chôdza (%1 minút)"
 msgstr[1] "Chôdza (%1 minút)"
 msgstr[2] "Chôdza (%1 minút)"
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr ""
 
-#: qml/ConnectionDetailsPage.qml:94
+#: qml/ConnectionDetailsPage.qml:97
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr ""
 
-#: qml/ConnectionsPage.qml:16
+#: qml/ConnectionsPage.qml:15
 #, fuzzy, kde-format
 #| msgid "Connections"
 msgctxt "@title"
@@ -153,78 +153,78 @@ msgstr[2] ""
 msgid "No connections found"
 msgstr "Pripojenia"
 
-#: qml/DeparturesPage.qml:16
+#: qml/DeparturesPage.qml:15
 #, fuzzy, kde-format
 #| msgid "Departure date:"
 msgctxt "@title"
 msgid "Departures"
 msgstr "Dátum odchodu:"
 
-#: qml/DeparturesPage.qml:38
+#: qml/DeparturesPage.qml:37
 #, kde-format
 msgid "%3 %1 (%2)"
 msgstr ""
 
-#: qml/LocationQueryPage.qml:46
+#: qml/LocationQueryPage.qml:45
 #, kde-format
 msgid "No locations found"
 msgstr ""
 
-#: qml/LocationQueryPage.qml:53
+#: qml/LocationQueryPage.qml:52
 #, kde-format
 msgid "No providers enabled"
 msgstr ""
 
-#: qml/LocationQueryPage.qml:56
+#: qml/LocationQueryPage.qml:55
 #, kde-format
 msgid "Configure providers"
 msgstr ""
 
-#: qml/Main.qml:34
+#: qml/Main.qml:33
 #, fuzzy, kde-format
 #| msgid "Start journey"
 msgid "Journey"
 msgstr "Spustiť cestu"
 
-#: qml/Main.qml:42
+#: qml/Main.qml:43
 #, fuzzy, kde-format
 #| msgid "Departure date:"
 msgid "Departures"
 msgstr "Dátum odchodu:"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:61
 #, fuzzy, kde-format
 #| msgctxt "This is a city associated with particular time zone"
 #| msgid "Tripoli"
 msgid "About KTrip"
 msgstr "Tripolis"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, fuzzy, kde-format
 #| msgid "Departure date:"
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "Dátum odchodu:"
 
-#: qml/QueryPage.qml:17
+#: qml/QueryPage.qml:16
 #, fuzzy, kde-format
 #| msgid "Start journey"
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "Spustiť cestu"
 
-#: qml/QueryPage.qml:24
+#: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
 msgstr "Hľadať"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "From:"
 msgstr "Od:"
 
-#: qml/QueryPage.qml:47
+#: qml/QueryPage.qml:46
 #, fuzzy, kde-format
 #| msgid "Pick start"
 msgctxt "@action:button"
@@ -238,31 +238,31 @@ msgctxt "@title"
 msgid "Search for Start Location"
 msgstr "Hľadať miesto štartu"
 
-#: qml/QueryPage.qml:52
+#: qml/QueryPage.qml:54
 #, fuzzy, kde-format
 msgid "To:"
 msgstr "Pre:"
 
-#: qml/QueryPage.qml:58
+#: qml/QueryPage.qml:60
 #, fuzzy, kde-format
 #| msgid "Pick destination"
 msgctxt "@action:button"
 msgid "Pick Destination"
 msgstr "Vybrať destináciu"
 
-#: qml/QueryPage.qml:59
+#: qml/QueryPage.qml:62
 #, fuzzy, kde-format
 #| msgid "Search for destination location"
 msgctxt "@title"
 msgid "Search for Destination Location"
 msgstr "Hľadať miesto destinácie"
 
-#: qml/QueryPage.qml:63
+#: qml/QueryPage.qml:68
 #, kde-format
 msgid "Departure date:"
 msgstr "Dátum odchodu:"
 
-#: qml/QueryPage.qml:77
+#: qml/QueryPage.qml:82
 #, kde-format
 msgid "Departure time:"
 msgstr "Čas odchodu:"
