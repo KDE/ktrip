@@ -16,6 +16,7 @@ Kirigami.ScrollablePage {
 
     header: Kirigami.InlineMessage {
         type: Kirigami.MessageType.Error
+        position: Kirigami.InlineMessage.Header
         text: theModel.errorMessage
         visible: theModel.errorMessage != ""
     }
