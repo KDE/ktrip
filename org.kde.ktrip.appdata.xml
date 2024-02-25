@@ -37,7 +37,7 @@
   <name xml:lang="sk">KTrip</name>
   <name xml:lang="sl">KTrip</name>
   <name xml:lang="sv">Ktripp</name>
-  <name xml:lang="tr">K Yolculuk</name>
+  <name xml:lang="tr">K Gezi</name>
   <name xml:lang="uk">KTrip</name>
   <name xml:lang="x-test">xxKTripxx</name>
   <name xml:lang="zh-TW">KTrip</name>
@@ -95,7 +95,7 @@
     <p xml:lang="ru">KTrip помогает планировать поездки на общественном транспорте. Программа позволяет находить маршруты между указанными местами, просматривать время отправления с определённых станций, а также в режиме реального времени показывает данные о задержках и отмене рейсов.</p>
     <p xml:lang="sl">KTrip vam pomaga pri navigaciji v javnem prevozu. Omogoča vam najti o potovanja med določenimi lokacijami, odhode z navedenih postaj in zamude v realnem času ter informacije o motnjah obratovanja.</p>
     <p xml:lang="sv">Ktripp hjälper till att navigera i kollektivtrafik. Det låter dig söka efter resor mellan angivna platser, avgångar från en viss station, samt visar realtidsfördröjningar och störningsinformation.</p>
-    <p xml:lang="tr">K Yolculuk, toplu taşımada yolunuzu bulmanıza yardımcı olur. Belirli konumlar arasındaki yolları, istasyon kalkışlarını, anlık gecikme ve iptal bilgilerini bulmanıza izin verir.</p>
+    <p xml:lang="tr">K Gezi, toplu taşımada yolunuzu bulmanıza yardımcı olur. Belirli konumlar arasındaki yolları, istasyon kalkışlarını, anlık gecikme ve iptal bilgilerini bulmanıza izin verir.</p>
     <p xml:lang="uk">KTrip допоможе вам у подорожах громадським транспортом. Програма надає змогу будувати маршрути між вказаними вами місцями, часом відправлення з певних станцій і показує в інтерактивному режимі дані щодо затримок і скасувань рейсів.</p>
     <p xml:lang="x-test">xxKTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.xx</p>
     <p xml:lang="zh-TW">KTrip 幫助您在公共運輸上找到您的方向。它讓您尋找指定地點之間可用的旅程、顯示指定車站的出發時間，並可以即時告知您誤點與服務受影響的資訊。</p>
