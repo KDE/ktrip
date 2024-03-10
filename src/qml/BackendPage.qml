@@ -98,6 +98,7 @@ Kirigami.ScrollablePage {
         section {
             property: "countryCode"
             delegate: Kirigami.ListSectionHeader {
+                width: ListView.view.width
                 text: {
                     switch (section) {
                     case "":
