@@ -29,6 +29,9 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     qml/TimePickerButton.qml
     qml/DeparturesPage.qml
     qml/ConnectionHeading.qml
+    DEPENDENCIES
+    "QtCore"
+    "org.kde.kpublictransport"
 )
 
 target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF6::CoreAddons KF6::I18n KF6::ConfigGui KPublicTransport)
