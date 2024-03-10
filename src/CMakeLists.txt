@@ -17,7 +17,7 @@ endif()
 
 add_executable(ktrip ${ktrip_SRCS})
 
-ecm_add_qml_module(ktrip URI "org.kde.ktrip" VERSION 1.0
+ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     QML_FILES
     qml/Main.qml
     qml/BackendPage.qml

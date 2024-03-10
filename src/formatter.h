@@ -7,10 +7,13 @@
 #pragma once
 
 #include <QObject>
+#include <QQmlEngine>
 
 class Formatter : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     Q_INVOKABLE QString formatDuration(int seconds);

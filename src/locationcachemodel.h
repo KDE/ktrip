@@ -9,12 +9,14 @@
 #include <QAbstractListModel>
 #include <QFile>
 #include <QJsonArray>
+#include <qqmlregistration.h>
 
 #include <KPublicTransport/Location>
 
 class LocationCacheModel : public QAbstractListModel
 {
     Q_OBJECT
+    QML_ELEMENT
 
 public:
     explicit LocationCacheModel(QObject *parent = nullptr);

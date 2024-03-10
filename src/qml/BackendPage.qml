@@ -12,7 +12,7 @@ import org.kde.kirigami 2.10 as Kirigami
 import org.kde.kirigamiaddons.components 1.0 as Components
 import org.kde.kirigamiaddons.delegates 1.0 as Delegates
 import org.kde.kpublictransport 1.0 as KPublicTransport
-import org.kde.ktrip 1.0
+import org.kde.ktrip
 
 Kirigami.ScrollablePage {
     id: root
@@ -34,7 +34,7 @@ Kirigami.ScrollablePage {
 
     KPublicTransport.BackendModel {
         id: backendModel
-        manager: Manager
+        manager: Controller.manager
     }
 
     Component {

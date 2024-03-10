@@ -19,10 +19,8 @@ Kirigami.ApplicationWindow {
     pageStack.initialPage: Qt.resolvedUrl("QueryPage.qml")
 
     Component.onCompleted: {
-        if (Settings.firstRun) {
+        if (Controller.firstRun) {
             window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"));
-            Settings.firstRun = false;
-            Settings.save();
         }
     }
 

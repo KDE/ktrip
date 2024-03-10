@@ -5,10 +5,6 @@
  */
 
 #include "androidutils.h"
-#include "controller.h"
-#include "formatter.h"
-#include "ktripsettings.h"
-#include "locationcachemodel.h"
 #include "version.h"
 
 #include <QCommandLineOption>
@@ -73,24 +69,6 @@ int main(int argc, char *argv[])
 
     qRegisterMetaType<KPublicTransport::LocationRequest>();
 
-    qmlRegisterType<LocationCacheModel>("org.kde.ktrip", 1, 0, "LocationCacheModel");
-
-    KPublicTransport::Manager manager;
-    manager.setAllowInsecureBackends(true);
-    manager.setBackendsEnabledByDefault(false);
-
-    qmlRegisterSingletonInstance<KPublicTransport::Manager>("org.kde.ktrip", 1, 0, "Manager", &manager);
-
-    KTripSettings settings;
-    manager.setEnabledBackends(settings.enabledBackends());
-
-    QObject::connect(&manager, &KPublicTransport::Manager::configurationChanged, &settings, [&settings, &manager] {
-        settings.setEnabledBackends(manager.enabledBackends());
-        settings.save();
-    });
-
-    qmlRegisterSingletonInstance<KTripSettings>("org.kde.ktrip", 1, 0, "Settings", &settings);
-
     KAboutData about(QStringLiteral("ktrip"),
                      i18n("KTrip"),
                      QStringLiteral(KTRIP_VERSION_STRING),
@@ -101,18 +79,12 @@ int main(int argc, char *argv[])
     about.setBugAddress("https://invent.kde.org/utilities/ktrip/-/issues");
     KAboutData::setApplicationData(about);
 
-    Formatter formatter;
-    qmlRegisterSingletonInstance<Formatter>("org.kde.ktrip", 1, 0, "Formatter", &formatter);
-
 #ifdef Q_OS_ANDROID
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);
     engine.rootContext()->setContextProperty(QStringLiteral("_androidUtils"), QVariant::fromValue(AndroidUtils::instance()));
 #else
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
-
-    Controller controller;
-    qmlRegisterSingletonInstance<Controller>("org.kde.ktrip", 1, 0, "Controller", &controller);
 
     engine.loadFromModule("org.kde.ktrip", "Main");
 

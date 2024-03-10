@@ -9,16 +9,18 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
 import org.kde.kirigami 2.12 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
-import org.kde.ktrip 1.0
+import org.kde.ktrip
 
 Kirigami.ScrollablePage {
+    id: root
+
     property bool showCached: true
     property var callback
 
     header: Kirigami.SearchField {
         id: queryTextField
 
-        visible: Manager.enabledBackends.length !== 0
+        visible: Controller.manager.enabledBackends.length !== 0
         width: parent.width
         onAccepted: {
             queryModel.request = Controller.createLocationRequest(text);
@@ -28,10 +30,10 @@ Kirigami.ScrollablePage {
 
     ListView {
         id: locationView
-        model: showCached ? cacheModel : queryModel
+        model: root.showCached ? cacheModel : queryModel
 
         delegate: ItemDelegate {
-            visible: Manager.enabledBackends.length !== 0
+            visible: Controller.manager.enabledBackends.length !== 0
             text: location.name
             width: ListView.view.width
             onClicked: {
@@ -50,7 +52,7 @@ Kirigami.ScrollablePage {
         Kirigami.PlaceholderMessage {
             id: noProvidersMessage
             text: i18n("No providers enabled")
-            visible: Manager.enabledBackends.length === 0
+            visible: Controller.manager.enabledBackends.length === 0
             helpfulAction: Action {
                 text: i18n("Configure providers")
                 icon.name: "configure"
@@ -66,7 +68,7 @@ Kirigami.ScrollablePage {
 
         KPT.LocationQueryModel {
             id: queryModel
-            manager: Manager
+            manager: Controller.manager
         }
 
         LocationCacheModel {
