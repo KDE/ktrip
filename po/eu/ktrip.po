@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-03-11 02:21+0000\n"
 "PO-Revision-Date: 2023-08-16 14:22+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -65,17 +65,17 @@ msgstr "Aukeratu zure esparrurako egokiak diren hornitzaileak"
 msgid "Save"
 msgstr "Gorde"
 
-#: qml/BackendPage.qml:105
+#: qml/BackendPage.qml:106
 #, kde-format
 msgid "Global"
 msgstr "Globala"
 
-#: qml/BackendPage.qml:107
+#: qml/BackendPage.qml:108
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 Europar Batasuna"
 
-#: qml/BackendPage.qml:110
+#: qml/BackendPage.qml:111
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"

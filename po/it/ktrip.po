@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-03 01:37+0000\n"
+"POT-Creation-Date: 2024-03-11 02:21+0000\n"
 "PO-Revision-Date: 2021-12-22 12:55+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -62,17 +62,17 @@ msgstr "Seleziona i fornitori pertinenti per la tua zona"
 msgid "Save"
 msgstr "Salva"
 
-#: qml/BackendPage.qml:105
+#: qml/BackendPage.qml:106
 #, kde-format
 msgid "Global"
 msgstr "Globale"
 
-#: qml/BackendPage.qml:107
+#: qml/BackendPage.qml:108
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 Unione Europea"
 
-#: qml/BackendPage.qml:110
+#: qml/BackendPage.qml:111
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
