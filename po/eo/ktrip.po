@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-28 00:39+0000\n"
+"POT-Creation-Date: 2024-03-11 00:40+0000\n"
 "PO-Revision-Date: 2023-09-14 23:18+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -28,27 +28,27 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "okellogg@users.sourceforge.net"
 
-#: main.cpp:95
+#: main.cpp:73
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:97
+#: main.cpp:75
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Asistanto pri publika transporto"
 
-#: main.cpp:99
+#: main.cpp:77
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 KDE-Komunumo"
 
-#: main.cpp:100
+#: main.cpp:78
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:56
+#: qml/BackendPage.qml:20 qml/Main.qml:54
 #, kde-format
 msgid "Providers"
 msgstr "Provizantoj"
@@ -63,17 +63,17 @@ msgstr "Elekti la provizantojn rilatajn al via regiono"
 msgid "Save"
 msgstr "Konservi"
 
-#: qml/BackendPage.qml:105
+#: qml/BackendPage.qml:106
 #, kde-format
 msgid "Global"
 msgstr "Ĉiea"
 
-#: qml/BackendPage.qml:107
+#: qml/BackendPage.qml:108
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 Eŭropa Unio"
 
-#: qml/BackendPage.qml:110
+#: qml/BackendPage.qml:111
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
@@ -155,32 +155,32 @@ msgstr "Foriroj"
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/LocationQueryPage.qml:45
+#: qml/LocationQueryPage.qml:53
 #, kde-format
 msgid "No locations found"
 msgstr "Neniuj lokoj trovitaj"
 
-#: qml/LocationQueryPage.qml:52
+#: qml/LocationQueryPage.qml:60
 #, kde-format
 msgid "No providers enabled"
 msgstr "Neniuj provizantoj ebligitaj"
 
-#: qml/LocationQueryPage.qml:55
+#: qml/LocationQueryPage.qml:63
 #, kde-format
 msgid "Configure providers"
 msgstr "Agordi provizantojn"
 
-#: qml/Main.qml:33
+#: qml/Main.qml:31
 #, kde-format
 msgid "Journey"
 msgstr "Vojaĝo"
 
-#: qml/Main.qml:43
+#: qml/Main.qml:41
 #, kde-format
 msgid "Departures"
 msgstr "Foriroj"
 
-#: qml/Main.qml:61
+#: qml/Main.qml:59
 #, kde-format
 msgid "About KTrip"
 msgstr "Pri KTrip"
