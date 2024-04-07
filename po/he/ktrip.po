@@ -1,0 +1,256 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the ktrip package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-11 00:40+0000\n"
+"PO-Revision-Date: 2024-04-06 15:55+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: main.cpp:73
+#, kde-format
+msgid "KTrip"
+msgstr "KTrip"
+
+#: main.cpp:75
+#, kde-format
+msgid "Public transport assistant"
+msgstr "ניווט בתחבורה ציבורית"
+
+#: main.cpp:77
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© 2019 קהילת KDE"
+
+#: main.cpp:78
+#, kde-format
+msgid "Nicolas Fella"
+msgstr "ניקולס פלה"
+
+#: qml/BackendPage.qml:20 qml/Main.qml:54
+#, kde-format
+msgid "Providers"
+msgstr "ספקים"
+
+#: qml/BackendPage.qml:23
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr "נא לבחור את הספקים שמתאימים לאזור שלך"
+
+#: qml/BackendPage.qml:29
+#, kde-format
+msgid "Save"
+msgstr "שמירה"
+
+#: qml/BackendPage.qml:106
+#, kde-format
+msgid "Global"
+msgstr "עולמי"
+
+#: qml/BackendPage.qml:108
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 האיחוד האירופי"
+
+#: qml/BackendPage.qml:111
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionDetailsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr "פרטים"
+
+#: qml/ConnectionDetailsPage.qml:45
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] "הליכה (דקה)"
+msgstr[1] "הליכה (שתי דקות)"
+msgstr[2] "הליכה (%1 דקות)"
+msgstr[3] "הליכה (%1 דקות)"
+
+#: qml/ConnectionDetailsPage.qml:53
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] "המתנה (דקה)"
+msgstr[1] "המתנה (שתי דקות)"
+msgstr[2] "המתנה (%1 דקות)"
+msgstr[3] "המתנה (%1 דקות)"
+
+#: qml/ConnectionDetailsPage.qml:61
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] "החלפה (דקה)"
+msgstr[1] "החלפה (שתי דקות)"
+msgstr[2] "החלפה (%1 דקות)"
+msgstr[3] "החלפה (%1 דקות)"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr "הסתרת תחנות ביניים"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr "הצגת תחנות ביניים"
+
+#: qml/ConnectionsPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr "חיבורים"
+
+#: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionsPage.qml:65 qml/ConnectionsPage.qml:91
+#, kde-format
+msgid "+%1"
+msgstr "+%1"
+
+#: qml/ConnectionsPage.qml:75
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] "החלפה"
+msgstr[1] "שתי החלפות"
+msgstr[2] "%1 החלפות"
+msgstr[3] "%1 החלפות"
+
+#: qml/ConnectionsPage.qml:107
+#, kde-format
+msgid "No connections found"
+msgstr "לא נמצאו חיבורים"
+
+#: qml/DeparturesPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr "יציאות"
+
+#: qml/DeparturesPage.qml:37
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr "%3 %1 (%2)"
+
+#: qml/LocationQueryPage.qml:53
+#, kde-format
+msgid "No locations found"
+msgstr "לא נמצאו מקומות"
+
+#: qml/LocationQueryPage.qml:60
+#, kde-format
+msgid "No providers enabled"
+msgstr "לא נמצאו ספקים"
+
+#: qml/LocationQueryPage.qml:63
+#, kde-format
+msgid "Configure providers"
+msgstr "הגדרת ספקים"
+
+#: qml/Main.qml:31
+#, kde-format
+msgid "Journey"
+msgstr "מסע"
+
+#: qml/Main.qml:41
+#, kde-format
+msgid "Departures"
+msgstr "יציאות"
+
+#: qml/Main.qml:59
+#, kde-format
+msgid "About KTrip"
+msgstr "על KTrip"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr "תשאול יציאות"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr "התחלת מסע"
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr "חיפוש"
+
+#: qml/QueryPage.qml:42
+#, kde-format
+msgid "From:"
+msgstr "מ־:"
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr "בחירת נק׳ התחלה"
+
+#: qml/QueryPage.qml:48
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr "חיפוש אחר נקודת התחלה"
+
+#: qml/QueryPage.qml:54
+#, kde-format
+msgid "To:"
+msgstr "אל:"
+
+#: qml/QueryPage.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr "בחירת נק׳ יעד"
+
+#: qml/QueryPage.qml:62
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr "חיפוש נקודת יעד"
+
+#: qml/QueryPage.qml:68
+#, kde-format
+msgid "Departure date:"
+msgstr "תאריך היציאה:"
+
+#: qml/QueryPage.qml:82
+#, kde-format
+msgid "Departure time:"
+msgstr "שעת היציאה:"
