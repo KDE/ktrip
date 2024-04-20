@@ -32,9 +32,6 @@ Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
-    QGuiApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
     QCommandLineParser parser;
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
