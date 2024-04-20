@@ -10,3 +10,12 @@ include:
       - /gitlab-templates/reuse-lint.yml
       - /gitlab-templates/flatpak.yml
       - /gitlab-templates/craft-android-qt6-apks.yml
+
+spell:
+  stage: build
+  script: ./spell.py
+  artifacts:
+    expire_in: 1 week
+    when: on_success
+    reports:
+      codequality: report.json
