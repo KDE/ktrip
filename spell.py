@@ -20,7 +20,21 @@ warning = {
     "fingerprint": 1
 }
 
+warning2 = {
+    "type": "issue",
+    "description": "Test 2",#match.group(5),
+    "categories": ["Bug Risk"], # TODO
+    "location": {
+        "path": "src/main.cpp",
+        "lines": {
+            "begin": 0
+        }
+    },
+    "fingerprint": 2
+}
+
 warnings.append(warning)
+warnings.append(warning2)
 
 f = open("report.json", "w")
 f.write(json.dumps(warnings))
