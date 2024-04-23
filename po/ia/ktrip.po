@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:40+0000\n"
+"POT-Creation-Date: 2024-04-23 00:41+0000\n"
 "PO-Revision-Date: 2021-12-27 11:53+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -27,22 +27,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
 
-#: main.cpp:73
+#: main.cpp:70
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:75
+#: main.cpp:72
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Assistente de transporto public"
 
-#: main.cpp:77
+#: main.cpp:74
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 Communitate de KDE"
 
-#: main.cpp:78
+#: main.cpp:75
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
