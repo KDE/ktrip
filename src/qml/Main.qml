@@ -6,7 +6,6 @@
 
 import QtQuick
 import QtQuick.Controls
-import org.kde.coreaddons as KCA
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.ktrip
@@ -61,17 +60,10 @@ Kirigami.ApplicationWindow {
                 icon.name: "help-about"
                 onTriggered: {
                     if (window.pageStack.layers.depth < 2) {
-                        window.pageStack.layers.push(aboutPage);
+                        window.pageStack.layers.push(Qt.createComponent('org.kde.kirigamiaddons.formcard', 'AboutPage'));
                     }
                 }
             }
         ]
-    }
-
-    Component {
-        id: aboutPage
-        FormCard.AboutPage {
-            aboutData: KCA.AboutData
-        }
     }
 }
