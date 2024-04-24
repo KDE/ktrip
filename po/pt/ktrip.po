@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-23 00:41+0000\n"
+"POT-Creation-Date: 2024-04-24 00:41+0000\n"
 "PO-Revision-Date: 2022-03-26 23:07+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -793,7 +793,7 @@ msgstr "© 2019 Comunidade do KDE"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:54
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "Fornecedores"
@@ -915,17 +915,17 @@ msgstr "Sem fornecedores activos"
 msgid "Configure providers"
 msgstr "Configurar os fornecedores"
 
-#: qml/Main.qml:31
+#: qml/Main.qml:30
 #, kde-format
 msgid "Journey"
 msgstr "Viagem"
 
-#: qml/Main.qml:41
+#: qml/Main.qml:40
 #, kde-format
 msgid "Departures"
 msgstr "Partidas"
 
-#: qml/Main.qml:59
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "Acerca do KTrip"

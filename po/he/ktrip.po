@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-23 00:41+0000\n"
+"POT-Creation-Date: 2024-04-24 00:41+0000\n"
 "PO-Revision-Date: 2024-04-06 15:55+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -48,7 +48,7 @@ msgstr "© 2019 קהילת KDE"
 msgid "Nicolas Fella"
 msgstr "ניקולס פלה"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:54
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "ספקים"
@@ -178,17 +178,17 @@ msgstr "לא נמצאו ספקים"
 msgid "Configure providers"
 msgstr "הגדרת ספקים"
 
-#: qml/Main.qml:31
+#: qml/Main.qml:30
 #, kde-format
 msgid "Journey"
 msgstr "מסע"
 
-#: qml/Main.qml:41
+#: qml/Main.qml:40
 #, kde-format
 msgid "Departures"
 msgstr "יציאות"
 
-#: qml/Main.qml:59
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "על KTrip"

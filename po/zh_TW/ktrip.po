@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-23 00:41+0000\n"
+"POT-Creation-Date: 2024-04-24 00:41+0000\n"
 "PO-Revision-Date: 2024-01-08 19:17+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -51,7 +51,7 @@ msgstr "© 2019 KDE 社群"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:54
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "提供者"
@@ -169,17 +169,17 @@ msgstr "沒有啟用任何提供者"
 msgid "Configure providers"
 msgstr "設定提供者"
 
-#: qml/Main.qml:31
+#: qml/Main.qml:30
 #, kde-format
 msgid "Journey"
 msgstr "旅程"
 
-#: qml/Main.qml:41
+#: qml/Main.qml:40
 #, kde-format
 msgid "Departures"
 msgstr "出發"
 
-#: qml/Main.qml:59
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "關於 KTrip"

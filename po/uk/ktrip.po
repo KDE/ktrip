@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-23 00:41+0000\n"
+"POT-Creation-Date: 2024-04-24 00:41+0000\n"
 "PO-Revision-Date: 2021-12-17 07:43+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -50,7 +50,7 @@ msgstr "© Спільнота KDE, 2019"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:54
+#: qml/BackendPage.qml:20 qml/Main.qml:53
 #, kde-format
 msgid "Providers"
 msgstr "Надавачі даних"
@@ -180,17 +180,17 @@ msgstr "Не увімкнено жодного надавача даних"
 msgid "Configure providers"
 msgstr "Налаштувати надавачів даних"
 
-#: qml/Main.qml:31
+#: qml/Main.qml:30
 #, kde-format
 msgid "Journey"
 msgstr "Подорож"
 
-#: qml/Main.qml:41
+#: qml/Main.qml:40
 #, kde-format
 msgid "Departures"
 msgstr "Відправлення"
 
-#: qml/Main.qml:59
+#: qml/Main.qml:58
 #, kde-format
 msgid "About KTrip"
 msgstr "Про KTrip"
