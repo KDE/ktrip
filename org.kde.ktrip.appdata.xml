@@ -145,7 +145,7 @@
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
-  <url type="homepage">https://invent.kde.org/utilities/ktrip</url>
+  <url type="homepage">https://apps.kde.org/ktrip</url>
   <url type="bugtracker">https://invent.kde.org/utilities/ktrip/-/issues</url>
   <project_group>KDE</project_group>
   <provides>
