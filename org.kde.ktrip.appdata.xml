@@ -27,6 +27,7 @@
   <name xml:lang="gl">KTrip</name>
   <name xml:lang="he">KTrip</name>
   <name xml:lang="hi">केट्रिप (KTrip)</name>
+  <name xml:lang="hu">KTrip</name>
   <name xml:lang="ia">KTrip</name>
   <name xml:lang="id">KTrip</name>
   <name xml:lang="it">KTrip</name>
@@ -58,6 +59,7 @@
   <summary xml:lang="fr">Navigateur pour transports publics</summary>
   <summary xml:lang="gl">Asistente de transporte público.</summary>
   <summary xml:lang="he">ניווט בתחבורה ציבורית</summary>
+  <summary xml:lang="hu">Tömegközlekedési navigátor</summary>
   <summary xml:lang="ia">Navigator de transporto public</summary>
   <summary xml:lang="id">Penavigasi transportasi umum</summary>
   <summary xml:lang="it">Navigatore di trasporto pubblico</summary>
@@ -88,6 +90,7 @@
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés et des départs à partir d'une gare spécifique. Il vous affiche aussi les retards en temps réel et des informations sur des interruptions de services.</p>
     <p xml:lang="gl">KTrip axúdalle a viaxar en transporte público. Permítelle atopar rutas e saídas de estacións, e mostra información de atrasos e interrupcións en tempo real.</p>
     <p xml:lang="he">KTrip מסייע לך לנווט בתחבורה ציבורית. הוא מאפשר לך למצוא מסלולים בין מקומות מוגדרים, באילו תחנות לעלות ומציג פרטים על עיכובים והפרעות בזמן אמת.</p>
+    <p xml:lang="hu">A KTrip segít a tömegközlekedésben való navigálásban. Lehetővé teszi, hogy megtalálja a megadott helyszínek közötti utazásokat, az adott állomáshoz tartozó indulásokat, és valós idejű információkat mutat a késésekről és fennakadásokról.</p>
     <p xml:lang="ia">KTrip te adjuta a navigar in trnsporto public. Illo te permitte trovar viages inter locationes specificate, partitas per un specific station e monstra retardos in tempore real e information de interruption.</p>
     <p xml:lang="id">KTrip membantu kamu bernavigasi di transportasi umum. Hal ini memungkinkan kamu untuk menemukan perjalanan antara lokasi tertentu, keberangkatan untuk stasiun tertentu dan menunjukkan informasi penundaan dan gangguan secara real-time.</p>
     <p xml:lang="it">KTrip ti aiuta a navigare nel trasporto pubblico. Ti permette di trovare dei viaggi tra posizioni specificate e le partenze da una stazione specifica, inoltre mostra informazioni in tempo reale su ritardi e interruzioni.</p>
@@ -123,6 +126,7 @@
       <caption xml:lang="gl">Vista da viaxe.</caption>
       <caption xml:lang="he">תצוגת מסע</caption>
       <caption xml:lang="hi">यात्रा दृश्य</caption>
+      <caption xml:lang="hu">Utazás nézet</caption>
       <caption xml:lang="ia">Vista de viage</caption>
       <caption xml:lang="id">Tampilan perjalanan</caption>
       <caption xml:lang="it">Vista del viaggio</caption>
