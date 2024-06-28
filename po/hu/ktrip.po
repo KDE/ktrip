@@ -1,0 +1,247 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the ktrip package.
+#
+# SPDX-FileCopyrightText: 2024 Kristof Kiszel <ulysses@fsf.hu>
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-24 00:41+0000\n"
+"PO-Revision-Date: 2024-06-27 22:14+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.05.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@fsf.hu"
+
+#: main.cpp:70
+#, kde-format
+msgid "KTrip"
+msgstr "KTrip"
+
+#: main.cpp:72
+#, kde-format
+msgid "Public transport assistant"
+msgstr "Tömegközlekedési segéd"
+
+#: main.cpp:74
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© A KDE Közösség, 2019."
+
+#: main.cpp:75
+#, kde-format
+msgid "Nicolas Fella"
+msgstr "Nicolas Fella"
+
+#: qml/BackendPage.qml:20 qml/Main.qml:53
+#, kde-format
+msgid "Providers"
+msgstr "Szolgáltatók"
+
+#: qml/BackendPage.qml:23
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr "Válassza ki az Ön számára releváns szolgáltatókat"
+
+#: qml/BackendPage.qml:29
+#, kde-format
+msgid "Save"
+msgstr "Mentés"
+
+#: qml/BackendPage.qml:106
+#, kde-format
+msgid "Global"
+msgstr "Globális"
+
+#: qml/BackendPage.qml:108
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 Európai Unió"
+
+#: qml/BackendPage.qml:111
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionDetailsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr "Részletek"
+
+#: qml/ConnectionDetailsPage.qml:45
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] "Séta (%1 perc)"
+msgstr[1] "Séta (%1 perc)"
+
+#: qml/ConnectionDetailsPage.qml:53
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] "Várakozás (%1 perc)"
+msgstr[1] "Várakozás (%1 perc)"
+
+#: qml/ConnectionDetailsPage.qml:61
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] "Átszállás (%1 perc)"
+msgstr[1] "Átszállás (%1 perc)"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr "Köztes megállók elrejtése"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr "Köztes megállók megjelenítése"
+
+#: qml/ConnectionsPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr "Csatlakozások"
+
+#: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionsPage.qml:65 qml/ConnectionsPage.qml:91
+#, kde-format
+msgid "+%1"
+msgstr "+%1"
+
+#: qml/ConnectionsPage.qml:75
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] "%1 átszállás"
+msgstr[1] "%1 átszállás"
+
+#: qml/ConnectionsPage.qml:107
+#, kde-format
+msgid "No connections found"
+msgstr "Nincsenek csatlakozások"
+
+#: qml/DeparturesPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr "Indulások"
+
+#: qml/DeparturesPage.qml:37
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr "%3 %1 (%2)"
+
+#: qml/LocationQueryPage.qml:53
+#, kde-format
+msgid "No locations found"
+msgstr "Nem található hely"
+
+#: qml/LocationQueryPage.qml:60
+#, kde-format
+msgid "No providers enabled"
+msgstr "Nincs engedélyezett szolgáltató"
+
+#: qml/LocationQueryPage.qml:63
+#, kde-format
+msgid "Configure providers"
+msgstr "Szolgáltatók beállítása"
+
+#: qml/Main.qml:30
+#, kde-format
+msgid "Journey"
+msgstr "Utazás"
+
+#: qml/Main.qml:40
+#, kde-format
+msgid "Departures"
+msgstr "Indulások"
+
+#: qml/Main.qml:58
+#, kde-format
+msgid "About KTrip"
+msgstr "A KTrip névjegye"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr "Indulások lekérdezése"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr "Utazás indítása"
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr "Keresés"
+
+#: qml/QueryPage.qml:42
+#, kde-format
+msgid "From:"
+msgstr "Kiindulás:"
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr "Kiindulás kiválasztása"
+
+#: qml/QueryPage.qml:48
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr "Kiindulási pont keresése"
+
+#: qml/QueryPage.qml:54
+#, kde-format
+msgid "To:"
+msgstr "Úti cél:"
+
+#: qml/QueryPage.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr "Cél kiválasztása"
+
+#: qml/QueryPage.qml:62
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr "Úti cél keresése"
+
+#: qml/QueryPage.qml:68
+#, kde-format
+msgid "Departure date:"
+msgstr "Indulás dátuma:"
+
+#: qml/QueryPage.qml:82
+#, kde-format
+msgid "Departure time:"
+msgstr "Indulás ideje:"
