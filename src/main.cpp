@@ -18,6 +18,7 @@
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 #else
+#include <KCrash>
 #include <QApplication>
 #endif
 
@@ -75,6 +76,10 @@ int main(int argc, char *argv[])
     about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
     about.setBugAddress("https://invent.kde.org/utilities/ktrip/-/issues");
     KAboutData::setApplicationData(about);
+
+#ifndef Q_OS_ANDROID
+    KCrash::initialize();
+#endif
 
 #ifdef Q_OS_ANDROID
     engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);

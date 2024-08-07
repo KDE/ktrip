@@ -67,7 +67,7 @@ if (ANDROID)
 
     ecm_add_android_apk(ktrip ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
-    target_link_libraries(ktrip PRIVATE Qt::Widgets)
+    target_link_libraries(ktrip PRIVATE Qt::Widgets KF6::Crash)
 endif()
 
 ecm_add_app_icon(ktrip ICONS 256-org.kde.ktrip.png 150-org.kde.ktrip.png)

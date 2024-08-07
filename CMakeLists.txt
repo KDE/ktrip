@@ -54,7 +54,7 @@ if (ANDROID)
 
 else()
     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Widgets)
-    find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS QQC2DesktopStyle)
+    find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS QQC2DesktopStyle Crash)
 endif()
 
 find_package(KPublicTransport)
