@@ -22,7 +22,7 @@ Nightly Flatpak builds are available:
 
 # Building
 
-KTrip depends on Qt 5 and a number of KDE Frameworks:
+KTrip depends on Qt 6 and a number of KDE Frameworks:
 - KCoreAddons
 - KI18n
 - KConfig
