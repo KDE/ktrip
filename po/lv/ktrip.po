@@ -1,0 +1,252 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the ktrip package.
+#
+# SPDX-FileCopyrightText: 2024 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-08-08 00:42+0000\n"
+"PO-Revision-Date: 2024-11-08 21:37+0200\n"
+"Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Toms Trasūns"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "toms.trasuns@posteo.net"
+
+#: main.cpp:71
+#, kde-format
+msgid "KTrip"
+msgstr "KTrip"
+
+#: main.cpp:73
+#, kde-format
+msgid "Public transport assistant"
+msgstr "Sabiedriskā transporta asistents"
+
+#: main.cpp:75
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© 2019 KDE kopiena"
+
+#: main.cpp:76
+#, kde-format
+msgid "Nicolas Fella"
+msgstr "Nicolas Fella"
+
+#: qml/BackendPage.qml:20 qml/Main.qml:53
+#, kde-format
+msgid "Providers"
+msgstr "Datu sniedzēji"
+
+#: qml/BackendPage.qml:23
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr "Norādiet datu sniedzējus savam reģionam"
+
+#: qml/BackendPage.qml:29
+#, kde-format
+msgid "Save"
+msgstr "Saglabāt"
+
+#: qml/BackendPage.qml:106
+#, kde-format
+msgid "Global"
+msgstr "Globāli"
+
+#: qml/BackendPage.qml:108
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 Eiropas Savienība"
+
+#: qml/BackendPage.qml:111
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionDetailsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr "Informācija"
+
+#: qml/ConnectionDetailsPage.qml:45
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] "Iešana (%1 minūte)"
+msgstr[1] "Iešana (%1 minūtes)"
+msgstr[2] "Iešana (%1 minūšu)"
+
+#: qml/ConnectionDetailsPage.qml:53
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] "Gaidīšana (%1 minūte)"
+msgstr[1] "Gaidīšana (%1 minūtes)"
+msgstr[2] "Gaidīšana (%1 minūšu)"
+
+#: qml/ConnectionDetailsPage.qml:61
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] "Transfērs (%1 minūte)"
+msgstr[1] "Transfērs (%1 minūtes)"
+msgstr[2] "Transfērs (%1 minūšu)"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr "Slēpt starppieturas"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr "Rādīt starppieturas"
+
+#: qml/ConnectionsPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr "Savienojumi"
+
+#: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionsPage.qml:65 qml/ConnectionsPage.qml:91
+#, kde-format
+msgid "+%1"
+msgstr "+%1"
+
+#: qml/ConnectionsPage.qml:75
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] "%1 pārsēšanās"
+msgstr[1] "%1 pārsēšanās"
+msgstr[2] "%1 pārsēšanos"
+
+#: qml/ConnectionsPage.qml:107
+#, kde-format
+msgid "No connections found"
+msgstr "Savienojumi nav atrasti"
+
+#: qml/DeparturesPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr "Izbraukšanas"
+
+#: qml/DeparturesPage.qml:37
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr "%3 %1 (%2)"
+
+#: qml/LocationQueryPage.qml:53
+#, kde-format
+msgid "No locations found"
+msgstr "Vietas nav atrastas"
+
+#: qml/LocationQueryPage.qml:60
+#, kde-format
+msgid "No providers enabled"
+msgstr "Nav ieslēgti datu sniedzēji"
+
+#: qml/LocationQueryPage.qml:63
+#, kde-format
+msgid "Configure providers"
+msgstr "Konfigurēt datu sniedzējus"
+
+#: qml/Main.qml:30
+#, kde-format
+msgid "Journey"
+msgstr "Brauciens"
+
+#: qml/Main.qml:40
+#, kde-format
+msgid "Departures"
+msgstr "Izbraukšanas"
+
+#: qml/Main.qml:58
+#, kde-format
+msgid "About KTrip"
+msgstr "Par „KTrip“"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr "Iegūt datus par izbraukšanām"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr "Sākt braucienu"
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr "Meklēt"
+
+#: qml/QueryPage.qml:42
+#, kde-format
+msgid "From:"
+msgstr "No:"
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr "Norādiet sākuma punktu"
+
+#: qml/QueryPage.qml:48
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr "Meklēt sākuma vietu"
+
+#: qml/QueryPage.qml:54
+#, kde-format
+msgid "To:"
+msgstr "Līdz:"
+
+#: qml/QueryPage.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr "Norādiet galamērķi"
+
+#: qml/QueryPage.qml:62
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr "Meklēt galamērķi"
+
+#: qml/QueryPage.qml:68
+#, kde-format
+msgid "Departure date:"
+msgstr "Izbraukšanas datums:"
+
+#: qml/QueryPage.qml:82
+#, kde-format
+msgid "Departure time:"
+msgstr "Izbraukšanas laiks:"
