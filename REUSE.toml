@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: none
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+SPDX-PackageName = "KTrip"
+SPDX-PackageSupplier = "Nicolas Fella <nicolas.fella@gmx.de>"
+
+[[annotations]]
+path = [".gitignore", ".editorconfig", "src/Messages.sh", "src/resources.qrc", "src/qtquickcontrols2.conf", ".flatpak-manifest.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["src/ktripsettings.kcfgc", "src/ktripsettings.kcfg", "android/res/mipmap-anydpi-v26/ic_launcher.xml"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2019-2020 Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "BSD-2-Clause"
+
+[[annotations]]
+path = ["fastlane/metadata/android/en-US/full_description.txt", "fastlane/metadata/android/en-US/short_description.txt", "fastlane/metadata/android/en-US/title.txt"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020 Nicolas Fella <nicolas.fella@gmx.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["fastlane/metadata/android/en-US/images/phoneScreenshots/1.png", "fastlane/metadata/android/en-US/images/phoneScreenshots/2.png", "fastlane/metadata/android/en-US/images/phoneScreenshots/3.png", "fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ingo Klöcker <kloecker@kde.org>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["src/org.kde.ktrip.svg", "src/ktrip.svg", "android/res/mipmap-xxxhdpi/ic_launcher.png", "android/res/mipmap-xxhdpi/ic_launcher.png", "android/res/mipmap-xhdpi/ic_launcher.png", "android/res/mipmap-hdpi/ic_launcher.png", "android/res/mipmap-mdpi/ic_launcher.png", "android/res/drawable/ktrip.png", "android/ic_launcher-playstore.png", "android/res/drawable-v24/ic_launcher_background.xml", "android/res/drawable-v24/ic_launcher_foreground.xml", "src/256-org.kde.ktrip.png", "src/150-org.kde.ktrip.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2020 Mathis Brüchert <mbblp@protonmail.ch>"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ["android/featureGraphic.png", "android/featureGraphic.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2020 Mathis Brüchert <mbblp@protonmail.ch>", "2024 Ingo Klöcker <kloecker@kde.org>"]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ".gitlab-ci.yml"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "None"
+SPDX-License-Identifier = "CC0-1.0"
