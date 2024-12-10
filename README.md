@@ -12,7 +12,7 @@ It allows to query journeys for a wide range of countries/public transport provi
 
 # Get it
 
-Nightly [Android APKs](https://binary-factory.kde.org/view/Android/job/KTrip_android/) and [Windows installers](https://binary-factory.kde.org/view/Windows%2064-bit/job/KTrip_Nightly_win64/) can be found at KDE's binary factory.
+Nightly [Android APKs](https://community.kde.org/Android/FDroid) and [Windows installers](https://cdn.kde.org/ci-builds/utilities/ktrip/) can be found at KDE's binary factory.
 
 Nightly Flatpak builds are available:
 
