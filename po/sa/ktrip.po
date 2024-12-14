@@ -1,0 +1,249 @@
+# Sanskrit translations for ktrip package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the ktrip package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: ktrip\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-08-08 00:42+0000\n"
+"PO-Revision-Date: 2024-12-13 20:22+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: main.cpp:71
+#, kde-format
+msgid "KTrip"
+msgstr "के त्रिप्"
+
+#: main.cpp:73
+#, kde-format
+msgid "Public transport assistant"
+msgstr "सार्वजनिक परिवहन सहायक"
+
+#: main.cpp:75
+#, kde-format
+msgid "© 2019 KDE Community"
+msgstr "© 2019 केडीई समुदाय"
+
+#: main.cpp:76
+#, kde-format
+msgid "Nicolas Fella"
+msgstr "निकोलस फेला"
+
+#: qml/BackendPage.qml:20 qml/Main.qml:53
+#, kde-format
+msgid "Providers"
+msgstr "प्रदाता"
+
+#: qml/BackendPage.qml:23
+#, kde-format
+msgid "Select the providers relevant for your area"
+msgstr "स्वक्षेत्रस्य कृते प्रासंगिकान् प्रदातृन् चिनुत"
+
+#: qml/BackendPage.qml:29
+#, kde-format
+msgid "Save"
+msgstr "रक्ष्"
+
+#: qml/BackendPage.qml:106
+#, kde-format
+msgid "Global"
+msgstr "वैश्विक"
+
+#: qml/BackendPage.qml:108
+#, kde-format
+msgid "🇪🇺 European Union"
+msgstr "🇪🇺 यूरोपीय संघ"
+
+#: qml/BackendPage.qml:111
+#, kde-format
+msgctxt "emoji flag, country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionDetailsPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Details"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:45
+#, kde-format
+msgid "Walking (%1 minute)"
+msgid_plural "Walking (%1 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionDetailsPage.qml:53
+#, kde-format
+msgid "Waiting (%1 minute)"
+msgid_plural "Waiting (%1 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionDetailsPage.qml:61
+#, kde-format
+msgid "Transfer (%1 minute)"
+msgid_plural "Transfer (%1 minutes)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Hide intermediate Stops"
+msgstr "मध्यवर्ती Stops गोपयतु"
+
+#: qml/ConnectionDetailsPage.qml:97
+#, kde-format
+msgid "Show intermediate Stops"
+msgstr "मध्यवर्ती Stops दर्शयतु"
+
+#: qml/ConnectionsPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Connections"
+msgstr ""
+
+#: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: qml/ConnectionsPage.qml:65 qml/ConnectionsPage.qml:91
+#, kde-format
+msgid "+%1"
+msgstr "+%1"
+
+#: qml/ConnectionsPage.qml:75
+#, kde-format
+msgid "%1 change"
+msgid_plural "%1 changes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qml/ConnectionsPage.qml:107
+#, kde-format
+msgid "No connections found"
+msgstr "न कोऽपि संयोजनः प्राप्तः"
+
+#: qml/DeparturesPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Departures"
+msgstr "प्रस्थानम्"
+
+#: qml/DeparturesPage.qml:37
+#, kde-format
+msgid "%3 %1 (%2)"
+msgstr "%3 %1 (%2) २."
+
+#: qml/LocationQueryPage.qml:53
+#, kde-format
+msgid "No locations found"
+msgstr "न स्थानानि प्राप्तानि"
+
+#: qml/LocationQueryPage.qml:60
+#, kde-format
+msgid "No providers enabled"
+msgstr "न प्रदातारः सक्षमाः"
+
+#: qml/LocationQueryPage.qml:63
+#, kde-format
+msgid "Configure providers"
+msgstr "प्रदातारं विन्यस्यताम्"
+
+#: qml/Main.qml:30
+#, kde-format
+msgid "Journey"
+msgstr "यात्रा"
+
+#: qml/Main.qml:40
+#, kde-format
+msgid "Departures"
+msgstr "प्रस्थानम्"
+
+#: qml/Main.qml:58
+#, kde-format
+msgid "About KTrip"
+msgstr "KTrip विषये"
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Query Departures"
+msgstr ""
+
+#: qml/QueryPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Start Journey"
+msgstr ""
+
+#: qml/QueryPage.qml:23
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr ""
+
+#: qml/QueryPage.qml:42
+#, kde-format
+msgid "From:"
+msgstr "इत्यस्मात्‌:"
+
+#: qml/QueryPage.qml:46
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Start"
+msgstr ""
+
+#: qml/QueryPage.qml:48
+#, kde-format
+msgctxt "@title"
+msgid "Search for Start Location"
+msgstr ""
+
+#: qml/QueryPage.qml:54
+#, kde-format
+msgid "To:"
+msgstr "इत्यस्मै:"
+
+#: qml/QueryPage.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Pick Destination"
+msgstr ""
+
+#: qml/QueryPage.qml:62
+#, kde-format
+msgctxt "@title"
+msgid "Search for Destination Location"
+msgstr ""
+
+#: qml/QueryPage.qml:68
+#, kde-format
+msgid "Departure date:"
+msgstr "प्रस्थानतिथिः : १."
+
+#: qml/QueryPage.qml:82
+#, kde-format
+msgid "Departure time:"
+msgstr "प्रस्थानसमयः : १."
