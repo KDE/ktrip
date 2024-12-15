@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-08 00:42+0000\n"
-"PO-Revision-Date: 2024-12-13 20:22+0530\n"
+"PO-Revision-Date: 2024-12-14 01:43+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -22,12 +22,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "भवतः नामानि"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "भवतः ईमेलपत्राणि"
 
 #: main.cpp:71
 #, kde-format
@@ -84,28 +84,28 @@ msgstr "%1 %2"
 #, kde-format
 msgctxt "@title"
 msgid "Details"
-msgstr ""
+msgstr "वर्णन"
 
 #: qml/ConnectionDetailsPage.qml:45
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "चलनम् (%1 मिनिट्) २."
+msgstr[1] "चलनम् (%1 मिनिट्) २."
 
 #: qml/ConnectionDetailsPage.qml:53
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "प्रतीक्षा (%1 मिनिट्) २."
+msgstr[1] "प्रतीक्षा (%1 मिनिट्) २."
 
 #: qml/ConnectionDetailsPage.qml:61
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "स्थानान्तरणम् (%1 मिनिट्) २."
+msgstr[1] "स्थानान्तरणम् (%1 मिनिट्) २."
 
 #: qml/ConnectionDetailsPage.qml:97
 #, kde-format
@@ -121,7 +121,7 @@ msgstr "मध्यवर्ती Stops दर्शयतु"
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
-msgstr ""
+msgstr "संबन्धाः"
 
 #: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
 #, kde-format
@@ -137,8 +137,8 @@ msgstr "+%1"
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 परिवर्तनम्"
+msgstr[1] "%1 परिवर्तते"
 
 #: qml/ConnectionsPage.qml:107
 #, kde-format
@@ -190,19 +190,19 @@ msgstr "KTrip विषये"
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
-msgstr ""
+msgstr "प्रश्न प्रस्थान"
 
 #: qml/QueryPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
-msgstr ""
+msgstr "यात्रां आरभत"
 
 #: qml/QueryPage.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Search"
-msgstr ""
+msgstr "अन्वेषण"
 
 #: qml/QueryPage.qml:42
 #, kde-format
@@ -213,13 +213,13 @@ msgstr "इत्यस्मात्‌:"
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Start"
-msgstr ""
+msgstr "प्रारम्भं चिनुत"
 
 #: qml/QueryPage.qml:48
 #, kde-format
 msgctxt "@title"
 msgid "Search for Start Location"
-msgstr ""
+msgstr "Start Location इति अन्वेषणं कुर्वन्तु"
 
 #: qml/QueryPage.qml:54
 #, kde-format
@@ -230,13 +230,13 @@ msgstr "इत्यस्मै:"
 #, kde-format
 msgctxt "@action:button"
 msgid "Pick Destination"
-msgstr ""
+msgstr "गन्तव्यं चिनुत"
 
 #: qml/QueryPage.qml:62
 #, kde-format
 msgctxt "@title"
 msgid "Search for Destination Location"
-msgstr ""
+msgstr "गन्तव्यस्थानं अन्वेष्टुम्"
 
 #: qml/QueryPage.qml:68
 #, kde-format
