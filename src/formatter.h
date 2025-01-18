@@ -16,6 +16,5 @@ class Formatter : public QObject
     QML_SINGLETON
 
 public:
-    Q_INVOKABLE QString formatDuration(int seconds);
     Q_INVOKABLE QString formatTime(const QDateTime &time);
 };

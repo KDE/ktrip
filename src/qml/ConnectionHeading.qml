@@ -7,20 +7,20 @@
 import QtQuick 2.2
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.4
+import org.kde.coreaddons as KCoreAddons
 import org.kde.kirigami 2.4 as Kirigami
 import org.kde.kpublictransport 1.0 as KPT
-import org.kde.ktrip
 
 Row {
     id: root
-    property var journey
+    property KPT.journey journey
 
     spacing: Kirigami.Units.smallSpacing
 
     Kirigami.Heading {
         id: durationHeading
         level: 2
-        text: Formatter.formatDuration(root.journey.duration)
+        text: KCoreAddons.Format.formatDuration(root.journey.duration * 1000, KCoreAddons.FormatTypes.HideSeconds)
         font.strikeout: root.journey.disruptionEffect == KPT.Disruption.NoService
     }
 
