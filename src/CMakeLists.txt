@@ -5,7 +5,6 @@ set(ktrip_SRCS
     main.cpp
     controller.cpp
     locationcachemodel.cpp
-    formatter.cpp
     resources.qrc
 )
 
