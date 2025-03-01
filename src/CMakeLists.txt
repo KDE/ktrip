@@ -4,7 +4,6 @@
 set(ktrip_SRCS
     main.cpp
     controller.cpp
-    locationcachemodel.cpp
     resources.qrc
 )
 

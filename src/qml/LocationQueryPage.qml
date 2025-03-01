@@ -43,7 +43,7 @@ Kirigami.ScrollablePage {
             text: location.name
             width: ListView.view.width
             onClicked: {
-                cacheModel.addCachedLocation(location);
+                cacheModel.addLocation(location);
                 callback(location);
                 pageStack.pop();
             }
@@ -82,7 +82,7 @@ Kirigami.ScrollablePage {
             }
         }
 
-        LocationCacheModel {
+        KPT.LocationHistoryModel {
             id: cacheModel
         }
     }
