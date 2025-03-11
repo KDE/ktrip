@@ -12,6 +12,7 @@
   </developer>
   <content_rating type="oars-1.1"/>
   <name>KTrip</name>
+  <name xml:lang="ar">رحلتك</name>
   <name xml:lang="ast">KTrip</name>
   <name xml:lang="ca">KTrip</name>
   <name xml:lang="ca-valencia">KTrip</name>
@@ -49,6 +50,7 @@
   <name xml:lang="x-test">xxKTripxx</name>
   <name xml:lang="zh-TW">KTrip</name>
   <summary>Public transport navigator</summary>
+  <summary xml:lang="ar">ملاح النقل العام</summary>
   <summary xml:lang="ca">Navegador de transport públic</summary>
   <summary xml:lang="ca-valencia">Navegador de transport públic</summary>
   <summary xml:lang="cs">Průvodce veřejnou dopravou</summary>
@@ -83,6 +85,7 @@
   <summary xml:lang="zh-TW">公共運輸導覽工具</summary>
   <description>
     <p>KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
+    <p xml:lang="ar">يساعدك تطبيق رحلتك على التنقل في وسائل النقل العام. فهو يتيح لك العثور على الرحلات بين مواقع محددة، ومواعيد المغادرة لمحطة محددة، ويعرض معلومات التأخير والانقطاع في الوقت الفعلي.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet trobar viatges entre les ubicacions especificades, sortides des d'una estació concreta, i mostrar en temps real la informació de retards i interrupcions.</p>
     <p xml:lang="ca-valencia">KTrip ajuda a navegar pel transport públic. Permet trobar viatges entre les ubicacions especificades, eixides des d'una estació concreta, i mostrar en temps real la informació de retards i interrupcions.</p>
     <p xml:lang="de">KTrip hilft Ihnen bei der Navigation in öffentlichen Verkehrsmitteln. Es ermöglicht Ihnen die Suche nach Fahrten zwischen bestimmten Orten, nach Abfahrten für eine bestimmte Station und zeigt Verspätungs- und Störungsinformationen in Echtzeit an.</p>
@@ -118,6 +121,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Journey view</caption>
+      <caption xml:lang="ar">عرض الرحلة</caption>
       <caption xml:lang="ca">Vista del viatge</caption>
       <caption xml:lang="ca-valencia">Vista del viatge</caption>
       <caption xml:lang="cs">Pohled na cestu</caption>
