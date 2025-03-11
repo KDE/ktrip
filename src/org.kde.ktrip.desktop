@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2019-2020 Nicolas Fella <nicolas.fella@gmx.de>
 [Desktop Entry]
 Name=KTrip
+Name[ar]=رحلتك
 Name[ast]=KTrip
 Name[ca]=KTrip
 Name[ca@valencia]=KTrip
@@ -40,6 +41,7 @@ Name[x-test]=xxKTripxx
 Name[zh_CN]=KTrip
 Name[zh_TW]=KTrip
 GenericName=Public transport navigator
+GenericName[ar]=ملاح النقل العام
 GenericName[ca]=Navegador de transport públic
 GenericName[ca@valencia]=Navegador de transport públic
 GenericName[de]=Navigation für öffentliche Verkehrsmittel
@@ -78,6 +80,7 @@ Exec=ktrip
 Icon=org.kde.ktrip
 Type=Application
 Comment=Public transport navigator.
+Comment[ar]=ملاح النقل العام.
 Comment[ca]=Navegador de transport públic.
 Comment[ca@valencia]=Navegador de transport públic.
 Comment[de]=Navigation für öffentliche Verkehrsmittel.
