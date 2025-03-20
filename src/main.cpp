@@ -78,6 +78,7 @@ int main(int argc, char *argv[])
     KAboutData::setApplicationData(about);
 
 #ifndef Q_OS_ANDROID
+    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.ktrip")));
     KCrash::initialize();
 #endif
 
