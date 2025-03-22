@@ -39,7 +39,7 @@ QQC2.ComboBox {
 
     Component.onCompleted: {
         if (initialCountry) {
-            currentIndex = indexOfValue(initialCountry);
+            currentIndex = Math.max(indexOfValue(initialCountry), 0);
         }
     }
 
