@@ -9,7 +9,6 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.1 as QQC2
 import org.kde.i18n.localeData 1.0
 import org.kde.kirigami 2.10 as Kirigami
-import org.kde.kirigamiaddons.components 1.0 as Components
 import org.kde.kirigamiaddons.delegates 1.0 as Delegates
 import org.kde.kpublictransport 1.0 as KPublicTransport
 import org.kde.ktrip
@@ -19,8 +18,9 @@ Kirigami.ScrollablePage {
 
     title: i18n("Providers")
 
-    header: Components.Banner {
+    header: Kirigami.InlineMessage {
         text: i18n("Select the providers relevant for your area")
+        position: Kirigami.InlineMessage.Header
         visible: true
     }
 
