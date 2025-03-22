@@ -24,8 +24,6 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     qml/ConnectionsPage.qml
     qml/CountryComboBox.qml
     qml/ConnectionDetailsPage.qml
-    qml/DatePickerButton.qml
-    qml/TimePickerButton.qml
     qml/DeparturesPage.qml
     qml/ConnectionHeading.qml
     DEPENDENCIES
