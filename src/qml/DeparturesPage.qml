@@ -12,6 +12,12 @@ import org.kde.kpublictransport 1.0 as KPT
 import org.kde.ktrip
 
 Kirigami.ScrollablePage {
+    id: root
+
+    /** The journey to query for. */
+    property alias journeyRequest: theModel.request
+    property alias manager: theModel.manager
+
     title: i18nc("@title", "Departures")
 
     header: Kirigami.InlineMessage {
@@ -21,11 +27,8 @@ Kirigami.ScrollablePage {
     }
 
     ListView {
-
         model: KPT.StopoverQueryModel {
             id: theModel
-            request: Controller.createStopoverRequest()
-            manager: Controller.manager
         }
 
         delegate: ItemDelegate {

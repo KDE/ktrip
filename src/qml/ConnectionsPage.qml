@@ -14,25 +14,27 @@ import org.kde.ktrip
 Kirigami.ScrollablePage {
     title: i18nc("@title", "Connections")
 
+    /** The journey to query for. */
+    property alias journeyRequest: journeyModel.request
+    property alias manager: journeyModel.manager
+
     header: Kirigami.InlineMessage {
         type: Kirigami.MessageType.Error
-        text: theModel.errorMessage
-        visible: theModel.errorMessage != ""
+        text: journeyModel.errorMessage
+        visible: journeyModel.errorMessage != ""
     }
 
     ListView {
         id: connectionList
 
         model: KPT.JourneyQueryModel {
-            id: theModel
-            request: Controller.createJourneyRequest()
-            manager: Controller.manager
+            id: journeyModel
         }
 
         header: ToolButton {
             width: parent.width
-            visible: theModel.canQueryPrevious
-            onClicked: theModel.queryPrevious()
+            visible: journeyModel.canQueryPrevious
+            onClicked: journeyModel.queryPrevious()
             icon.name: "go-up-symbolic"
         }
 
@@ -98,19 +100,19 @@ Kirigami.ScrollablePage {
 
         footer: ToolButton {
             width: parent.width
-            visible: theModel.canQueryNext
-            onClicked: theModel.queryNext()
+            visible: journeyModel.canQueryNext
+            onClicked: journeyModel.queryNext()
             icon.name: "go-down-symbolic"
         }
 
         Kirigami.PlaceholderMessage {
             text: i18n("No connections found")
             anchors.centerIn: parent
-            visible: connectionList.count === 0 && !theModel.loading
+            visible: connectionList.count === 0 && !journeyModel.loading
         }
 
         BusyIndicator {
-            running: theModel.loading
+            running: journeyModel.loading
             anchors.centerIn: parent
         }
     }

@@ -20,8 +20,9 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     qml/Main.qml
     qml/BackendPage.qml
     qml/QueryPage.qml
+    qml/StopPickerPage.qml
     qml/ConnectionsPage.qml
-    qml/LocationQueryPage.qml
+    qml/CountryComboBox.qml
     qml/ConnectionDetailsPage.qml
     qml/DatePickerButton.qml
     qml/TimePickerButton.qml

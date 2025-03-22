@@ -4,91 +4,269 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.2
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.4
-import org.kde.kirigami 2.0 as Kirigami
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as Controls
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
+import org.kde.kpublictransport as PublicTransport
 import org.kde.ktrip
 
-Kirigami.Page {
+FormCard.FormCardPage {
     id: root
+
+    property bool departures: false
+    property PublicTransport.location departureStop
+    property PublicTransport.location arrivalStop
+
+    /** Pre-selected departure time. */
+    property date initialDateTime: new Date()
+
+    /**
+     * Pre-selected country in the location pickers.
+     * If not specified the country from the current locale is used.
+     */
+    property string initialCountry
+
+    readonly property PublicTransport.Manager publicTransportManager: Controller.manager
 
     title: departures ? i18nc("@title", "Query Departures") : i18nc("@title", "Start Journey")
 
-    property bool departures: false
 
-    actions: [
-        Kirigami.Action {
-            icon.name: "system-search-symbolic"
-            text: i18nc("@action", "Search")
-            enabled: Controller.start.name != "" && (Controller.destination.name != "" || root.departures)
-            onTriggered: pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"))
+    header: Kirigami.InlineMessage {
+        id: noProvidersMessage
+        text: i18n("No providers enabled")
+        visible: Controller.manager.enabledBackends.length === 0
+        type: Kirigami.MessageType.Warning
+        position: Kirigami.InlineMessage.Header
+        actions: Controls.Action {
+            text: i18n("Configure providers")
+            icon.name: "configure"
+            onTriggered: window.pageStack.push(Qt.resolvedUrl("BackendPage.qml"))
         }
-    ]
-
-    function startPicked(data) {
-        Controller.start = data;
     }
 
-    function destinationPicked(data) {
-        Controller.destination = data;
-    }
-
-    ColumnLayout {
-
-        width: parent.width
-
-        Label {
-            text: i18n("From:")
-        }
-        Button {
-            Layout.fillWidth: true
-            text: Controller.start.name ? Controller.start.name : i18nc("@action:button", "Pick Start")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {
-                title: i18nc("@title", "Search for Start Location"),
-                callback: root.startPicked
-            })
-        }
-
-        Label {
-            text: i18n("To:")
-            visible: !root.departures
-        }
-        Button {
-            Layout.fillWidth: true
-            visible: !root.departures
-            text: Controller.destination.name ? Controller.destination.name : i18nc("@action:button", "Pick Destination")
-            onClicked: pageStack.push(Qt.resolvedUrl("LocationQueryPage.qml"), {
-                title: i18nc("@title", "Search for Destination Location"),
-                callback: root.destinationPicked
-            })
-        }
-
-        Label {
-            text: i18n("Departure date:")
-        }
-
-        DatePickerButton {
-            text: Qt.formatDate(Controller.departureDate, Qt.DefaultLocaleShortDate)
-            Layout.fillWidth: true
-            onDatePicked: theDate => {
-                if (theDate != "") {
-                    Controller.departureDate = theDate;
-                }
+    // either true/false if all mode switches are in that position, undefined otherwise
+    function fullModeSwitchState(): bool {
+        let state = longDistanceSwitch.checked;
+        for (const s of [localTrainSwitch, rapidTransitSwitch, busSwitch, ferrySwitch]) {
+            if (s.checked != state) {
+                return undefined;
             }
         }
+        return state;
+    }
 
-        Label {
-            text: i18n("Departure time:")
+    Component {
+        id: departurePicker
+        StopPickerPage {
+            title: i18nc("departure train station", "Select Departure Stop")
+            publicTransportManager: root.publicTransportManager
+            initialCountry: root.initialCountry
+            // force a deep copy, otherwise this breaks as soon as the other stop picker page is shown...
+            onLocationChanged: root.departureStop = Controller.copyLocation(location);
+        }
+    }
+
+    Component {
+        id: arrivalPicker
+        StopPickerPage {
+            title: i18nc("arrival train station", "Select Arrival Stop")
+            publicTransportManager: root.publicTransportManager
+            initialCountry: root.initialCountry
+            onLocationChanged: root.arrivalStop = Controller.copyLocation(location)
+        }
+    }
+
+    FormCard.FormCard {
+        id: requestCard
+
+        Layout.topMargin: Kirigami.Units.largeSpacing * 2
+
+        FormCard.FormButtonDelegate {
+            id: fromButton
+
+            text: i18nc("departure train station", "From:")
+            description: departureStop ? departureStop.name : i18nc("departure train station", "Select Departure Stop")
+            onClicked: applicationWindow().pageStack.push(departurePicker)
         }
 
-        TimePickerButton {
-            text: Qt.formatTime(Controller.departureTime, Qt.DefaultLocaleShortDate)
-            Layout.fillWidth: true
-            onTimePicked: theTime => {
-                if (theTime != "") {
-                    Controller.departureTime = theTime;
+
+        FormCard.FormDelegateSeparator {
+            below: fromButton
+            above: toButton
+            visible: !root.departures
+        }
+
+        FormCard.FormButtonDelegate {
+            id: toButton
+
+            visible: !root.departures
+            text: i18nc("arrival train station", "To:")
+            description: arrivalStop ? arrivalStop.name : i18nc("arrival train station", "Select Arrival Stop")
+            onClicked: applicationWindow().pageStack.push(arrivalPicker)
+        }
+
+        Item {
+            width: parent.width
+            height: 0
+
+            visible: !root.departures
+
+            Controls.RoundButton{
+                icon.name: "reverse"
+                y: -fromButton.height - height/2
+                z: toButton.z + 10000
+                x: fromButton.width - width/2 - Kirigami.Units.gridUnit *3
+                onClicked:{
+                    var oldDepartureStop = departureStop
+                    departureStop = arrivalStop
+                    arrivalStop = oldDepartureStop
                 }
+
+                Accessible.name: i18n("Swap departure and arrival")
+            }
+        }
+        FormCard.FormDelegateSeparator {
+            below: !root.departures ? fromButton : toButton
+            above: departureArrivalSelector
+        }
+
+        FormCard.FormRadioSelectorDelegate {
+            id: departureArrivalSelector
+
+            consistentWidth: true
+
+            actions: [
+                Kirigami.Action {
+                    text: i18nc("train or bus departure", "Departure")
+                },
+                Kirigami.Action {
+                    text: i18nc("train or bus arrival", "Arrival")
+                }
+            ]
+        }
+
+        FormCard.FormDelegateSeparator {
+            below: departureArrivalSelector
+            above: dateTimeInput
+        }
+
+        FormCard.FormDateTimeDelegate {
+            id: dateTimeInput
+            value: root.initialDateTime
+            Accessible.name: departureArrivalSelector.selectedIndex === 0 ? i18nc("train or bus departure", "Departure time") : i18nc("train or bus arrival", "Arrival time")
+        }
+
+        FormCard.FormDelegateSeparator {
+            below: dateTimeInput
+            above: searchButton
+        }
+
+        FormCard.FormButtonDelegate {
+            id: searchButton
+            icon.name: "system-search-symbolic"
+            text: i18nc("@action:button", "Search Journey")
+            enabled: root.departureStop != undefined && root.arrivalStop != undefined && root.fullModeSwitchState() !== false
+            onClicked: {
+                Controls.ApplicationWindow.window.pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"), {
+                    manager: root.publicTransportManager,
+                });
+
+                const req = Controls.ApplicationWindow.window.pageStack.currentItem.journeyRequest;
+                if (!root.departures) {
+                    req.from = root.departureStop;
+                    req.to = root.arrivalStop;
+                } else {
+                    req.stop = root.departureStop;
+                }
+
+                req.dateTime = dateTimeInput.value;
+                req.maximumResults = 6;
+                req.downloadAssets = true;
+                req.includePaths = true;
+
+                let lineModes = [];
+                if (root.fullModeSwitchState() == undefined) {
+                    if (longDistanceSwitch.checked)
+                        lineModes.push(PublicTransport.Line.LongDistanceTrain, PublicTransport.Line.Train);
+                    if (localTrainSwitch.checked)
+                        lineModes.push(PublicTransport.Line.LocalTrain);
+                    if (rapidTransitSwitch.checked)
+                        lineModes.push(PublicTransport.Line.RapidTransit, PublicTransport.Line.Metro, PublicTransport.Line.Tramway, PublicTransport.Line.RailShuttle);
+                    if (busSwitch.checked)
+                        lineModes.push(PublicTransport.Line.Bus, PublicTransport.Line.Coach);
+                    if (ferrySwitch.checked)
+                        lineModes.push(PublicTransport.Line.Ferry, PublicTransport.Line.Boat);
+                }
+                req.lineModes = lineModes;
+
+                if (departureArrivalSelector.selectedIndex === 0) {
+                    req.dateTimeMode = PublicTransport.JourneyRequest.Departure
+                } else if (departureArrivalSelector.selectedIndex === 1) {
+                    req.dateTimeMode = PublicTransport.JourneyRequest.Arrival
+                }
+
+                console.log(req);
+
+                Controls.ApplicationWindow.window.pageStack.currentItem.journeyRequest = req;
+            }
+        }
+    }
+
+    FormCard.FormHeader {
+        title: i18n("Mode of transportation")
+    }
+
+    FormCard.FormCard {
+        FormCard.FormSwitchDelegate {
+            id: longDistanceSwitch
+            text: i18nc("journey query search constraint, title", "Long distance trains")
+            description: i18nc("journey query search constraint, description", "High speed or intercity trains")
+            checked: true
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.LongDistanceTrain)
+                isMask: true
+            }
+        }
+        FormCard.FormSwitchDelegate {
+            id: localTrainSwitch
+            text: i18nc("journey query search constraint, title", "Local trains")
+            description: i18nc("journey query search constraint, description", "Regional or local trains")
+            checked: true
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.LocalTrain)
+                isMask: true
+            }
+        }
+        FormCard.FormSwitchDelegate {
+            id: rapidTransitSwitch
+            text: i18nc("journey query search constraint, title", "Rapid transit")
+            description: i18nc("journey query search constraint, description", "Rapid transit, metro, trams")
+            checked: true
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.Tramway)
+                isMask: true
+            }
+        }
+        FormCard.FormSwitchDelegate {
+            id: busSwitch
+            text: i18nc("journey query search constraint, title", "Bus")
+            description: i18nc("journey query search constraint, description", "Local or regional bus services")
+            checked: true
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.Bus)
+                isMask: true
+            }
+        }
+        FormCard.FormSwitchDelegate {
+            id: ferrySwitch
+            text: i18nc("journey query search constraint, title", "Ferry")
+            description: i18nc("journey query search constraint, description", "Boats or ferries")
+            checked: true
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.Ferry)
+                isMask: true
             }
         }
     }

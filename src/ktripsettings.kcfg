@@ -10,6 +10,11 @@
       <default>true</default>
     </entry>
   </group>
+  <group name="StopPicker">
+    <entry name="historySortMode" type="String">
+      <default>lastUsed</default>
+    </entry>
+  </group>
   <group name="Backends">
     <entry name="EnabledBackends" type="StringList">
       <label>Enabled backends</label>
