@@ -26,7 +26,7 @@ FormCard.FormCardPage {
      * Pre-selected country in the location pickers.
      * If not specified the country from the current locale is used.
      */
-    property string initialCountry
+    property string initialCountry: Qt.locale().name.match(/_([A-Z]{2})/)[1]
 
     readonly property PublicTransport.Manager publicTransportManager: Controller.manager
 
