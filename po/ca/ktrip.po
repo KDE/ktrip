@@ -1,16 +1,16 @@
 # Translation of ktrip.po to Catalan
-# Copyright (C) 2019-2021 This_file_is_part_of_KDE
+# Copyright (C) 2019-2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2019, 2020, 2021.
+# Josep M. Ferrer <txemaq@gmail.com>, 2019, 2020, 2021, 2025.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-23 00:45+0000\n"
-"PO-Revision-Date: 2021-12-17 11:21+0100\n"
+"PO-Revision-Date: 2025-03-23 10:27+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -150,7 +150,7 @@ msgstr "No s'ha trobat cap connexió"
 #: qml/CountryComboBox.qml:47
 #, kde-format
 msgid "Select country"
-msgstr ""
+msgstr "Seleccioneu el país"
 
 #: qml/DeparturesPage.qml:21
 #, kde-format
@@ -166,41 +166,39 @@ msgstr "%3 %1 (%2)"
 #: qml/JourneyQueryPage.qml:32
 #, kde-format
 msgid "Earlier"
-msgstr ""
+msgstr "Més d'hora"
 
 #: qml/JourneyQueryPage.qml:38
 #, kde-format
 msgid "Later"
-msgstr ""
+msgstr "Més tard"
 
 #: qml/JourneyQueryPage.qml:85
 #, kde-format
 msgid "Select"
-msgstr ""
+msgstr "Selecciona"
 
 #: qml/JourneyQueryPage.qml:116
 #, kde-format
 msgctxt "@action:button"
 msgid "Load earlier connections"
-msgstr ""
+msgstr "Carrega les connexions anteriors"
 
 #: qml/JourneyQueryPage.qml:125
-#, fuzzy, kde-format
-#| msgid "No connections found"
+#, kde-format
 msgctxt "@action:button"
 msgid "Load later connections"
-msgstr "No s'ha trobat cap connexió"
+msgstr "Carrega les connexions posteriors"
 
 #: qml/JourneyQueryPage.qml:132
-#, fuzzy, kde-format
-#| msgid "Providers"
+#, kde-format
 msgid "Data providers:"
-msgstr "Proveïdors"
+msgstr "Proveïdors de dades:"
 
 #: qml/JourneyQueryPage.qml:175
 #, kde-format
 msgid "Still fetching results…"
-msgstr ""
+msgstr "Encara s'estan recuperant els resultats…"
 
 #: qml/Main.qml:30
 #, kde-format
@@ -240,28 +238,25 @@ msgid "Configure providers"
 msgstr "Configura els proveïdors"
 
 #: qml/QueryPage.qml:63 qml/QueryPage.qml:90
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Data de sortida:"
+msgstr "Selecciona la parada de sortida"
 
 #: qml/QueryPage.qml:74 qml/QueryPage.qml:106
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Selecciona la parada d'arribada"
 
 #: qml/QueryPage.qml:89
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Des de:"
 
 #: qml/QueryPage.qml:105
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "A:"
@@ -269,206 +264,180 @@ msgstr "A:"
 #: qml/QueryPage.qml:127
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Intercanvia la sortida i l'arribada"
 
 #: qml/QueryPage.qml:142
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Sortides"
+msgstr "Sortida"
 
 #: qml/QueryPage.qml:145
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Arribada"
 
 #: qml/QueryPage.qml:158
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Hora de sortida:"
+msgstr "Hora de sortida"
 
 #: qml/QueryPage.qml:158
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Hora d'arribada"
 
 #: qml/QueryPage.qml:169
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Inici del viatge"
+msgstr "Cerca un viatge"
 
 #: qml/QueryPage.qml:218
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Mode de transport"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Trens de llarga distància"
 
 #: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Trens d'alta velocitat o interurbans"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Trens locals"
 
 #: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Trens regionals o locals"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Transport ràpid"
 
 #: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Transport ràpid, metro, tramvia"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Autobús"
 
 #: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Serveis d'autobús local o regional"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Ferri"
 
 #: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Vaixells o ferris"
 
 #: qml/StopPickerPage.qml:29
 #, kde-format
 msgid "Clear History"
-msgstr ""
+msgstr "Neteja l'historial"
 
 #: qml/StopPickerPage.qml:30
 #, kde-format
 msgid "Do you really want to remove all previously searched locations?"
-msgstr ""
+msgstr "Segur que voleu eliminar totes les ubicacions cercades anteriorment?"
 
 #: qml/StopPickerPage.qml:34
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Elimina"
 
 #: qml/StopPickerPage.qml:47
 #, kde-format
 msgid "Clear history"
-msgstr ""
+msgstr "Neteja l'historial"
 
 #: qml/StopPickerPage.qml:57
-#, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
+#, kde-format
 msgid "Sort by name"
-msgstr "Josep M. Ferrer"
+msgstr "Ordena per nom"
 
 #: qml/StopPickerPage.qml:64
 #, kde-format
 msgid "Most recently used"
-msgstr ""
+msgstr "Ús més recent"
 
 #: qml/StopPickerPage.qml:71
 #, kde-format
 msgid "Most often used"
-msgstr ""
+msgstr "Usada sovint"
 
 #: qml/StopPickerPage.qml:166 qml/StopPickerPage.qml:245
 #, kde-format
 msgctxt "location name, locality, region, country"
 msgid "%1, %2, %3, %4"
-msgstr ""
+msgstr "%1, %2, %3, %4"
 
 #: qml/StopPickerPage.qml:172 qml/StopPickerPage.qml:251
 #, kde-format
 msgctxt "location name, locality, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:177 qml/StopPickerPage.qml:256
 #, kde-format
 msgctxt "location name, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:196 qml/StopPickerPage.qml:278
 #, kde-format
 msgctxt "locality, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:201 qml/StopPickerPage.qml:283
 #, kde-format
 msgctxt "locality, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: qml/StopPickerPage.qml:205 qml/StopPickerPage.qml:287
 #, kde-format
 msgctxt "region, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: qml/StopPickerPage.qml:218
 #, kde-format
 msgid "Remove history entry"
-msgstr ""
+msgstr "Elimina l'entrada de l'historial"
 
 #: qml/StopPickerPage.qml:326
 #, kde-format
 msgid "No locations found"
 msgstr "No s'ha trobat cap ubicació"
-
-#~ msgctxt "@action"
-#~ msgid "Search"
-#~ msgstr "Cerca"
-
-#~ msgctxt "@action:button"
-#~ msgid "Pick Start"
-#~ msgstr "Selecció de l'inici"
-
-#~ msgctxt "@title"
-#~ msgid "Search for Start Location"
-#~ msgstr "Cerca la ubicació d'inici"
-
-#~ msgctxt "@action:button"
-#~ msgid "Pick Destination"
-#~ msgstr "Selecció de la destinació"
-
-#~ msgctxt "@title"
-#~ msgid "Search for Destination Location"
-#~ msgstr "Cerca la ubicació de destinació"

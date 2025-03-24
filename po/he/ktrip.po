@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
 #
-# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-23 00:45+0000\n"
-"PO-Revision-Date: 2024-04-06 15:55+0300\n"
+"PO-Revision-Date: 2025-03-23 07:42+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 24.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -155,7 +155,7 @@ msgstr "לא נמצאו חיבורים"
 #: qml/CountryComboBox.qml:47
 #, kde-format
 msgid "Select country"
-msgstr ""
+msgstr "בחירת מדינה"
 
 #: qml/DeparturesPage.qml:21
 #, kde-format
@@ -171,41 +171,39 @@ msgstr "%3 %1 (%2)"
 #: qml/JourneyQueryPage.qml:32
 #, kde-format
 msgid "Earlier"
-msgstr ""
+msgstr "מוקדם יותר"
 
 #: qml/JourneyQueryPage.qml:38
 #, kde-format
 msgid "Later"
-msgstr ""
+msgstr "מאוחר יותר"
 
 #: qml/JourneyQueryPage.qml:85
 #, kde-format
 msgid "Select"
-msgstr ""
+msgstr "בחירה"
 
 #: qml/JourneyQueryPage.qml:116
 #, kde-format
 msgctxt "@action:button"
 msgid "Load earlier connections"
-msgstr ""
+msgstr "טעינת החלפת טיסות קודמות יותר"
 
 #: qml/JourneyQueryPage.qml:125
-#, fuzzy, kde-format
-#| msgid "No connections found"
+#, kde-format
 msgctxt "@action:button"
 msgid "Load later connections"
-msgstr "לא נמצאו חיבורים"
+msgstr "טעינת החלפת טיסות מאוחרות יותר"
 
 #: qml/JourneyQueryPage.qml:132
-#, fuzzy, kde-format
-#| msgid "Providers"
+#, kde-format
 msgid "Data providers:"
-msgstr "ספקים"
+msgstr "ספקי נתונים:"
 
 #: qml/JourneyQueryPage.qml:175
 #, kde-format
 msgid "Still fetching results…"
-msgstr ""
+msgstr "התוצאות עדיין מתקבלות…"
 
 #: qml/Main.qml:30
 #, kde-format
@@ -245,28 +243,25 @@ msgid "Configure providers"
 msgstr "הגדרת ספקים"
 
 #: qml/QueryPage.qml:63 qml/QueryPage.qml:90
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "תאריך היציאה:"
+msgstr "בחירת תחנת יציאה"
 
 #: qml/QueryPage.qml:74 qml/QueryPage.qml:106
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "בחירת תחנת הגעה"
 
 #: qml/QueryPage.qml:89
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "מ־:"
 
 #: qml/QueryPage.qml:105
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "אל:"
@@ -274,184 +269,178 @@ msgstr "אל:"
 #: qml/QueryPage.qml:127
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "החלפת יציאה והגעה"
 
 #: qml/QueryPage.qml:142
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "יציאות"
+msgstr "יציאה"
 
 #: qml/QueryPage.qml:145
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "הגעה"
 
 #: qml/QueryPage.qml:158
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "שעת היציאה:"
+msgstr "זמן היציאה"
 
 #: qml/QueryPage.qml:158
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "זמן ההגעה"
 
 #: qml/QueryPage.qml:169
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "התחלת מסע"
+msgstr "חיפוש מסע"
 
 #: qml/QueryPage.qml:218
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "צורת תעבורה"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "רכבות למרחקים ארוכים"
 
 #: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "רכבות מהירות או בין עירוניות"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "רכבות מקומיות"
 
 #: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "רכבות אזוריות או מקומיות"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "תחבורה מהירה"
 
 #: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "תחבורה מהירה, רכבת תחתית, רכבות חשמליות"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "אוטובוס"
 
 #: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "שירותי אוטובוס מקומיים או אזוריים"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "מעבורת"
 
 #: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "סירות או מעבורות"
 
 #: qml/StopPickerPage.qml:29
 #, kde-format
 msgid "Clear History"
-msgstr ""
+msgstr "פינוי ההיסטוריה"
 
 #: qml/StopPickerPage.qml:30
 #, kde-format
 msgid "Do you really want to remove all previously searched locations?"
-msgstr ""
+msgstr "להסיר את כל המקומות שחיפשת בעבר?"
 
 #: qml/StopPickerPage.qml:34
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "להסיר"
 
 #: qml/StopPickerPage.qml:47
 #, kde-format
 msgid "Clear history"
-msgstr ""
+msgstr "פינוי ההיסטוריה"
 
 #: qml/StopPickerPage.qml:57
-#, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
+#, kde-format
 msgid "Sort by name"
-msgstr "צוות התרגום של KDE ישראל"
+msgstr "סידור לפי שם"
 
 #: qml/StopPickerPage.qml:64
 #, kde-format
 msgid "Most recently used"
-msgstr ""
+msgstr "האחרונים שהיו בשימוש"
 
 #: qml/StopPickerPage.qml:71
 #, kde-format
 msgid "Most often used"
-msgstr ""
+msgstr "התדירים ביותר בשימוש"
 
 #: qml/StopPickerPage.qml:166 qml/StopPickerPage.qml:245
 #, kde-format
 msgctxt "location name, locality, region, country"
 msgid "%1, %2, %3, %4"
-msgstr ""
+msgstr "%1, %2, %3, %4"
 
 #: qml/StopPickerPage.qml:172 qml/StopPickerPage.qml:251
 #, kde-format
 msgctxt "location name, locality, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:177 qml/StopPickerPage.qml:256
 #, kde-format
 msgctxt "location name, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:196 qml/StopPickerPage.qml:278
 #, kde-format
 msgctxt "locality, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:201 qml/StopPickerPage.qml:283
 #, kde-format
 msgctxt "locality, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: qml/StopPickerPage.qml:205 qml/StopPickerPage.qml:287
 #, kde-format
 msgctxt "region, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: qml/StopPickerPage.qml:218
 #, kde-format
 msgid "Remove history entry"
-msgstr ""
+msgstr "הסרת רשומה מההיסטוריה"
 
 #: qml/StopPickerPage.qml:326
 #, kde-format

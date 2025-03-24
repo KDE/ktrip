@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
 #
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2019, 2020, 2021.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2025 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-23 00:45+0000\n"
-"PO-Revision-Date: 2021-12-17 11:00+0100\n"
+"PO-Revision-Date: 2025-03-23 22:53+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.0\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2019 t/m 2021"
+msgstr "Freek de Kruijf - 2019 t/m 2025"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -146,7 +146,7 @@ msgstr "Geen verbindingen gevonden"
 #: qml/CountryComboBox.qml:47
 #, kde-format
 msgid "Select country"
-msgstr ""
+msgstr "Land selecteren"
 
 #: qml/DeparturesPage.qml:21
 #, kde-format
@@ -160,47 +160,41 @@ msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
 #: qml/JourneyQueryPage.qml:32
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Earlier"
+#, kde-format
 msgid "Earlier"
-msgstr "Vroeger"
+msgstr "Eerder"
 
 #: qml/JourneyQueryPage.qml:38
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Later"
+#, kde-format
 msgid "Later"
 msgstr "Later"
 
 #: qml/JourneyQueryPage.qml:85
 #, kde-format
 msgid "Select"
-msgstr ""
+msgstr "Selecteren"
 
 #: qml/JourneyQueryPage.qml:116
 #, kde-format
 msgctxt "@action:button"
 msgid "Load earlier connections"
-msgstr ""
+msgstr "Eerdere verbindingen laden"
 
 #: qml/JourneyQueryPage.qml:125
-#, fuzzy, kde-format
-#| msgid "No connections found"
+#, kde-format
 msgctxt "@action:button"
 msgid "Load later connections"
-msgstr "Geen verbindingen gevonden"
+msgstr "Latere verbindingen laden"
 
 #: qml/JourneyQueryPage.qml:132
-#, fuzzy, kde-format
-#| msgid "Providers"
+#, kde-format
 msgid "Data providers:"
-msgstr "Leveranciers"
+msgstr "Leveranciers van gegevens:"
 
 #: qml/JourneyQueryPage.qml:175
 #, kde-format
 msgid "Still fetching results…"
-msgstr ""
+msgstr "Nog steeds bezig met resultaten ophalen…"
 
 #: qml/Main.qml:30
 #, kde-format
@@ -240,28 +234,25 @@ msgid "Configure providers"
 msgstr "Leveranciers configureren"
 
 #: qml/QueryPage.qml:63 qml/QueryPage.qml:90
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Vertrekdatum:"
+msgstr "Vertreklocatie selecteren"
 
 #: qml/QueryPage.qml:74 qml/QueryPage.qml:106
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Aankomstlocatie selecteren"
 
 #: qml/QueryPage.qml:89
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
-msgstr "Vanaf:"
+msgstr "Van:"
 
 #: qml/QueryPage.qml:105
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Naar:"
@@ -269,11 +260,10 @@ msgstr "Naar:"
 #: qml/QueryPage.qml:127
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Vertrek en aankomst omwisselen"
 
 #: qml/QueryPage.qml:142
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr "Vertrek"
@@ -282,171 +272,166 @@ msgstr "Vertrek"
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Aankomst"
 
 #: qml/QueryPage.qml:158
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Vertrektijd:"
+msgstr "Vertrektijd"
 
 #: qml/QueryPage.qml:158
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Aankomsttijd"
 
 #: qml/QueryPage.qml:169
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Begin van reis"
+msgstr "Reis zoeken"
 
 #: qml/QueryPage.qml:218
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Manier van transport"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Lange afstandstreinen"
 
 #: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Hoge snelheid of intercity treinen"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Lokale treinen"
 
 #: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Regionale of lokale treinen"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Snel vervoer"
 
 #: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Snel vervoer, metro, trams"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Bus"
 
 #: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Lokale of regionale busdiensten"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Veerboot"
 
 #: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Boten of veerboten"
 
 #: qml/StopPickerPage.qml:29
 #, kde-format
 msgid "Clear History"
-msgstr ""
+msgstr "Geschiedenis wissen"
 
 #: qml/StopPickerPage.qml:30
 #, kde-format
 msgid "Do you really want to remove all previously searched locations?"
-msgstr ""
+msgstr "Wilt u alle eerder gezochte locaties verwijderen?"
 
 #: qml/StopPickerPage.qml:34
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 #: qml/StopPickerPage.qml:47
 #, kde-format
 msgid "Clear history"
-msgstr ""
+msgstr "Geschiedenis wissen"
 
 #: qml/StopPickerPage.qml:57
-#, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
+#, kde-format
 msgid "Sort by name"
-msgstr "Freek de Kruijf - 2019 t/m 2021"
+msgstr "Op naam sorteren"
 
 #: qml/StopPickerPage.qml:64
 #, kde-format
 msgid "Most recently used"
-msgstr ""
+msgstr "Meest recent gebruikt"
 
 #: qml/StopPickerPage.qml:71
 #, kde-format
 msgid "Most often used"
-msgstr ""
+msgstr "Meest vaak gebruikt"
 
 #: qml/StopPickerPage.qml:166 qml/StopPickerPage.qml:245
 #, kde-format
 msgctxt "location name, locality, region, country"
 msgid "%1, %2, %3, %4"
-msgstr ""
+msgstr "%1, %2, %3, %4"
 
 #: qml/StopPickerPage.qml:172 qml/StopPickerPage.qml:251
 #, kde-format
 msgctxt "location name, locality, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:177 qml/StopPickerPage.qml:256
 #, kde-format
 msgctxt "location name, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:196 qml/StopPickerPage.qml:278
 #, kde-format
 msgctxt "locality, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%1, %2, %3"
 
 #: qml/StopPickerPage.qml:201 qml/StopPickerPage.qml:283
 #, kde-format
 msgctxt "locality, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: qml/StopPickerPage.qml:205 qml/StopPickerPage.qml:287
 #, kde-format
 msgctxt "region, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: qml/StopPickerPage.qml:218
 #, kde-format
 msgid "Remove history entry"
-msgstr ""
+msgstr "Geschiedenisitem verwijderen"
 
 #: qml/StopPickerPage.qml:326
 #, kde-format

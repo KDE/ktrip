@@ -230,11 +230,10 @@ msgid "Configure providers"
 msgstr ""
 
 #: qml/QueryPage.qml:63 qml/QueryPage.qml:90
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "出发日期："
+msgstr ""
 
 #: qml/QueryPage.qml:74 qml/QueryPage.qml:106
 #, kde-format
@@ -243,15 +242,13 @@ msgid "Select Arrival Stop"
 msgstr ""
 
 #: qml/QueryPage.qml:89
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "起始地："
 
 #: qml/QueryPage.qml:105
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "目的地："
@@ -262,11 +259,10 @@ msgid "Swap departure and arrival"
 msgstr ""
 
 #: qml/QueryPage.qml:142
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "出发日期："
+msgstr ""
 
 #: qml/QueryPage.qml:145
 #, kde-format
@@ -275,11 +271,10 @@ msgid "Arrival"
 msgstr ""
 
 #: qml/QueryPage.qml:158
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "出发时间："
+msgstr ""
 
 #: qml/QueryPage.qml:158
 #, kde-format
@@ -288,12 +283,10 @@ msgid "Arrival time"
 msgstr ""
 
 #: qml/QueryPage.qml:169
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "启程"
+msgstr ""
 
 #: qml/QueryPage.qml:218
 #, kde-format
@@ -440,23 +433,3 @@ msgstr ""
 #, kde-format
 msgid "No locations found"
 msgstr "未找到位置"
-
-#~ msgctxt "@action"
-#~ msgid "Search"
-#~ msgstr "搜索"
-
-#~ msgctxt "@action:button"
-#~ msgid "Pick Start"
-#~ msgstr "选择起始地"
-
-#~ msgctxt "@title"
-#~ msgid "Search for Start Location"
-#~ msgstr "搜索起始地"
-
-#~ msgctxt "@action:button"
-#~ msgid "Pick Destination"
-#~ msgstr "选择目的地"
-
-#~ msgctxt "@title"
-#~ msgid "Search for Destination Location"
-#~ msgstr "搜索目的地"

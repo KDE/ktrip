@@ -451,23 +451,3 @@ msgstr ""
 #, kde-format
 msgid "No locations found"
 msgstr "Fann ingen stadar"
-
-#~ msgctxt "@action"
-#~ msgid "Search"
-#~ msgstr "Søk"
-
-#~ msgctxt "@action:button"
-#~ msgid "Pick Start"
-#~ msgstr "Vel startstad"
-
-#~ msgctxt "@title"
-#~ msgid "Search for Start Location"
-#~ msgstr "Søk etter startstad"
-
-#~ msgctxt "@action:button"
-#~ msgid "Pick Destination"
-#~ msgstr "Vel reisemål"
-
-#~ msgctxt "@title"
-#~ msgid "Search for Destination Location"
-#~ msgstr "Søk etter reisemål"
