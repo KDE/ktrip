@@ -20,9 +20,7 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     qml/Main.qml
     qml/BackendPage.qml
     qml/QueryPage.qml
-    qml/StopPickerPage.qml
     qml/ConnectionsPage.qml
-    qml/CountryComboBox.qml
     qml/ConnectionDetailsPage.qml
     qml/DeparturesPage.qml
     qml/ConnectionHeading.qml
