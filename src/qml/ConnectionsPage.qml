@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.2
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.4
-import org.kde.kirigami 2.12 as Kirigami
-import org.kde.kpublictransport 1.0 as KPT
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls
+import org.kde.kirigami as Kirigami
+import org.kde.kpublictransport as KPT
 import org.kde.ktrip
 
 Kirigami.ScrollablePage {
@@ -21,7 +21,8 @@ Kirigami.ScrollablePage {
     header: Kirigami.InlineMessage {
         type: Kirigami.MessageType.Error
         text: journeyModel.errorMessage
-        visible: journeyModel.errorMessage != ""
+        visible: journeyModel.errorMessage.length > 0
+        position: Kirigami.InlineMessage.Header
     }
 
     ListView {
@@ -39,7 +40,6 @@ Kirigami.ScrollablePage {
         }
 
         delegate: ItemDelegate {
-
             width: ListView.view.width
 
             onClicked: pageStack.push(Qt.resolvedUrl("ConnectionDetailsPage.qml"), {
