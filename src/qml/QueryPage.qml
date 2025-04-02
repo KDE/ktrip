@@ -32,7 +32,6 @@ FormCard.FormCardPage {
 
     title: departures ? i18nc("@title", "Query Departures") : i18nc("@title", "Start Journey")
 
-
     header: Kirigami.InlineMessage {
         id: noProvidersMessage
         text: i18n("No providers enabled")
@@ -64,7 +63,7 @@ FormCard.FormCardPage {
             publicTransportManager: root.publicTransportManager
             initialCountry: root.initialCountry
             // force a deep copy, otherwise this breaks as soon as the other stop picker page is shown...
-            onLocationChanged: root.departureStop = Controller.copyLocation(location);
+            onLocationChanged: root.departureStop = Controller.copyLocation(location)
         }
     }
 
@@ -91,7 +90,6 @@ FormCard.FormCardPage {
             onClicked: applicationWindow().pageStack.push(departurePicker)
         }
 
-
         FormCard.FormDelegateSeparator {
             below: fromButton
             above: toButton
@@ -113,15 +111,15 @@ FormCard.FormCardPage {
 
             visible: !root.departures
 
-            Controls.RoundButton{
+            Controls.RoundButton {
                 icon.name: "reverse"
-                y: -fromButton.height - height/2
+                y: -fromButton.height - height / 2
                 z: toButton.z + 10000
-                x: fromButton.width - width/2 - Kirigami.Units.gridUnit *3
-                onClicked:{
-                    var oldDepartureStop = departureStop
-                    departureStop = arrivalStop
-                    arrivalStop = oldDepartureStop
+                x: fromButton.width - width / 2 - Kirigami.Units.gridUnit * 3
+                onClicked: {
+                    var oldDepartureStop = departureStop;
+                    departureStop = arrivalStop;
+                    arrivalStop = oldDepartureStop;
                 }
 
                 Accessible.name: i18n("Swap departure and arrival")
@@ -170,7 +168,7 @@ FormCard.FormCardPage {
             enabled: root.departureStop != undefined && root.arrivalStop != undefined && root.fullModeSwitchState() !== false
             onClicked: {
                 Controls.ApplicationWindow.window.pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"), {
-                    manager: root.publicTransportManager,
+                    manager: root.publicTransportManager
                 });
 
                 const req = Controls.ApplicationWindow.window.pageStack.currentItem.journeyRequest;
@@ -202,9 +200,9 @@ FormCard.FormCardPage {
                 req.lineModes = lineModes;
 
                 if (departureArrivalSelector.selectedIndex === 0) {
-                    req.dateTimeMode = PublicTransport.JourneyRequest.Departure
+                    req.dateTimeMode = PublicTransport.JourneyRequest.Departure;
                 } else if (departureArrivalSelector.selectedIndex === 1) {
-                    req.dateTimeMode = PublicTransport.JourneyRequest.Arrival
+                    req.dateTimeMode = PublicTransport.JourneyRequest.Arrival;
                 }
 
                 console.log(req);

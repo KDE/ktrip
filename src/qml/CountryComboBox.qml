@@ -20,7 +20,9 @@ QQC2.ComboBox {
     property string initialCountry
 
     function sort(model) {
-        return model.sort((lhs, rhs) => { return Country.fromAlpha2(lhs).name.localeCompare(Country.fromAlpha2(rhs).name); });
+        return model.sort((lhs, rhs) => {
+            return Country.fromAlpha2(lhs).name.localeCompare(Country.fromAlpha2(rhs).name);
+        });
     }
 
     displayText: currentCountry ? (currentCountry.emojiFlag + ' ' + currentCountry.name) : ""

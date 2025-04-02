@@ -26,7 +26,6 @@ Kirigami.ScrollablePage {
     Kirigami.Theme.inherit: false
     Kirigami.Theme.colorSet: Kirigami.Theme.Window
 
-
     actions: [
         Kirigami.Action {
             text: i18n("Earlier")
@@ -156,7 +155,9 @@ Kirigami.ScrollablePage {
         visible: journeyModel.loading && journeyView.count !== 0
 
         Behavior on height {
-            NumberAnimation { duration: Kirigami.Units.shortDuration }
+            NumberAnimation {
+                duration: Kirigami.Units.shortDuration
+            }
         }
 
         Kirigami.Separator {

@@ -41,15 +41,18 @@ Kirigami.ScrollablePage {
         ]
     }
 
-    QQC2.ActionGroup { id: sortActionGroup }
+    QQC2.ActionGroup {
+        id: sortActionGroup
+    }
     actions: [
         Kirigami.Action {
             text: i18n("Clear history")
             icon.name: "edit-clear-history"
             onTriggered: clearConfirmDialog.open()
         },
-        Kirigami.Action { separator: true },
-
+        Kirigami.Action {
+            separator: true
+        },
         Kirigami.Action {
             QQC2.ActionGroup.group: sortActionGroup
             checkable: true
@@ -110,7 +113,7 @@ Kirigami.ScrollablePage {
                 return sort([...new Set(countries)]);
             }
             initialCountry: root.initialCountry
-            onCurrentValueChanged: root.updateQuery();
+            onCurrentValueChanged: root.updateQuery()
         }
 
         Kirigami.SearchField {
@@ -118,7 +121,7 @@ Kirigami.ScrollablePage {
             Layout.leftMargin: Kirigami.Units.smallSpacing
             Layout.rightMargin: Kirigami.Units.smallSpacing
             Layout.fillWidth: true
-            onAccepted: root.updateQuery();
+            onAccepted: root.updateQuery()
         }
 
         Kirigami.Separator {
@@ -159,27 +162,17 @@ Kirigami.ScrollablePage {
 
             text: model.location.name
             Accessible.name: {
-                let country = Country.fromAlpha2(model.location.country)
-                let region = CountrySubdivision.fromCode(model.location.region)
+                let country = Country.fromAlpha2(model.location.country);
+                let region = CountrySubdivision.fromCode(model.location.region);
 
                 if (model.location.locality && model.location.name !== model.location.locality && region && country) {
-                    return i18nc("location name, locality, region, country", "%1, %2, %3, %4",
-                                 model.location.name,
-                                 model.location.locality,
-                                 region.name,
-                                 country.name)
+                    return i18nc("location name, locality, region, country", "%1, %2, %3, %4", model.location.name, model.location.locality, region.name, country.name);
                 } else if (model.location.locality && model.location.name !== model.location.locality && country) {
-                    return i18nc("location name, locality, country", "%1, %2, %3",
-                                 model.location.name,
-                                 model.location.locality,
-                                 country.name)
+                    return i18nc("location name, locality, country", "%1, %2, %3", model.location.name, model.location.locality, country.name);
                 } else if (region && country) {
-                    return i18nc("location name, region, country", "%1, %2, %3",
-                                 model.location.name,
-                                 region.name,
-                                 country.name)
+                    return i18nc("location name, region, country", "%1, %2, %3", model.location.name, region.name, country.name);
                 } else {
-                    return model.location.name
+                    return model.location.name;
                 }
             }
 
@@ -189,26 +182,19 @@ Kirigami.ScrollablePage {
                 Delegates.SubtitleContentItem {
                     itemDelegate: delegate
                     subtitle: {
-                        let country = Country.fromAlpha2(model.location.country)
-                        let region = CountrySubdivision.fromCode(model.location.region)
+                        let country = Country.fromAlpha2(model.location.country);
+                        let region = CountrySubdivision.fromCode(model.location.region);
 
                         if (model.location.locality && model.location.name !== model.location.locality && region && country) {
-                            return i18nc("locality, region, country", "%1, %2, %3",
-                                         model.location.locality,
-                                         region.name,
-                                         country.name)
+                            return i18nc("locality, region, country", "%1, %2, %3", model.location.locality, region.name, country.name);
                         } else if (model.location.locality && model.location.name !== model.location.locality && country) {
-                            return i18nc("locality, country", "%1, %2",
-                                         model.location.locality,
-                                         country.name)
+                            return i18nc("locality, country", "%1, %2", model.location.locality, country.name);
                         } else if (region && country) {
-                            return i18nc("region, country", "%1, %2",
-                                         region.name,
-                                         country.name)
+                            return i18nc("region, country", "%1, %2", region.name, country.name);
                         } else if (country) {
-                            return country.name
+                            return country.name;
                         } else {
-                            return " "
+                            return " ";
                         }
                     }
                 }
@@ -218,7 +204,7 @@ Kirigami.ScrollablePage {
                     text: i18n("Remove history entry")
                     display: QQC2.ToolButton.IconOnly
                     onClicked: {
-                        sourceModel.removeRows(model.index, 1)
+                        sourceModel.removeRows(model.index, 1);
                     }
                     enabled: model.removable
                 }
@@ -238,27 +224,17 @@ Kirigami.ScrollablePage {
         QQC2.ItemDelegate {
             id: delegate
             text: {
-                let country = Country.fromAlpha2(model.location.country)
-                let region = CountrySubdivision.fromCode(model.location.region)
+                let country = Country.fromAlpha2(model.location.country);
+                let region = CountrySubdivision.fromCode(model.location.region);
 
                 if (model.location.locality && model.location.name !== model.location.locality && region && country) {
-                    return i18nc("location name, locality, region, country", "%1, %2, %3, %4",
-                                 model.location.name,
-                                 model.location.locality,
-                                 region.name,
-                                 country.name)
+                    return i18nc("location name, locality, region, country", "%1, %2, %3, %4", model.location.name, model.location.locality, region.name, country.name);
                 } else if (model.location.locality && model.location.name !== model.location.locality && country) {
-                    return i18nc("location name, locality, country", "%1, %2, %3",
-                                 model.location.name,
-                                 model.location.locality,
-                                 country.name)
+                    return i18nc("location name, locality, country", "%1, %2, %3", model.location.name, model.location.locality, country.name);
                 } else if (region && country) {
-                    return i18nc("location name, region, country", "%1, %2, %3",
-                                 model.location.name,
-                                 region.name,
-                                 country.name)
+                    return i18nc("location name, region, country", "%1, %2, %3", model.location.name, region.name, country.name);
                 } else {
-                    return model.location.name
+                    return model.location.name;
                 }
             }
 
@@ -271,31 +247,24 @@ Kirigami.ScrollablePage {
                 title: model.location.name
 
                 subtitle: {
-                    let country = Country.fromAlpha2(model.location.country)
-                    let region = CountrySubdivision.fromCode(model.location.region)
+                    let country = Country.fromAlpha2(model.location.country);
+                    let region = CountrySubdivision.fromCode(model.location.region);
 
                     if (model.location.locality && model.location.name !== model.location.locality && region && country) {
-                        return i18nc("locality, region, country", "%1, %2, %3",
-                                     model.location.locality,
-                                     region.name,
-                                     country.name)
+                        return i18nc("locality, region, country", "%1, %2, %3", model.location.locality, region.name, country.name);
                     } else if (model.location.locality && model.location.name !== model.location.locality && country) {
-                        return i18nc("locality, country", "%1, %2",
-                                     model.location.locality,
-                                     country.name)
+                        return i18nc("locality, country", "%1, %2", model.location.locality, country.name);
                     } else if (region && country) {
-                        return i18nc("region, country", "%1, %2",
-                                     region.name,
-                                     country.name)
+                        return i18nc("region, country", "%1, %2", region.name, country.name);
                     } else if (country) {
-                        return country.name
+                        return country.name;
                     } else {
-                        return " "
+                        return " ";
                     }
                 }
             }
             onClicked: {
-                root.location = model.location
+                root.location = model.location;
                 locationHistoryModel.addLocation(model.location);
                 applicationWindow().pageStack.goBack();
                 queryTextField.clear();
