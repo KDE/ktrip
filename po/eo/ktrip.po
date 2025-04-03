@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-23 00:45+0000\n"
+"POT-Creation-Date: 2025-04-03 00:45+0000\n"
 "PO-Revision-Date: 2025-03-23 07:29+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -144,7 +144,7 @@ msgstr[1] "%1 ŝanĝoj"
 msgid "No connections found"
 msgstr "Neniuj konektoj trovitaj"
 
-#: qml/CountryComboBox.qml:47
+#: qml/CountryComboBox.qml:49
 #, kde-format
 msgid "Select country"
 msgstr ""
@@ -160,39 +160,39 @@ msgstr "Foriroj"
 msgid "%3 %1 (%2)"
 msgstr "%3 %1 (%2)"
 
-#: qml/JourneyQueryPage.qml:32
+#: qml/JourneyQueryPage.qml:31
 #, kde-format
 msgid "Earlier"
 msgstr ""
 
-#: qml/JourneyQueryPage.qml:38
+#: qml/JourneyQueryPage.qml:37
 #, kde-format
 msgid "Later"
 msgstr ""
 
-#: qml/JourneyQueryPage.qml:85
+#: qml/JourneyQueryPage.qml:84
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: qml/JourneyQueryPage.qml:116
+#: qml/JourneyQueryPage.qml:115
 #, kde-format
 msgctxt "@action:button"
 msgid "Load earlier connections"
 msgstr ""
 
-#: qml/JourneyQueryPage.qml:125
+#: qml/JourneyQueryPage.qml:124
 #, kde-format
 msgctxt "@action:button"
 msgid "Load later connections"
 msgstr "Ŝargi postajn konektojn"
 
-#: qml/JourneyQueryPage.qml:132
+#: qml/JourneyQueryPage.qml:131
 #, kde-format
 msgid "Data providers:"
 msgstr "Datumprovizantoj:"
 
-#: qml/JourneyQueryPage.qml:175
+#: qml/JourneyQueryPage.qml:176
 #, kde-format
 msgid "Still fetching results…"
 msgstr "Ankoraŭ alprenante rezultojn…"
@@ -224,135 +224,135 @@ msgctxt "@title"
 msgid "Start Journey"
 msgstr "Komenci Vojaĝon"
 
-#: qml/QueryPage.qml:38
+#: qml/QueryPage.qml:37
 #, kde-format
 msgid "No providers enabled"
 msgstr "Neniuj provizantoj ebligitaj"
 
-#: qml/QueryPage.qml:43
+#: qml/QueryPage.qml:42
 #, kde-format
 msgid "Configure providers"
 msgstr "Agordi provizantojn"
 
-#: qml/QueryPage.qml:63 qml/QueryPage.qml:90
+#: qml/QueryPage.qml:62 qml/QueryPage.qml:89
 #, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
 msgstr "Elekti Haltejon de Ekveturo"
 
-#: qml/QueryPage.qml:74 qml/QueryPage.qml:106
+#: qml/QueryPage.qml:73 qml/QueryPage.qml:104
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
 msgstr "Elekti Haltejon de Alveno"
 
-#: qml/QueryPage.qml:89
+#: qml/QueryPage.qml:88
 #, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "De:"
 
-#: qml/QueryPage.qml:105
+#: qml/QueryPage.qml:103
 #, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Al:"
 
-#: qml/QueryPage.qml:127
+#: qml/QueryPage.qml:125
 #, kde-format
 msgid "Swap departure and arrival"
 msgstr ""
 
-#: qml/QueryPage.qml:142
+#: qml/QueryPage.qml:140
 #, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr "Foriro"
 
-#: qml/QueryPage.qml:145
+#: qml/QueryPage.qml:143
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
 msgstr "Alveno"
 
-#: qml/QueryPage.qml:158
+#: qml/QueryPage.qml:156
 #, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
 msgstr "Forirhoro"
 
-#: qml/QueryPage.qml:158
+#: qml/QueryPage.qml:156
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
 msgstr "Alvenhoro"
 
-#: qml/QueryPage.qml:169
+#: qml/QueryPage.qml:167
 #, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "Serĉi Vojaĝon"
 
-#: qml/QueryPage.qml:218
+#: qml/QueryPage.qml:216
 #, kde-format
 msgid "Mode of transportation"
 msgstr "Maniero de transporto"
 
-#: qml/QueryPage.qml:224
+#: qml/QueryPage.qml:222
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "Longdistancaj trajnoj"
 
-#: qml/QueryPage.qml:225
+#: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "Altrapidaj aŭ interurbaj trajnoj"
 
-#: qml/QueryPage.qml:234
+#: qml/QueryPage.qml:232
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "Lokaj trajnoj"
 
-#: qml/QueryPage.qml:235
+#: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "Regionaj aŭ lokaj trajnoj"
 
-#: qml/QueryPage.qml:244
+#: qml/QueryPage.qml:242
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "Rapida transiro"
 
-#: qml/QueryPage.qml:245
+#: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "Rapida transiro, metroo, tramoj"
 
-#: qml/QueryPage.qml:254
+#: qml/QueryPage.qml:252
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "Buso"
 
-#: qml/QueryPage.qml:255
+#: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "Lokaj aŭ regionaj bus-servoj"
 
-#: qml/QueryPage.qml:264
+#: qml/QueryPage.qml:262
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "Pramo"
 
-#: qml/QueryPage.qml:265
+#: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
@@ -373,68 +373,68 @@ msgstr "Ĉu vi vere volas forigi ĉiujn antaŭe serĉitajn lokojn?"
 msgid "Remove"
 msgstr "Forigi"
 
-#: qml/StopPickerPage.qml:47
+#: qml/StopPickerPage.qml:49
 #, kde-format
 msgid "Clear history"
 msgstr "Viŝi historion"
 
-#: qml/StopPickerPage.qml:57
+#: qml/StopPickerPage.qml:60
 #, kde-format
 msgid "Sort by name"
 msgstr "Ordigi laŭ nomo"
 
-#: qml/StopPickerPage.qml:64
+#: qml/StopPickerPage.qml:67
 #, kde-format
 msgid "Most recently used"
 msgstr "Plej lasttempe uzita"
 
-#: qml/StopPickerPage.qml:71
+#: qml/StopPickerPage.qml:74
 #, kde-format
 msgid "Most often used"
 msgstr "Plej ofte uzita"
 
-#: qml/StopPickerPage.qml:166 qml/StopPickerPage.qml:245
+#: qml/StopPickerPage.qml:169 qml/StopPickerPage.qml:231
 #, kde-format
 msgctxt "location name, locality, region, country"
 msgid "%1, %2, %3, %4"
 msgstr "%1, %2, %3, %4"
 
-#: qml/StopPickerPage.qml:172 qml/StopPickerPage.qml:251
+#: qml/StopPickerPage.qml:171 qml/StopPickerPage.qml:233
 #, kde-format
 msgctxt "location name, locality, country"
 msgid "%1, %2, %3"
 msgstr "%1, %2, %3"
 
-#: qml/StopPickerPage.qml:177 qml/StopPickerPage.qml:256
+#: qml/StopPickerPage.qml:173 qml/StopPickerPage.qml:235
 #, kde-format
 msgctxt "location name, region, country"
 msgid "%1, %2, %3"
 msgstr "%1, %2, %3"
 
-#: qml/StopPickerPage.qml:196 qml/StopPickerPage.qml:278
+#: qml/StopPickerPage.qml:189 qml/StopPickerPage.qml:254
 #, kde-format
 msgctxt "locality, region, country"
 msgid "%1, %2, %3"
 msgstr "%1, %2, %3"
 
-#: qml/StopPickerPage.qml:201 qml/StopPickerPage.qml:283
+#: qml/StopPickerPage.qml:191 qml/StopPickerPage.qml:256
 #, kde-format
 msgctxt "locality, country"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: qml/StopPickerPage.qml:205 qml/StopPickerPage.qml:287
+#: qml/StopPickerPage.qml:193 qml/StopPickerPage.qml:258
 #, kde-format
 msgctxt "region, country"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: qml/StopPickerPage.qml:218
+#: qml/StopPickerPage.qml:204
 #, kde-format
 msgid "Remove history entry"
 msgstr "Forigi historieron"
 
-#: qml/StopPickerPage.qml:326
+#: qml/StopPickerPage.qml:295
 #, kde-format
 msgid "No locations found"
 msgstr "Neniuj lokoj trovitaj"
