@@ -185,14 +185,12 @@ msgstr ""
 
 #: qml/JourneyQueryPage.qml:124
 #, fuzzy, kde-format
-#| msgid "No connections found"
 msgctxt "@action:button"
 msgid "Load later connections"
 msgstr "Fann ingen samband"
 
 #: qml/JourneyQueryPage.qml:131
 #, fuzzy, kde-format
-#| msgid "Providers"
 msgid "Data providers:"
 msgstr "Leverandørar"
 
@@ -240,7 +238,6 @@ msgstr "Set opp leverandørar"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:89
 #, fuzzy, kde-format
-#| msgid "Departure date:"
 msgctxt "departure train station"
 msgid "Select Departure Stop"
 msgstr "Dato avgang:"
@@ -253,14 +250,12 @@ msgstr ""
 
 #: qml/QueryPage.qml:88
 #, fuzzy, kde-format
-#| msgid "From:"
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Frå:"
 
 #: qml/QueryPage.qml:103
 #, fuzzy, kde-format
-#| msgid "To:"
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Til:"
@@ -272,7 +267,6 @@ msgstr ""
 
 #: qml/QueryPage.qml:140
 #, fuzzy, kde-format
-#| msgid "Departures"
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr "Avgangar"
@@ -285,7 +279,6 @@ msgstr ""
 
 #: qml/QueryPage.qml:156
 #, fuzzy, kde-format
-#| msgid "Departure time:"
 msgctxt "train or bus departure"
 msgid "Departure time"
 msgstr "Klokkeslett avgang:"
@@ -298,8 +291,6 @@ msgstr ""
 
 #: qml/QueryPage.qml:167
 #, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
 msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "Start reisa"
@@ -391,8 +382,6 @@ msgstr ""
 
 #: qml/StopPickerPage.qml:60
 #, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
 msgid "Sort by name"
 msgstr "Karl Ove Hufthammer"
 
