@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
-# Shinjo Park <kde@peremen.name>, 2020, 2022.
+# SPDX-FileCopyrightText: 2020, 2022, 2025 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-03 00:45+0000\n"
-"PO-Revision-Date: 2022-02-20 21:30+0100\n"
+"PO-Revision-Date: 2025-04-07 00:05+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -142,7 +142,7 @@ msgstr "연결편을 찾을 수 없음"
 #: qml/CountryComboBox.qml:49
 #, kde-format
 msgid "Select country"
-msgstr ""
+msgstr "국가 선택"
 
 #: qml/DeparturesPage.qml:21
 #, kde-format
@@ -156,47 +156,41 @@ msgid "%3 %1 (%2)"
 msgstr "%3 %1(%2)"
 
 #: qml/JourneyQueryPage.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Earlier"
+#, kde-format
 msgid "Earlier"
 msgstr "더 일찍"
 
 #: qml/JourneyQueryPage.qml:37
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Later"
+#, kde-format
 msgid "Later"
-msgstr "더 나중에"
+msgstr "더 나중"
 
 #: qml/JourneyQueryPage.qml:84
 #, kde-format
 msgid "Select"
-msgstr ""
+msgstr "선택"
 
 #: qml/JourneyQueryPage.qml:115
 #, kde-format
 msgctxt "@action:button"
 msgid "Load earlier connections"
-msgstr ""
+msgstr "이전 연결 불러오기"
 
 #: qml/JourneyQueryPage.qml:124
-#, fuzzy, kde-format
-#| msgid "No connections found"
+#, kde-format
 msgctxt "@action:button"
 msgid "Load later connections"
-msgstr "연결편을 찾을 수 없음"
+msgstr "이후 연결 표시"
 
 #: qml/JourneyQueryPage.qml:131
-#, fuzzy, kde-format
-#| msgid "Providers"
+#, kde-format
 msgid "Data providers:"
-msgstr "공급자"
+msgstr "데이터 공급자:"
 
 #: qml/JourneyQueryPage.qml:176
 #, kde-format
 msgid "Still fetching results…"
-msgstr ""
+msgstr "결과를 계속 가져오고 있습니다…"
 
 #: qml/Main.qml:30
 #, kde-format
@@ -236,28 +230,25 @@ msgid "Configure providers"
 msgstr "공급자 설정"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:89
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "출발 날짜:"
+msgstr "출발역 선택"
 
 #: qml/QueryPage.qml:73 qml/QueryPage.qml:104
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "도착역 선택"
 
 #: qml/QueryPage.qml:88
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "출발:"
 
 #: qml/QueryPage.qml:103
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "도착:"
@@ -265,11 +256,10 @@ msgstr "도착:"
 #: qml/QueryPage.qml:125
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "출발과 도착 맞바꾸기"
 
 #: qml/QueryPage.qml:140
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr "출발"
@@ -278,171 +268,166 @@ msgstr "출발"
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "도착"
 
 #: qml/QueryPage.qml:156
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "출발 시간:"
+msgstr "출발 시간"
 
 #: qml/QueryPage.qml:156
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "도착 시간"
 
 #: qml/QueryPage.qml:167
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "여정 시작"
+msgstr "여정 검색"
 
 #: qml/QueryPage.qml:216
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "운송 수단"
 
 #: qml/QueryPage.qml:222
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "장거리 열차"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "고속 및 도시간 철도"
 
 #: qml/QueryPage.qml:232
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "지역 열차"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "지역 및 광역 철도"
 
 #: qml/QueryPage.qml:242
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "도시 철도"
 
 #: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "도시 철도, 노면 전차"
 
 #: qml/QueryPage.qml:252
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "버스"
 
 #: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "시내 및 시외 버스 서비스"
 
 #: qml/QueryPage.qml:262
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "선박"
 
 #: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "선박 및 페리"
 
 #: qml/StopPickerPage.qml:29
 #, kde-format
 msgid "Clear History"
-msgstr ""
+msgstr "과거 기록 비우기"
 
 #: qml/StopPickerPage.qml:30
 #, kde-format
 msgid "Do you really want to remove all previously searched locations?"
-msgstr ""
+msgstr "이전에 검색한 모든 위치를 삭제하시겠습니까?"
 
 #: qml/StopPickerPage.qml:34
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "삭제"
 
 #: qml/StopPickerPage.qml:49
 #, kde-format
 msgid "Clear history"
-msgstr ""
+msgstr "기록 삭제"
 
 #: qml/StopPickerPage.qml:60
-#, fuzzy, kde-format
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
+#, kde-format
 msgid "Sort by name"
-msgstr "박신조"
+msgstr "이름순으로 정렬"
 
 #: qml/StopPickerPage.qml:67
 #, kde-format
 msgid "Most recently used"
-msgstr ""
+msgstr "최근 사용"
 
 #: qml/StopPickerPage.qml:74
 #, kde-format
 msgid "Most often used"
-msgstr ""
+msgstr "자주 사용함"
 
 #: qml/StopPickerPage.qml:169 qml/StopPickerPage.qml:231
 #, kde-format
 msgctxt "location name, locality, region, country"
 msgid "%1, %2, %3, %4"
-msgstr ""
+msgstr "%4 %3 %2 %1"
 
 #: qml/StopPickerPage.qml:171 qml/StopPickerPage.qml:233
 #, kde-format
 msgctxt "location name, locality, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%3 %2 %1"
 
 #: qml/StopPickerPage.qml:173 qml/StopPickerPage.qml:235
 #, kde-format
 msgctxt "location name, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%3 %2 %1"
 
 #: qml/StopPickerPage.qml:189 qml/StopPickerPage.qml:254
 #, kde-format
 msgctxt "locality, region, country"
 msgid "%1, %2, %3"
-msgstr ""
+msgstr "%3 %2 %1"
 
 #: qml/StopPickerPage.qml:191 qml/StopPickerPage.qml:256
 #, kde-format
 msgctxt "locality, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%2 %1"
 
 #: qml/StopPickerPage.qml:193 qml/StopPickerPage.qml:258
 #, kde-format
 msgctxt "region, country"
 msgid "%1, %2"
-msgstr ""
+msgstr "%2 %1"
 
 #: qml/StopPickerPage.qml:204
 #, kde-format
 msgid "Remove history entry"
-msgstr ""
+msgstr "과거 기록 항목 삭제"
 
 #: qml/StopPickerPage.qml:295
 #, kde-format
