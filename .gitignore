@@ -9,3 +9,4 @@ build/
 .cache
 .idea
 /cmake-build*
+.qmlls.ini
