@@ -4,11 +4,12 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.2
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.4
-import org.kde.kirigami 2.4 as Kirigami
-import org.kde.kpublictransport 1.0 as KPT
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls as Controls
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
+import org.kde.kpublictransport.ui as KPublicTransport
 import org.kde.ktrip
 
 Kirigami.ScrollablePage {
@@ -27,34 +28,95 @@ Kirigami.ScrollablePage {
     }
 
     ListView {
-        model: KPT.StopoverQueryModel {
+        model: KPublicTransport.StopoverQueryModel {
             id: theModel
         }
 
-        delegate: ItemDelegate {
+        delegate: FormCard.AbstractFormDelegate {
+            id: delegate
+
+            required property KPublicTransport.stopover departure
 
             width: ListView.view.width
 
             contentItem: RowLayout {
-                Label {
-                    text: i18n("%3 %1 (%2)", departure.route.line.name, departure.route.direction, departure.scheduledDepartureTime.toLocaleTimeString(Locale.ShortFormat))
+                spacing: Kirigami.Units.largeSpacing * 2
+
+                ColumnLayout {
+                    spacing: Kirigami.Units.smallSpacing
+
                     Layout.fillWidth: true
-                    elide: Text.ElideRight
+
+                    RowLayout {
+                        spacing: Kirigami.Units.smallSpacing
+
+                        KPublicTransport.TransportNameControl {
+                            line: delegate.departure.route.line
+                            journeySectionMode: KPublicTransport.JourneySection.PublicTransport
+                        }
+
+                        Kirigami.Heading {
+                            level: 3
+                            text: delegate.departure.route.direction
+                            visible: delegate.departure.route.direction.length > 0
+                            elide: Text.ElideRight
+                            Layout.fillWidth: true
+                        }
+                    }
+
+                    Flow {
+                        spacing: 0
+
+                        Layout.fillWidth: true
+
+                        DelayRow {
+                            stopover: delegate.departure
+                            delay: delegate.departure.departureDelay
+                            originalTime: Localizer.formatTime(delegate.departure, "scheduledDepartureTime")
+                        }
+
+                        Controls.Label {
+                            text: ' · ' +i18nc("@info", "Platform %1", delegate.departure.hasExpectedPlatform ? delegate.departure.expectedPlatform : delegate.departure.scheduledPlatform)
+                            color: delegate.departure.platformChanged ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
+                            visible: delegate.departure.scheduledPlatform.length > 0
+
+                            Layout.rightMargin: Kirigami.Units.smallSpacing
+                        }
+
+                        Repeater {
+                            model: delegate.departure.features
+                            delegate: KPublicTransport.FeatureIcon {
+                                required property KPublicTransport.feature modelData
+                                feature: modelData
+                                Layout.preferredHeight: Kirigami.Units.iconSizes.small
+                                Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                            }
+                        }
+                    }
                 }
-                Label {
-                    text: departure.scheduledPlatform
+
+                Kirigami.Heading {
+                    text: Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
+                }
+            }
+
+            background.children: Kirigami.Separator {
+                anchors {
+                    bottom: parent.bottom
+                    left: parent.left
+                    right: parent.right
                 }
             }
         }
 
-        footer: ToolButton {
+        footer: Controls.ToolButton {
             width: parent.width
             visible: theModel.canQueryNext
             onClicked: theModel.queryNext()
             icon.name: "arrow-down"
         }
 
-        BusyIndicator {
+        Controls.BusyIndicator {
             running: theModel.loading
             anchors.centerIn: parent
         }
