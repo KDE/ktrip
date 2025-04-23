@@ -54,7 +54,7 @@ else()
     find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS QQC2DesktopStyle Crash)
 endif()
 
-find_package(KPublicTransport)
+find_package(KPublicTransport 25.07.71)
 set_package_properties(KPublicTransport PROPERTIES TYPE REQUIRED PURPOSE "Query online journey information")
 
 ecm_find_qmlmodule(org.kde.kirigamiaddons.dateandtime 0.1)
