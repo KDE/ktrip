@@ -9,7 +9,7 @@ import QtQuick.Layouts
 import QtQuick.Controls as Controls
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.formcard as FormCard
-import org.kde.kpublictransport as PublicTransport
+import org.kde.kpublictransport.ui as PublicTransport
 import org.kde.ktrip
 
 FormCard.FormCardPage {
@@ -58,22 +58,26 @@ FormCard.FormCardPage {
 
     Component {
         id: departurePicker
-        StopPickerPage {
+        PublicTransport.StopPickerPage {
             title: i18nc("departure train station", "Select Departure Stop")
             publicTransportManager: root.publicTransportManager
             initialCountry: root.initialCountry
             // force a deep copy, otherwise this breaks as soon as the other stop picker page is shown...
             onLocationChanged: root.departureStop = Controller.copyLocation(location)
+            historySortRoleName: KTripSettings.historySortMode
+            onHistorySortRoleChanged: KTripSettings.historySortMode = sortRoleName
         }
     }
 
     Component {
         id: arrivalPicker
-        StopPickerPage {
+        PublicTransport.StopPickerPage {
             title: i18nc("arrival train station", "Select Arrival Stop")
             publicTransportManager: root.publicTransportManager
             initialCountry: root.initialCountry
             onLocationChanged: root.arrivalStop = Controller.copyLocation(location)
+            historySortRoleName: KTripSettings.historySortMode
+            onHistorySortRoleChanged: KTripSettings.historySortMode = sortRoleName
         }
     }
 
