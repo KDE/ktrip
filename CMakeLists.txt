@@ -74,6 +74,9 @@ set_package_properties(KF6KirigamiAddons PROPERTIES
 ki18n_install(po)
 
 add_subdirectory(src)
+if (BUILD_TESTING)
+    add_subdirectory(autotests)
+endif()
 
 install(FILES org.kde.ktrip.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 

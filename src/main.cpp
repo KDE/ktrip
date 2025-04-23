@@ -14,6 +14,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QQuickStyle>
+#include <QTimer>
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
@@ -28,12 +29,17 @@
 #include <KPublicTransport/LocationRequest>
 #include <KPublicTransport/Manager>
 
+using namespace Qt::Literals;
+
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
     QCommandLineParser parser;
+    QCommandLineOption selfTestOpt(u"self-test"_s, u"internal, for automated testing"_s);
+    parser.addOption(selfTestOpt);
+
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
@@ -90,6 +96,10 @@ int main(int argc, char *argv[])
 #endif
 
     engine.loadFromModule("org.kde.ktrip", "Main");
+
+    if (parser.isSet(selfTestOpt)) {
+        QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
+    }
 
     return app.exec();
 }
