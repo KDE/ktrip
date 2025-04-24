@@ -15,7 +15,13 @@ Kirigami.ApplicationWindow {
     width: 480
     height: 720
 
-    pageStack.initialPage: Qt.resolvedUrl("QueryPage.qml")
+    pageStack {
+        initialPage: Qt.resolvedUrl("QueryPage.qml")
+        globalToolBar {
+            style: Kirigami.ApplicationHeaderStyle.ToolBar
+            showNavigationButtons: pageStack.currentIndex > 0 || pageStack.layers.depth > 1 ? Kirigami.ApplicationHeaderStyle.ShowBackButton : 0
+        }
+    }
 
     Component.onCompleted: {
         if (Controller.firstRun) {
