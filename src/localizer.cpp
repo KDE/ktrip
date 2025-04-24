@@ -144,6 +144,10 @@ QString Localizer::formatTimeDifferenceToNow(const QVariant &obj, const QString 
         return i18nc("time", "Now");
     }
 
+    if (secsDifference < 0) {
+        return i18ncp("time", "%1 min ago", "%1 min ago", -(secsDifference / 60));
+    }
+
     return formatDuration(secsDifference);
 }
 
