@@ -35,6 +35,7 @@ Kirigami.ScrollablePage {
     KPublicTransport.BackendModel {
         id: backendModel
         manager: Controller.manager
+        mode: KPublicTransport.BackendModel.GroupByCountry
     }
 
     Component {
@@ -109,6 +110,17 @@ Kirigami.ScrollablePage {
                     default:
                         const c = Country.fromAlpha2(section);
                         return i18nc("emoji flag, country name", "%1 %2", c.emojiFlag, c.name);
+                    }
+                }
+                Accessible.name: {
+                    switch (section) {
+                        case "":
+                        case "UN":
+                            return i18n("Global")
+                        case "EU":
+                            return i18n("European Union");
+                        default:
+                            return Country.fromAlpha2(section).name;
                     }
                 }
             }
