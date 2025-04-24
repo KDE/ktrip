@@ -9,10 +9,6 @@ set(ktrip_SRCS
 
 kconfig_add_kcfg_files(ktrip_SRCS ktripsettings.kcfgc GENERATE_MOC)
 
-if (ANDROID)
-    list(APPEND ktrip_SRCS androidutils.cpp)
-endif()
-
 add_executable(ktrip ${ktrip_SRCS})
 
 ecm_add_qml_module(ktrip URI "org.kde.ktrip"

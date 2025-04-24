@@ -4,7 +4,6 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-#include "androidutils.h"
 #include "version.h"
 
 #include <QCommandLineOption>
@@ -86,13 +85,6 @@ int main(int argc, char *argv[])
 #ifndef Q_OS_ANDROID
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.ktrip")));
     KCrash::initialize();
-#endif
-
-#ifdef Q_OS_ANDROID
-    engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), true);
-    engine.rootContext()->setContextProperty(QStringLiteral("_androidUtils"), QVariant::fromValue(AndroidUtils::instance()));
-#else
-    engine.rootContext()->setContextProperty(QStringLiteral("_isAndroid"), false);
 #endif
 
     engine.loadFromModule("org.kde.ktrip", "Main");
