@@ -46,7 +46,7 @@ FormCard.FormCardPage {
     }
 
     // either true/false if all mode switches are in that position, undefined otherwise
-    function fullModeSwitchState(): bool {
+    function fullModeSwitchState() {
         let state = longDistanceSwitch.checked;
         for (const s of [localTrainSwitch, rapidTransitSwitch, busSwitch, ferrySwitch]) {
             if (s.checked != state) {
