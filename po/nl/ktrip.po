@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-24 00:44+0000\n"
+"POT-Creation-Date: 2025-04-25 00:45+0000\n"
 "PO-Revision-Date: 2025-03-23 22:53+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,27 +27,27 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: main.cpp:77
+#: main.cpp:76
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:79
+#: main.cpp:78
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Assistent openbaar vervoer"
 
-#: main.cpp:81
+#: main.cpp:80
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 KDE gemeenschap"
 
-#: main.cpp:82
+#: main.cpp:81
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:19 qml/Main.qml:53
+#: qml/BackendPage.qml:19 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
 msgstr "Leveranciers"
@@ -62,21 +62,27 @@ msgstr "Relevante leveranciers voor uw omgeving selecteren"
 msgid "Save"
 msgstr "Opslaan"
 
-#: qml/BackendPage.qml:106
+#: qml/BackendPage.qml:107 qml/BackendPage.qml:119
 #, kde-format
 msgid "Global"
 msgstr "Globaal"
 
-#: qml/BackendPage.qml:108
+#: qml/BackendPage.qml:109
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 Europese Unie"
 
-#: qml/BackendPage.qml:111
+#: qml/BackendPage.qml:112
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
+
+#: qml/BackendPage.qml:121
+#, fuzzy, kde-format
+#| msgid "🇪🇺 European Union"
+msgid "European Union"
+msgstr "🇪🇺 Europese Unie"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format
@@ -191,17 +197,17 @@ msgstr "Leveranciers van gegevens:"
 msgid "Still fetching results…"
 msgstr "Nog steeds bezig met resultaten ophalen…"
 
-#: qml/Main.qml:30
+#: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
 msgstr "Reis"
 
-#: qml/Main.qml:40
+#: qml/Main.qml:46
 #, kde-format
 msgid "Departures"
 msgstr "Vertrek"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:64
 #, kde-format
 msgid "About KTrip"
 msgstr "Info over KTrip"

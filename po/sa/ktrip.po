@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-24 00:44+0000\n"
+"POT-Creation-Date: 2025-04-25 00:45+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -29,27 +29,27 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: main.cpp:77
+#: main.cpp:76
 #, kde-format
 msgid "KTrip"
 msgstr "के त्रिप्"
 
-#: main.cpp:79
+#: main.cpp:78
 #, kde-format
 msgid "Public transport assistant"
 msgstr "सार्वजनिक परिवहन सहायक"
 
-#: main.cpp:81
+#: main.cpp:80
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 केडीई समुदाय"
 
-#: main.cpp:82
+#: main.cpp:81
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "निकोलस फेला"
 
-#: qml/BackendPage.qml:19 qml/Main.qml:53
+#: qml/BackendPage.qml:19 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
 msgstr "प्रदाता"
@@ -64,21 +64,27 @@ msgstr "स्वक्षेत्रस्य कृते प्रासं�
 msgid "Save"
 msgstr "रक्ष्"
 
-#: qml/BackendPage.qml:106
+#: qml/BackendPage.qml:107 qml/BackendPage.qml:119
 #, kde-format
 msgid "Global"
 msgstr "वैश्विक"
 
-#: qml/BackendPage.qml:108
+#: qml/BackendPage.qml:109
 #, kde-format
 msgid "🇪🇺 European Union"
 msgstr "🇪🇺 यूरोपीय संघ"
 
-#: qml/BackendPage.qml:111
+#: qml/BackendPage.qml:112
 #, kde-format
 msgctxt "emoji flag, country name"
 msgid "%1 %2"
 msgstr "%1 %2"
+
+#: qml/BackendPage.qml:121
+#, fuzzy, kde-format
+#| msgid "🇪🇺 European Union"
+msgid "European Union"
+msgstr "🇪🇺 यूरोपीय संघ"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format
@@ -195,17 +201,17 @@ msgstr "प्रदाता"
 msgid "Still fetching results…"
 msgstr ""
 
-#: qml/Main.qml:30
+#: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
 msgstr "यात्रा"
 
-#: qml/Main.qml:40
+#: qml/Main.qml:46
 #, kde-format
 msgid "Departures"
 msgstr "प्रस्थानम्"
 
-#: qml/Main.qml:58
+#: qml/Main.qml:64
 #, kde-format
 msgid "About KTrip"
 msgstr "KTrip विषये"
