@@ -57,7 +57,7 @@ Localizer::Localizer(QObject *parent)
 {
 }
 
-QString Localizer::formatTime(const QVariant &obj, const QString &propertyName) const
+QString Localizer::formatTime(const QVariant &obj, const QString &propertyName)
 {
     const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDateTime();
     if (!dt.isValid()) {
@@ -76,7 +76,7 @@ QString Localizer::formatTime(const QVariant &obj, const QString &propertyName) 
     return output;
 }
 
-QString Localizer::formatDate(const QVariant &obj, const QString &propertyName) const
+QString Localizer::formatDate(const QVariant &obj, const QString &propertyName)
 {
     const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDate();
     if (!dt.isValid()) {
@@ -89,7 +89,7 @@ QString Localizer::formatDate(const QVariant &obj, const QString &propertyName) 
     return QLocale().toString(dt, QLocale::ShortFormat);
 }
 
-QString Localizer::formatDateTime(const QVariant &obj, const QString &propertyName) const
+QString Localizer::formatDateTime(const QVariant &obj, const QString &propertyName)
 {
     const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDateTime();
     if (!dt.isValid()) {
@@ -103,7 +103,7 @@ QString Localizer::formatDateTime(const QVariant &obj, const QString &propertyNa
     return s;
 }
 
-QString Localizer::formatDateOrDateTimeLocal(const QVariant &obj, const QString &propertyName) const
+QString Localizer::formatDateOrDateTimeLocal(const QVariant &obj, const QString &propertyName)
 {
     const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDateTime();
     if (!dt.isValid()) {
@@ -140,6 +140,10 @@ QString Localizer::formatTimeDifferenceToNow(const QVariant &obj, const QString 
     }
 
     const auto secsDifference = (qint64)dt.toSecsSinceEpoch() - (qint64)QDateTime::currentSecsSinceEpoch();
+    if (std::abs(secsDifference) > 60 * 60) { // 1 hour
+        return formatTime(obj, propertyName);
+    }
+
     if (secsDifference < 60 && secsDifference > -60) {
         return i18nc("time", "Now");
     }

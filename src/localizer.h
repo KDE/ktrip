@@ -26,11 +26,11 @@ class Localizer : public QObject
 
 public:
     explicit Localizer(QObject *parent = nullptr);
-    Q_INVOKABLE QString formatTime(const QVariant &obj, const QString &propertyName) const;
-    Q_INVOKABLE QString formatDate(const QVariant &obj, const QString &propertyName) const;
-    Q_INVOKABLE QString formatDateTime(const QVariant &obj, const QString &propertyName) const;
+    Q_INVOKABLE [[nodiscard]] static QString formatTime(const QVariant &obj, const QString &propertyName);
+    Q_INVOKABLE [[nodiscard]] static QString formatDate(const QVariant &obj, const QString &propertyName);
+    Q_INVOKABLE [[nodiscard]] static QString formatDateTime(const QVariant &obj, const QString &propertyName);
     /** Auto-detect date or date/time, and convert to local time zone. */
-    Q_INVOKABLE QString formatDateOrDateTimeLocal(const QVariant &obj, const QString &propertyName) const;
+    Q_INVOKABLE [[nodiscard]] static QString formatDateOrDateTimeLocal(const QVariant &obj, const QString &propertyName);
     Q_INVOKABLE [[nodiscard]] static QString formatTimeZoneOffset(qint64 seconds);
     Q_INVOKABLE [[nodiscard]] static QString formatDuration(int seconds);
     Q_INVOKABLE [[nodiscard]] static QString formatTimeDifferenceToNow(const QVariant &obj, const QString &propertyName);
