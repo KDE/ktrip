@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-25 00:45+0000\n"
-"PO-Revision-Date: 2025-03-23 10:22+0200\n"
+"PO-Revision-Date: 2025-04-25 09:21+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -82,10 +82,9 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: qml/BackendPage.qml:121
-#, fuzzy, kde-format
-#| msgid "🇪🇺 European Union"
+#, kde-format
 msgid "European Union"
-msgstr "🇪🇺 Європейський Союз"
+msgstr "Європейський Союз"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format

@@ -3,14 +3,14 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep M. Ferrer <txemaq@gmail.com>, 2019, 2020, 2021, 2025.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2025 Josep M. Ferrer <txemaq@gmail.com>
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-25 00:45+0000\n"
-"PO-Revision-Date: 2025-03-23 10:27+0100\n"
+"PO-Revision-Date: 2025-04-25 10:27+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -83,10 +83,9 @@ msgid "%1 %2"
 msgstr "%1 %2"
 
 #: qml/BackendPage.qml:121
-#, fuzzy, kde-format
-#| msgid "🇪🇺 European Union"
+#, kde-format
 msgid "European Union"
-msgstr "🇪🇺 Unió Europea"
+msgstr "Unió Europea"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format
@@ -361,58 +360,3 @@ msgstr "Transbordador"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Vaixells o transbordadors"
-
-#~ msgid "Select country"
-#~ msgstr "Seleccioneu el país"
-
-#~ msgid "Clear History"
-#~ msgstr "Neteja l'historial"
-
-#~ msgid "Do you really want to remove all previously searched locations?"
-#~ msgstr ""
-#~ "Segur que voleu eliminar totes les ubicacions buscades anteriorment?"
-
-#~ msgid "Remove"
-#~ msgstr "Elimina"
-
-#~ msgid "Clear history"
-#~ msgstr "Neteja l'historial"
-
-#~ msgid "Sort by name"
-#~ msgstr "Ordena per nom"
-
-#~ msgid "Most recently used"
-#~ msgstr "Ús més recent"
-
-#~ msgid "Most often used"
-#~ msgstr "Utilitzada sovint"
-
-#~ msgctxt "location name, locality, region, country"
-#~ msgid "%1, %2, %3, %4"
-#~ msgstr "%1, %2, %3, %4"
-
-#~ msgctxt "location name, locality, country"
-#~ msgid "%1, %2, %3"
-#~ msgstr "%1, %2, %3"
-
-#~ msgctxt "location name, region, country"
-#~ msgid "%1, %2, %3"
-#~ msgstr "%1, %2, %3"
-
-#~ msgctxt "locality, region, country"
-#~ msgid "%1, %2, %3"
-#~ msgstr "%1, %2, %3"
-
-#~ msgctxt "locality, country"
-#~ msgid "%1, %2"
-#~ msgstr "%1, %2"
-
-#~ msgctxt "region, country"
-#~ msgid "%1, %2"
-#~ msgstr "%1, %2"
-
-#~ msgid "Remove history entry"
-#~ msgstr "Elimina l'entrada de l'historial"
-
-#~ msgid "No locations found"
-#~ msgstr "No s'ha trobat cap ubicació"
