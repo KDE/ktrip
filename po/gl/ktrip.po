@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-25 00:45+0000\n"
+"POT-Creation-Date: 2025-04-28 00:44+0000\n"
 "PO-Revision-Date: 2023-06-06 08:52+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -47,42 +47,20 @@ msgstr "© 2019 Comunidade KDE"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:19 qml/Main.qml:59
+#: qml/BackendPage.qml:15 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
 msgstr "Fornecedores"
 
-#: qml/BackendPage.qml:22
+#: qml/BackendPage.qml:18
 #, kde-format
 msgid "Select the providers relevant for your area"
 msgstr "Seleccione os fornecedores relevantes para a súa zona."
 
-#: qml/BackendPage.qml:29
+#: qml/BackendPage.qml:25
 #, kde-format
 msgid "Save"
 msgstr "Gardar"
-
-#: qml/BackendPage.qml:107 qml/BackendPage.qml:119
-#, kde-format
-msgid "Global"
-msgstr "Global"
-
-#: qml/BackendPage.qml:109
-#, kde-format
-msgid "🇪🇺 European Union"
-msgstr "Unión Europea"
-
-#: qml/BackendPage.qml:112
-#, kde-format
-msgctxt "emoji flag, country name"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: qml/BackendPage.qml:121
-#, fuzzy, kde-format
-#| msgid "🇪🇺 European Union"
-msgid "European Union"
-msgstr "Unión Europea"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format
@@ -366,6 +344,21 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
+
+#~ msgid "Global"
+#~ msgstr "Global"
+
+#~ msgid "🇪🇺 European Union"
+#~ msgstr "Unión Europea"
+
+#~ msgctxt "emoji flag, country name"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "🇪🇺 European Union"
+#~ msgid "European Union"
+#~ msgstr "Unión Europea"
 
 #, fuzzy
 #~| msgctxt "NAME OF TRANSLATORS"

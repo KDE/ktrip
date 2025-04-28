@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-25 00:45+0000\n"
+"POT-Creation-Date: 2025-04-28 00:44+0000\n"
 "PO-Revision-Date: 2025-04-07 00:05+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -47,42 +47,20 @@ msgstr "© 2019 KDE Community"
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:19 qml/Main.qml:59
+#: qml/BackendPage.qml:15 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
 msgstr "공급자"
 
-#: qml/BackendPage.qml:22
+#: qml/BackendPage.qml:18
 #, kde-format
 msgid "Select the providers relevant for your area"
 msgstr "사용 지역의 공급자를 선택하십시오"
 
-#: qml/BackendPage.qml:29
+#: qml/BackendPage.qml:25
 #, kde-format
 msgid "Save"
 msgstr "저장"
-
-#: qml/BackendPage.qml:107 qml/BackendPage.qml:119
-#, kde-format
-msgid "Global"
-msgstr "전역"
-
-#: qml/BackendPage.qml:109
-#, kde-format
-msgid "🇪🇺 European Union"
-msgstr "🇪🇺 유럽 연합"
-
-#: qml/BackendPage.qml:112
-#, kde-format
-msgctxt "emoji flag, country name"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: qml/BackendPage.qml:121
-#, fuzzy, kde-format
-#| msgid "🇪🇺 European Union"
-msgid "European Union"
-msgstr "🇪🇺 유럽 연합"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format
@@ -353,6 +331,21 @@ msgstr "선박"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "선박 및 페리"
+
+#~ msgid "Global"
+#~ msgstr "전역"
+
+#~ msgid "🇪🇺 European Union"
+#~ msgstr "🇪🇺 유럽 연합"
+
+#~ msgctxt "emoji flag, country name"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#, fuzzy
+#~| msgid "🇪🇺 European Union"
+#~ msgid "European Union"
+#~ msgstr "🇪🇺 유럽 연합"
 
 #~ msgid "Select country"
 #~ msgstr "국가 선택"
