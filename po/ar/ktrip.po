@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-04-28 00:44+0000\n"
-"PO-Revision-Date: 2025-03-10 13:51+0400\n"
+"PO-Revision-Date: 2025-04-28 18:18+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -158,17 +158,17 @@ msgstr "%3 %1 (%2)"
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
 msgid "Earlier"
-msgstr ""
+msgstr "أبكر"
 
 #: qml/JourneyQueryPage.qml:37
 #, kde-format
 msgid "Later"
-msgstr ""
+msgstr "لاحقا"
 
 #: qml/JourneyQueryPage.qml:84
 #, kde-format
 msgid "Select"
-msgstr ""
+msgstr "اختر"
 
 #: qml/JourneyQueryPage.qml:115
 #, kde-format
@@ -184,10 +184,9 @@ msgid "Load later connections"
 msgstr "لم يُعثر على وصلات"
 
 #: qml/JourneyQueryPage.qml:131
-#, fuzzy, kde-format
-#| msgid "Providers"
+#, kde-format
 msgid "Data providers:"
-msgstr "المزودون"
+msgstr "مزودي البيانات:"
 
 #: qml/JourneyQueryPage.qml:176
 #, kde-format
@@ -245,15 +244,13 @@ msgid "Select Arrival Stop"
 msgstr ""
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "من:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "إلى:"
@@ -264,8 +261,7 @@ msgid "Swap departure and arrival"
 msgstr ""
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr "المغادرة"
@@ -274,28 +270,25 @@ msgstr "المغادرة"
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "الوصول"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "وقت المغادرة:"
+msgstr "وقت المغادرة"
 
 #: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "وقت الوصول"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "ابدأ الرحلة"
+msgstr "ابحث عن الرحلة"
 
 #: qml/QueryPage.qml:220
 #, kde-format
@@ -330,7 +323,7 @@ msgstr ""
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "نظام النقل السريع"
 
 #: qml/QueryPage.qml:247
 #, kde-format
@@ -342,7 +335,7 @@ msgstr ""
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "حافلة"
 
 #: qml/QueryPage.qml:257
 #, kde-format
@@ -354,7 +347,7 @@ msgstr ""
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "عبارة"
 
 #: qml/QueryPage.qml:267
 #, kde-format
