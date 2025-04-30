@@ -28,7 +28,7 @@
                 {
                     "type": "git",
                     "url": "https://invent.kde.org/libraries/kpublictransport",
-                    "branch": "master"
+                    "branch": "release/25.04"
                 }
             ],
             "cleanup": [
