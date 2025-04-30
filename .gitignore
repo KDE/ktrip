@@ -2,6 +2,10 @@ build/
 *.kdev4
 .cmake/
 
+# Flatpak Builds
+.flatpak-builder/
+build-dir/
+
 # LSP & IDE
 /.clang-format
 /compile_commands.json
