@@ -337,20 +337,3 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
-
-#~ msgid "Global"
-#~ msgstr "Globalt"
-
-# Dei to første teikna er Unicode for EU-flagget (vert ikkje nødvendigvis vist rett i Lokalize).
-#~ msgid "🇪🇺 European Union"
-#~ msgstr "🇪🇺 Den europeiske unionen"
-
-#~ msgctxt "emoji flag, country name"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-# Dei to første teikna er Unicode for EU-flagget (vert ikkje nødvendigvis vist rett i Lokalize).
-#, fuzzy
-#~| msgid "🇪🇺 European Union"
-#~ msgid "European Union"
-#~ msgstr "🇪🇺 Den europeiske unionen"
