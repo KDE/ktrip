@@ -88,8 +88,8 @@ Kirigami.ScrollablePage {
                             delegate: KPublicTransport.FeatureIcon {
                                 required property KPublicTransport.feature modelData
                                 feature: modelData
-                                Layout.preferredHeight: Kirigami.Units.iconSizes.small
-                                Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                                height: Kirigami.Units.iconSizes.small
+                                width: Kirigami.Units.iconSizes.small
                             }
                         }
                     }
