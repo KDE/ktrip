@@ -28,6 +28,7 @@ Kirigami.ScrollablePage {
     }
 
     ListView {
+        id: listView
         model: KPublicTransport.StopoverQueryModel {
             id: theModel
         }
@@ -119,6 +120,12 @@ Kirigami.ScrollablePage {
         Controls.BusyIndicator {
             running: theModel.loading
             anchors.centerIn: parent
+        }
+
+        Kirigami.PlaceholderMessage {
+            anchors.fill: parent
+            text: i18n("No departures found.")
+            visible: listView.count === 0 && !theModel.loading && theModel.errorMessage === ""
         }
     }
 }
