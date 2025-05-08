@@ -76,56 +76,6 @@ QString Localizer::formatTime(const QVariant &obj, const QString &propertyName)
     return output;
 }
 
-QString Localizer::formatDate(const QVariant &obj, const QString &propertyName)
-{
-    const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDate();
-    if (!dt.isValid()) {
-        return {};
-    }
-
-    if (dt.year() <= 1900) { // no year specified
-        return dt.toString(i18nc("day-only date format", "dd MMMM"));
-    }
-    return QLocale().toString(dt, QLocale::ShortFormat);
-}
-
-QString Localizer::formatDateTime(const QVariant &obj, const QString &propertyName)
-{
-    const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDateTime();
-    if (!dt.isValid()) {
-        return {};
-    }
-
-    auto s = QLocale().toString(dt, QLocale::ShortFormat);
-    if (needsTimeZone(dt)) {
-        s += QLatin1Char(' ') + tzAbbreviation(dt);
-    }
-    return s;
-}
-
-QString Localizer::formatDateOrDateTimeLocal(const QVariant &obj, const QString &propertyName)
-{
-    const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDateTime();
-    if (!dt.isValid()) {
-        return {};
-    }
-
-    // detect likely date-only values
-    if (dt.timeSpec() == Qt::LocalTime && (dt.time() == QTime{0, 0, 0} || dt.time() == QTime{23, 59, 59})) {
-        return QLocale().toString(dt.date(), QLocale::ShortFormat);
-    }
-
-    return QLocale().toString(dt.toLocalTime(), QLocale::ShortFormat);
-}
-
-QString Localizer::formatTimeZoneOffset(qint64 seconds)
-{
-    if (seconds < 0) {
-        return QLocale().negativeSign() + KFormat().formatDuration((-seconds * 1000), KFormat::HideSeconds);
-    }
-    return QLocale().positiveSign() + KFormat().formatDuration((seconds * 1000), KFormat::HideSeconds);
-}
-
 QString Localizer::formatDuration(int seconds)
 {
     const auto opts = static_cast<KFormat::DurationFormatOptions>(KFormat::AbbreviatedDuration | KFormat::HideSeconds); // ### workaround for KF < 6.12
