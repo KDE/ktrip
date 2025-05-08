@@ -33,6 +33,13 @@ Kirigami.ScrollablePage {
             id: theModel
         }
 
+        header: Controls.ToolButton {
+            width: parent.width
+            visible: theModel.canQueryPrevious
+            onClicked: theModel.queryPrevious()
+            icon.name: "arrow-up"
+        }
+
         delegate: FormCard.AbstractFormDelegate {
             id: delegate
 
