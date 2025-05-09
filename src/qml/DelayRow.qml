@@ -16,6 +16,7 @@ RowLayout {
     required property KPublicTransport.stopover stopover
     required property int delay
     required property string originalTime
+    required property bool hasExpectedTime
 
     readonly property bool delayed: root.delay * 60 > 1 || root.stopover.disruptionEffect === KPublicTransport.Disruption.NoService
 
@@ -25,7 +26,7 @@ RowLayout {
             return i18nc("a train/bus journey canceled by its operator", "Canceled") + ' · ';
         } else if (root.delayed) {
             return i18nc("duration of the delay", "Delayed %1", Localizer.formatDuration(root.delay * 60)) + ' · ';
-        } else if (root.stopover.hasExpectedDepartureTime) {
+        } else if (root.hasExpectedTime) {
             return i18nc("@info", "On time") + ' · ';
         } else {
             return ''

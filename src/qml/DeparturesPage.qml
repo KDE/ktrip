@@ -19,7 +19,8 @@ Kirigami.ScrollablePage {
     property alias journeyRequest: theModel.request
     property alias manager: theModel.manager
 
-    title: i18nc("@title", "Departures")
+    readonly property bool showArrivals: theModel.request.mode === KPublicTransport.StopoverRequest.QueryArrival
+    title: root.showArrivals ? i18nc("@title", "Arrivals") : i18nc("@title", "Departures")
 
     header: Kirigami.InlineMessage {
         type: Kirigami.MessageType.Error
@@ -79,8 +80,9 @@ Kirigami.ScrollablePage {
 
                         DelayRow {
                             stopover: delegate.departure
-                            delay: delegate.departure.departureDelay
-                            originalTime: Localizer.formatTime(delegate.departure, "scheduledDepartureTime")
+                            delay: root.showArrivals ? delegate.departure.arrivalDelay : delegate.departure.departureDelay
+                            originalTime: Localizer.formatTime(delegate.departure, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
+                            hasExpectedTime: root.showArrivals ? delegate.departure.hasExpectedArrivalTime : delegate.departure.hasExpectedDepartureTime
                         }
 
                         Controls.Label {
@@ -104,7 +106,9 @@ Kirigami.ScrollablePage {
                 }
 
                 Kirigami.Heading {
-                    text: Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
+                    text: root.showArrivals ?
+                        Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedArrivalTime ? "expectedArrivalTime" : "scheduledArrivalTime") :
+                        Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
                 }
             }
 
@@ -131,7 +135,7 @@ Kirigami.ScrollablePage {
 
         Kirigami.PlaceholderMessage {
             anchors.fill: parent
-            text: i18n("No departures found.")
+            text: root.showArrivals ? i18n("No arrivals found.") : i18n("No departures found.")
             visible: listView.count === 0 && !theModel.loading && theModel.errorMessage === ""
         }
     }

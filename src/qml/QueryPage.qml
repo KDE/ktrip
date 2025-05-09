@@ -179,8 +179,10 @@ FormCard.FormCardPage {
                 if (!root.departures) {
                     req.from = root.departureStop;
                     req.to = root.arrivalStop;
+                    req.dateTimeMode = departureArrivalSelector.selectedIndex === 0 ? PublicTransport.JourneyRequest.Departure : PublicTransport.JourneyRequest.Arrival;
                 } else {
                     req.stop = root.departureStop;
+                    req.mode = departureArrivalSelector.selectedIndex === 0 ? PublicTransport.StopoverRequest.QueryDeparture : PublicTransport.StopoverRequest.QueryArrival;
                 }
 
                 req.dateTime = dateTimeInput.value;
@@ -202,12 +204,6 @@ FormCard.FormCardPage {
                         lineModes.push(PublicTransport.Line.Ferry, PublicTransport.Line.Boat);
                 }
                 req.lineModes = lineModes;
-
-                if (departureArrivalSelector.selectedIndex === 0) {
-                    req.dateTimeMode = PublicTransport.JourneyRequest.Departure;
-                } else if (departureArrivalSelector.selectedIndex === 1) {
-                    req.dateTimeMode = PublicTransport.JourneyRequest.Arrival;
-                }
 
                 console.log(req);
 
