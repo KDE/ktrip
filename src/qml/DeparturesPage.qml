@@ -73,7 +73,7 @@ Kirigami.ScrollablePage {
                     }
 
                     Flow {
-                        spacing: 0
+                        spacing: Kirigami.Units.smallSpacing
 
                         Layout.fillWidth: true
 
