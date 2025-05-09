@@ -180,15 +180,16 @@ FormCard.FormCardPage {
                     req.from = root.departureStop;
                     req.to = root.arrivalStop;
                     req.dateTimeMode = departureArrivalSelector.selectedIndex === 0 ? PublicTransport.JourneyRequest.Departure : PublicTransport.JourneyRequest.Arrival;
+                    req.includePaths = true;
+                    req.maximumResults = 6;
                 } else {
                     req.stop = root.departureStop;
                     req.mode = departureArrivalSelector.selectedIndex === 0 ? PublicTransport.StopoverRequest.QueryDeparture : PublicTransport.StopoverRequest.QueryArrival;
+                    req.maximumResults = 12;
                 }
 
                 req.dateTime = dateTimeInput.value;
-                req.maximumResults = 6;
                 req.downloadAssets = true;
-                req.includePaths = true;
 
                 let lineModes = [];
                 if (root.fullModeSwitchState() == undefined) {
