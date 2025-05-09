@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:44+0000\n"
+"POT-Creation-Date: 2025-05-09 00:44+0000\n"
 "PO-Revision-Date: 2025-04-25 12:51+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -26,6 +26,20 @@ msgstr "Freek de Kruijf - 2019 t/m 2025"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
+
+#: localizer.cpp:98
+#, kde-format
+msgctxt "time"
+msgid "Now"
+msgstr ""
+
+#: localizer.cpp:102
+#, kde-format
+msgctxt "time"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] ""
+msgstr[1] ""
 
 #: main.cpp:76
 #, kde-format
@@ -127,16 +141,43 @@ msgstr[1] "%1 wijzigingen"
 msgid "No connections found"
 msgstr "Geen verbindingen gevonden"
 
-#: qml/DeparturesPage.qml:21
+#: qml/DelayRow.qml:25
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Cancel"
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Canceled"
+msgstr "Annuleren"
+
+#: qml/DelayRow.qml:27
+#, kde-format
+msgctxt "duration of the delay"
+msgid "Delayed %1"
+msgstr ""
+
+#: qml/DelayRow.qml:29
+#, kde-format
+msgctxt "@info"
+msgid "On time"
+msgstr ""
+
+#: qml/DeparturesPage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Vertrektijden"
 
-#: qml/DeparturesPage.qml:40
+#: qml/DeparturesPage.qml:87
 #, kde-format
-msgid "%3 %1 (%2)"
-msgstr "%3 %1 (%2)"
+msgctxt "@info"
+msgid "Platform %1"
+msgstr ""
+
+#: qml/DeparturesPage.qml:134
+#, fuzzy, kde-format
+#| msgid "No locations found"
+msgid "No departures found."
+msgstr "Geen locaties gevonden"
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -336,6 +377,9 @@ msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Boten of veerboten"
 
+#~ msgid "%3 %1 (%2)"
+#~ msgstr "%3 %1 (%2)"
+
 #~ msgid "Global"
 #~ msgstr "Globaal"
 
@@ -400,9 +444,6 @@ msgstr "Boten of veerboten"
 #~ msgid "Remove history entry"
 #~ msgstr "Geschiedenisitem verwijderen"
 
-#~ msgid "No locations found"
-#~ msgstr "Geen locaties gevonden"
-
 #~ msgctxt "@action"
 #~ msgid "Search"
 #~ msgstr "Zoeken"
@@ -431,10 +472,6 @@ msgstr "Boten of veerboten"
 
 #~ msgid "(%1)"
 #~ msgstr "(%1)"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "Annuleren"
 
 #~ msgctxt "@action:button"
 #~ msgid "Accept"

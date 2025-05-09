@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:44+0000\n"
+"POT-Creation-Date: 2025-05-09 00:44+0000\n"
 "PO-Revision-Date: 2025-03-25 12:20+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -26,6 +26,20 @@ msgstr "Giovanni Sora"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "g.sora@tiscali.it"
+
+#: localizer.cpp:98
+#, kde-format
+msgctxt "time"
+msgid "Now"
+msgstr ""
+
+#: localizer.cpp:102
+#, kde-format
+msgctxt "time"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] ""
+msgstr[1] ""
 
 #: main.cpp:76
 #, kde-format
@@ -127,16 +141,43 @@ msgstr[1] "%1 Modificationes"
 msgid "No connections found"
 msgstr "Nulle connexion trovate"
 
-#: qml/DeparturesPage.qml:21
+#: qml/DelayRow.qml:25
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Cancel"
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Canceled"
+msgstr "Cancella"
+
+#: qml/DelayRow.qml:27
+#, kde-format
+msgctxt "duration of the delay"
+msgid "Delayed %1"
+msgstr ""
+
+#: qml/DelayRow.qml:29
+#, kde-format
+msgctxt "@info"
+msgid "On time"
+msgstr ""
+
+#: qml/DeparturesPage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Partitas"
 
-#: qml/DeparturesPage.qml:40
+#: qml/DeparturesPage.qml:87
 #, kde-format
-msgid "%3 %1 (%2)"
-msgstr "%3 %1 (%2)"
+msgctxt "@info"
+msgid "Platform %1"
+msgstr ""
+
+#: qml/DeparturesPage.qml:134
+#, fuzzy, kde-format
+#| msgid "No locations found"
+msgid "No departures found."
+msgstr "Nulle location trovate"
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -336,6 +377,9 @@ msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Barcas o ferries"
 
+#~ msgid "%3 %1 (%2)"
+#~ msgstr "%3 %1 (%2)"
+
 #~ msgid "Global"
 #~ msgstr "Global"
 
@@ -402,9 +446,6 @@ msgstr "Barcas o ferries"
 #~ msgid "Remove history entry"
 #~ msgstr "Remove entrata de chronologia"
 
-#~ msgid "No locations found"
-#~ msgstr "Nulle location trovate"
-
 #~ msgctxt "@action"
 #~ msgid "Search"
 #~ msgstr "Cerca"
@@ -433,10 +474,6 @@ msgstr "Barcas o ferries"
 
 #~ msgid "(%1)"
 #~ msgstr "(%1)"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "Cancella"
 
 #~ msgctxt "@action:button"
 #~ msgid "Accept"

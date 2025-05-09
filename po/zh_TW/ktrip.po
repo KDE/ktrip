@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:44+0000\n"
+"POT-Creation-Date: 2025-05-09 00:44+0000\n"
 "PO-Revision-Date: 2024-01-08 19:17+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -30,6 +30,19 @@ msgstr "Kisaragi Hiu"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mail@kisaragi-hiu.com"
+
+#: localizer.cpp:98
+#, kde-format
+msgctxt "time"
+msgid "Now"
+msgstr ""
+
+#: localizer.cpp:102
+#, kde-format
+msgctxt "time"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] ""
 
 #: main.cpp:76
 #, kde-format
@@ -127,16 +140,43 @@ msgstr[0] "%1 個變更"
 msgid "No connections found"
 msgstr "找不到轉乘"
 
-#: qml/DeparturesPage.qml:21
+#: qml/DelayRow.qml:25
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Cancel"
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Canceled"
+msgstr "取消"
+
+#: qml/DelayRow.qml:27
+#, kde-format
+msgctxt "duration of the delay"
+msgid "Delayed %1"
+msgstr ""
+
+#: qml/DelayRow.qml:29
+#, kde-format
+msgctxt "@info"
+msgid "On time"
+msgstr ""
+
+#: qml/DeparturesPage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "出發"
 
-#: qml/DeparturesPage.qml:40
+#: qml/DeparturesPage.qml:87
 #, kde-format
-msgid "%3 %1 (%2)"
-msgstr "%3 %1 (%2)"
+msgctxt "@info"
+msgid "Platform %1"
+msgstr ""
+
+#: qml/DeparturesPage.qml:134
+#, fuzzy, kde-format
+#| msgid "No locations found"
+msgid "No departures found."
+msgstr "找不到位置"
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -347,6 +387,9 @@ msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
 
+#~ msgid "%3 %1 (%2)"
+#~ msgstr "%3 %1 (%2)"
+
 #~ msgid "Global"
 #~ msgstr "全球"
 
@@ -367,9 +410,6 @@ msgstr ""
 #~| msgid "Your names"
 #~ msgid "Sort by name"
 #~ msgstr "Kisaragi Hiu"
-
-#~ msgid "No locations found"
-#~ msgstr "找不到位置"
 
 #~ msgctxt "@action"
 #~ msgid "Search"
@@ -399,10 +439,6 @@ msgstr ""
 
 #~ msgid "(%1)"
 #~ msgstr "(%1)"
-
-#~ msgctxt "@action:button"
-#~ msgid "Cancel"
-#~ msgstr "取消"
 
 #~ msgctxt "@action:button"
 #~ msgid "Accept"

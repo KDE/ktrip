@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-28 00:44+0000\n"
+"POT-Creation-Date: 2025-05-09 00:44+0000\n"
 "PO-Revision-Date: 2025-04-28 18:18+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -27,6 +27,24 @@ msgstr "زايد السعيدي"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zayed.alsaidi@gmail.com"
+
+#: localizer.cpp:98
+#, kde-format
+msgctxt "time"
+msgid "Now"
+msgstr ""
+
+#: localizer.cpp:102
+#, kde-format
+msgctxt "time"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #: main.cpp:76
 #, kde-format
@@ -144,16 +162,41 @@ msgstr[5] "%1 تغير"
 msgid "No connections found"
 msgstr "لم يُعثر على وصلات"
 
-#: qml/DeparturesPage.qml:21
+#: qml/DelayRow.qml:25
+#, kde-format
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Canceled"
+msgstr ""
+
+#: qml/DelayRow.qml:27
+#, kde-format
+msgctxt "duration of the delay"
+msgid "Delayed %1"
+msgstr ""
+
+#: qml/DelayRow.qml:29
+#, kde-format
+msgctxt "@info"
+msgid "On time"
+msgstr ""
+
+#: qml/DeparturesPage.qml:22
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "المغادرة"
 
-#: qml/DeparturesPage.qml:40
+#: qml/DeparturesPage.qml:87
 #, kde-format
-msgid "%3 %1 (%2)"
-msgstr "%3 %1 (%2)"
+msgctxt "@info"
+msgid "Platform %1"
+msgstr ""
+
+#: qml/DeparturesPage.qml:134
+#, fuzzy, kde-format
+#| msgid "No locations found"
+msgid "No departures found."
+msgstr "لم يُعثر على مواقع"
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -355,6 +398,9 @@ msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
 
+#~ msgid "%3 %1 (%2)"
+#~ msgstr "%3 %1 (%2)"
+
 #~ msgid "Global"
 #~ msgstr "عام"
 
@@ -375,9 +421,6 @@ msgstr ""
 #~| msgid "Your names"
 #~ msgid "Sort by name"
 #~ msgstr "زايد السعيدي"
-
-#~ msgid "No locations found"
-#~ msgstr "لم يُعثر على مواقع"
 
 #~ msgctxt "@action"
 #~ msgid "Search"
