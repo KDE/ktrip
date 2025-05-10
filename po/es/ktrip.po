@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-09 00:44+0000\n"
-"PO-Revision-Date: 2025-04-25 12:22+0100\n"
+"POT-Creation-Date: 2025-05-10 00:46+0000\n"
+"PO-Revision-Date: 2025-05-10 00:37+0100\n"
 "Last-Translator: Sofía Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -23,26 +23,26 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Eloy Cuadra"
+msgstr "Sofía Priego,Eloy Cuadra"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "ecuadra@eloihr.net"
+msgstr "spriego@darksylvania.net,ecuadra@eloihr.net"
 
 #: localizer.cpp:98
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Ahora"
 
 #: localizer.cpp:102
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hace %1 min"
+msgstr[1] "Hace %1 min"
 
 #: main.cpp:76
 #, kde-format
@@ -144,41 +144,54 @@ msgstr[1] "%1 cambios"
 msgid "No connections found"
 msgstr "No se ha encontrado ninguna conexión"
 
-#: qml/DelayRow.qml:25
+#: qml/DelayRow.qml:26
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Canceled"
-msgstr ""
+msgstr "Cancelado"
 
-#: qml/DelayRow.qml:27
+#: qml/DelayRow.qml:28
 #, kde-format
 msgctxt "duration of the delay"
 msgid "Delayed %1"
-msgstr ""
+msgstr "Retraso de %1"
 
-#: qml/DelayRow.qml:29
+#: qml/DelayRow.qml:30
 #, kde-format
 msgctxt "@info"
 msgid "On time"
-msgstr ""
+msgstr "A la hora"
 
-#: qml/DeparturesPage.qml:22
+#: qml/DeparturesPage.qml:23
+#, fuzzy, kde-format
+#| msgctxt "train or bus arrival"
+#| msgid "Arrival"
+msgctxt "@title"
+msgid "Arrivals"
+msgstr "Llegada"
+
+#: qml/DeparturesPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Salidas"
 
-#: qml/DeparturesPage.qml:87
+#: qml/DeparturesPage.qml:89
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "Andén %1"
 
-#: qml/DeparturesPage.qml:134
+#: qml/DeparturesPage.qml:138
 #, fuzzy, kde-format
-#| msgid "Departures"
+#| msgid "No departures found."
+msgid "No arrivals found."
+msgstr "No se han encontrado salidas."
+
+#: qml/DeparturesPage.qml:138
+#, kde-format
 msgid "No departures found."
-msgstr "Salidas"
+msgstr "No se han encontrado salidas."
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -313,83 +326,67 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "Buscar trayecto"
 
-#: qml/QueryPage.qml:220
+#: qml/QueryPage.qml:216
 #, kde-format
 msgid "Mode of transportation"
 msgstr "Medio de transporte"
 
-#: qml/QueryPage.qml:226
+#: qml/QueryPage.qml:222
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "Trenes de larga distancia"
 
-#: qml/QueryPage.qml:227
+#: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "Trenes de alta velocidad o intercity"
 
-#: qml/QueryPage.qml:236
+#: qml/QueryPage.qml:232
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "Trenes locales"
 
-#: qml/QueryPage.qml:237
+#: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "Trenes regionales o locales"
 
-#: qml/QueryPage.qml:246
+#: qml/QueryPage.qml:242
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "Tránsito rápido"
 
-#: qml/QueryPage.qml:247
+#: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "Tránsito rápido, metro, tranvía"
 
-#: qml/QueryPage.qml:256
+#: qml/QueryPage.qml:252
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "Bus"
 
-#: qml/QueryPage.qml:257
+#: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "Servicios de bus local o regional"
 
-#: qml/QueryPage.qml:266
+#: qml/QueryPage.qml:262
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "Transbordador"
 
-#: qml/QueryPage.qml:267
+#: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Barcos o transbordadores"
-
-#~ msgid "%3 %1 (%2)"
-#~ msgstr "%3 %1 (%2)"
-
-#~ msgid "Global"
-#~ msgstr "Global"
-
-#~ msgid "🇪🇺 European Union"
-#~ msgstr "🇪🇺 Unión europea"
-
-#~ msgctxt "emoji flag, country name"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#~ msgid "European Union"
-#~ msgstr "Unión europea"

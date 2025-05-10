@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-09 00:44+0000\n"
-"PO-Revision-Date: 2025-04-25 04:34+0200\n"
+"POT-Creation-Date: 2025-05-10 00:46+0000\n"
+"PO-Revision-Date: 2025-05-09 05:10+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -32,15 +32,15 @@ msgstr "Temuri.doghonadze@gmail.com"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "ახლა"
 
 #: localizer.cpp:102
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 წუთის წინ"
+msgstr[1] "%1 წუთის წინ"
 
 #: main.cpp:76
 #, kde-format
@@ -142,41 +142,54 @@ msgstr[1] "%1 ცვლილება"
 msgid "No connections found"
 msgstr "შეერთება ვერ ვიპოვე"
 
-#: qml/DelayRow.qml:25
+#: qml/DelayRow.qml:26
 #, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Canceled"
-msgstr ""
+msgstr "გაუქმებულია"
 
-#: qml/DelayRow.qml:27
+#: qml/DelayRow.qml:28
 #, kde-format
 msgctxt "duration of the delay"
 msgid "Delayed %1"
-msgstr ""
+msgstr "აგვიანებს %1-ით"
 
-#: qml/DelayRow.qml:29
+#: qml/DelayRow.qml:30
 #, kde-format
 msgctxt "@info"
 msgid "On time"
-msgstr ""
+msgstr "დროზე"
 
-#: qml/DeparturesPage.qml:22
+#: qml/DeparturesPage.qml:23
+#, fuzzy, kde-format
+#| msgctxt "train or bus arrival"
+#| msgid "Arrival"
+msgctxt "@title"
+msgid "Arrivals"
+msgstr "ჩამოსვლა"
+
+#: qml/DeparturesPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "გასვლები"
 
-#: qml/DeparturesPage.qml:87
+#: qml/DeparturesPage.qml:89
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "პლატფორმა %1"
 
-#: qml/DeparturesPage.qml:134
+#: qml/DeparturesPage.qml:138
 #, fuzzy, kde-format
-#| msgid "No locations found"
+#| msgid "No departures found."
+msgid "No arrivals found."
+msgstr "გამგზავრებები ვერ მოიძებნა."
+
+#: qml/DeparturesPage.qml:138
+#, kde-format
 msgid "No departures found."
-msgstr "მდებარეობები ვერ მოიძებნა"
+msgstr "გამგზავრებები ვერ მოიძებნა."
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -311,66 +324,66 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "მოგზაურობის ძებნა"
 
-#: qml/QueryPage.qml:220
+#: qml/QueryPage.qml:216
 #, kde-format
 msgid "Mode of transportation"
 msgstr "ტრანსპორტის რეჟიმი"
 
-#: qml/QueryPage.qml:226
+#: qml/QueryPage.qml:222
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "დიდმანძილიანი მატარებლები"
 
-#: qml/QueryPage.qml:227
+#: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "ჩქაროსნული ან საქალაქთაშორისო მატარებლები"
 
-#: qml/QueryPage.qml:236
+#: qml/QueryPage.qml:232
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "ლოკალური მატარებლები"
 
-#: qml/QueryPage.qml:237
+#: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "რეგინონალური ან ლოკალური მატარებლები"
 
-#: qml/QueryPage.qml:246
+#: qml/QueryPage.qml:242
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "სწრაფი ტრანსპორტი"
 
-#: qml/QueryPage.qml:247
+#: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "სტრაფი ტრანსპორტი, მეტრო, ტრამვაი"
 
-#: qml/QueryPage.qml:256
+#: qml/QueryPage.qml:252
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "ავტობუსი"
 
-#: qml/QueryPage.qml:257
+#: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "ლოკალური ან რეგიონალური ავტობუსი"
 
-#: qml/QueryPage.qml:266
+#: qml/QueryPage.qml:262
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "ბორანი"
 
-#: qml/QueryPage.qml:267
+#: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
