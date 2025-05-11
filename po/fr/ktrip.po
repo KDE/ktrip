@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-10 00:46+0000\n"
-"PO-Revision-Date: 2025-03-24 10:11+0100\n"
+"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"PO-Revision-Date: 2025-05-10 08:40+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,15 +29,15 @@ msgstr "sdepiets@gmail.com, xavier.besnard@kde.org"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Maintenant"
 
 #: localizer.cpp:102
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 minute avant"
+msgstr[1] "%1 minutes avant"
 
 #: main.cpp:76
 #, kde-format
@@ -140,24 +140,22 @@ msgid "No connections found"
 msgstr "Aucune correspondance trouvée"
 
 #: qml/DelayRow.qml:26
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Cancel"
+#, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Canceled"
-msgstr "Annuler"
+msgstr "Annulé"
 
 #: qml/DelayRow.qml:28
 #, kde-format
 msgctxt "duration of the delay"
 msgid "Delayed %1"
-msgstr ""
+msgstr "Retardé de %1"
 
 #: qml/DelayRow.qml:30
 #, kde-format
 msgctxt "@info"
 msgid "On time"
-msgstr ""
+msgstr "À l'heure"
 
 #: qml/DeparturesPage.qml:23
 #, fuzzy, kde-format
@@ -177,7 +175,7 @@ msgstr "Départs"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "Quai %1"
 
 #: qml/DeparturesPage.qml:138
 #, fuzzy, kde-format
@@ -186,10 +184,9 @@ msgid "No arrivals found."
 msgstr "Aucun emplacement trouvé"
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Aucun emplacement trouvé"
+msgstr "Aucun départ n'a été trouvé."
 
 #: qml/JourneyQueryPage.qml:31
 #, kde-format
@@ -324,66 +321,66 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "Rechercher un trajet"
 
-#: qml/QueryPage.qml:216
+#: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
 msgstr "Mode de transport"
 
-#: qml/QueryPage.qml:222
+#: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "Trains longue distance"
 
-#: qml/QueryPage.qml:223
+#: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "Trains à grande vitesse ou interurbains"
 
-#: qml/QueryPage.qml:232
+#: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "Trains locaux"
 
-#: qml/QueryPage.qml:233
+#: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "Trains régionaux ou locaux"
 
-#: qml/QueryPage.qml:242
+#: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "Correspondance rapide"
 
-#: qml/QueryPage.qml:243
+#: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "Correspondance rapide, métro, tramway"
 
-#: qml/QueryPage.qml:252
+#: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "Autobus"
 
-#: qml/QueryPage.qml:253
+#: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "Services de bus locaux ou régionaux"
 
-#: qml/QueryPage.qml:262
+#: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "Traversier"
 
-#: qml/QueryPage.qml:263
+#: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
