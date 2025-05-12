@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-03-30 11:21+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -197,43 +197,6 @@ msgstr "Vietas nav atrastas"
 msgid "No departures found."
 msgstr "Vietas nav atrastas"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "Agrāk"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "Vēlāk"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "Atlasīt"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "Ielādēt agrākus savienojumus"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Ielādēt vēlākus savienojumus"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "Datu sniedzēji:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "Joprojām ielādē rezultātus…"
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -394,6 +357,29 @@ msgstr "Prāmis"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Kuģi vai prāmji"
+
+#~ msgid "Earlier"
+#~ msgstr "Agrāk"
+
+#~ msgid "Later"
+#~ msgstr "Vēlāk"
+
+#~ msgid "Select"
+#~ msgstr "Atlasīt"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Ielādēt agrākus savienojumus"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Ielādēt vēlākus savienojumus"
+
+#~ msgid "Data providers:"
+#~ msgstr "Datu sniedzēji:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "Joprojām ielādē rezultātus…"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

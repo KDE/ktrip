@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2019-11-05 20:23+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -203,46 +203,6 @@ msgstr "Dátum odchodu:"
 msgid "No departures found."
 msgstr "Dátum odchodu:"
 
-#: qml/JourneyQueryPage.qml:31
-#, fuzzy, kde-format
-#| msgid "Earlier"
-msgid "Earlier"
-msgstr "Skôr"
-
-#: qml/JourneyQueryPage.qml:37
-#, fuzzy, kde-format
-#| msgid "Later"
-msgid "Later"
-msgstr "Neskôr"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:124
-#, fuzzy, kde-format
-#| msgid "Connections"
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Pripojenia"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr ""
-
 #: qml/Main.qml:36
 #, fuzzy, kde-format
 #| msgid "Start journey"
@@ -414,6 +374,22 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Earlier"
+#~ msgid "Earlier"
+#~ msgstr "Skôr"
+
+#, fuzzy
+#~| msgid "Later"
+#~ msgid "Later"
+#~ msgstr "Neskôr"
+
+#, fuzzy
+#~| msgid "Connections"
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Pripojenia"
 
 #~ msgctxt "@action"
 #~ msgid "Search"

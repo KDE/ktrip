@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-04-28 18:18+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -212,44 +212,6 @@ msgstr "لم يُعثر على مواقع"
 msgid "No departures found."
 msgstr "لم يُعثر على مواقع"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "أبكر"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "لاحقا"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "اختر"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:124
-#, fuzzy, kde-format
-#| msgid "No connections found"
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "لم يُعثر على وصلات"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "مزودي البيانات:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr ""
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -411,6 +373,24 @@ msgstr "عبارة"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
+
+#~ msgid "Earlier"
+#~ msgstr "أبكر"
+
+#~ msgid "Later"
+#~ msgstr "لاحقا"
+
+#~ msgid "Select"
+#~ msgstr "اختر"
+
+#, fuzzy
+#~| msgid "No connections found"
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "لم يُعثر على وصلات"
+
+#~ msgid "Data providers:"
+#~ msgstr "مزودي البيانات:"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

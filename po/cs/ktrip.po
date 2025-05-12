@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2021-12-17 16:45+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -195,43 +195,6 @@ msgstr "Nenalezeno žádné místo"
 msgid "No departures found."
 msgstr "Nenalezeno žádné místo"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "Dříve"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "Později"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "Vybrat"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "Načíst dřívější spojení"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Načíst pozdější spojení"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "Poskytovatelé dat:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr ""
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -395,6 +358,26 @@ msgstr "Přívoz"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Lodě nebo přívozy"
+
+#~ msgid "Earlier"
+#~ msgstr "Dříve"
+
+#~ msgid "Later"
+#~ msgstr "Později"
+
+#~ msgid "Select"
+#~ msgstr "Vybrat"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Načíst dřívější spojení"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Načíst pozdější spojení"
+
+#~ msgid "Data providers:"
+#~ msgstr "Poskytovatelé dat:"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

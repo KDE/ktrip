@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
-"PO-Revision-Date: 2025-05-09 07:53+0300\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
+"PO-Revision-Date: 2025-05-11 18:53+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -171,12 +171,10 @@ msgid "On time"
 msgstr "בזמן"
 
 #: qml/DeparturesPage.qml:23
-#, fuzzy, kde-format
-#| msgctxt "train or bus arrival"
-#| msgid "Arrival"
+#, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr "הגעה"
+msgstr "נחיתות"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -191,52 +189,14 @@ msgid "Platform %1"
 msgstr "רציף %1"
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No departures found."
+#, kde-format
 msgid "No arrivals found."
-msgstr "לא נמצאו המראות."
+msgstr "לא נמצאו נחיתות."
 
 #: qml/DeparturesPage.qml:138
 #, kde-format
 msgid "No departures found."
 msgstr "לא נמצאו המראות."
-
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "מוקדם יותר"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "מאוחר יותר"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "בחירה"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "טעינת החלפת טיסות קודמות יותר"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "טעינת החלפת טיסות מאוחרות יותר"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "ספקי נתונים:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "התוצאות עדיין מתקבלות…"
 
 #: qml/Main.qml:36
 #, kde-format
@@ -398,6 +358,29 @@ msgstr "מעבורת"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "סירות או מעבורות"
+
+#~ msgid "Earlier"
+#~ msgstr "מוקדם יותר"
+
+#~ msgid "Later"
+#~ msgstr "מאוחר יותר"
+
+#~ msgid "Select"
+#~ msgstr "בחירה"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "טעינת החלפת טיסות קודמות יותר"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "טעינת החלפת טיסות מאוחרות יותר"
+
+#~ msgid "Data providers:"
+#~ msgstr "ספקי נתונים:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "התוצאות עדיין מתקבלות…"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

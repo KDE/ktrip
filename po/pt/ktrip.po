@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2022-03-26 23:07+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -935,45 +935,6 @@ msgstr "Não foram encontradas localizações"
 msgid "No departures found."
 msgstr "Não foram encontradas localizações"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:124
-#, fuzzy, kde-format
-#| msgid "No connections found"
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Não foram encontradas ligações"
-
-#: qml/JourneyQueryPage.qml:131
-#, fuzzy, kde-format
-#| msgid "Providers"
-msgid "Data providers:"
-msgstr "Fornecedores"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr ""
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -1141,6 +1102,17 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
+
+#, fuzzy
+#~| msgid "No connections found"
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Não foram encontradas ligações"
+
+#, fuzzy
+#~| msgid "Providers"
+#~ msgid "Data providers:"
+#~ msgstr "Fornecedores"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

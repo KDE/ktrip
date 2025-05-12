@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2022-06-19 13:48+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -191,43 +191,6 @@ msgstr "Avgangar"
 msgid "No departures found."
 msgstr "Avgangar"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:124
-#, fuzzy, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Fann ingen samband"
-
-#: qml/JourneyQueryPage.qml:131
-#, fuzzy, kde-format
-msgid "Data providers:"
-msgstr "Leverandørar"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr ""
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -388,6 +351,15 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Fann ingen samband"
+
+#, fuzzy
+#~ msgid "Data providers:"
+#~ msgstr "Leverandørar"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

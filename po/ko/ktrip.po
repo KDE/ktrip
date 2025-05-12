@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-04-07 00:05+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -188,43 +188,6 @@ msgstr "위치를 찾을 수 없음"
 msgid "No departures found."
 msgstr "위치를 찾을 수 없음"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "더 일찍"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "더 나중"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "선택"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "이전 연결 불러오기"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "이후 연결 표시"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "데이터 공급자:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "결과를 계속 가져오고 있습니다…"
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -385,6 +348,29 @@ msgstr "선박"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "선박 및 페리"
+
+#~ msgid "Earlier"
+#~ msgstr "더 일찍"
+
+#~ msgid "Later"
+#~ msgstr "더 나중"
+
+#~ msgid "Select"
+#~ msgstr "선택"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "이전 연결 불러오기"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "이후 연결 표시"
+
+#~ msgid "Data providers:"
+#~ msgstr "데이터 공급자:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "결과를 계속 가져오고 있습니다…"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1(%2)"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-05-10 16:12+0100\n"
 "Last-Translator: Sofía Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -190,43 +190,6 @@ msgstr "No se han encontrado llegadas."
 msgid "No departures found."
 msgstr "No se han encontrado salidas."
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "Más temprano"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "Más tarde"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "Seleccionar"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "Cargar conexiones anteriores"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Cargar conexiones posteriores"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "Proveedores de datos:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "Todavía se están obteniendo resultados…"
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -387,3 +350,26 @@ msgstr "Transbordador"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Barcos o transbordadores"
+
+#~ msgid "Earlier"
+#~ msgstr "Más temprano"
+
+#~ msgid "Later"
+#~ msgstr "Más tarde"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Cargar conexiones anteriores"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Cargar conexiones posteriores"
+
+#~ msgid "Data providers:"
+#~ msgstr "Proveedores de datos:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "Todavía se están obteniendo resultados…"

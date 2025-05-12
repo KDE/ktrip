@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2021-12-21 09:05-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -193,49 +193,6 @@ msgstr "Nenhum local encontrado"
 msgid "No departures found."
 msgstr "Nenhum local encontrado"
 
-#: qml/JourneyQueryPage.qml:31
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Earlier"
-msgid "Earlier"
-msgstr "Mais cedo"
-
-#: qml/JourneyQueryPage.qml:37
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Later"
-msgid "Later"
-msgstr "Mais tarde"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr ""
-
-#: qml/JourneyQueryPage.qml:124
-#, fuzzy, kde-format
-#| msgid "No connections found"
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Nenhuma conexão encontrada"
-
-#: qml/JourneyQueryPage.qml:131
-#, fuzzy, kde-format
-#| msgid "Providers"
-msgid "Data providers:"
-msgstr "Fornecedores"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr ""
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -403,6 +360,29 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Earlier"
+#~ msgid "Earlier"
+#~ msgstr "Mais cedo"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Later"
+#~ msgid "Later"
+#~ msgstr "Mais tarde"
+
+#, fuzzy
+#~| msgid "No connections found"
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Nenhuma conexão encontrada"
+
+#, fuzzy
+#~| msgid "Providers"
+#~ msgid "Data providers:"
+#~ msgstr "Fornecedores"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

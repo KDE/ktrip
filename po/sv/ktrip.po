@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-04-05 21:43+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -193,43 +193,6 @@ msgstr "Inga platser hittades"
 msgid "No departures found."
 msgstr "Inga platser hittades"
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "Tidigare"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "Senare"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "Välj"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "Läs in tidigare anslutningar"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Läs in senare anslutningar"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "Dataleverantörer:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "Hämtar fortfarande resultat…"
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -390,6 +353,29 @@ msgstr "Färja"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Båtar eller färjor"
+
+#~ msgid "Earlier"
+#~ msgstr "Tidigare"
+
+#~ msgid "Later"
+#~ msgstr "Senare"
+
+#~ msgid "Select"
+#~ msgstr "Välj"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Läs in tidigare anslutningar"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Läs in senare anslutningar"
+
+#~ msgid "Data providers:"
+#~ msgstr "Dataleverantörer:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "Hämtar fortfarande resultat…"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

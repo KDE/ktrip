@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-05-10 23:31+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -187,43 +187,6 @@ msgstr "Geen aankomsten gevonden."
 msgid "No departures found."
 msgstr "Geen vertrektijd gevonden."
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "Eerder"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "Later"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "Selecteren"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "Eerdere verbindingen laden"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Latere verbindingen laden"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "Leveranciers van gegevens:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "Nog steeds bezig met resultaten ophalen…"
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -384,6 +347,29 @@ msgstr "Veerboot"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Boten of veerboten"
+
+#~ msgid "Earlier"
+#~ msgstr "Eerder"
+
+#~ msgid "Later"
+#~ msgstr "Later"
+
+#~ msgid "Select"
+#~ msgstr "Selecteren"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Eerdere verbindingen laden"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Latere verbindingen laden"
+
+#~ msgid "Data providers:"
+#~ msgstr "Leveranciers van gegevens:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "Nog steeds bezig met resultaten ophalen…"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"

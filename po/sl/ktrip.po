@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-11 00:46+0000\n"
+"POT-Creation-Date: 2025-05-12 00:44+0000\n"
 "PO-Revision-Date: 2025-05-10 07:14+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -198,43 +198,6 @@ msgstr "Ni najdenih prihodov."
 msgid "No departures found."
 msgstr "Ni najdenih odhodov."
 
-#: qml/JourneyQueryPage.qml:31
-#, kde-format
-msgid "Earlier"
-msgstr "Zgodneje"
-
-#: qml/JourneyQueryPage.qml:37
-#, kde-format
-msgid "Later"
-msgstr "Kasneje"
-
-#: qml/JourneyQueryPage.qml:84
-#, kde-format
-msgid "Select"
-msgstr "Izberi"
-
-#: qml/JourneyQueryPage.qml:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Load earlier connections"
-msgstr "Naloži zgodnejše povezave"
-
-#: qml/JourneyQueryPage.qml:124
-#, kde-format
-msgctxt "@action:button"
-msgid "Load later connections"
-msgstr "Naloži kasnejše povezave"
-
-#: qml/JourneyQueryPage.qml:131
-#, kde-format
-msgid "Data providers:"
-msgstr "Ponudniki podatkov:"
-
-#: qml/JourneyQueryPage.qml:176
-#, kde-format
-msgid "Still fetching results…"
-msgstr "Še vedno pridobivanje rezultatov…"
-
 #: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
@@ -395,6 +358,29 @@ msgstr "Trajekt"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Ladje ali trajekti"
+
+#~ msgid "Earlier"
+#~ msgstr "Zgodneje"
+
+#~ msgid "Later"
+#~ msgstr "Kasneje"
+
+#~ msgid "Select"
+#~ msgstr "Izberi"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Naloži zgodnejše povezave"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Naloži kasnejše povezave"
+
+#~ msgid "Data providers:"
+#~ msgstr "Ponudniki podatkov:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "Še vedno pridobivanje rezultatov…"
 
 #~ msgid "%3 %1 (%2)"
 #~ msgstr "%3 %1 (%2)"
