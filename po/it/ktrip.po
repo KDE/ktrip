@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-05-12 00:44+0000\n"
-"PO-Revision-Date: 2025-03-27 18:01+0100\n"
+"PO-Revision-Date: 2025-05-10 08:20+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,15 +31,15 @@ msgstr "feus73@gmail.com"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Adesso"
 
 #: localizer.cpp:102
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 min fa"
+msgstr[1] "%1 min fa"
 
 #: main.cpp:76
 #, kde-format
@@ -142,24 +142,22 @@ msgid "No connections found"
 msgstr "Nessuna connessione trovata"
 
 #: qml/DelayRow.qml:26
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Cancel"
+#, kde-format
 msgctxt "a train/bus journey canceled by its operator"
 msgid "Canceled"
-msgstr "Annulla"
+msgstr "Annullato"
 
 #: qml/DelayRow.qml:28
 #, kde-format
 msgctxt "duration of the delay"
 msgid "Delayed %1"
-msgstr ""
+msgstr "In ritardo di %1"
 
 #: qml/DelayRow.qml:30
 #, kde-format
 msgctxt "@info"
 msgid "On time"
-msgstr ""
+msgstr "In orario"
 
 #: qml/DeparturesPage.qml:23
 #, fuzzy, kde-format
@@ -179,7 +177,7 @@ msgstr "Partenze"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "Binario %1"
 
 #: qml/DeparturesPage.qml:138
 #, fuzzy, kde-format
@@ -188,10 +186,9 @@ msgid "No arrivals found."
 msgstr "Nessuna posizione trovata"
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Nessuna posizione trovata"
+msgstr "Nessuna partenza trovata."
 
 #: qml/Main.qml:36
 #, kde-format

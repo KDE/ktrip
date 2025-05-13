@@ -164,12 +164,10 @@ msgid "On time"
 msgstr ""
 
 #: qml/DeparturesPage.qml:23
-#, fuzzy, kde-format
-#| msgctxt "train or bus arrival"
-#| msgid "Arrival"
+#, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr "Příjezd"
+msgstr ""
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -184,16 +182,14 @@ msgid "Platform %1"
 msgstr ""
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Nenalezeno žádné místo"
+msgstr ""
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Nenalezeno žádné místo"
+msgstr ""
 
 #: qml/Main.qml:36
 #, kde-format
@@ -233,11 +229,10 @@ msgid "Configure providers"
 msgstr "Nastavit poskytovatele"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Datum odjezdu:"
+msgstr ""
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
@@ -287,12 +282,10 @@ msgid "Arrival time"
 msgstr "Čas příjezdu"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Započít cestu"
+msgstr ""
 
 #: qml/QueryPage.qml:217
 #, kde-format
@@ -358,63 +351,3 @@ msgstr "Přívoz"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Lodě nebo přívozy"
-
-#~ msgid "Earlier"
-#~ msgstr "Dříve"
-
-#~ msgid "Later"
-#~ msgstr "Později"
-
-#~ msgid "Select"
-#~ msgstr "Vybrat"
-
-#~ msgctxt "@action:button"
-#~ msgid "Load earlier connections"
-#~ msgstr "Načíst dřívější spojení"
-
-#~ msgctxt "@action:button"
-#~ msgid "Load later connections"
-#~ msgstr "Načíst pozdější spojení"
-
-#~ msgid "Data providers:"
-#~ msgstr "Poskytovatelé dat:"
-
-#~ msgid "%3 %1 (%2)"
-#~ msgstr "%3 %1 (%2)"
-
-#~ msgid "Global"
-#~ msgstr "Globální"
-
-#~ msgid "🇪🇺 European Union"
-#~ msgstr "🇪🇺 Evropská unie"
-
-#~ msgctxt "emoji flag, country name"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#, fuzzy
-#~| msgid "🇪🇺 European Union"
-#~ msgid "European Union"
-#~ msgstr "🇪🇺 Evropská unie"
-
-#~ msgid "Select country"
-#~ msgstr "Vyberte zemi"
-
-#~ msgid "Clear History"
-#~ msgstr "Vyprázdnit historii"
-
-#~ msgid "Remove"
-#~ msgstr "Odstranit"
-
-#~ msgid "Clear history"
-#~ msgstr "Vyprázdnit historii"
-
-#~ msgid "Sort by name"
-#~ msgstr "Seřadit podle jména"
-
-#~ msgid "Most recently used"
-#~ msgstr "Naposled použité"
-
-#~ msgctxt "@action"
-#~ msgid "Search"
-#~ msgstr "Hledat"

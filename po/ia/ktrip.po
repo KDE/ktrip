@@ -2,12 +2,13 @@
 # This file is distributed under the same license as the ktrip package.
 #
 # SPDX-FileCopyrightText: 2020, 2021, 2025 giovanni <g.sora@tiscali.it>
+# giovanni <g.sora@tiscali.it>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-05-12 00:44+0000\n"
-"PO-Revision-Date: 2025-05-09 17:31+0200\n"
+"PO-Revision-Date: 2025-05-12 15:03+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 21.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -160,12 +161,10 @@ msgid "On time"
 msgstr "Punctual"
 
 #: qml/DeparturesPage.qml:23
-#, fuzzy, kde-format
-#| msgctxt "train or bus arrival"
-#| msgid "Arrival"
+#, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr "Arrivata"
+msgstr "Arrivatas"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -180,10 +179,9 @@ msgid "Platform %1"
 msgstr "Platteforma %1"
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No departures found."
+#, kde-format
 msgid "No arrivals found."
-msgstr "Nulle partita trovate."
+msgstr "Nulle arrivatas trovate."
 
 #: qml/DeparturesPage.qml:138
 #, kde-format

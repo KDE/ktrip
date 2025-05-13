@@ -173,16 +173,14 @@ msgid "Platform %1"
 msgstr ""
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "未找到位置"
+msgstr ""
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "未找到位置"
+msgstr ""
 
 #: qml/Main.qml:36
 #, kde-format
@@ -344,21 +342,3 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
-
-#~ msgid "%3 %1 (%2)"
-#~ msgstr "%3 %1（%2）"
-
-#~ msgid "Global"
-#~ msgstr "全球"
-
-#~ msgid "🇪🇺 European Union"
-#~ msgstr "🇪🇺 欧盟"
-
-#~ msgctxt "emoji flag, country name"
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#, fuzzy
-#~| msgid "🇪🇺 European Union"
-#~ msgid "European Union"
-#~ msgstr "🇪🇺 欧盟"
