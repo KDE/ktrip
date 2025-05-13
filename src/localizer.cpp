@@ -76,12 +76,6 @@ QString Localizer::formatTime(const QVariant &obj, const QString &propertyName)
     return output;
 }
 
-QString Localizer::formatDuration(int seconds)
-{
-    const auto opts = static_cast<KFormat::DurationFormatOptions>(KFormat::AbbreviatedDuration | KFormat::HideSeconds); // ### workaround for KF < 6.12
-    return KFormat().formatDuration((quint64)seconds * 1000, opts);
-}
-
 QString Localizer::formatTimeDifferenceToNow(const QVariant &obj, const QString &propertyName)
 {
     const auto dt = readProperty(obj, propertyName.toUtf8().constData()).toDateTime();
@@ -102,7 +96,7 @@ QString Localizer::formatTimeDifferenceToNow(const QVariant &obj, const QString 
         return i18ncp("time", "%1 min ago", "%1 min ago", -(secsDifference / 60));
     }
 
-    return formatDuration(secsDifference);
+    return KFormat().formatDuration(secsDifference * 1000, KFormat::AbbreviatedDuration | KFormat::HideSeconds);
 }
 
 #include "moc_localizer.cpp"

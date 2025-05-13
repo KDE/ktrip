@@ -78,10 +78,10 @@ Kirigami.ScrollablePage {
 
                         Layout.fillWidth: true
 
-                        DelayRow {
+                        KPublicTransport.ExpectedTimeLabel {
                             stopover: delegate.departure
                             delay: root.showArrivals ? delegate.departure.arrivalDelay : delegate.departure.departureDelay
-                            originalTime: Localizer.formatTime(delegate.departure, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
+                            scheduledTime: Localizer.formatTime(delegate.departure, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
                             hasExpectedTime: root.showArrivals ? delegate.departure.hasExpectedArrivalTime : delegate.departure.hasExpectedDepartureTime
                         }
 

@@ -27,7 +27,6 @@ class Localizer : public QObject
 public:
     explicit Localizer(QObject *parent = nullptr);
     Q_INVOKABLE [[nodiscard]] static QString formatTime(const QVariant &obj, const QString &propertyName);
-    Q_INVOKABLE [[nodiscard]] static QString formatDuration(int seconds);
     Q_INVOKABLE [[nodiscard]] static QString formatTimeDifferenceToNow(const QVariant &obj, const QString &propertyName);
 };
 

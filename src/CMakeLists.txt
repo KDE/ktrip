@@ -22,7 +22,6 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     qml/ConnectionDetailsPage.qml
     qml/DeparturesPage.qml
     qml/ConnectionHeading.qml
-    qml/DelayRow.qml
     DEPENDENCIES
     "QtCore"
     "org.kde.kpublictransport"
