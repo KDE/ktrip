@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-12 00:44+0000\n"
+"POT-Creation-Date: 2025-05-15 00:46+0000\n"
 "PO-Revision-Date: 2025-05-10 07:14+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -28,13 +28,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: localizer.cpp:98
+#: localizer.cpp:92
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "Sedaj"
 
-#: localizer.cpp:102
+#: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -151,24 +151,6 @@ msgstr[3] "%1 sprememb"
 #, kde-format
 msgid "No connections found"
 msgstr "Ni najdenih povezav"
-
-#: qml/DelayRow.qml:26
-#, kde-format
-msgctxt "a train/bus journey canceled by its operator"
-msgid "Canceled"
-msgstr "Preklicano"
-
-#: qml/DelayRow.qml:28
-#, kde-format
-msgctxt "duration of the delay"
-msgid "Delayed %1"
-msgstr "Zakasnjeno %1"
-
-#: qml/DelayRow.qml:30
-#, kde-format
-msgctxt "@info"
-msgid "On time"
-msgstr "Pravočasno"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -358,6 +340,18 @@ msgstr "Trajekt"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Ladje ali trajekti"
+
+#~ msgctxt "a train/bus journey canceled by its operator"
+#~ msgid "Canceled"
+#~ msgstr "Preklicano"
+
+#~ msgctxt "duration of the delay"
+#~ msgid "Delayed %1"
+#~ msgstr "Zakasnjeno %1"
+
+#~ msgctxt "@info"
+#~ msgid "On time"
+#~ msgstr "Pravočasno"
 
 #~ msgid "Earlier"
 #~ msgstr "Zgodneje"

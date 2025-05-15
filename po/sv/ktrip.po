@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-12 00:44+0000\n"
+"POT-Creation-Date: 2025-05-15 00:46+0000\n"
 "PO-Revision-Date: 2025-04-05 21:43+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -27,13 +27,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@gmail.com"
 
-#: localizer.cpp:98
+#: localizer.cpp:92
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr ""
 
-#: localizer.cpp:102
+#: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -140,26 +140,6 @@ msgstr[1] "%1 ändringar"
 #, kde-format
 msgid "No connections found"
 msgstr "Inga anslutningar hittades"
-
-#: qml/DelayRow.qml:26
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Cancel"
-msgctxt "a train/bus journey canceled by its operator"
-msgid "Canceled"
-msgstr "Avbryt"
-
-#: qml/DelayRow.qml:28
-#, kde-format
-msgctxt "duration of the delay"
-msgid "Delayed %1"
-msgstr ""
-
-#: qml/DelayRow.qml:30
-#, kde-format
-msgctxt "@info"
-msgid "On time"
-msgstr ""
 
 #: qml/DeparturesPage.qml:23
 #, fuzzy, kde-format
@@ -353,6 +333,13 @@ msgstr "Färja"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Båtar eller färjor"
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Cancel"
+#~ msgctxt "a train/bus journey canceled by its operator"
+#~ msgid "Canceled"
+#~ msgstr "Avbryt"
 
 #~ msgid "Earlier"
 #~ msgstr "Tidigare"

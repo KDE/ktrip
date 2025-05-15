@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-12 00:44+0000\n"
+"POT-Creation-Date: 2025-05-15 00:46+0000\n"
 "PO-Revision-Date: 2025-05-10 23:31+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,13 +27,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: localizer.cpp:98
+#: localizer.cpp:92
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "Nu"
 
-#: localizer.cpp:102
+#: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -140,24 +140,6 @@ msgstr[1] "%1 wijzigingen"
 #, kde-format
 msgid "No connections found"
 msgstr "Geen verbindingen gevonden"
-
-#: qml/DelayRow.qml:26
-#, kde-format
-msgctxt "a train/bus journey canceled by its operator"
-msgid "Canceled"
-msgstr "Geannuleerd"
-
-#: qml/DelayRow.qml:28
-#, kde-format
-msgctxt "duration of the delay"
-msgid "Delayed %1"
-msgstr "Vertraagd %1"
-
-#: qml/DelayRow.qml:30
-#, kde-format
-msgctxt "@info"
-msgid "On time"
-msgstr "Op tijd"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -347,6 +329,18 @@ msgstr "Veerboot"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Boten of veerboten"
+
+#~ msgctxt "a train/bus journey canceled by its operator"
+#~ msgid "Canceled"
+#~ msgstr "Geannuleerd"
+
+#~ msgctxt "duration of the delay"
+#~ msgid "Delayed %1"
+#~ msgstr "Vertraagd %1"
+
+#~ msgctxt "@info"
+#~ msgid "On time"
+#~ msgstr "Op tijd"
 
 #~ msgid "Earlier"
 #~ msgstr "Eerder"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-12 00:44+0000\n"
-"PO-Revision-Date: 2025-05-10 10:34+0200\n"
+"POT-Creation-Date: 2025-05-15 00:46+0000\n"
+"PO-Revision-Date: 2025-05-14 09:51+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -31,13 +31,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: localizer.cpp:98
+#: localizer.cpp:92
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "Ara"
 
-#: localizer.cpp:102
+#: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -144,24 +144,6 @@ msgstr[1] "%1 canvis"
 #, kde-format
 msgid "No connections found"
 msgstr "No s'ha trobat cap connexió"
-
-#: qml/DelayRow.qml:26
-#, kde-format
-msgctxt "a train/bus journey canceled by its operator"
-msgid "Canceled"
-msgstr "Cancel·lat"
-
-#: qml/DelayRow.qml:28
-#, kde-format
-msgctxt "duration of the delay"
-msgid "Delayed %1"
-msgstr "Retard %1"
-
-#: qml/DelayRow.qml:30
-#, kde-format
-msgctxt "@info"
-msgid "On time"
-msgstr "A l'hora"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -351,6 +333,18 @@ msgstr "Ferri"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Vaixells o ferris"
+
+#~ msgctxt "a train/bus journey canceled by its operator"
+#~ msgid "Canceled"
+#~ msgstr "Cancel·lat"
+
+#~ msgctxt "duration of the delay"
+#~ msgid "Delayed %1"
+#~ msgstr "Endarrerit %1"
+
+#~ msgctxt "@info"
+#~ msgid "On time"
+#~ msgstr "A l'hora"
 
 #~ msgid "Earlier"
 #~ msgstr "Més d'hora"

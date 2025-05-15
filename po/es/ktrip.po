@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-12 00:44+0000\n"
+"POT-Creation-Date: 2025-05-15 00:46+0000\n"
 "PO-Revision-Date: 2025-05-10 16:12+0100\n"
 "Last-Translator: Sofía Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -30,13 +30,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "spriego@darksylvania.net,ecuadra@eloihr.net"
 
-#: localizer.cpp:98
+#: localizer.cpp:92
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "Ahora"
 
-#: localizer.cpp:102
+#: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -143,24 +143,6 @@ msgstr[1] "%1 cambios"
 #, kde-format
 msgid "No connections found"
 msgstr "No se ha encontrado ninguna conexión"
-
-#: qml/DelayRow.qml:26
-#, kde-format
-msgctxt "a train/bus journey canceled by its operator"
-msgid "Canceled"
-msgstr "Cancelado"
-
-#: qml/DelayRow.qml:28
-#, kde-format
-msgctxt "duration of the delay"
-msgid "Delayed %1"
-msgstr "Retraso de %1"
-
-#: qml/DelayRow.qml:30
-#, kde-format
-msgctxt "@info"
-msgid "On time"
-msgstr "A la hora"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -350,6 +332,18 @@ msgstr "Transbordador"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Barcos o transbordadores"
+
+#~ msgctxt "a train/bus journey canceled by its operator"
+#~ msgid "Canceled"
+#~ msgstr "Cancelado"
+
+#~ msgctxt "duration of the delay"
+#~ msgid "Delayed %1"
+#~ msgstr "Retraso de %1"
+
+#~ msgctxt "@info"
+#~ msgid "On time"
+#~ msgstr "A la hora"
 
 #~ msgid "Earlier"
 #~ msgstr "Más temprano"
