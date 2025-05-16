@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
-# Tommi Nieminen <translator@legisign.org>, 2021, 2022.
+# SPDX-FileCopyrightText: 2021, 2022, 2025 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-05-15 00:46+0000\n"
-"PO-Revision-Date: 2022-03-02 23:18+0200\n"
+"PO-Revision-Date: 2025-05-12 23:20+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -209,99 +210,92 @@ msgid "Configure providers"
 msgstr "Palveluntarjoajien asetukset"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Lähtöpäivä:"
+msgstr "Valitse lähtöasema"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Valitse saapumisasema"
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Mistä:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
-msgstr "Minne:"
+msgstr "Mihin:"
 
 #: qml/QueryPage.qml:129
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Vaihda lähtö ja saapuminen keskenään"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Lähdöt"
+msgstr "Lähtö"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Saapuminen"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Lähtöaika:"
+msgstr "Lähtöaika"
 
 #: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Saapumisaika"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Aloita matka"
+msgstr "Etsi matkaa"
 
 #: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Kulkumuoto"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Kaukojunat"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Pika- tai Intercity-junat"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Lähijunat"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Alueelliset tai lähijunat"
 
 #: qml/QueryPage.qml:243
 #, kde-format
@@ -319,25 +313,25 @@ msgstr ""
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Linja-auto"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Paikalliset tai alueelliset linja-autot"
 
 #: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Lautta"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Laivat tai lautat"
 
 #, fuzzy
 #~| msgid "No connections found"
