@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-05-15 00:46+0000\n"
-"PO-Revision-Date: 2025-04-28 18:18+0400\n"
+"PO-Revision-Date: 2025-05-17 11:51+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -32,19 +32,19 @@ msgstr "zayed.alsaidi@gmail.com"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "الآن"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "منذ %1 دق"
+msgstr[1] "منذ دقيقة"
+msgstr[2] "منذ دقيقتين"
+msgstr[3] "منذ %1 دق"
+msgstr[4] "منذ %1 دق"
+msgstr[5] "منذ %1 دق"
 
 #: main.cpp:76
 #, kde-format
@@ -163,9 +163,7 @@ msgid "No connections found"
 msgstr "لم يُعثر على وصلات"
 
 #: qml/DeparturesPage.qml:23
-#, fuzzy, kde-format
-#| msgctxt "train or bus arrival"
-#| msgid "Arrival"
+#, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "الوصول"
@@ -180,19 +178,17 @@ msgstr "المغادرة"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "المنصّة %1"
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "لم يُعثر على مواقع"
+msgstr "لم يعثر على أي رحلات وصول."
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "لم يُعثر على مواقع"
+msgstr "لم يعثر على أي رحلات مغادرة."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -232,17 +228,16 @@ msgid "Configure providers"
 msgstr "إعداد المزودين"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "تاريخ المغادرة:"
+msgstr "اختر محطة المغادرة"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "اختر محطة الوصول"
 
 #: qml/QueryPage.qml:92
 #, kde-format
@@ -259,7 +254,7 @@ msgstr "إلى:"
 #: qml/QueryPage.qml:129
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "مبادلة المغادرة والوصول"
 
 #: qml/QueryPage.qml:144
 #, kde-format
@@ -294,31 +289,31 @@ msgstr "ابحث عن الرحلة"
 #: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "وسيلة النقل"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "قطارات المسافات الطويلة"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "قطارات عالية السرعة أو بين المدن"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "قطارات محلية"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "قطارات إقليمية أو محلية"
 
 #: qml/QueryPage.qml:243
 #, kde-format
@@ -330,7 +325,7 @@ msgstr "نظام النقل السريع"
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "النقل السريع، والمترو، والترام"
 
 #: qml/QueryPage.qml:253
 #, kde-format
@@ -342,7 +337,7 @@ msgstr "حافلة"
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "خدمات الحافلات المحلية أو الإقليمية"
 
 #: qml/QueryPage.qml:263
 #, kde-format
@@ -354,7 +349,7 @@ msgstr "عبارة"
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "قوارب أو عبّارات"
 
 #~ msgid "Earlier"
 #~ msgstr "أبكر"
