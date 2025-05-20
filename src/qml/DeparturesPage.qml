@@ -41,82 +41,84 @@ Kirigami.ScrollablePage {
             icon.name: "arrow-up"
         }
 
-        delegate: FormCard.AbstractFormDelegate {
+        delegate: Kirigami.FlexColumn {
             id: delegate
-
             required property KPublicTransport.stopover departure
 
             width: ListView.view.width
+            maximumWidth: Kirigami.Units.gridUnit * 40
 
-            contentItem: RowLayout {
-                spacing: Kirigami.Units.largeSpacing * 2
+            FormCard.AbstractFormDelegate {
+                contentItem: RowLayout {
+                    spacing: Kirigami.Units.largeSpacing * 2
 
-                ColumnLayout {
-                    spacing: Kirigami.Units.smallSpacing
-
-                    Layout.fillWidth: true
-
-                    RowLayout {
-                        spacing: Kirigami.Units.smallSpacing
-
-                        KPublicTransport.TransportNameControl {
-                            line: delegate.departure.route.line
-                            journeySectionMode: KPublicTransport.JourneySection.PublicTransport
-                        }
-
-                        Kirigami.Heading {
-                            level: 3
-                            text: delegate.departure.route.direction
-                            visible: delegate.departure.route.direction.length > 0
-                            elide: Text.ElideRight
-                            Layout.fillWidth: true
-                        }
-                    }
-
-                    Flow {
+                    ColumnLayout {
                         spacing: Kirigami.Units.smallSpacing
 
                         Layout.fillWidth: true
 
-                        KPublicTransport.ExpectedTimeLabel {
-                            stopover: delegate.departure
-                            delay: root.showArrivals ? delegate.departure.arrivalDelay : delegate.departure.departureDelay
-                            scheduledTime: Localizer.formatTime(delegate.departure, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
-                            hasExpectedTime: root.showArrivals ? delegate.departure.hasExpectedArrivalTime : delegate.departure.hasExpectedDepartureTime
+                        RowLayout {
+                            spacing: Kirigami.Units.smallSpacing
+
+                            KPublicTransport.TransportNameControl {
+                                line: delegate.departure.route.line
+                                journeySectionMode: KPublicTransport.JourneySection.PublicTransport
+                            }
+
+                            Kirigami.Heading {
+                                level: 3
+                                text: delegate.departure.route.direction
+                                visible: delegate.departure.route.direction.length > 0
+                                elide: Text.ElideRight
+                                Layout.fillWidth: true
+                            }
                         }
 
-                        Controls.Label {
-                            text: ' · ' +i18nc("@info", "Platform %1", delegate.departure.hasExpectedPlatform ? delegate.departure.expectedPlatform : delegate.departure.scheduledPlatform)
-                            color: delegate.departure.platformChanged ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
-                            visible: delegate.departure.scheduledPlatform.length > 0
+                        Flow {
+                            spacing: Kirigami.Units.smallSpacing
 
-                            Layout.rightMargin: Kirigami.Units.smallSpacing
-                        }
+                            Layout.fillWidth: true
 
-                        Repeater {
-                            model: delegate.departure.features
-                            delegate: KPublicTransport.FeatureIcon {
-                                required property KPublicTransport.feature modelData
-                                feature: modelData
-                                height: Kirigami.Units.iconSizes.small
-                                width: Kirigami.Units.iconSizes.small
+                            KPublicTransport.ExpectedTimeLabel {
+                                stopover: delegate.departure
+                                delay: root.showArrivals ? delegate.departure.arrivalDelay : delegate.departure.departureDelay
+                                scheduledTime: Localizer.formatTime(delegate.departure, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
+                                hasExpectedTime: root.showArrivals ? delegate.departure.hasExpectedArrivalTime : delegate.departure.hasExpectedDepartureTime
+                            }
+
+                            Controls.Label {
+                                text: ' · ' +i18nc("@info", "Platform %1", delegate.departure.hasExpectedPlatform ? delegate.departure.expectedPlatform : delegate.departure.scheduledPlatform)
+                                color: delegate.departure.platformChanged ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
+                                visible: delegate.departure.scheduledPlatform.length > 0
+
+                                Layout.rightMargin: Kirigami.Units.smallSpacing
+                            }
+
+                            Repeater {
+                                model: delegate.departure.features
+                                delegate: KPublicTransport.FeatureIcon {
+                                    required property KPublicTransport.feature modelData
+                                    feature: modelData
+                                    height: Kirigami.Units.iconSizes.small
+                                    width: Kirigami.Units.iconSizes.small
+                                }
                             }
                         }
                     }
+
+                    Kirigami.Heading {
+                        text: root.showArrivals ?
+                            Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedArrivalTime ? "expectedArrivalTime" : "scheduledArrivalTime") :
+                            Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
+                    }
                 }
 
-                Kirigami.Heading {
-                    text: root.showArrivals ?
-                        Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedArrivalTime ? "expectedArrivalTime" : "scheduledArrivalTime") :
-                        Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
-                }
-            }
-
-            background.children: Kirigami.Separator {
-                anchors {
-                    bottom: parent.bottom
-                    left: parent.left
-                    right: parent.right
+                background.children: Kirigami.Separator {
+                    anchors {
+                        bottom: parent.bottom
+                        left: parent.left
+                        right: parent.right
+                    }
                 }
             }
         }
