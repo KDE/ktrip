@@ -333,15 +333,3 @@ msgstr ""
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr ""
-
-#, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "Load later connections"
-#~ msgstr "Fann ingen samband"
-
-#, fuzzy
-#~ msgid "Data providers:"
-#~ msgstr "Leverandørar"
-
-#~ msgid "%3 %1 (%2)"
-#~ msgstr "%3 %1 (%2)"
