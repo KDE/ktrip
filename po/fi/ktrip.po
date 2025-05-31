@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-05-15 00:46+0000\n"
-"PO-Revision-Date: 2025-05-12 23:20+0300\n"
+"PO-Revision-Date: 2025-05-29 19:07+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -31,15 +31,15 @@ msgstr "translator@legisign.org"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Nyt"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minuutti sitten"
+msgstr[1] "%1 min sitten"
 
 #: main.cpp:76
 #, kde-format
@@ -146,7 +146,7 @@ msgstr "Yhteyksiä ei löytynyt"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Saapumiset"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -158,19 +158,17 @@ msgstr "Lähdöt"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "Laituri %1"
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Sijainteja ei löytynyt"
+msgstr "Saapumisia ei löytynyt."
 
 #: qml/DeparturesPage.qml:138
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Sijainteja ei löytynyt"
+msgstr "Lähtöjä ei löytynyt."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -301,13 +299,13 @@ msgstr "Alueelliset tai lähijunat"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Nopea yhteys"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Nopea yhteys, metro, raitiotie"
 
 #: qml/QueryPage.qml:253
 #, kde-format
