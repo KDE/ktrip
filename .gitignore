@@ -14,3 +14,6 @@ build-dir/
 .idea
 /cmake-build*
 .qmlls.ini
+
+# Android
+android/.gradle
