@@ -119,6 +119,12 @@ Kirigami.ScrollablePage {
                     right: parent.right
                 }
             }
+
+            onClicked: {
+                detailsDialog.stopover = delegate.departure;
+                if (detailsDialog.hasContent)
+                    detailsDialog.open();
+            }
         }
 
         footer: Controls.ToolButton {
@@ -137,6 +143,20 @@ Kirigami.ScrollablePage {
             anchors.fill: parent
             text: root.showArrivals ? i18n("No arrivals found.") : i18n("No departures found.")
             visible: listView.count === 0 && !theModel.loading && theModel.errorMessage === ""
+        }
+    }
+
+    Controls.Dialog {
+        id: detailsDialog
+        property alias stopover: infoView.stopover
+        property alias hasContent: infoView.hasContent
+        contentItem: Controls.ScrollView {
+            id: detailScrollView
+            Controls.ScrollBar.horizontal.policy: Controls.ScrollBar.AlwaysOff
+            KPublicTransport.StopoverInformationView {
+                id: infoView
+                width: detailScrollView.width - detailScrollView.effectiveScrollBarWidth
+            }
         }
     }
 }
