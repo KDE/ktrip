@@ -148,6 +148,14 @@ Kirigami.ScrollablePage {
 
     Controls.Dialog {
         id: detailsDialog
+        parent: Controls.ApplicationWindow.window.Controls.Overlay.overlay
+
+        x: Math.round((parent.width - width) / 2)
+        y: Math.round((parent.height - height) / 2)
+
+        width: Math.min(parent.width - Kirigami.Units.gridUnit * 4, Kirigami.Units.gridUnit * 30)
+        height: Math.min(parent.height - Kirigami.Units.gridUnit * 4, implicitHeight)
+
         property alias stopover: infoView.stopover
         property alias hasContent: infoView.hasContent
         contentItem: Controls.ScrollView {
