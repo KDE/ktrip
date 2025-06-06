@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-15 00:46+0000\n"
+"POT-Creation-Date: 2025-06-06 00:46+0000\n"
 "PO-Revision-Date: 2024-01-08 19:17+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -158,13 +158,13 @@ msgctxt "@info"
 msgid "Platform %1"
 msgstr ""
 
-#: qml/DeparturesPage.qml:138
+#: qml/DeparturesPage.qml:144
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "找不到位置"
 
-#: qml/DeparturesPage.qml:138
+#: qml/DeparturesPage.qml:144
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."

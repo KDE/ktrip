@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-15 00:46+0000\n"
+"POT-Creation-Date: 2025-06-06 00:46+0000\n"
 "PO-Revision-Date: 2024-06-27 22:14+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -159,13 +159,13 @@ msgctxt "@info"
 msgid "Platform %1"
 msgstr ""
 
-#: qml/DeparturesPage.qml:138
+#: qml/DeparturesPage.qml:144
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "Nem található hely"
 
-#: qml/DeparturesPage.qml:138
+#: qml/DeparturesPage.qml:144
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."

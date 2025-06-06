@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-15 00:46+0000\n"
+"POT-Creation-Date: 2025-06-06 00:46+0000\n"
 "PO-Revision-Date: 2025-05-13 16:00+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -159,12 +159,12 @@ msgctxt "@info"
 msgid "Platform %1"
 msgstr "Binario %1"
 
-#: qml/DeparturesPage.qml:138
+#: qml/DeparturesPage.qml:144
 #, kde-format
 msgid "No arrivals found."
 msgstr "Nessun arrivo trovato."
 
-#: qml/DeparturesPage.qml:138
+#: qml/DeparturesPage.qml:144
 #, kde-format
 msgid "No departures found."
 msgstr "Nessuna partenza trovata."
