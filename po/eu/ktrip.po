@@ -1,16 +1,16 @@
 # Translation for ktrip.po to Euskara/Basque (eu).
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) 2023-2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2023.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2023, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-06 00:46+0000\n"
-"PO-Revision-Date: 2023-08-16 14:22+0200\n"
+"PO-Revision-Date: 2025-06-08 12:01+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -34,15 +34,15 @@ msgstr "xalba@ni.eus"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Orain"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "duela minutu %1"
+msgstr[1] "duela %1 minutu"
 
 #: main.cpp:76
 #, kde-format
@@ -148,7 +148,7 @@ msgstr "Ez da konexiorik aurkitu"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Iritsierak"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -160,19 +160,17 @@ msgstr "Irteerak"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "%1. nasa"
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Ez du kokalekurik aurkitu"
+msgstr "Ez du iritsierarik aurkitu."
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Ez du kokalekurik aurkitu"
+msgstr "Ez du irteerarik aurkitu."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -212,28 +210,25 @@ msgid "Configure providers"
 msgstr "Konfiguratu hornitzaileak"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Irteera data:"
+msgstr "Hautatu irteera-geralekua"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Hautatu iritsiera-geralekua"
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Nondik:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Nora:"
@@ -241,106 +236,102 @@ msgstr "Nora:"
 #: qml/QueryPage.qml:129
 #, kde-format
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Trukatu irteera eta iritsiera"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Irteerak"
+msgstr "Irteera"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Iritsiera"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Irteera ordua:"
+msgstr "Irteera-ordua"
 
 #: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Iritsiera-ordua"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Abiatu bidaia"
+msgstr "Bilatu bidaia"
 
 #: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Garraiobidea"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Distantzia luzeko trenak"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Abiadura handiko edo hiriarteko trenak"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Tokiko trenak"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Eskualdeko edo tokiko trenak"
 
 #: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Igarotze azkarra"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Igarotze azkarra, metroa, tranbia"
 
 #: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Autobusa"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Tokiko edo eskualdeko autobus zerbitzuak"
 
 #: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Ferrya"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Itsasontziak edo ferryak"
 
 #, fuzzy
 #~| msgid "No connections found"
