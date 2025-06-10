@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-06 00:46+0000\n"
-"PO-Revision-Date: 2025-03-30 11:21+0300\n"
+"PO-Revision-Date: 2025-06-08 09:58+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,16 +32,16 @@ msgstr "toms.trasuns@posteo.net"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Tagad"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "pirms %1 min."
+msgstr[1] "pirms %1 min."
+msgstr[2] "pirms %1 min."
 
 #: main.cpp:76
 #, kde-format
@@ -148,9 +148,7 @@ msgid "No connections found"
 msgstr "Savienojumi nav atrasti"
 
 #: qml/DeparturesPage.qml:23
-#, fuzzy, kde-format
-#| msgctxt "train or bus arrival"
-#| msgid "Arrival"
+#, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Ierašanās"
@@ -165,19 +163,17 @@ msgstr "Izbraukšanas"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "%1. platforma"
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Vietas nav atrastas"
+msgstr "Ierašanās nav atrastas"
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Vietas nav atrastas"
+msgstr "Atiešanas nav atrastas."
 
 #: qml/Main.qml:36
 #, kde-format
