@@ -20,12 +20,15 @@ KPublicTransport.BackendPage {
         visible: true
     }
 
+    Kirigami.Action {
+        id: saveAction
+        text: i18n("Save")
+        icon.name: "emblem-ok-symbolic"
+        onTriggered: pageStack.pop()
+    }
     actions: [
-        Kirigami.Action {
-            text: i18n("Save")
-            icon.name: "emblem-ok-symbolic"
-            onTriggered: pageStack.pop()
-        }
+        saveAction,
+        root.onlineUpdateAction
     ]
 
     publicTransportManager: Controller.manager
