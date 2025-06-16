@@ -16,8 +16,8 @@ FormCard.FormCardPage {
     id: root
 
     property bool departures: false
-    property PublicTransport.location departureStop
-    property PublicTransport.location arrivalStop
+    property var departureStop
+    property var arrivalStop
 
     /** Pre-selected departure time. */
     property date initialDateTime: new Date()
