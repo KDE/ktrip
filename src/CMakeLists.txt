@@ -38,6 +38,8 @@ if (ANDROID)
     )
 
     kirigami_package_breeze_icons(ICONS
+        ${KIRIGAMI_ADDONS_ICONS}
+        ${KPUBLICTRANSPORT_ICONS}
         go-down-symbolic
         go-up-symbolic
         channel-secure-symbolic
@@ -56,6 +58,7 @@ if (ANDROID)
         help-about
         license
         ktrip
+        reverse
     )
 
     ecm_add_android_apk(ktrip ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
