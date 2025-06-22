@@ -168,8 +168,8 @@ FormCard.FormCardPage {
         FormCard.FormButtonDelegate {
             id: searchButton
             icon.name: "system-search-symbolic"
-            text: i18nc("@action:button", "Search Journey")
-            enabled: root.departureStop != undefined && root.arrivalStop != undefined && root.fullModeSwitchState() !== false
+            text: root.departures ?  i18nc("@action:button", "Search Departures") : i18nc("@action:button", "Search Journey")
+            enabled: root.departureStop != undefined && (root.arrivalStop != undefined || root.departures) && root.fullModeSwitchState() !== false
             onClicked: {
                 Controls.ApplicationWindow.window.pageStack.push(root.departures ? Qt.resolvedUrl("DeparturesPage.qml") : Qt.resolvedUrl("ConnectionsPage.qml"), {
                     manager: root.publicTransportManager
