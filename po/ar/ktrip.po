@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-06 00:46+0000\n"
+"POT-Creation-Date: 2025-06-23 00:45+0000\n"
 "PO-Revision-Date: 2025-05-17 11:51+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -279,6 +279,14 @@ msgstr "وقت المغادرة"
 msgctxt "train or bus arrival"
 msgid "Arrival time"
 msgstr "وقت الوصول"
+
+#: qml/QueryPage.qml:171
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Query Departures"
+msgctxt "@action:button"
+msgid "Search Departures"
+msgstr "استعلام المغادرة"
 
 #: qml/QueryPage.qml:171
 #, kde-format

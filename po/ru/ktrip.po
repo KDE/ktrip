@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-06 00:46+0000\n"
+"POT-Creation-Date: 2025-06-23 00:45+0000\n"
 "PO-Revision-Date: 2023-04-25 14:30+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -278,6 +278,14 @@ msgstr "Время отправления:"
 msgctxt "train or bus arrival"
 msgid "Arrival time"
 msgstr ""
+
+#: qml/QueryPage.qml:171
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Query Departures"
+msgctxt "@action:button"
+msgid "Search Departures"
+msgstr "Запрос отправлений"
 
 #: qml/QueryPage.qml:171
 #, fuzzy, kde-format
