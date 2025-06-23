@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: ⓒ 2025 Volker Krause <vkrause@kde.org>
+
+# we use the Breeze style, so all other styles are unnecessary
+qml/QtQuick/Controls/Material/.*
+lib/qml/org/kde/kirigami/styles/Material/.*
+
+# data files for ki18n that we don't need
+share/iso-codes/json/schema-.*
+share/iso-codes/json/iso_(15924|3166-2|3166-3|4217|639-\d)\.json
+share/locale/.*/LC_MESSAGES/iso_(15924|3166-2|3166-3|4217|639-\d)\.mo
+
+# other KF6 data files we don't need
+share/mime/packages/kde6\.xml
+
+# unused Kirigami Addons modules
+lib/qml/org/kde/kirigamiaddons/(settings|sounds|treeview)/.*
+
+# translation catalogs of dependencies not needed here
+share/locale/.*/LC_MESSAGES/(karchive6|kconfig6)_qt\.qm
+share/locale/.*/LC_MESSAGES/(kcolorscheme6|kiconthemes6)\.mo
+
+# unused dependencies pulled in via KIconThemes
+share/locale/.*/LC_MESSAGES/(kitemviews6|kwidgetsaddons6)_qt\.qm
+
+# unused Qt translation catalogs
+translations/(qtconnectivity|qtdeclarative|qtlocation|qtmultimedia|qtwebsockets)_.*\.qm
