@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-23 00:45+0000\n"
-"PO-Revision-Date: 2025-05-10 07:14+0200\n"
+"PO-Revision-Date: 2025-06-23 05:50+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -221,7 +221,7 @@ msgstr "Nastavi ponudnike"
 #, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Izberi postajališče odhoda:"
+msgstr "Izberite postajališče odhoda"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
@@ -271,12 +271,10 @@ msgid "Arrival time"
 msgstr "Čas prihoda"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Poizvedi za odhode"
+msgstr "Išči odhode"
 
 #: qml/QueryPage.qml:171
 #, kde-format

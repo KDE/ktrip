@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-23 00:45+0000\n"
-"PO-Revision-Date: 2025-05-10 23:31+0200\n"
+"PO-Revision-Date: 2025-06-23 17:02+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -260,12 +260,10 @@ msgid "Arrival time"
 msgstr "Aankomsttijd"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Vertrektijden afvragen"
+msgstr "Vertrektijden zoeken"
 
 #: qml/QueryPage.qml:171
 #, kde-format
