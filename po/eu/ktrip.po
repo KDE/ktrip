@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-23 00:45+0000\n"
-"PO-Revision-Date: 2025-06-08 12:01+0200\n"
+"PO-Revision-Date: 2025-06-24 12:33+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -263,12 +263,10 @@ msgid "Arrival time"
 msgstr "Iritsiera-ordua"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Kontsultatu irteerak"
+msgstr "Bilatu irteerak"
 
 #: qml/QueryPage.qml:171
 #, kde-format
