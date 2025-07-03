@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-23 00:45+0000\n"
+"POT-Creation-Date: 2025-07-03 06:59+0000\n"
 "PO-Revision-Date: 2025-06-23 09:39+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -244,7 +244,9 @@ msgid "To:"
 msgstr "До:"
 
 #: qml/QueryPage.qml:129
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Swap departure and arrival"
+msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr "Поміняти місцями відправлення і прибуття"
 

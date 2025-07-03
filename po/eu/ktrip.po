@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-23 00:45+0000\n"
+"POT-Creation-Date: 2025-07-03 06:59+0000\n"
 "PO-Revision-Date: 2025-06-24 12:33+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -234,7 +234,9 @@ msgid "To:"
 msgstr "Nora:"
 
 #: qml/QueryPage.qml:129
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Swap departure and arrival"
+msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr "Trukatu irteera eta iritsiera"
 

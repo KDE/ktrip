@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-23 00:45+0000\n"
+"POT-Creation-Date: 2025-07-03 06:59+0000\n"
 "PO-Revision-Date: 2024-06-27 22:14+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -237,6 +237,7 @@ msgstr "Úti cél:"
 
 #: qml/QueryPage.qml:129
 #, kde-format
+msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr ""
 
