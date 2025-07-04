@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-06-23 17:02+0200\n"
+"PO-Revision-Date: 2025-07-03 13:55+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -231,8 +231,7 @@ msgid "To:"
 msgstr "Naar:"
 
 #: qml/QueryPage.qml:129
-#, fuzzy, kde-format
-#| msgid "Swap departure and arrival"
+#, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr "Vertrek en aankomst omwisselen"
