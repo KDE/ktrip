@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-06-23 07:26+0300\n"
+"PO-Revision-Date: 2025-07-03 20:53+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -242,8 +242,7 @@ msgid "To:"
 msgstr "אל:"
 
 #: qml/QueryPage.qml:129
-#, fuzzy, kde-format
-#| msgid "Swap departure and arrival"
+#, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr "החלפת יציאה והגעה"
