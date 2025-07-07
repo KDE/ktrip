@@ -44,7 +44,7 @@ Kirigami.ScrollablePage {
         delegate: FormCard.AbstractFormDelegate {
             id: delegate
 
-            required property KPublicTransport.stopover departure
+            required property KPublicTransport.stopover stopover
 
             width: ListView.view.width
 
@@ -60,14 +60,14 @@ Kirigami.ScrollablePage {
                         spacing: Kirigami.Units.smallSpacing
 
                         KPublicTransport.TransportNameControl {
-                            line: delegate.departure.route.line
+                            line: delegate.stopover.route.line
                             journeySectionMode: KPublicTransport.JourneySection.PublicTransport
                         }
 
                         Kirigami.Heading {
                             level: 3
-                            text: delegate.departure.route.direction
-                            visible: delegate.departure.route.direction.length > 0
+                            text: delegate.stopover.route.direction
+                            visible: delegate.stopover.route.direction.length > 0
                             elide: Text.ElideRight
                             Layout.fillWidth: true
                         }
@@ -79,22 +79,22 @@ Kirigami.ScrollablePage {
                         Layout.fillWidth: true
 
                         KPublicTransport.ExpectedTimeLabel {
-                            stopover: delegate.departure
-                            delay: root.showArrivals ? delegate.departure.arrivalDelay : delegate.departure.departureDelay
-                            scheduledTime: Localizer.formatTime(delegate.departure, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
-                            hasExpectedTime: root.showArrivals ? delegate.departure.hasExpectedArrivalTime : delegate.departure.hasExpectedDepartureTime
+                            stopover: delegate.stopover
+                            delay: root.showArrivals ? delegate.stopover.arrivalDelay : delegate.stopover.departureDelay
+                            scheduledTime: Localizer.formatTime(delegate.stopover, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
+                            hasExpectedTime: root.showArrivals ? delegate.stopover.hasExpectedArrivalTime : delegate.stopover.hasExpectedDepartureTime
                         }
 
                         Controls.Label {
-                            text: ' · ' +i18nc("@info", "Platform %1", delegate.departure.hasExpectedPlatform ? delegate.departure.expectedPlatform : delegate.departure.scheduledPlatform)
-                            color: delegate.departure.platformChanged ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
-                            visible: delegate.departure.scheduledPlatform.length > 0
+                            text: ' · ' +i18nc("@info", "Platform %1", delegate.stopover.hasExpectedPlatform ? delegate.stopover.expectedPlatform : delegate.stopover.scheduledPlatform)
+                            color: delegate.stopover.platformChanged ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
+                            visible: delegate.stopover.scheduledPlatform.length > 0
 
                             Layout.rightMargin: Kirigami.Units.smallSpacing
                         }
 
                         Repeater {
-                            model: delegate.departure.features
+                            model: delegate.stopover.features
                             delegate: KPublicTransport.FeatureIcon {
                                 required property KPublicTransport.feature modelData
                                 feature: modelData
@@ -107,8 +107,8 @@ Kirigami.ScrollablePage {
 
                 Kirigami.Heading {
                     text: root.showArrivals ?
-                        Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedArrivalTime ? "expectedArrivalTime" : "scheduledArrivalTime") :
-                        Localizer.formatTimeDifferenceToNow(delegate.departure, delegate.departure.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
+                        Localizer.formatTimeDifferenceToNow(delegate.stopover, delegate.stopover.hasExpectedArrivalTime ? "expectedArrivalTime" : "scheduledArrivalTime") :
+                        Localizer.formatTimeDifferenceToNow(delegate.stopover, delegate.stopover.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
                 }
             }
 
@@ -121,7 +121,7 @@ Kirigami.ScrollablePage {
             }
 
             onClicked: {
-                detailsDialog.stopover = delegate.departure;
+                detailsDialog.stopover = delegate.stopover;
                 if (detailsDialog.hasContent)
                     detailsDialog.open();
             }
