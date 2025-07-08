@@ -32,6 +32,7 @@ Kirigami.ScrollablePage {
         id: listView
         model: KPublicTransport.StopoverQueryModel {
             id: theModel
+            autoUpdate: true
         }
 
         header: Controls.ToolButton {
