@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 06:59+0000\n"
+"POT-Creation-Date: 2025-07-10 00:46+0000\n"
 "PO-Revision-Date: 2025-07-04 16:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -153,18 +153,18 @@ msgctxt "@title"
 msgid "Departures"
 msgstr "Kalkışlar"
 
-#: qml/DeparturesPage.qml:89
+#: qml/DeparturesPage.qml:90
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
 msgstr "Peron %1"
 
-#: qml/DeparturesPage.qml:144
+#: qml/DeparturesPage.qml:145
 #, kde-format
 msgid "No arrivals found."
 msgstr "Bulunan varış yok."
 
-#: qml/DeparturesPage.qml:144
+#: qml/DeparturesPage.qml:145
 #, kde-format
 msgid "No departures found."
 msgstr "Bulunan kalkış yok."

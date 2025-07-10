@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 06:59+0000\n"
+"POT-Creation-Date: 2025-07-10 00:46+0000\n"
 "PO-Revision-Date: 2025-03-23 07:29+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -156,19 +156,19 @@ msgctxt "@title"
 msgid "Departures"
 msgstr "Foriroj"
 
-#: qml/DeparturesPage.qml:89
+#: qml/DeparturesPage.qml:90
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
 msgstr ""
 
-#: qml/DeparturesPage.qml:144
+#: qml/DeparturesPage.qml:145
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "Neniuj lokoj trovitaj"
 
-#: qml/DeparturesPage.qml:144
+#: qml/DeparturesPage.qml:145
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."

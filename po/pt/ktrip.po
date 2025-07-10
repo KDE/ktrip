@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 06:59+0000\n"
+"POT-Creation-Date: 2025-07-10 00:46+0000\n"
 "PO-Revision-Date: 2022-03-26 23:07+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -899,19 +899,19 @@ msgctxt "@title"
 msgid "Departures"
 msgstr "Partidas"
 
-#: qml/DeparturesPage.qml:89
+#: qml/DeparturesPage.qml:90
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
 msgstr ""
 
-#: qml/DeparturesPage.qml:144
+#: qml/DeparturesPage.qml:145
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "Não foram encontradas localizações"
 
-#: qml/DeparturesPage.qml:144
+#: qml/DeparturesPage.qml:145
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."
