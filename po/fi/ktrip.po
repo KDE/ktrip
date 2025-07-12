@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-05-29 19:07+0300\n"
+"PO-Revision-Date: 2025-07-07 21:22+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -263,12 +263,10 @@ msgid "Arrival time"
 msgstr "Saapumisaika"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Kysele lähtöjä"
+msgstr "Etsi lähtöjä"
 
 #: qml/QueryPage.qml:171
 #, kde-format
