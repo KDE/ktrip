@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
 #
-# SPDX-FileCopyrightText: 2024 Kristof Kiszel <ulysses@fsf.hu>
+# SPDX-FileCopyrightText: 2024, 2025 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2024-06-27 22:14+0200\n"
+"PO-Revision-Date: 2025-07-13 20:38+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.05.0\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,15 +31,15 @@ msgstr "ulysses@fsf.hu"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Most"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 perce"
+msgstr[1] "%1 perce"
 
 #: main.cpp:76
 #, kde-format
@@ -145,7 +145,7 @@ msgstr "Nincsenek csatlakozások"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Érkezések"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -157,19 +157,17 @@ msgstr "Indulások"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "%1. vágány"
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Nem található hely"
+msgstr "Nincsenek érkezések."
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Nem található hely"
+msgstr "Nincsenek indulások."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -209,144 +207,135 @@ msgid "Configure providers"
 msgstr "Szolgáltatók beállítása"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Indulás dátuma:"
+msgstr "Indulási megálló kiválasztása"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Érkezési megálló kiválasztása"
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
-msgstr "Kiindulás:"
+msgstr "Indulás:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
-msgstr "Úti cél:"
+msgstr "Cél:"
 
 #: qml/QueryPage.qml:129
 #, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Érkezés és indulás cseréje"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Indulások"
+msgstr "Indulás"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Érkezés"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Indulás ideje:"
+msgstr "Indulási idő"
 
 #: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Érkezési idő"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Indulások lekérdezése"
+msgstr "Indulások keresése"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Utazás indítása"
+msgstr "Utazás keresése"
 
 #: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Közlekedési mód"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Távolsági vonatok"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Nagy sebességű vagy intercity vonatok"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Helyi vonatok"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Regionális vagy helyi vonatok"
 
 #: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Gyorsvasút"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Gyorsvasút, metró, villamosok"
 
 #: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Busz"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Helyi vagy regionális buszszolgáltatások"
 
 #: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Komp"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Hajók vagy kompok"
 
 #, fuzzy
 #~| msgid "No connections found"
