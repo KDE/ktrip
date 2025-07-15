@@ -1,20 +1,20 @@
+# SPDX-FileCopyrightText: 2021, 2025 Alois Spitzbart <spitz234@hotmail.com>
 # Burkhard Lück <lueck@hube-lueck.de>, 2019, 2020, 2021.
-# Alois Spitzbart <spitz234@hotmail.com>, 2021.
 # Frederik Schwarzer <schwarzer@kde.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-10 00:46+0000\n"
-"PO-Revision-Date: 2022-03-11 20:49+0100\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
-"Language-Team: German <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2025-07-04 21:36+0200\n"
+"Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,15 +30,15 @@ msgstr "kde-i18n-de@kde.org"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Jetzt"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vor %1 min"
+msgstr[1] "Vor %1 min"
 
 #: main.cpp:76
 #, kde-format
@@ -144,7 +144,7 @@ msgstr "Keine Verbindungen gefunden"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Ankünfte"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -156,19 +156,17 @@ msgstr "Abfahrten"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "Bahnsteig %1"
 
 #: qml/DeparturesPage.qml:145
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Keine Orte gefunden"
+msgstr "Keine Ankünfte gefunden."
 
 #: qml/DeparturesPage.qml:145
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Keine Orte gefunden"
+msgstr "Keine Abfahrten gefunden."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -208,28 +206,25 @@ msgid "Configure providers"
 msgstr "Anbieter einrichten"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Abfahrtsdatum:"
+msgstr "Starthaltestelle auswählen"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Zielhaltestelle auswählen"
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Von:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Nach:"
@@ -238,114 +233,108 @@ msgstr "Nach:"
 #, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Start und Ziel tauschen"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Abfahrten"
+msgstr "Abfahrt"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Ankunft"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Abfahrtszeit:"
+msgstr "Abfahrtszeit"
 
 #: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Ankunftszeit"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Abfahrten abfragen"
+msgstr "Abfahrten suchen"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Reise starten"
+msgstr "Reise suchen"
 
 #: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Transportmittel"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Fernzüge"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Hochgeschwindigkeits- oder Intercity-Züge"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Regionalzüge"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Regional- oder Lokalzüge"
 
 #: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Schnellbahnen"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Schnellbahnen, U-Bahnen, Straßenbahnen"
 
 #: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Bus"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Lokale oder regionale Buslinien"
 
 #: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Fähre"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Boote oder Fähren"
 
 #, fuzzy
 #~| msgctxt "@action:button"
