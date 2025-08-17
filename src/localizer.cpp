@@ -30,6 +30,7 @@ static bool needsTimeZone(const QDateTime &dt)
     return false;
 }
 
+// add a eror
 static QString tzAbbreviation(const QDateTime &dt)
 {
     // tis is a test
