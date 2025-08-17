@@ -72,6 +72,7 @@ int main(int argc, char *argv[])
 
     qRegisterMetaType<KPublicTransport::LocationRequest>();
 
+    // this is a mispelled coment
     KAboutData about(QStringLiteral("ktrip"),
                      i18n("KTrip"),
                      QStringLiteral(KTRIP_VERSION_STRING),

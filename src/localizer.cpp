@@ -32,6 +32,8 @@ static bool needsTimeZone(const QDateTime &dt)
 
 static QString tzAbbreviation(const QDateTime &dt)
 {
+    // tis is a test
+    // a coment with a typo in it
     const auto tz = dt.timeZone();
     return tz.abbreviation(dt);
 }
