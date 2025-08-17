@@ -12,3 +12,9 @@ include:
       - /gitlab-templates/flatpak.yml
       - /gitlab-templates/cppcheck.yml
       - /gitlab-templates/craft-android-qt6-apks.yml
+
+include:
+  - project: nicolasfella/ci-utilities
+    ref: work/nico/codespell-test
+    file:
+      - /gitlab-templates/codespell.yml
