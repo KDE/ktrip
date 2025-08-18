@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-10 00:46+0000\n"
+"POT-Creation-Date: 2025-08-18 00:45+0000\n"
 "PO-Revision-Date: 2025-07-04 12:24+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -30,13 +30,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: localizer.cpp:92
+#: localizer.cpp:94
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "Зараз"
 
-#: localizer.cpp:96
+#: localizer.cpp:98
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -46,22 +46,22 @@ msgstr[1] "%1 хвилини тому"
 msgstr[2] "%1 хвилин тому"
 msgstr[3] "%1 хвилину тому"
 
-#: main.cpp:76
+#: main.cpp:77
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:78
+#: main.cpp:79
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Розклади роботи громадського транспорту"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© Спільнота KDE, 2019"
 
-#: main.cpp:81
+#: main.cpp:82
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-10 00:46+0000\n"
+"POT-Creation-Date: 2025-08-18 00:45+0000\n"
 "PO-Revision-Date: 2025-08-03 23:23+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -28,13 +28,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zayed.alsaidi@gmail.com"
 
-#: localizer.cpp:92
+#: localizer.cpp:94
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "الآن"
 
-#: localizer.cpp:96
+#: localizer.cpp:98
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -46,22 +46,22 @@ msgstr[3] "منذ %1 دق"
 msgstr[4] "منذ %1 دق"
 msgstr[5] "منذ %1 دق"
 
-#: main.cpp:76
+#: main.cpp:77
 #, kde-format
 msgid "KTrip"
 msgstr "رحلتك"
 
-#: main.cpp:78
+#: main.cpp:79
 #, kde-format
 msgid "Public transport assistant"
 msgstr "مساعد النقل العام"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 مجتمع كِيدِي"
 
-#: main.cpp:81
+#: main.cpp:82
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "نيكولاس فلا"

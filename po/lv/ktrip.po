@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-10 00:46+0000\n"
+"POT-Creation-Date: 2025-08-18 00:45+0000\n"
 "PO-Revision-Date: 2025-06-08 09:58+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -28,13 +28,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "toms.trasuns@posteo.net"
 
-#: localizer.cpp:92
+#: localizer.cpp:94
 #, kde-format
 msgctxt "time"
 msgid "Now"
 msgstr "Tagad"
 
-#: localizer.cpp:96
+#: localizer.cpp:98
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
@@ -43,22 +43,22 @@ msgstr[0] "pirms %1 min."
 msgstr[1] "pirms %1 min."
 msgstr[2] "pirms %1 min."
 
-#: main.cpp:76
+#: main.cpp:77
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:78
+#: main.cpp:79
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Sabiedriskā transporta asistents"
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 KDE kopiena"
 
-#: main.cpp:81
+#: main.cpp:82
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
