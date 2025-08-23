@@ -1,24 +1,24 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
 #
 # Alexander Potashev <aspotashev@gmail.com>, 2019.
-# Alexander Yavorsky <kekcuha@gmail.com>, 2021.
+# SPDX-FileCopyrightText: 2021, 2025 Alexander Yavorsky <kekcuha@gmail.com>
 # Olesya Gerasimenko <translation-team@basealt.ru>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2023-04-25 14:30+0300\n"
-"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
-"Language-Team: Basealt Translation Team\n"
+"PO-Revision-Date: 2025-08-22 18:41+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -34,17 +34,17 @@ msgstr "translation-team@basealt.ru"
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "Сейчас"
 
 #: localizer.cpp:96
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%1 минуту назад"
+msgstr[1] "%1 минуты назад"
+msgstr[2] "%1 минут назад"
+msgstr[3] "минуту назад"
 
 #: main.cpp:76
 #, kde-format
@@ -158,7 +158,7 @@ msgstr "Подходящие рейсы не найдены"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Прибытия"
 
 #: qml/DeparturesPage.qml:23
 #, kde-format
@@ -170,19 +170,17 @@ msgstr "Отправления"
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "Платформа %1"
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Расположения не найдены"
+msgstr "Не найдено ни одного прибытия."
 
 #: qml/DeparturesPage.qml:144
-#, fuzzy, kde-format
-#| msgid "No locations found"
+#, kde-format
 msgid "No departures found."
-msgstr "Расположения не найдены"
+msgstr "Не найдено ни одного отправления."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -222,28 +220,25 @@ msgid "Configure providers"
 msgstr "Настроить поставщиков данных"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Дата отправления:"
+msgstr "Выбор станции отправления"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Выбор станции прибытия"
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Из:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
-#| msgid "To:"
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "В:"
@@ -252,114 +247,108 @@ msgstr "В:"
 #, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Поменять местами отправление и прибытие"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Отправления"
+msgstr "Отправление"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Прибытие"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Время отправления:"
+msgstr "Время отправления"
 
 #: qml/QueryPage.qml:160
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Время прибытия"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Запрос отправлений"
+msgstr "Поиск отправлений"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Start Journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Начало маршрута"
+msgstr "Найти поездку"
 
 #: qml/QueryPage.qml:217
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Вид транспорта"
 
 #: qml/QueryPage.qml:223
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Поезда дальнего следования"
 
 #: qml/QueryPage.qml:224
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Высокоскоростные или междугородные поезда"
 
 #: qml/QueryPage.qml:233
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Местные поезда"
 
 #: qml/QueryPage.qml:234
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Региональные или местные поезда"
 
 #: qml/QueryPage.qml:243
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Скоростной транспорт"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Скоростной транспорт, метро, трамваи"
 
 #: qml/QueryPage.qml:253
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Автобус"
 
 #: qml/QueryPage.qml:254
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Местные или региональные автобусы"
 
 #: qml/QueryPage.qml:263
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Паром"
 
 #: qml/QueryPage.qml:264
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Лодки или паромы"
 
 #, fuzzy
 #~| msgid "No connections found"
