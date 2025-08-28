@@ -265,11 +265,10 @@ msgid "Arrival time"
 msgstr "Čas příjezdu"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Odjezdy"
+msgstr ""
 
 #: qml/QueryPage.qml:171
 #, kde-format
@@ -341,7 +340,3 @@ msgstr "Přívoz"
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Lodě nebo přívozy"
-
-#~ msgctxt "a train/bus journey canceled by its operator"
-#~ msgid "Canceled"
-#~ msgstr "Zrušeno"
