@@ -73,7 +73,7 @@ msgstr "Proveïdors"
 #: qml/BackendPage.qml:18
 #, kde-format
 msgid "Select the providers relevant for your area"
-msgstr "Seleccioneu els proveïdors rellevants per a la vostra àrea"
+msgstr "Trieu els proveïdors rellevants per a la vostra àrea"
 
 #: qml/BackendPage.qml:25
 #, kde-format
@@ -214,13 +214,13 @@ msgstr "Configura els proveïdors"
 #, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Selecciona la parada d'eixida"
+msgstr "Tria la parada d'eixida"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr "Selecciona la parada d'arribada"
+msgstr "Tria la parada d'arribada"
 
 #: qml/QueryPage.qml:92
 #, kde-format
