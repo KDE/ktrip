@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-18 00:45+0000\n"
-"PO-Revision-Date: 2025-05-12 15:03+0200\n"
+"PO-Revision-Date: 2025-09-02 17:34+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -232,8 +232,7 @@ msgid "To:"
 msgstr "A:"
 
 #: qml/QueryPage.qml:129
-#, fuzzy, kde-format
-#| msgid "Swap departure and arrival"
+#, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr "Excambia partita e arrivata"
@@ -263,12 +262,10 @@ msgid "Arrival time"
 msgstr "Tempore de arrivata"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Demanda partitas"
+msgstr "Cerca Partitas"
 
 #: qml/QueryPage.qml:171
 #, kde-format
