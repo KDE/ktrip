@@ -198,11 +198,13 @@ FormCard.FormCardPage {
                     if (localTrainSwitch.checked)
                         lineModes.push(PublicTransport.Line.LocalTrain);
                     if (rapidTransitSwitch.checked)
-                        lineModes.push(PublicTransport.Line.RapidTransit, PublicTransport.Line.Metro, PublicTransport.Line.Tramway, PublicTransport.Line.RailShuttle);
+                        lineModes.push(PublicTransport.Line.RapidTransit, PublicTransport.Line.Metro, PublicTransport.Line.Tramway, PublicTransport.Line.RailShuttle, PublicTransport.Line.Funicular, PublicTransport.Line.AerialLift);
                     if (busSwitch.checked)
                         lineModes.push(PublicTransport.Line.Bus, PublicTransport.Line.Coach);
                     if (ferrySwitch.checked)
                         lineModes.push(PublicTransport.Line.Ferry, PublicTransport.Line.Boat);
+                    if (aircraftSwitch.checked)
+                        lineModes.push(PublicTransport.Line.Air);
                 }
                 req.lineModes = lineModes;
 
@@ -265,6 +267,15 @@ FormCard.FormCardPage {
             checked: true
             leading: Kirigami.Icon {
                 source: PublicTransport.LineMode.iconName(PublicTransport.Line.Ferry)
+                isMask: true
+            }
+        }
+        FormCard.FormSwitchDelegate {
+            id: aircraftSwitch
+            text: i18nc("journey query search constraint, title", "Aircraft")
+            checked: false
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.Air)
                 isMask: true
             }
         }
