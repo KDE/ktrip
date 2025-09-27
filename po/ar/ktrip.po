@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-18 00:45+0000\n"
+"POT-Creation-Date: 2025-09-27 00:46+0000\n"
 "PO-Revision-Date: 2025-08-03 23:23+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -293,70 +293,76 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "ابحث عن الرحلة"
 
-#: qml/QueryPage.qml:217
+#: qml/QueryPage.qml:219
 #, kde-format
 msgid "Mode of transportation"
 msgstr "وسيلة النقل"
 
-#: qml/QueryPage.qml:223
+#: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "قطارات المسافات الطويلة"
 
-#: qml/QueryPage.qml:224
+#: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "قطارات عالية السرعة أو بين المدن"
 
-#: qml/QueryPage.qml:233
+#: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "قطارات محلية"
 
-#: qml/QueryPage.qml:234
+#: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "قطارات إقليمية أو محلية"
 
-#: qml/QueryPage.qml:243
+#: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "نظام النقل السريع"
 
-#: qml/QueryPage.qml:244
+#: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "النقل السريع، والمترو، والترام"
 
-#: qml/QueryPage.qml:253
+#: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "حافلة"
 
-#: qml/QueryPage.qml:254
+#: qml/QueryPage.qml:256
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "خدمات الحافلات المحلية أو الإقليمية"
 
-#: qml/QueryPage.qml:263
+#: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "عبارة"
 
-#: qml/QueryPage.qml:264
+#: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "قوارب أو عبّارات"
+
+#: qml/QueryPage.qml:275
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Aircraft"
+msgstr ""
 
 #~ msgid "Earlier"
 #~ msgstr "أبكر"

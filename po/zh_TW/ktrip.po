@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-18 00:45+0000\n"
+"POT-Creation-Date: 2025-09-27 00:46+0000\n"
 "PO-Revision-Date: 2025-09-05 17:41+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -271,70 +271,76 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "搜尋旅程"
 
-#: qml/QueryPage.qml:217
+#: qml/QueryPage.qml:219
 #, kde-format
 msgid "Mode of transportation"
 msgstr "交通方式"
 
-#: qml/QueryPage.qml:223
+#: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "長途列車"
 
-#: qml/QueryPage.qml:224
+#: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "高鐵或城際列車"
 
-#: qml/QueryPage.qml:233
+#: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "區域鐵路"
 
-#: qml/QueryPage.qml:234
+#: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "區域或當地鐵路"
 
-#: qml/QueryPage.qml:243
+#: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "捷運"
 
-#: qml/QueryPage.qml:244
+#: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "捷運、地鐵、輕軌"
 
-#: qml/QueryPage.qml:253
+#: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "公車"
 
-#: qml/QueryPage.qml:254
+#: qml/QueryPage.qml:256
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "本地或區域公車服務"
 
-#: qml/QueryPage.qml:263
+#: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "渡輪"
 
-#: qml/QueryPage.qml:264
+#: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "船班或渡輪"
+
+#: qml/QueryPage.qml:275
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Aircraft"
+msgstr ""
 
 #, fuzzy
 #~| msgctxt "@action:button"

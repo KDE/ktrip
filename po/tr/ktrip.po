@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-18 00:45+0000\n"
+"POT-Creation-Date: 2025-09-27 00:46+0000\n"
 "PO-Revision-Date: 2025-07-04 16:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -272,70 +272,76 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "Yolculuk Ara"
 
-#: qml/QueryPage.qml:217
+#: qml/QueryPage.qml:219
 #, kde-format
 msgid "Mode of transportation"
 msgstr "Ulaşım biçimi"
 
-#: qml/QueryPage.qml:223
+#: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "Uzun yol trenleri"
 
-#: qml/QueryPage.qml:224
+#: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "Yüksek hızlı veya şehirler arası trenler"
 
-#: qml/QueryPage.qml:233
+#: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "Yerel trenler"
 
-#: qml/QueryPage.qml:234
+#: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "Bölgesel veya yerel trenler"
 
-#: qml/QueryPage.qml:243
+#: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "Hızlı taşıma"
 
-#: qml/QueryPage.qml:244
+#: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "Hızlı taşıma, metro, tramvay"
 
-#: qml/QueryPage.qml:253
+#: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "Otobüs"
 
-#: qml/QueryPage.qml:254
+#: qml/QueryPage.qml:256
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "Yerel veya bölgesel otobüs hizmetleri"
 
-#: qml/QueryPage.qml:263
+#: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "Feribot"
 
-#: qml/QueryPage.qml:264
+#: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "Tekneler veya feribotlar"
+
+#: qml/QueryPage.qml:275
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Aircraft"
+msgstr ""
 
 #~ msgctxt "a train/bus journey canceled by its operator"
 #~ msgid "Canceled"

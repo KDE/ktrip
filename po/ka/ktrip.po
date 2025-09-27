@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-18 00:45+0000\n"
+"POT-Creation-Date: 2025-09-27 00:46+0000\n"
 "PO-Revision-Date: 2025-07-03 14:44+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -273,70 +273,76 @@ msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "მოგზაურობის ძებნა"
 
-#: qml/QueryPage.qml:217
+#: qml/QueryPage.qml:219
 #, kde-format
 msgid "Mode of transportation"
 msgstr "ტრანსპორტის რეჟიმი"
 
-#: qml/QueryPage.qml:223
+#: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
 msgstr "დიდმანძილიანი მატარებლები"
 
-#: qml/QueryPage.qml:224
+#: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
 msgstr "ჩქაროსნული ან საქალაქთაშორისო მატარებლები"
 
-#: qml/QueryPage.qml:233
+#: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
 msgstr "ლოკალური მატარებლები"
 
-#: qml/QueryPage.qml:234
+#: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
 msgstr "რეგინონალური ან ლოკალური მატარებლები"
 
-#: qml/QueryPage.qml:243
+#: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
 msgstr "სწრაფი ტრანსპორტი"
 
-#: qml/QueryPage.qml:244
+#: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
 msgstr "სტრაფი ტრანსპორტი, მეტრო, ტრამვაი"
 
-#: qml/QueryPage.qml:253
+#: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
 msgstr "ავტობუსი"
 
-#: qml/QueryPage.qml:254
+#: qml/QueryPage.qml:256
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
 msgstr "ლოკალური ან რეგიონალური ავტობუსი"
 
-#: qml/QueryPage.qml:263
+#: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
 msgstr "ბორანი"
 
-#: qml/QueryPage.qml:264
+#: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
 msgstr "გემი ან ბორანი"
+
+#: qml/QueryPage.qml:275
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Aircraft"
+msgstr ""
 
 #~ msgctxt "a train/bus journey canceled by its operator"
 #~ msgid "Canceled"
