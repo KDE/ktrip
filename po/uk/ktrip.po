@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-27 00:46+0000\n"
+"POT-Creation-Date: 2025-10-02 00:46+0000\n"
 "PO-Revision-Date: 2025-09-27 16:36+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -353,8 +353,12 @@ msgstr "Судна або пороми"
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
-msgid "Aircraft"
-msgstr "Авіація"
+msgid "Airplane"
+msgstr ""
+
+#~ msgctxt "journey query search constraint, title"
+#~ msgid "Aircraft"
+#~ msgstr "Авіація"
 
 #~ msgctxt "a train/bus journey canceled by its operator"
 #~ msgid "Canceled"

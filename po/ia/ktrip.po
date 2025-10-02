@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-27 00:46+0000\n"
+"POT-Creation-Date: 2025-10-02 00:46+0000\n"
 "PO-Revision-Date: 2025-09-02 17:34+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -341,7 +341,7 @@ msgstr "Barcas o ferries"
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
-msgid "Aircraft"
+msgid "Airplane"
 msgstr ""
 
 #~ msgctxt "a train/bus journey canceled by its operator"

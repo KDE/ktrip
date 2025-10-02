@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-27 00:46+0000\n"
+"POT-Creation-Date: 2025-10-02 00:46+0000\n"
 "PO-Revision-Date: 2025-07-13 23:17+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -341,7 +341,7 @@ msgstr "Laivat tai lautat"
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
-msgid "Aircraft"
+msgid "Airplane"
 msgstr ""
 
 #, fuzzy

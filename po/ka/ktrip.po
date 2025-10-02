@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-27 00:46+0000\n"
+"POT-Creation-Date: 2025-10-02 00:46+0000\n"
 "PO-Revision-Date: 2025-09-27 03:51+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -341,8 +341,12 @@ msgstr "გემი ან ბორანი"
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
-msgid "Aircraft"
-msgstr "თვითმფრინავი"
+msgid "Airplane"
+msgstr ""
+
+#~ msgctxt "journey query search constraint, title"
+#~ msgid "Aircraft"
+#~ msgstr "თვითმფრინავი"
 
 #~ msgctxt "a train/bus journey canceled by its operator"
 #~ msgid "Canceled"

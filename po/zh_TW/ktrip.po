@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-27 00:46+0000\n"
+"POT-Creation-Date: 2025-10-02 00:46+0000\n"
 "PO-Revision-Date: 2025-09-29 01:25+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -339,8 +339,12 @@ msgstr "船班或渡輪"
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
-msgid "Aircraft"
-msgstr "航空器"
+msgid "Airplane"
+msgstr ""
+
+#~ msgctxt "journey query search constraint, title"
+#~ msgid "Aircraft"
+#~ msgstr "航空器"
 
 #, fuzzy
 #~| msgctxt "@action:button"
