@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-07-03 16:19+0200\n"
+"PO-Revision-Date: 2025-10-03 10:22+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -309,13 +309,13 @@ msgstr "Trens regionals o locals"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr "Transport ràpid"
+msgstr "Metro"
 
 #: qml/QueryPage.qml:244
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr "Transport ràpid, metro, tramvia"
+msgstr "Metro, tramvia"
 
 #: qml/QueryPage.qml:253
 #, kde-format
