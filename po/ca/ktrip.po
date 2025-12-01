@@ -346,7 +346,3 @@ msgstr "Vaixells o ferris"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Avió"
-
-#~ msgctxt "journey query search constraint, title"
-#~ msgid "Aircraft"
-#~ msgstr "Aeronau"
