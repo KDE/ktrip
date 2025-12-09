@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>qtquickcontrols2.conf</file>
         <file>org.kde.ktrip.svg</file>
     </qresource>
 </RCC>

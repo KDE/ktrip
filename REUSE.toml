@@ -6,7 +6,7 @@ SPDX-PackageName = "KTrip"
 SPDX-PackageSupplier = "Nicolas Fella <nicolas.fella@gmx.de>"
 
 [[annotations]]
-path = [".gitignore", ".editorconfig", "src/Messages.sh", "src/resources.qrc", "src/qtquickcontrols2.conf", ".flatpak-manifest.json"]
+path = [".gitignore", ".editorconfig", "src/Messages.sh", "src/resources.qrc", ".flatpak-manifest.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "None"
 SPDX-License-Identifier = "CC0-1.0"
