@@ -23,11 +23,6 @@
     ],
     "modules": [
         {
-            "name": "kirigami-addons",
-            "buildsystem": "cmake-ninja",
-            "sources": [ { "type": "git", "url": "https://invent.kde.org/libraries/kirigami-addons.git"} ]
-        },
-        {
             "name": "kpublictransport",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
