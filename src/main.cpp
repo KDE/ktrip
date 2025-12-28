@@ -13,7 +13,12 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QQuickStyle>
+#include <QQuickWindow>
 #include <QTimer>
+#include <QVulkanInstance>
+#include <QtQuick/QSGRendererInterface>
+
+#include <QMapLibre/Utils>
 
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
@@ -35,6 +40,9 @@ Q_DECL_EXPORT
 #endif
 int main(int argc, char *argv[])
 {
+    const QMapLibre::RendererType rendererType = QMapLibre::supportedRendererType();
+    auto graphicsApi = static_cast<QSGRendererInterface::GraphicsApi>(rendererType);
+    QQuickWindow::setGraphicsApi(graphicsApi);
     QCommandLineParser parser;
     QCommandLineOption selfTestOpt(u"self-test"_s, u"internal, for automated testing"_s);
     parser.addOption(selfTestOpt);

@@ -16,7 +16,7 @@ Kirigami.ApplicationWindow {
     height: 720
 
     pageStack {
-        initialPage: Qt.resolvedUrl("QueryPage.qml")
+        initialPage: Qt.resolvedUrl("MapPage.qml")
         globalToolBar {
             style: Kirigami.ApplicationHeaderStyle.ToolBar
             showNavigationButtons: pageStack.currentIndex > 0 || pageStack.layers.depth > 1 ? Kirigami.ApplicationHeaderStyle.ShowBackButton : 0
@@ -33,8 +33,18 @@ Kirigami.ApplicationWindow {
         isMenu: true
         actions: [
             Kirigami.Action {
-                text: i18n("Journey")
+                text: i18n("Map")
                 icon.name: "globe"
+                onTriggered: {
+                    window.pageStack.clear();
+                    window.pageStack.push(Qt.resolvedUrl("MapPage.qml"), {
+                        departures: false
+                    });
+                }
+            },
+            Kirigami.Action {
+                text: i18n("Journey")
+                icon.name: "path-mode-polyline"
                 onTriggered: {
                     window.pageStack.clear();
                     window.pageStack.push(Qt.resolvedUrl("QueryPage.qml"), {

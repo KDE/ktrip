@@ -22,12 +22,14 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     qml/ConnectionDetailsPage.qml
     qml/DeparturesPage.qml
     qml/ConnectionHeading.qml
+    qml/MapPage.qml
+    qml/MapView.qml
     DEPENDENCIES
     "QtCore"
     "org.kde.kpublictransport"
 )
 
-target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF6::CoreAddons KF6::I18n KF6::ConfigGui KPublicTransport)
+target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF6::CoreAddons KF6::I18n KF6::ConfigGui KPublicTransport QMapLibre::Core QMapLibre::Location)
 target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
 if (ANDROID)
