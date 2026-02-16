@@ -222,8 +222,16 @@
     <release version="22.06" date="2022-06-24">
       <description>
         <p>Plasma Mobile Gear 22.06 release</p>
+        <p xml:lang="ca">Llançament del Plasma Mobile Gear 22.06</p>
+        <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 22.06</p>
+        <p xml:lang="he">מהדורת 22.06 של Plasma Mobile Gear</p>
+        <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 22.06</p>
         <ul>
           <li>Translation updates</li>
+          <li xml:lang="ca">Actualitzacions de les traduccions</li>
+          <li xml:lang="ca-valencia">Actualitzacions de les traduccions</li>
+          <li xml:lang="he">תרגומים עודכנו</li>
+          <li xml:lang="pt-BR">Atualizações de traduções</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2022/06/28/plasma-mobile-gear-22-06/</url>
@@ -233,7 +241,15 @@
       <description>
         <ul>
           <li>Fix application icon on Windows</li>
+          <li xml:lang="ca">Corregeix la icona d'aplicació al Windows</li>
+          <li xml:lang="ca-valencia">Corregix la icona d'aplicació a Windows</li>
+          <li xml:lang="he">סמל היישום ב־Windows תוקן</li>
+          <li xml:lang="pt-BR">Corrigido ícone de aplicativo no Windows</li>
           <li>Code refactoring and improvements.</li>
+          <li xml:lang="ca">Reestructuració del codi i millores.</li>
+          <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
+          <li xml:lang="he">שכתוב קוד ושיפורים.</li>
+          <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
         </ul>
       </description>
     </release>
@@ -242,6 +258,10 @@
       <description>
         <ul>
           <li>Code refactoring and improvements.</li>
+          <li xml:lang="ca">Reestructuració del codi i millores.</li>
+          <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
+          <li xml:lang="he">שכתוב קוד ושיפורים.</li>
+          <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
         </ul>
       </description>
     </release>
@@ -257,11 +277,31 @@
     <release version="21.06" date="2021-06-10">
       <description>
         <p>Plasma Mobile Gear 21.06 release</p>
+        <p xml:lang="ca">Llançament del Plasma Mobile Gear 21.06</p>
+        <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
+        <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
+        <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <ul>
           <li>Show correct version number in About page</li>
+          <li xml:lang="ca">Mostra el número de versió correcte a la pàgina Quant</li>
+          <li xml:lang="ca-valencia">Mostra el número de versió correcte a la pàgina Quant</li>
+          <li xml:lang="he">הצגת מספר הגרסה הנכונה בעמוד על אודות</li>
+          <li xml:lang="pt-BR">Exibe o número da versão correto na página Sobre</li>
           <li>Fix app icon being unsharp in About page</li>
+          <li xml:lang="ca">Corregeix la icona d'aplicació que no és definida a la pàgina Quant</li>
+          <li xml:lang="ca-valencia">Corregix la icona d'aplicació que no és definida a la pàgina Quant</li>
+          <li xml:lang="he">תוקנה הבעיה שסמל היישום היה מטושטוש בעמוד על אודות</li>
+          <li xml:lang="pt-BR">Corrigido o problema de desfocagem do ícone do aplicativo na página Sobre</li>
           <li>Fix text overflow in departures page</li>
+          <li xml:lang="ca">Corregeix el desbordament de text a la pàgina de sortides</li>
+          <li xml:lang="ca-valencia">Corregix el desbordament de text a la pàgina d'eixides</li>
+          <li xml:lang="he">תוקן טקסט צף בעמוד יציאות</li>
+          <li xml:lang="pt-BR">Corrigido o excesso de texto na página de partidas</li>
           <li>Set proper category in desktop file</li>
+          <li xml:lang="ca">Estableix la categoria adequada al fitxer «desktop»</li>
+          <li xml:lang="ca-valencia">Establix la categoria adequada al fitxer «desktop»</li>
+          <li xml:lang="he">הוגדרה הקטגוריה המתאימה בקובץ שולחן העבודה (desktop)</li>
+          <li xml:lang="pt-BR">Define a categoria adequada no arquivo da área de trabalho</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
