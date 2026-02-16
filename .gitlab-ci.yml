@@ -1,14 +1,22 @@
-# SPDX-FileCopyrightText: None
-# SPDX-License-Identifier: CC0-1.0
-
 include:
   - project: sysadmin/ci-utilities
-    file:
-      - /gitlab-templates/android-qt6.yml
-      - /gitlab-templates/linux-qt6.yml
-      - /gitlab-templates/linux-qt6-next.yml
-      - /gitlab-templates/freebsd-qt6.yml
-      - /gitlab-templates/reuse-lint.yml
-      - /gitlab-templates/flatpak.yml
-      - /gitlab-templates/cppcheck.yml
-      - /gitlab-templates/craft-android-qt6-apks.yml
+    file: /gitlab-templates/blocks/workflow.yml
+
+apidocs_website:
+  image: storage.kde.org/vm-images/suse-qt610
+  tags:
+    - VM
+    - amd64
+  stage: build
+  variables:
+    LANG: en_US.UTF-8
+    KDECI_PLATFORM_PATH: suse-qt6.11
+    KDECI_CACHE_PATH: /mnt/$KDECI_PLATFORM_PATH/artifacts/
+    KDECI_CC_CACHE: /mnt/$KDECI_PLATFORM_PATH/caches/
+    KDECI_GITLAB_SERVER: https://invent.kde.org/
+    KDECI_PACKAGE_PROJECT: teams/ci-artifacts/$KDECI_PLATFORM_PATH
+    # Show timestamps in our job logs
+    FF_TIMESTAMPS: true
+
+  script:
+    - rm -rf /mnt/*
