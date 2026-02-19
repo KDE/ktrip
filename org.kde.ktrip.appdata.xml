@@ -229,6 +229,8 @@
         <p xml:lang="nl">Plasma Mobile Gear 22.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 22.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 22.06</p>
+        <p xml:lang="sl">Izdaja Plasma Mobile Gear 22.06</p>
+        <p xml:lang="uk">Випуск Plasma Mobile Gear 22.06</p>
         <ul>
           <li>Translation updates</li>
           <li xml:lang="ar">تحديثات الترجمة</li>
@@ -238,6 +240,8 @@
           <li xml:lang="nl">Vertalingen bijgewerkt</li>
           <li xml:lang="pt-BR">Atualizações de traduções</li>
           <li xml:lang="ru">Обновления перевода;</li>
+          <li xml:lang="sl">Posodobitve prevodov</li>
+          <li xml:lang="uk">Оновлення перекладів</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2022/06/28/plasma-mobile-gear-22-06/</url>
@@ -254,6 +258,8 @@
           <li xml:lang="nl">Het toepassingspictogram in Windows repareren</li>
           <li xml:lang="pt-BR">Corrigido ícone de aplicativo no Windows</li>
           <li xml:lang="ru">Исправление значка приложения в Windows;</li>
+          <li xml:lang="sl">Popravi ikono aplikacije v sistemu Windows</li>
+          <li xml:lang="uk">Виправлено піктограму програми у Windows</li>
           <li>Code refactoring and improvements.</li>
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
           <li xml:lang="ca">Reestructuració del codi i millores.</li>
@@ -262,6 +268,8 @@
           <li xml:lang="nl">Code herzieningen en verbeteringen.</li>
           <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
+          <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
+          <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
         </ul>
       </description>
     </release>
@@ -277,6 +285,8 @@
           <li xml:lang="nl">Code herzieningen en verbeteringen.</li>
           <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
+          <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
+          <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
         </ul>
       </description>
     </release>
@@ -299,6 +309,8 @@
         <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
+        <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
+        <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
         <ul>
           <li>Show correct version number in About page</li>
           <li xml:lang="ar">أُظهر رقم الإصدار الصحيح في صفحة «عن»</li>
@@ -308,6 +320,8 @@
           <li xml:lang="nl">Toon het juiste versienummer op de pagina 'Info over.</li>
           <li xml:lang="pt-BR">Exibe o número da versão correto na página Sobre</li>
           <li xml:lang="ru">Отображение правильного номера версии на странице «О программе»;</li>
+          <li xml:lang="sl">Prikaže pravilno številko različice na strani O programu</li>
+          <li xml:lang="uk">Реалізовано показ правильного номера версії на сторінці «Про програму»</li>
           <li>Fix app icon being unsharp in About page</li>
           <li xml:lang="ar">أُصلحت مشكلة عدم وضوح أيقونة التطبيق في صفحة «عن»</li>
           <li xml:lang="ca">Corregeix la icona d'aplicació que no és definida a la pàgina Quant</li>
@@ -316,6 +330,8 @@
           <li xml:lang="nl">Het probleem met het onscherpe toepassingspictogram op de pagina 'Info over' is opgelost.</li>
           <li xml:lang="pt-BR">Corrigido o problema de desfocagem do ícone do aplicativo na página Sobre</li>
           <li xml:lang="ru">Исправлена нечёткость значка приложения на странице «О программе»;</li>
+          <li xml:lang="sl">Odpravljena je bila neostra ikona aplikacije na strani O programu</li>
+          <li xml:lang="uk">Виправлено розмиття піктограми програми на сторінці «Про програму»</li>
           <li>Fix text overflow in departures page</li>
           <li xml:lang="ar">أُصلح تجاوز النص في صفحة المغادرة</li>
           <li xml:lang="ca">Corregeix el desbordament de text a la pàgina de sortides</li>
@@ -324,6 +340,8 @@
           <li xml:lang="nl">Corrigeer tekstoverloop op de vertrekpagina</li>
           <li xml:lang="pt-BR">Corrigido o excesso de texto na página de partidas</li>
           <li xml:lang="ru">Исправлено переполнение текста на странице отправлений;</li>
+          <li xml:lang="sl">Popravleno prelivanje besedila na strani z odhodi</li>
+          <li xml:lang="uk">Виправлено переповнення вікна текстом на сторінці відправлень</li>
           <li>Set proper category in desktop file</li>
           <li xml:lang="ar">وُضعت الفئة المناسبة في ملف سطح المكتب</li>
           <li xml:lang="ca">Estableix la categoria adequada al fitxer «desktop»</li>
@@ -332,6 +350,8 @@
           <li xml:lang="nl">Stel de juiste categorie in voor het desktop-bestand.</li>
           <li xml:lang="pt-BR">Define a categoria adequada no arquivo da área de trabalho</li>
           <li xml:lang="ru">Исправлена категория в файле .desktop.</li>
+          <li xml:lang="sl">Nastavi ustrezno kategorijo v datoteki namizja</li>
+          <li xml:lang="uk">Встановлено належну категорію програми у файлі .desktop</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
