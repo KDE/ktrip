@@ -225,6 +225,7 @@
         <p xml:lang="ar">إصدار بلازما الجوال 22.06</p>
         <p xml:lang="ca">Llançament del Plasma Mobile Gear 22.06</p>
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 22.06</p>
+        <p xml:lang="es">Versión para Plasma Mobile Gear 22.06</p>
         <p xml:lang="he">מהדורת 22.06 של Plasma Mobile Gear</p>
         <p xml:lang="ia">Plasma Mobile Gear version 22.06</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 22.06</p>
@@ -232,12 +233,14 @@
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 22.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 22.06</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 22.06</p>
+        <p xml:lang="tr">Plasma Mobile Gear 22.06 release</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 22.06</p>
         <ul>
           <li>Translation updates</li>
           <li xml:lang="ar">تحديثات الترجمة</li>
           <li xml:lang="ca">Actualitzacions de les traduccions</li>
           <li xml:lang="ca-valencia">Actualitzacions de les traduccions</li>
+          <li xml:lang="es">Actualizaciones de las traducciones.</li>
           <li xml:lang="he">תרגומים עודכנו</li>
           <li xml:lang="ia">Actualisationes de traduction</li>
           <li xml:lang="ka">თარგმანის განახლებები</li>
@@ -245,6 +248,7 @@
           <li xml:lang="pt-BR">Atualizações de traduções</li>
           <li xml:lang="ru">Обновления перевода;</li>
           <li xml:lang="sl">Posodobitve prevodov</li>
+          <li xml:lang="tr">Translation updates</li>
           <li xml:lang="uk">Оновлення перекладів</li>
         </ul>
       </description>
@@ -258,6 +262,7 @@
           <li xml:lang="ar">أُصلحت أيقونة التطبيق على ويندوز</li>
           <li xml:lang="ca">Corregeix la icona d'aplicació al Windows</li>
           <li xml:lang="ca-valencia">Corregix la icona d'aplicació a Windows</li>
+          <li xml:lang="es">Se ha corregido el icono de la aplicación en Windows.</li>
           <li xml:lang="he">סמל היישום ב־Windows תוקן</li>
           <li xml:lang="ia">Corrige icone de application sur Windows</li>
           <li xml:lang="ka">გასწორდა აპლიკაციის ხატულა Windows-ზე</li>
@@ -265,11 +270,13 @@
           <li xml:lang="pt-BR">Corrigido ícone de aplicativo no Windows</li>
           <li xml:lang="ru">Исправление значка приложения в Windows;</li>
           <li xml:lang="sl">Popravi ikono aplikacije v sistemu Windows</li>
+          <li xml:lang="tr">Fix application icon on Windows</li>
           <li xml:lang="uk">Виправлено піктограму програми у Windows</li>
           <li>Code refactoring and improvements.</li>
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
           <li xml:lang="ca">Reestructuració del codi i millores.</li>
           <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
+          <li xml:lang="es">Refactorización del código y mejoras.</li>
           <li xml:lang="he">שכתוב קוד ושיפורים.</li>
           <li xml:lang="ia">Refactorisar de codice e melioramentos</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და გაუმჯობესება.</li>
@@ -277,6 +284,7 @@
           <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
+          <li xml:lang="tr">Code refactoring and improvements.</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
         </ul>
       </description>
@@ -289,6 +297,7 @@
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
           <li xml:lang="ca">Reestructuració del codi i millores.</li>
           <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
+          <li xml:lang="es">Refactorización del código y mejoras.</li>
           <li xml:lang="he">שכתוב קוד ושיפורים.</li>
           <li xml:lang="ia">Refactorisar de codice e melioramentos</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და გაუმჯობესება.</li>
@@ -296,6 +305,7 @@
           <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
+          <li xml:lang="tr">Code refactoring and improvements.</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
         </ul>
       </description>
@@ -315,6 +325,7 @@
         <p xml:lang="ar">إصدار بلازما الجوال 21.06</p>
         <p xml:lang="ca">Llançament del Plasma Mobile Gear 21.06</p>
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
+        <p xml:lang="es">Versión para Plasma Mobile Gear 21.06</p>
         <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
         <p xml:lang="ia">Plasma Mobile Gear version 21.06</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 21.06</p>
@@ -322,12 +333,14 @@
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
+        <p xml:lang="tr">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
         <ul>
           <li>Show correct version number in About page</li>
           <li xml:lang="ar">أُظهر رقم الإصدار الصحيح في صفحة «عن»</li>
           <li xml:lang="ca">Mostra el número de versió correcte a la pàgina Quant</li>
           <li xml:lang="ca-valencia">Mostra el número de versió correcte a la pàgina Quant</li>
+          <li xml:lang="es">Mostrar el número de versión correcto en la página «Acerca de».</li>
           <li xml:lang="he">הצגת מספר הגרסה הנכונה בעמוד על אודות</li>
           <li xml:lang="ia">Monstra numero correcte de version in pagina de A proposito</li>
           <li xml:lang="ka">სწორი ვერსიის ჩვენება გვერდზე 'შესახებ'</li>
@@ -335,11 +348,13 @@
           <li xml:lang="pt-BR">Exibe o número da versão correto na página Sobre</li>
           <li xml:lang="ru">Отображение правильного номера версии на странице «О программе»;</li>
           <li xml:lang="sl">Prikaže pravilno številko različice na strani O programu</li>
+          <li xml:lang="tr">Show correct version number in About page</li>
           <li xml:lang="uk">Реалізовано показ правильного номера версії на сторінці «Про програму»</li>
           <li>Fix app icon being unsharp in About page</li>
           <li xml:lang="ar">أُصلحت مشكلة عدم وضوح أيقونة التطبيق في صفحة «عن»</li>
           <li xml:lang="ca">Corregeix la icona d'aplicació que no és definida a la pàgina Quant</li>
           <li xml:lang="ca-valencia">Corregix la icona d'aplicació que no és definida a la pàgina Quant</li>
+          <li xml:lang="es">Se ha corregido la visualización del icono de la aplicación borroso en la página «Acerca de».</li>
           <li xml:lang="he">תוקנה הבעיה שסמל היישום היה מטושטוש בעמוד על אודות</li>
           <li xml:lang="ia">Corrige icone de app que non es affilate in pagina de A Proposito </li>
           <li xml:lang="ka">გასწორდა აპის ხატულას სისწორე გვერდზე 'შესახებ'</li>
@@ -347,11 +362,13 @@
           <li xml:lang="pt-BR">Corrigido o problema de desfocagem do ícone do aplicativo na página Sobre</li>
           <li xml:lang="ru">Исправлена нечёткость значка приложения на странице «О программе»;</li>
           <li xml:lang="sl">Odpravljena je bila neostra ikona aplikacije na strani O programu</li>
+          <li xml:lang="tr">Fix app icon being unsharp in About page</li>
           <li xml:lang="uk">Виправлено розмиття піктограми програми на сторінці «Про програму»</li>
           <li>Fix text overflow in departures page</li>
           <li xml:lang="ar">أُصلح تجاوز النص في صفحة المغادرة</li>
           <li xml:lang="ca">Corregeix el desbordament de text a la pàgina de sortides</li>
           <li xml:lang="ca-valencia">Corregix el desbordament de text a la pàgina d'eixides</li>
+          <li xml:lang="es">Se ha corregido el desbordamiento del texto en la página de salidas.</li>
           <li xml:lang="he">תוקן טקסט צף בעמוד יציאות</li>
           <li xml:lang="ia">Corrige disbordar de texto in pagina de departita</li>
           <li xml:lang="ka">გასწორდა ტექსტის გადავსება გამგზავრებების გვერდზე</li>
@@ -359,11 +376,13 @@
           <li xml:lang="pt-BR">Corrigido o excesso de texto na página de partidas</li>
           <li xml:lang="ru">Исправлено переполнение текста на странице отправлений;</li>
           <li xml:lang="sl">Popravleno prelivanje besedila na strani z odhodi</li>
+          <li xml:lang="tr">Fix text overflow in departures page</li>
           <li xml:lang="uk">Виправлено переповнення вікна текстом на сторінці відправлень</li>
           <li>Set proper category in desktop file</li>
           <li xml:lang="ar">وُضعت الفئة المناسبة في ملف سطح المكتب</li>
           <li xml:lang="ca">Estableix la categoria adequada al fitxer «desktop»</li>
           <li xml:lang="ca-valencia">Establix la categoria adequada al fitxer «desktop»</li>
+          <li xml:lang="es">Definir la categoría correcta en el archivo de escritorio.</li>
           <li xml:lang="he">הוגדרה הקטגוריה המתאימה בקובץ שולחן העבודה (desktop)</li>
           <li xml:lang="ia">Assigna proprie categoria in file de scriptorio</li>
           <li xml:lang="ka">სწორი კატეგორიის დაყენება სამუშაო მაგიდის ფაილში</li>
@@ -371,6 +390,7 @@
           <li xml:lang="pt-BR">Define a categoria adequada no arquivo da área de trabalho</li>
           <li xml:lang="ru">Исправлена категория в файле .desktop.</li>
           <li xml:lang="sl">Nastavi ustrezno kategorijo v datoteki namizja</li>
+          <li xml:lang="tr">Set proper category in desktop file</li>
           <li xml:lang="uk">Встановлено належну категорію програми у файлі .desktop</li>
         </ul>
       </description>
