@@ -86,6 +86,7 @@
     <p xml:lang="ar">يساعدك تطبيق رحلتك على التنقل في وسائل النقل العام. فهو يتيح لك العثور على الرحلات بين مواقع محددة، ومواعيد المغادرة لمحطة محددة، ويعرض معلومات التأخير والانقطاع في الوقت الفعلي.</p>
     <p xml:lang="ca">El KTrip ajuda a navegar pel transport públic. Permet trobar viatges entre les ubicacions especificades, sortides des d'una estació concreta, i mostrar en temps real la informació d'endarreriments i interrupcions.</p>
     <p xml:lang="ca-valencia">KTrip ajuda a navegar pel transport públic. Permet trobar viatges entre les ubicacions especificades, eixides des d'una estació concreta, i mostrar en temps real la informació d'endarreriments i interrupcions.</p>
+    <p xml:lang="cs">KTrip vám pomůže orientovat se ve veřejné dopravě. Umožní vám najít cesty mezi zadanými místy, odjezdy z konkrétní stanice a zobrazí informace o zpožděních a výlukách v reálném čase.</p>
     <p xml:lang="de">KTrip hilft Ihnen bei der Navigation in öffentlichen Verkehrsmitteln. Es ermöglicht Ihnen die Suche nach Fahrten zwischen bestimmten Orten, nach Abfahrten für eine bestimmte Station und zeigt Verspätungs- und Störungsinformationen in Echtzeit an.</p>
     <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
     <p xml:lang="eo">KTrip helpas vin navigi en publika transporto. Ĝi permesas vin trovi vojaĝojn inter specifitaj lokoj, forirojn al specifa stacio kaj montras realtempajn informojn pri prokrasto kaj interrompo.</p>
@@ -226,6 +227,7 @@
         <p xml:lang="ar">إصدار بلازما الجوال 22.06</p>
         <p xml:lang="ca">Llançament del Plasma Mobile Gear 22.06</p>
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 22.06</p>
+        <p xml:lang="cs">Plasma Mobile Gear 22.06</p>
         <p xml:lang="es">Versión para Plasma Mobile Gear 22.06</p>
         <p xml:lang="fr">Publication de Plasma Mobile Gear 22.06</p>
         <p xml:lang="he">מהדורת 22.06 של Plasma Mobile Gear</p>
@@ -243,6 +245,7 @@
           <li xml:lang="ar">تحديثات الترجمة</li>
           <li xml:lang="ca">Actualitzacions de les traduccions</li>
           <li xml:lang="ca-valencia">Actualitzacions de les traduccions</li>
+          <li xml:lang="cs">Aktualizace překladů</li>
           <li xml:lang="es">Actualizaciones de las traducciones.</li>
           <li xml:lang="fr">Mises à jour des traductions</li>
           <li xml:lang="he">תרגומים עודכנו</li>
@@ -267,6 +270,7 @@
           <li xml:lang="ar">أُصلحت أيقونة التطبيق على ويندوز</li>
           <li xml:lang="ca">Corregeix la icona d'aplicació al Windows</li>
           <li xml:lang="ca-valencia">Corregix la icona d'aplicació a Windows</li>
+          <li xml:lang="cs">Opravena ikona aplikace ve Windows</li>
           <li xml:lang="es">Se ha corregido el icono de la aplicación en Windows.</li>
           <li xml:lang="fr">Correction de l'icône de l'application sous Windows</li>
           <li xml:lang="he">סמל היישום ב־Windows תוקן</li>
@@ -283,6 +287,7 @@
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
           <li xml:lang="ca">Reestructuració del codi i millores.</li>
           <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
+          <li xml:lang="cs">Přepracování kódu a jeho vylepšení.</li>
           <li xml:lang="es">Refactorización del código y mejoras.</li>
           <li xml:lang="fr">Ré-organisation et améliorations du code.</li>
           <li xml:lang="he">שכתוב קוד ושיפורים.</li>
@@ -306,6 +311,7 @@
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
           <li xml:lang="ca">Reestructuració del codi i millores.</li>
           <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
+          <li xml:lang="cs">Přepracování kódu a jeho vylepšení.</li>
           <li xml:lang="es">Refactorización del código y mejoras.</li>
           <li xml:lang="fr">Ré-organisation et améliorations du code.</li>
           <li xml:lang="he">שכתוב קוד ושיפורים.</li>
@@ -336,6 +342,7 @@
         <p xml:lang="ar">إصدار بلازما الجوال 21.06</p>
         <p xml:lang="ca">Llançament del Plasma Mobile Gear 21.06</p>
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
+        <p xml:lang="cs">Plasma Mobile Gear 21.06</p>
         <p xml:lang="es">Versión para Plasma Mobile Gear 21.06</p>
         <p xml:lang="fr">Publication de Plasma Mobile Gear 21.06</p>
         <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
@@ -353,6 +360,7 @@
           <li xml:lang="ar">أُظهر رقم الإصدار الصحيح في صفحة «عن»</li>
           <li xml:lang="ca">Mostra el número de versió correcte a la pàgina Quant</li>
           <li xml:lang="ca-valencia">Mostra el número de versió correcte a la pàgina Quant</li>
+          <li xml:lang="cs">Zobrazeno správné číslo verze na stránce O aplikaci</li>
           <li xml:lang="es">Mostrar el número de versión correcto en la página «Acerca de».</li>
           <li xml:lang="fr">Afficher le numéro correct de version dans la page « À propos »</li>
           <li xml:lang="he">הצגת מספר הגרסה הנכונה בעמוד על אודות</li>
@@ -369,6 +377,7 @@
           <li xml:lang="ar">أُصلحت مشكلة عدم وضوح أيقونة التطبيق في صفحة «عن»</li>
           <li xml:lang="ca">Corregeix la icona d'aplicació que no és definida a la pàgina Quant</li>
           <li xml:lang="ca-valencia">Corregix la icona d'aplicació que no és definida a la pàgina Quant</li>
+          <li xml:lang="cs">Oprava neostré ikony aplikace na stránce O aplikaci</li>
           <li xml:lang="es">Se ha corregido la visualización del icono de la aplicación borroso en la página «Acerca de».</li>
           <li xml:lang="fr">Correction de l’icône de l’application, affichée floue sur la page « À propos »</li>
           <li xml:lang="he">תוקנה הבעיה שסמל היישום היה מטושטוש בעמוד על אודות</li>
@@ -385,6 +394,7 @@
           <li xml:lang="ar">أُصلح تجاوز النص في صفحة المغادرة</li>
           <li xml:lang="ca">Corregeix el desbordament de text a la pàgina de sortides</li>
           <li xml:lang="ca-valencia">Corregix el desbordament de text a la pàgina d'eixides</li>
+          <li xml:lang="cs">Opraveno přetečení textu na stránce odletů</li>
           <li xml:lang="es">Se ha corregido el desbordamiento del texto en la página de salidas.</li>
           <li xml:lang="fr">Correction du débordement de texte sur la page des départs</li>
           <li xml:lang="he">תוקן טקסט צף בעמוד יציאות</li>
@@ -401,6 +411,7 @@
           <li xml:lang="ar">وُضعت الفئة المناسبة في ملف سطح المكتب</li>
           <li xml:lang="ca">Estableix la categoria adequada al fitxer «desktop»</li>
           <li xml:lang="ca-valencia">Establix la categoria adequada al fitxer «desktop»</li>
+          <li xml:lang="cs">Nastavena správná kategorie v desktop souboru</li>
           <li xml:lang="es">Definir la categoría correcta en el archivo de escritorio.</li>
           <li xml:lang="fr">Définir la catégorie appropriée dans le fichier de bureau</li>
           <li xml:lang="he">הוגדרה הקטגוריה המתאימה בקובץ שולחן העבודה (desktop)</li>
