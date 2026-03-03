@@ -240,6 +240,7 @@
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 22.06</p>
         <p xml:lang="tr">Plasma Mobile Gear 22.06 release</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 22.06</p>
+        <p xml:lang="zh-TW">Plasma 行動 Gear 22.06 釋出</p>
         <ul>
           <li>Translation updates</li>
           <li xml:lang="ar">تحديثات الترجمة</li>
@@ -258,6 +259,7 @@
           <li xml:lang="sl">Posodobitve prevodov</li>
           <li xml:lang="tr">Translation updates</li>
           <li xml:lang="uk">Оновлення перекладів</li>
+          <li xml:lang="zh-TW">翻譯更新</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2022/06/28/plasma-mobile-gear-22-06/</url>
@@ -283,6 +285,7 @@
           <li xml:lang="sl">Popravi ikono aplikacije v sistemu Windows</li>
           <li xml:lang="tr">Fix application icon on Windows</li>
           <li xml:lang="uk">Виправлено піктограму програми у Windows</li>
+          <li xml:lang="zh-TW">修正 Windows 上的應用程式圖示。</li>
           <li>Code refactoring and improvements.</li>
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
           <li xml:lang="ca">Reestructuració del codi i millores.</li>
@@ -355,6 +358,7 @@
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
         <p xml:lang="tr">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
+        <p xml:lang="zh-TW">Plasma 行動 Gear 21.06 釋出</p>
         <ul>
           <li>Show correct version number in About page</li>
           <li xml:lang="ar">أُظهر رقم الإصدار الصحيح في صفحة «عن»</li>
@@ -373,6 +377,7 @@
           <li xml:lang="sl">Prikaže pravilno številko različice na strani O programu</li>
           <li xml:lang="tr">Show correct version number in About page</li>
           <li xml:lang="uk">Реалізовано показ правильного номера версії на сторінці «Про програму»</li>
+          <li xml:lang="zh-TW">在關於頁面顯示正確的版本號碼</li>
           <li>Fix app icon being unsharp in About page</li>
           <li xml:lang="ar">أُصلحت مشكلة عدم وضوح أيقونة التطبيق في صفحة «عن»</li>
           <li xml:lang="ca">Corregeix la icona d'aplicació que no és definida a la pàgina Quant</li>
@@ -390,6 +395,7 @@
           <li xml:lang="sl">Odpravljena je bila neostra ikona aplikacije na strani O programu</li>
           <li xml:lang="tr">Fix app icon being unsharp in About page</li>
           <li xml:lang="uk">Виправлено розмиття піктограми програми на сторінці «Про програму»</li>
+          <li xml:lang="zh-TW">修正在關於頁面中應用程式圖示不清晰的問題</li>
           <li>Fix text overflow in departures page</li>
           <li xml:lang="ar">أُصلح تجاوز النص في صفحة المغادرة</li>
           <li xml:lang="ca">Corregeix el desbordament de text a la pàgina de sortides</li>
@@ -424,6 +430,7 @@
           <li xml:lang="sl">Nastavi ustrezno kategorijo v datoteki namizja</li>
           <li xml:lang="tr">Set proper category in desktop file</li>
           <li xml:lang="uk">Встановлено належну категорію програми у файлі .desktop</li>
+          <li xml:lang="zh-TW">在 .desktop 檔案中設定正確的分類</li>
         </ul>
       </description>
       <url>https://www.plasma-mobile.org/2021/06/10/plasma-mobile-update-june/</url>
