@@ -4,11 +4,12 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-import QtQuick 2.2
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 2.4
-import org.kde.kirigami 2.4 as Kirigami
-import org.kde.kpublictransport 1.0
+import QtQuick
+import QtQuick.Layouts
+import QtQuick.Controls
+import org.kde.kirigami as Kirigami
+import org.kde.kpublictransport
+import org.kde.kpublictransport.ui
 import org.kde.ktrip
 
 Kirigami.ScrollablePage {
@@ -211,6 +212,27 @@ Kirigami.ScrollablePage {
 
                     Label {
                         text: theData.scheduledArrivalPlatform
+                    }
+                }
+
+                RowLayout {
+                    visible: !intermediateStops.expanded
+                    Repeater {
+                        model: theData.features
+                        delegate: FeatureIcon {
+                            required property feature modelData
+                            feature: modelData
+                            Layout.preferredHeight: Kirigami.Units.iconSizes.small
+                            Layout.preferredWidth: Kirigami.Units.iconSizes.small
+                        }
+                    }
+                }
+                Repeater {
+                    model: intermediateStops.expanded ? theData.features : null
+                    delegate: FeatureDelegate {
+                        required property feature modelData
+                        feature: modelData
+                        Layout.fillWidth: true
                     }
                 }
 
