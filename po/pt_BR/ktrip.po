@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-03-17 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 06:47-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -79,39 +79,39 @@ msgstr "Selecione os fornecedores relevantes para sua área"
 msgid "Save"
 msgstr "Salvar"
 
-#: qml/ConnectionDetailsPage.qml:16
+#: qml/ConnectionDetailsPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Detalhes"
 
-#: qml/ConnectionDetailsPage.qml:45
+#: qml/ConnectionDetailsPage.qml:46
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "A pé (%1 minuto)"
 msgstr[1] "A pé (%1 minutos)"
 
-#: qml/ConnectionDetailsPage.qml:53
+#: qml/ConnectionDetailsPage.qml:54
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Aguardando (%1 minuto)"
 msgstr[1] "Aguardando (%1 minuto)"
 
-#: qml/ConnectionDetailsPage.qml:61
+#: qml/ConnectionDetailsPage.qml:62
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Em transferência (%1 minuto)"
 msgstr[1] "Em transferência (%1 minutos)"
 
-#: qml/ConnectionDetailsPage.qml:97
+#: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Ocultar paradas intermediárias"
 
-#: qml/ConnectionDetailsPage.qml:97
+#: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Mostrar paradas intermediárias"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-03-17 00:47+0000\n"
 "PO-Revision-Date: 2020-05-05 12:00+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -76,39 +76,39 @@ msgstr "Vali oma piirkonnas tegutsevad teenusepakkujad"
 msgid "Save"
 msgstr "Salvesta"
 
-#: qml/ConnectionDetailsPage.qml:16
+#: qml/ConnectionDetailsPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Üksikasjad"
 
-#: qml/ConnectionDetailsPage.qml:45
+#: qml/ConnectionDetailsPage.qml:46
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "Käimine (%1 minut)"
 msgstr[1] "Käimine (%1 minutit)"
 
-#: qml/ConnectionDetailsPage.qml:53
+#: qml/ConnectionDetailsPage.qml:54
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Ootamine (%1 minut)"
 msgstr[1] "Ootamine (%1 minutit)"
 
-#: qml/ConnectionDetailsPage.qml:61
+#: qml/ConnectionDetailsPage.qml:62
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Sõit (%1 minut)"
 msgstr[1] "Sõit (%1 minutit)"
 
-#: qml/ConnectionDetailsPage.qml:97
+#: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr ""
 
-#: qml/ConnectionDetailsPage.qml:97
+#: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr ""

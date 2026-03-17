@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-03-17 00:47+0000\n"
 "PO-Revision-Date: 2025-11-27 19:33+0300\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -81,13 +81,13 @@ msgstr "Выберите поставщиков данных, которые с�
 msgid "Save"
 msgstr "Сохранить"
 
-#: qml/ConnectionDetailsPage.qml:16
+#: qml/ConnectionDetailsPage.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Подробности"
 
-#: qml/ConnectionDetailsPage.qml:45
+#: qml/ConnectionDetailsPage.qml:46
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
@@ -96,7 +96,7 @@ msgstr[1] "Пешком (%1 минуты)"
 msgstr[2] "Пешком (%1 минут)"
 msgstr[3] "Пешком (%1 минута)"
 
-#: qml/ConnectionDetailsPage.qml:53
+#: qml/ConnectionDetailsPage.qml:54
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
@@ -105,7 +105,7 @@ msgstr[1] "Ожидание (%1 минуты)"
 msgstr[2] "Ожидание (%1 минут)"
 msgstr[3] "Ожидание (%1 минута)"
 
-#: qml/ConnectionDetailsPage.qml:61
+#: qml/ConnectionDetailsPage.qml:62
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
@@ -114,12 +114,12 @@ msgstr[1] "Пересадка (%1 минуты)"
 msgstr[2] "Пересадка (%1 минут)"
 msgstr[3] "Пересадка (%1 минута)"
 
-#: qml/ConnectionDetailsPage.qml:97
+#: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Скрыть промежуточные остановки"
 
-#: qml/ConnectionDetailsPage.qml:97
+#: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Показать промежуточные остановки"
