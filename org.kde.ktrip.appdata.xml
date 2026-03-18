@@ -303,6 +303,7 @@
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
           <li xml:lang="tr">Kodun yeniden yapılandırılması ve iyileştirmeler</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
+          <li xml:lang="zh-TW">程式碼重構與改善。</li>
         </ul>
       </description>
     </release>
@@ -327,6 +328,7 @@
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
           <li xml:lang="tr">Kodun yeniden yapılandırılması ve iyileştirmeler</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
+          <li xml:lang="zh-TW">程式碼重構與改善。</li>
         </ul>
       </description>
     </release>
@@ -413,6 +415,7 @@
           <li xml:lang="sl">Popravleno prelivanje besedila na strani z odhodi</li>
           <li xml:lang="tr">Kalkışlar sayfasındaki metin taşması düzeltildi.</li>
           <li xml:lang="uk">Виправлено переповнення вікна текстом на сторінці відправлень</li>
+          <li xml:lang="zh-TW">修正出發頁面中文字超出頁面的問題</li>
           <li>Set proper category in desktop file</li>
           <li xml:lang="ar">وُضعت الفئة المناسبة في ملف سطح المكتب</li>
           <li xml:lang="ca">Estableix la categoria adequada al fitxer «desktop»</li>
