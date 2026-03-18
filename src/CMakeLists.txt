@@ -4,8 +4,6 @@
 set(ktrip_SRCS
     main.cpp
     controller.cpp
-    localizer.cpp
-    localizer.h
     resources.qrc
 )
 

@@ -5,12 +5,9 @@
  */
 
 import QtQuick
-import QtQuick.Layouts
 import QtQuick.Controls as Controls
 import org.kde.kirigami as Kirigami
-import org.kde.kirigamiaddons.formcard as FormCard
 import org.kde.kpublictransport.ui as KPublicTransport
-import org.kde.ktrip
 
 Kirigami.ScrollablePage {
     id: root
@@ -42,76 +39,10 @@ Kirigami.ScrollablePage {
             icon.name: "arrow-up"
         }
 
-        delegate: FormCard.AbstractFormDelegate {
+        delegate: KPublicTransport.StopoverFormDelegate {
             id: delegate
-
-            required property KPublicTransport.stopover stopover
-
+            isArrival: root.showArrivals
             width: ListView.view.width
-
-            contentItem: RowLayout {
-                spacing: Kirigami.Units.largeSpacing * 2
-
-                ColumnLayout {
-                    spacing: Kirigami.Units.smallSpacing
-
-                    Layout.fillWidth: true
-
-                    RowLayout {
-                        spacing: Kirigami.Units.smallSpacing
-
-                        KPublicTransport.TransportNameControl {
-                            line: delegate.stopover.route.line
-                            journeySectionMode: KPublicTransport.JourneySection.PublicTransport
-                        }
-
-                        Kirigami.Heading {
-                            level: 3
-                            text: delegate.stopover.route.direction
-                            visible: delegate.stopover.route.direction.length > 0
-                            elide: Text.ElideRight
-                            Layout.fillWidth: true
-                        }
-                    }
-
-                    Flow {
-                        spacing: Kirigami.Units.smallSpacing
-
-                        Layout.fillWidth: true
-
-                        KPublicTransport.ExpectedTimeLabel {
-                            stopover: delegate.stopover
-                            delay: root.showArrivals ? delegate.stopover.arrivalDelay : delegate.stopover.departureDelay
-                            scheduledTime: Localizer.formatTime(delegate.stopover, root.showArrivals ? "scheduledArrivalTime" : "scheduledDepartureTime")
-                            hasExpectedTime: root.showArrivals ? delegate.stopover.hasExpectedArrivalTime : delegate.stopover.hasExpectedDepartureTime
-                        }
-
-                        Controls.Label {
-                            text: ' · ' +i18nc("@info", "Platform %1", delegate.stopover.hasExpectedPlatform ? delegate.stopover.expectedPlatform : delegate.stopover.scheduledPlatform)
-                            color: delegate.stopover.platformChanged ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
-                            visible: delegate.stopover.scheduledPlatform.length > 0
-
-                            Layout.rightMargin: Kirigami.Units.smallSpacing
-                        }
-
-                        Repeater {
-                            model: delegate.stopover.features
-                            delegate: KPublicTransport.FeatureIcon {
-                                required property KPublicTransport.feature modelData
-                                feature: modelData
-                                height: Kirigami.Units.iconSizes.small
-                                width: Kirigami.Units.iconSizes.small
-                            }
-                        }
-                    }
-                }
-
-                Kirigami.Heading {
-                    text: root.showArrivals ?
-                        Localizer.formatTimeDifferenceToNow(delegate.stopover, delegate.stopover.hasExpectedArrivalTime ? "expectedArrivalTime" : "scheduledArrivalTime") :
-                        Localizer.formatTimeDifferenceToNow(delegate.stopover, delegate.stopover.hasExpectedDepartureTime ? "expectedDepartureTime" : "scheduledDepartureTime")
-                }
-            }
 
             background.children: Kirigami.Separator {
                 anchors {
