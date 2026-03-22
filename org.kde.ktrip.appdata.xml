@@ -229,6 +229,7 @@
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 22.06</p>
         <p xml:lang="cs">Plasma Mobile Gear 22.06</p>
         <p xml:lang="es">Versión para Plasma Mobile Gear 22.06</p>
+        <p xml:lang="eu">Plasma Mobile Gear 22.06 askapena</p>
         <p xml:lang="fr">Publication de Plasma Mobile Gear 22.06</p>
         <p xml:lang="he">מהדורת 22.06 של Plasma Mobile Gear</p>
         <p xml:lang="ia">Plasma Mobile Gear version 22.06</p>
@@ -248,6 +249,7 @@
           <li xml:lang="ca-valencia">Actualitzacions de les traduccions</li>
           <li xml:lang="cs">Aktualizace překladů</li>
           <li xml:lang="es">Actualizaciones de las traducciones.</li>
+          <li xml:lang="eu">Itzulpenetan eguneratzeak</li>
           <li xml:lang="fr">Mises à jour des traductions</li>
           <li xml:lang="he">תרגומים עודכנו</li>
           <li xml:lang="ia">Actualisationes de traduction</li>
@@ -274,6 +276,7 @@
           <li xml:lang="ca-valencia">Corregix la icona d'aplicació a Windows</li>
           <li xml:lang="cs">Opravena ikona aplikace ve Windows</li>
           <li xml:lang="es">Se ha corregido el icono de la aplicación en Windows.</li>
+          <li xml:lang="eu">Windowsen aplikazioaren ikonoa konpondu</li>
           <li xml:lang="fr">Correction de l'icône de l'application sous Windows</li>
           <li xml:lang="he">סמל היישום ב־Windows תוקן</li>
           <li xml:lang="ia">Corrige icone de application sur Windows</li>
@@ -292,6 +295,7 @@
           <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
           <li xml:lang="cs">Přepracování kódu a jeho vylepšení.</li>
           <li xml:lang="es">Refactorización del código y mejoras.</li>
+          <li xml:lang="eu">Kodearen berregituraketa eta hobekuntzak.</li>
           <li xml:lang="fr">Ré-organisation et améliorations du code.</li>
           <li xml:lang="he">שכתוב קוד ושיפורים.</li>
           <li xml:lang="ia">Refactorisar de codice e melioramentos</li>
@@ -317,6 +321,7 @@
           <li xml:lang="ca-valencia">Reestructuració del codi i millores.</li>
           <li xml:lang="cs">Přepracování kódu a jeho vylepšení.</li>
           <li xml:lang="es">Refactorización del código y mejoras.</li>
+          <li xml:lang="eu">Kodearen berregituraketa eta hobekuntzak.</li>
           <li xml:lang="fr">Ré-organisation et améliorations du code.</li>
           <li xml:lang="he">שכתוב קוד ושיפורים.</li>
           <li xml:lang="ia">Refactorisar de codice e melioramentos</li>
@@ -349,6 +354,7 @@
         <p xml:lang="ca-valencia">Llançament de Plasma Mobile Gear 21.06</p>
         <p xml:lang="cs">Plasma Mobile Gear 21.06</p>
         <p xml:lang="es">Versión para Plasma Mobile Gear 21.06</p>
+        <p xml:lang="eu">Plasma Mobile Gear 21.06 askapena</p>
         <p xml:lang="fr">Publication de Plasma Mobile Gear 21.06</p>
         <p xml:lang="he">מהדורת 21.06 של Plasma Mobile Gear</p>
         <p xml:lang="ia">Plasma Mobile Gear version 21.06</p>
@@ -368,6 +374,7 @@
           <li xml:lang="ca-valencia">Mostra el número de versió correcte a la pàgina Quant</li>
           <li xml:lang="cs">Zobrazeno správné číslo verze na stránce O aplikaci</li>
           <li xml:lang="es">Mostrar el número de versión correcto en la página «Acerca de».</li>
+          <li xml:lang="eu">Honi buruz orrialdean bertsio zuzena erakutsi</li>
           <li xml:lang="fr">Afficher le numéro correct de version dans la page « À propos »</li>
           <li xml:lang="he">הצגת מספר הגרסה הנכונה בעמוד על אודות</li>
           <li xml:lang="ia">Monstra numero correcte de version in pagina de A proposito</li>
@@ -386,6 +393,7 @@
           <li xml:lang="ca-valencia">Corregix la icona d'aplicació que no és definida a la pàgina Quant</li>
           <li xml:lang="cs">Oprava neostré ikony aplikace na stránce O aplikaci</li>
           <li xml:lang="es">Se ha corregido la visualización del icono de la aplicación borroso en la página «Acerca de».</li>
+          <li xml:lang="eu">Honi buruz orrialdean aplikazioaren ikonoa zorrotza ez izatea konpondu</li>
           <li xml:lang="fr">Correction de l’icône de l’application, affichée floue sur la page « À propos »</li>
           <li xml:lang="he">תוקנה הבעיה שסמל היישום היה מטושטוש בעמוד על אודות</li>
           <li xml:lang="ia">Corrige icone de app que non es affilate in pagina de A Proposito </li>
@@ -404,6 +412,7 @@
           <li xml:lang="ca-valencia">Corregix el desbordament de text a la pàgina d'eixides</li>
           <li xml:lang="cs">Opraveno přetečení textu na stránce odletů</li>
           <li xml:lang="es">Se ha corregido el desbordamiento del texto en la página de salidas.</li>
+          <li xml:lang="eu">Irteeren orrialdeko testu-gainezkatzea konpondu</li>
           <li xml:lang="fr">Correction du débordement de texte sur la page des départs</li>
           <li xml:lang="he">תוקן טקסט צף בעמוד יציאות</li>
           <li xml:lang="ia">Corrige disbordar de texto in pagina de departita</li>
@@ -422,6 +431,7 @@
           <li xml:lang="ca-valencia">Establix la categoria adequada al fitxer «desktop»</li>
           <li xml:lang="cs">Nastavena správná kategorie v desktop souboru</li>
           <li xml:lang="es">Definir la categoría correcta en el archivo de escritorio.</li>
+          <li xml:lang="eu">Mahaigaineko fitxategian kategoria egokia ezarri</li>
           <li xml:lang="fr">Définir la catégorie appropriée dans le fichier de bureau</li>
           <li xml:lang="he">הוגדרה הקטגוריה המתאימה בקובץ שולחן העבודה (desktop)</li>
           <li xml:lang="ia">Assigna proprie categoria in file de scriptorio</li>
