@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-03-23 07:29+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -27,20 +27,6 @@ msgstr "Oliver Kellogg"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "olivermkellogg@gmail.com"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr ""
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
 
 #: main.cpp:77
 #, kde-format
@@ -142,7 +128,7 @@ msgstr[1] "%1 ŝanĝoj"
 msgid "No connections found"
 msgstr "Neniuj konektoj trovitaj"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, fuzzy, kde-format
 #| msgctxt "train or bus arrival"
 #| msgid "Arrival"
@@ -150,25 +136,19 @@ msgctxt "@title"
 msgid "Arrivals"
 msgstr "Alveno"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Foriroj"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr ""
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "Neniuj lokoj trovitaj"
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2022-03-26 23:07+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -773,20 +773,6 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zepires@gmail.com"
 
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr ""
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
-
 #: main.cpp:77
 #, kde-format
 msgid "KTrip"
@@ -887,31 +873,25 @@ msgstr[1] "%1 alterações"
 msgid "No connections found"
 msgstr "Não foram encontradas ligações"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr ""
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Partidas"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr ""
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "Não foram encontradas localizações"
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."

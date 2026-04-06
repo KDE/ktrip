@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 17:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -26,20 +26,6 @@ msgstr "Emir SARI"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Şimdi"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "%1 dakika önce"
-msgstr[1] "%1 dakika önce"
 
 #: main.cpp:77
 #, kde-format
@@ -141,30 +127,24 @@ msgstr[1] "%1 değişiklik"
 msgid "No connections found"
 msgstr "Bulunan aktarma yok."
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Varışlar"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Kalkışlar"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "Peron %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Bulunan varış yok."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Bulunan kalkış yok."
@@ -342,6 +322,20 @@ msgstr "Tekneler veya feribotlar"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Uçak"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Şimdi"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "%1 dakika önce"
+#~ msgstr[1] "%1 dakika önce"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "Peron %1"
 
 #~ msgctxt "journey query search constraint, title"
 #~ msgid "Aircraft"

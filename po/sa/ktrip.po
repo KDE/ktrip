@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -28,20 +28,6 @@ msgstr "श्रीकान्त् कलवार्"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr ""
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] ""
-msgstr[1] ""
 
 #: main.cpp:77
 #, kde-format
@@ -143,31 +129,25 @@ msgstr[1] "%1 परिवर्तते"
 msgid "No connections found"
 msgstr "न कोऽपि संयोजनः प्राप्तः"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr ""
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "प्रस्थानम्"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr ""
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No arrivals found."
 msgstr "न स्थानानि प्राप्तानि"
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, fuzzy, kde-format
 #| msgid "No locations found"
 msgid "No departures found."

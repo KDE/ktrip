@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-04 10:51+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -27,22 +27,6 @@ msgstr "צוות התרגום של KDE ישראל"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-he@kde.org"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "עכשיו"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "לפני דקה"
-msgstr[1] "לפני שתי דקות"
-msgstr[2] "לפני %1 דקות"
-msgstr[3] "לפני %1 דקות"
 
 #: main.cpp:77
 #, kde-format
@@ -152,30 +136,24 @@ msgstr[3] "%1 החלפות"
 msgid "No connections found"
 msgstr "לא נמצאו חיבורים"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "נחיתות"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "יציאות"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "רציף %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "לא נמצאו נחיתות."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "לא נמצאו המראות."
@@ -353,6 +331,22 @@ msgstr "סירות או מעבורות"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "מטוס"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "עכשיו"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "לפני דקה"
+#~ msgstr[1] "לפני שתי דקות"
+#~ msgstr[2] "לפני %1 דקות"
+#~ msgstr[3] "לפני %1 דקות"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "רציף %1"
 
 #~ msgctxt "journey query search constraint, title"
 #~ msgid "Aircraft"

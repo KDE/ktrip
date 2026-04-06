@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-05 08:48+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -26,20 +26,6 @@ msgstr "Stefan Asserhäll"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@gmail.com"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Nu"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "för %1 minut sedan"
-msgstr[1] "för %1 minuter sedan"
 
 #: main.cpp:77
 #, kde-format
@@ -141,30 +127,24 @@ msgstr[1] "%1 ändringar"
 msgid "No connections found"
 msgstr "Inga anslutningar hittades"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Ankomster"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Avgångar"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "Plattform %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Inga ankomster hittades."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Inga avgångar hittade."
@@ -342,6 +322,20 @@ msgstr "Båtar eller färjor"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Flygplan"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Nu"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "för %1 minut sedan"
+#~ msgstr[1] "för %1 minuter sedan"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "Plattform %1"
 
 #, fuzzy
 #~| msgctxt "@action:button"

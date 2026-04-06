@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-08-30 16:32+0300\n"
 "Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -27,21 +27,6 @@ msgstr "Toms Trasūns"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "toms.trasuns@posteo.net"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Tagad"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "pirms %1 min."
-msgstr[1] "pirms %1 min."
-msgstr[2] "pirms %1 min."
 
 #: main.cpp:77
 #, kde-format
@@ -147,30 +132,24 @@ msgstr[2] "%1 pārsēšanos"
 msgid "No connections found"
 msgstr "Savienojumi nav atrasti"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Ierašanās"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Izbraukšanas"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "%1. platforma"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Ierašanās nav atrastas"
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Atiešanas nav atrastas."
@@ -348,6 +327,21 @@ msgstr "Kuģi vai prāmji"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr ""
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Tagad"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "pirms %1 min."
+#~ msgstr[1] "pirms %1 min."
+#~ msgstr[2] "pirms %1 min."
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "%1. platforma"
 
 #~ msgid "Earlier"
 #~ msgstr "Agrāk"

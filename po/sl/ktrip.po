@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 07:12+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -27,22 +27,6 @@ msgstr "Matjaž Jeran"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Sedaj"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "pred %1 min"
-msgstr[1] "pred %1 min"
-msgstr[2] "pred %1 min"
-msgstr[3] "pred %1 min"
 
 #: main.cpp:77
 #, kde-format
@@ -152,30 +136,24 @@ msgstr[3] "%1 sprememb"
 msgid "No connections found"
 msgstr "Ni najdenih povezav"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Prihodi"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Odhodi"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "Peron %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Ni najdenih prihodov."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Ni najdenih odhodov."
@@ -353,6 +331,22 @@ msgstr "Ladje ali trajekti"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Letalo"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Sedaj"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "pred %1 min"
+#~ msgstr[1] "pred %1 min"
+#~ msgstr[2] "pred %1 min"
+#~ msgstr[3] "pred %1 min"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "Peron %1"
 
 #~ msgctxt "journey query search constraint, title"
 #~ msgid "Aircraft"

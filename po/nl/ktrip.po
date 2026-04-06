@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 10:35+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -26,20 +26,6 @@ msgstr "Freek de Kruijf - 2019 t/m 2025"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Nu"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "%1 minuut geleden"
-msgstr[1] "%1 minuten geleden"
 
 #: main.cpp:77
 #, kde-format
@@ -141,30 +127,24 @@ msgstr[1] "%1 wijzigingen"
 msgid "No connections found"
 msgstr "Geen verbindingen gevonden"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Aankomsten"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Vertrektijden"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "Perron %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Geen aankomsten gevonden."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Geen vertrektijd gevonden."
@@ -342,6 +322,20 @@ msgstr "Boten of veerboten"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Vliegtuig"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Nu"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "%1 minuut geleden"
+#~ msgstr[1] "%1 minuten geleden"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "Perron %1"
 
 #~ msgctxt "journey query search constraint, title"
 #~ msgid "Aircraft"

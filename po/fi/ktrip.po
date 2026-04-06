@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-13 21:12+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -26,20 +26,6 @@ msgstr "Tommi Nieminen"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Nyt"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "Minuutti sitten"
-msgstr[1] "%1 min sitten"
 
 #: main.cpp:77
 #, kde-format
@@ -142,30 +128,24 @@ msgstr[1] "%1 vaihtoa"
 msgid "No connections found"
 msgstr "Yhteyksiä ei löytynyt"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Saapumiset"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Lähdöt"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "Laituri %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Saapumisia ei löytynyt."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Lähtöjä ei löytynyt."
@@ -343,6 +323,20 @@ msgstr "Laivat tai lautat"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Lentokone"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Nyt"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "Minuutti sitten"
+#~ msgstr[1] "%1 min sitten"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "Laituri %1"
 
 #, fuzzy
 #~| msgid "No connections found"

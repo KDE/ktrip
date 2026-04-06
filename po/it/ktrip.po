@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-17 00:47+0000\n"
+"POT-Creation-Date: 2026-04-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-11 14:56+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -26,20 +26,6 @@ msgstr "Paolo Zamponi"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "feus73@gmail.com"
-
-#: localizer.cpp:94
-#, kde-format
-msgctxt "time"
-msgid "Now"
-msgstr "Adesso"
-
-#: localizer.cpp:98
-#, kde-format
-msgctxt "time"
-msgid "%1 min ago"
-msgid_plural "%1 min ago"
-msgstr[0] "%1 min fa"
-msgstr[1] "%1 min fa"
 
 #: main.cpp:77
 #, kde-format
@@ -141,30 +127,24 @@ msgstr[1] "%1 modifiche"
 msgid "No connections found"
 msgstr "Nessuna connessione trovata"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
 msgstr "Arrivi"
 
-#: qml/DeparturesPage.qml:23
+#: qml/DeparturesPage.qml:20
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Partenze"
 
-#: qml/DeparturesPage.qml:90
-#, kde-format
-msgctxt "@info"
-msgid "Platform %1"
-msgstr "Binario %1"
-
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
 msgstr "Nessun arrivo trovato."
 
-#: qml/DeparturesPage.qml:145
+#: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
 msgstr "Nessuna partenza trovata."
@@ -342,6 +322,20 @@ msgstr "Navi o traghetti"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Aereo"
+
+#~ msgctxt "time"
+#~ msgid "Now"
+#~ msgstr "Adesso"
+
+#~ msgctxt "time"
+#~ msgid "%1 min ago"
+#~ msgid_plural "%1 min ago"
+#~ msgstr[0] "%1 min fa"
+#~ msgstr[1] "%1 min fa"
+
+#~ msgctxt "@info"
+#~ msgid "Platform %1"
+#~ msgstr "Binario %1"
 
 #~ msgctxt "journey query search constraint, title"
 #~ msgid "Aircraft"
