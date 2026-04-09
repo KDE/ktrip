@@ -12,66 +12,62 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Your names"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "Your emails"
 
 #: main.cpp:77
-#, fuzzy, kde-format
-#| msgctxt "This is a city associated with particular time zone"
-#| msgid "Tripoli"
+#, kde-format
 msgid "KTrip"
 msgstr "Tripolis"
 
 #: main.cpp:79
 #, kde-format
 msgid "Public transport assistant"
-msgstr ""
+msgstr "Asistent verejnej dopravy"
 
 #: main.cpp:81
 #, kde-format
 msgid "© 2019 KDE Community"
-msgstr ""
+msgstr "© 2019 Komunita KDE"
 
 #: main.cpp:82
 #, kde-format
 msgid "Nicolas Fella"
-msgstr ""
+msgstr "Nicolas Fella"
 
 #: qml/BackendPage.qml:15 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
-msgstr ""
+msgstr "Poskytovatelia"
 
 #: qml/BackendPage.qml:18
 #, kde-format
 msgid "Select the providers relevant for your area"
-msgstr ""
+msgstr "Vyberte poskytovateľov relevantných pre vašu oblasť"
 
 #: qml/BackendPage.qml:25
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "Uložiť"
 
 #: qml/ConnectionDetailsPage.qml:17
-#, fuzzy, kde-format
-#| msgid "Details"
+#, kde-format
 msgctxt "@title"
 msgid "Details"
 msgstr "Podrobnosti"
 
 #: qml/ConnectionDetailsPage.qml:46
-#, fuzzy, kde-format
-#| msgid "Walking (%1 minutes)"
+#, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "Chôdza (%1 minút)"
@@ -79,8 +75,7 @@ msgstr[1] "Chôdza (%1 minút)"
 msgstr[2] "Chôdza (%1 minút)"
 
 #: qml/ConnectionDetailsPage.qml:54
-#, fuzzy, kde-format
-#| msgid "Walking (%1 minutes)"
+#, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Chôdza (%1 minút)"
@@ -88,8 +83,7 @@ msgstr[1] "Chôdza (%1 minút)"
 msgstr[2] "Chôdza (%1 minút)"
 
 #: qml/ConnectionDetailsPage.qml:62
-#, fuzzy, kde-format
-#| msgid "Walking (%1 minutes)"
+#, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Chôdza (%1 minút)"
@@ -99,16 +93,15 @@ msgstr[2] "Chôdza (%1 minút)"
 #: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Hide intermediate Stops"
-msgstr ""
+msgstr "Skryť medziľahlé zastávky"
 
 #: qml/ConnectionDetailsPage.qml:98
 #, kde-format
 msgid "Show intermediate Stops"
-msgstr ""
+msgstr "Zobraziť medziľahlé zastávky"
 
 #: qml/ConnectionsPage.qml:15
-#, fuzzy, kde-format
-#| msgid "Connections"
+#, kde-format
 msgctxt "@title"
 msgid "Connections"
 msgstr "Pripojenia"
@@ -116,7 +109,7 @@ msgstr "Pripojenia"
 #: qml/ConnectionsPage.qml:61 qml/ConnectionsPage.qml:87
 #, kde-format
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: qml/ConnectionsPage.qml:67 qml/ConnectionsPage.qml:93
 #, kde-format
@@ -124,16 +117,15 @@ msgid "+%1"
 msgstr "+%1"
 
 #: qml/ConnectionsPage.qml:77
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] "Zmeniť"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1 prestup"
+msgstr[1] "%1 prestupy"
+msgstr[2] "%1 prestupov"
 
 #: qml/ConnectionsPage.qml:109
-#, fuzzy, kde-format
-#| msgid "Connections"
+#, kde-format
 msgid "No connections found"
 msgstr "Pripojenia"
 
@@ -141,56 +133,47 @@ msgstr "Pripojenia"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Príchody"
 
 #: qml/DeparturesPage.qml:20
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Dátum odchodu:"
 
 #: qml/DeparturesPage.qml:76
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgid "No arrivals found."
 msgstr "Dátum odchodu:"
 
 #: qml/DeparturesPage.qml:76
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgid "No departures found."
 msgstr "Dátum odchodu:"
 
 #: qml/Main.qml:36
-#, fuzzy, kde-format
-#| msgid "Start journey"
+#, kde-format
 msgid "Journey"
-msgstr "Spustiť cestu"
+msgstr "Cesta"
 
 #: qml/Main.qml:46
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgid "Departures"
 msgstr "Dátum odchodu:"
 
 #: qml/Main.qml:64
-#, fuzzy, kde-format
-#| msgctxt "This is a city associated with particular time zone"
-#| msgid "Tripoli"
+#, kde-format
 msgid "About KTrip"
 msgstr "Tripolis"
 
 #: qml/QueryPage.qml:33
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "Dátum odchodu:"
 
 #: qml/QueryPage.qml:33
-#, fuzzy, kde-format
-#| msgid "Start journey"
+#, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "Spustiť cestu"
@@ -198,16 +181,15 @@ msgstr "Spustiť cestu"
 #: qml/QueryPage.qml:37
 #, kde-format
 msgid "No providers enabled"
-msgstr ""
+msgstr "Nie sú povolení žiadni poskytovatelia"
 
 #: qml/QueryPage.qml:42
 #, kde-format
 msgid "Configure providers"
-msgstr ""
+msgstr "Nastaviť poskytovateľov"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
 msgstr "Dátum odchodu:"
@@ -216,17 +198,16 @@ msgstr "Dátum odchodu:"
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Vybrať cieľovú zastávku"
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
-#| msgid "From:"
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Od:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Pre:"
@@ -235,24 +216,22 @@ msgstr "Pre:"
 #, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Zameniť odchod a príchod"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Dátum odchodu:"
+msgstr "Odchod"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Príchod"
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
-#| msgid "Departure time:"
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
 msgstr "Čas odchodu:"
@@ -261,18 +240,16 @@ msgstr "Čas odchodu:"
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Čas príchodu"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgid "Departure date:"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
 msgstr "Dátum odchodu:"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgid "Start journey"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
 msgstr "Spustiť cestu"
@@ -280,93 +257,88 @@ msgstr "Spustiť cestu"
 #: qml/QueryPage.qml:219
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Spôsob dopravy"
 
 #: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Vlaky na dlhé vzdialenosti"
 
 #: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Vysokorýchlostné alebo medzimestské vlaky"
 
 #: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Miestne vlaky"
 
 #: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Regionálne alebo miestne vlaky"
 
 #: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Rýchla preprava"
 
 #: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "Rýchla preprava, metro, električky"
 
 #: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Autobus"
 
 #: qml/QueryPage.qml:256
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Miestne alebo regionálne autobusové linky"
 
 #: qml/QueryPage.qml:265
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Trajekt"
 
 #: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Lode alebo trajekty"
 
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
-msgstr ""
+msgstr "Lietadlo"
 
 #, fuzzy
-#~| msgctxt "@action:button"
-#~| msgid "Cancel"
 #~ msgctxt "a train/bus journey canceled by its operator"
 #~ msgid "Canceled"
 #~ msgstr "Zrušiť"
 
 #, fuzzy
-#~| msgid "Earlier"
 #~ msgid "Earlier"
 #~ msgstr "Skôr"
 
 #, fuzzy
-#~| msgid "Later"
 #~ msgid "Later"
 #~ msgstr "Neskôr"
 
 #, fuzzy
-#~| msgid "Connections"
 #~ msgctxt "@action:button"
 #~ msgid "Load later connections"
 #~ msgstr "Pripojenia"
@@ -376,37 +348,30 @@ msgstr ""
 #~ msgstr "Hľadať"
 
 #, fuzzy
-#~| msgid "Pick start"
 #~ msgctxt "@action:button"
 #~ msgid "Pick Start"
 #~ msgstr "Vybrať štart"
 
 #, fuzzy
-#~| msgid "Search for start location"
 #~ msgctxt "@title"
 #~ msgid "Search for Start Location"
 #~ msgstr "Hľadať miesto štartu"
 
 #, fuzzy
-#~| msgid "Pick destination"
 #~ msgctxt "@action:button"
 #~ msgid "Pick Destination"
 #~ msgstr "Vybrať destináciu"
 
 #, fuzzy
-#~| msgid "Search for destination location"
 #~ msgctxt "@title"
 #~ msgid "Search for Destination Location"
 #~ msgstr "Hľadať miesto destinácie"
 
 #, fuzzy
-#~| msgctxt "This is a city associated with particular time zone"
-#~| msgid "Djibouti"
 #~ msgid "About"
 #~ msgstr "Džibutsko"
 
 #, fuzzy
-#~| msgid "Accept"
 #~ msgctxt "@action:button"
 #~ msgid "Accept"
 #~ msgstr "Prijať"
