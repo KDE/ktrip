@@ -72,3 +72,5 @@ if (NOT ANDROID)
 endif()
 
 install(TARGETS ktrip ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+
+install(FILES ktripsettings.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
