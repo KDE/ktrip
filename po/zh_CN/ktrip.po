@@ -31,14 +31,14 @@ msgstr ""
 #, kde-format
 msgctxt "time"
 msgid "Now"
-msgstr ""
+msgstr "现在"
 
 #: localizer.cpp:98
 #, kde-format
 msgctxt "time"
 msgid "%1 min ago"
 msgid_plural "%1 min ago"
-msgstr[0] ""
+msgstr[0] "%1 分钟前"
 
 #: main.cpp:77
 #, kde-format
@@ -152,7 +152,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Platform %1"
-msgstr ""
+msgstr "站台 %1"
 
 #: qml/DeparturesPage.qml:145
 #, kde-format
