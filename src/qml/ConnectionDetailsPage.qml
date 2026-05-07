@@ -16,7 +16,16 @@ Kirigami.ScrollablePage {
     id: root
     title: i18nc("@title", "Details")
 
-    property var journey
+    property journey journey
+
+    actions: [
+        Kirigami.Action {
+            text: i18nc("book ticket", "Book…")
+            icon.name: "view-financial-account-cash-symbolic"
+            visible: root.journey.bookingUrl != ""
+            onTriggered: Qt.openUrlExternally(root.journey.bookingUrl)
+        }
+    ]
 
     Kirigami.CardsListView {
         model: root.journey.sections
