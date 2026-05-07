@@ -248,6 +248,7 @@
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 22.06</p>
         <p xml:lang="tr">Plasma Mobile Gear 22.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 22.06</p>
+        <p xml:lang="zh-CN">Plasma Mobile Gear 22.06 release</p>
         <p xml:lang="zh-TW">Plasma 行動 Gear 22.06 釋出</p>
         <ul>
           <li>Translation updates</li>
@@ -270,6 +271,7 @@
           <li xml:lang="sl">Posodobitve prevodov</li>
           <li xml:lang="tr">Çeviri güncellemeleri</li>
           <li xml:lang="uk">Оновлення перекладів</li>
+          <li xml:lang="zh-CN">翻译更新</li>
           <li xml:lang="zh-TW">翻譯更新</li>
         </ul>
       </description>
@@ -299,6 +301,7 @@
           <li xml:lang="sl">Popravi ikono aplikacije v sistemu Windows</li>
           <li xml:lang="tr">Windows üzerindeki uygulama simgesi düzeltildi.</li>
           <li xml:lang="uk">Виправлено піктограму програми у Windows</li>
+          <li xml:lang="zh-CN">修复 Windows 上的应用程序图标</li>
           <li xml:lang="zh-TW">修正 Windows 上的應用程式圖示。</li>
           <li>Code refactoring and improvements.</li>
           <li xml:lang="ar">أُجريت إعادة صياغة للكود وتحسينات.</li>
@@ -320,6 +323,7 @@
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
           <li xml:lang="tr">Kodun yeniden yapılandırılması ve iyileştirmeler</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
+          <li xml:lang="zh-CN">代码重构和改进。</li>
           <li xml:lang="zh-TW">程式碼重構與改善。</li>
         </ul>
       </description>
@@ -348,6 +352,7 @@
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
           <li xml:lang="tr">Kodun yeniden yapılandırılması ve iyileştirmeler</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
+          <li xml:lang="zh-CN">代码重构和改进。</li>
           <li xml:lang="zh-TW">程式碼重構與改善。</li>
         </ul>
       </description>
@@ -383,6 +388,7 @@
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
         <p xml:lang="tr">Plasma Mobile Gear 21.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
+        <p xml:lang="zh-CN">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="zh-TW">Plasma 行動 Gear 21.06 釋出</p>
         <ul>
           <li>Show correct version number in About page</li>
@@ -405,6 +411,7 @@
           <li xml:lang="sl">Prikaže pravilno številko različice na strani O programu</li>
           <li xml:lang="tr">Hakkında sayfasında doğru sürüm numarası gösteriliyor.</li>
           <li xml:lang="uk">Реалізовано показ правильного номера версії на сторінці «Про програму»</li>
+          <li xml:lang="zh-CN">在关于页面中显示正确的版本号</li>
           <li xml:lang="zh-TW">在關於頁面顯示正確的版本號碼</li>
           <li>Fix app icon being unsharp in About page</li>
           <li xml:lang="ar">أُصلحت مشكلة عدم وضوح أيقونة التطبيق في صفحة «عن»</li>
@@ -426,6 +433,7 @@
           <li xml:lang="sl">Odpravljena je bila neostra ikona aplikacije na strani O programu</li>
           <li xml:lang="tr">Hakkında sayfasındaki uygulama simgesinin bulanık olması düzeltildi.</li>
           <li xml:lang="uk">Виправлено розмиття піктограми програми на сторінці «Про програму»</li>
+          <li xml:lang="zh-CN">修复关于页面的应用图标不清晰的问题</li>
           <li xml:lang="zh-TW">修正在關於頁面中應用程式圖示不清晰的問題</li>
           <li>Fix text overflow in departures page</li>
           <li xml:lang="ar">أُصلح تجاوز النص في صفحة المغادرة</li>
@@ -447,6 +455,7 @@
           <li xml:lang="sl">Popravleno prelivanje besedila na strani z odhodi</li>
           <li xml:lang="tr">Kalkışlar sayfasındaki metin taşması düzeltildi.</li>
           <li xml:lang="uk">Виправлено переповнення вікна текстом на сторінці відправлень</li>
+          <li xml:lang="zh-CN">修复离开页面中的文本溢出</li>
           <li xml:lang="zh-TW">修正出發頁面中文字超出頁面的問題</li>
           <li>Set proper category in desktop file</li>
           <li xml:lang="ar">وُضعت الفئة المناسبة في ملف سطح المكتب</li>
@@ -468,6 +477,7 @@
           <li xml:lang="sl">Nastavi ustrezno kategorijo v datoteki namizja</li>
           <li xml:lang="tr">Masaüstü dosyasında uygun kategori ayarlandı.</li>
           <li xml:lang="uk">Встановлено належну категорію програми у файлі .desktop</li>
+          <li xml:lang="zh-CN">在 desktop 文件中设置适当的类别</li>
           <li xml:lang="zh-TW">在 .desktop 檔案中設定正確的分類</li>
         </ul>
       </description>
