@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
 {
     QCommandLineParser parser;
     QCommandLineOption selfTestOpt(u"self-test"_s, u"internal, for automated testing"_s);
+    selfTestOpt.setFlags(QCommandLineOption::HiddenFromHelp);
     parser.addOption(selfTestOpt);
 
 #ifdef Q_OS_ANDROID
@@ -65,6 +66,7 @@ int main(int argc, char *argv[])
 
     KLocalizedString::setApplicationDomain("ktrip");
     parser.addVersionOption();
+    parser.addHelpOption();
     parser.process(app);
 
     QQmlApplicationEngine engine;
