@@ -57,6 +57,7 @@ if (ANDROID)
         license
         ktrip
         reverse
+        view-financial-account-cash-symbolic
     )
 
     ecm_add_android_apk(ktrip ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
