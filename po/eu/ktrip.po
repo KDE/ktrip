@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-06 00:47+0000\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 21:22+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -30,22 +30,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
 
-#: main.cpp:77
+#: main.cpp:79
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:79
+#: main.cpp:81
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Garraio publikoko laguntzailea"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 KDE Community"
 
-#: main.cpp:82
+#: main.cpp:84
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
@@ -71,33 +71,39 @@ msgctxt "@title"
 msgid "Details"
 msgstr "Xehetasunak"
 
-#: qml/ConnectionDetailsPage.qml:46
+#: qml/ConnectionDetailsPage.qml:23
+#, kde-format
+msgctxt "book ticket"
+msgid "Book…"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:55
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "Oinez (minutu %1)"
 msgstr[1] "Oinez (%1 minutu)"
 
-#: qml/ConnectionDetailsPage.qml:54
+#: qml/ConnectionDetailsPage.qml:63
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Zain (minutu %1)"
 msgstr[1] "Zain (%1 minutu)"
 
-#: qml/ConnectionDetailsPage.qml:62
+#: qml/ConnectionDetailsPage.qml:71
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Ibilgailu-aldaketa (minutu %1)"
 msgstr[1] "Ibilgailu-aldaketa (%1 minutu)"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Ezkutatu tarteko geldialdiak"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Erakutsi tarteko geldialdiak"

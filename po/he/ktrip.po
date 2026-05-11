@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-06 00:47+0000\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
 "PO-Revision-Date: 2025-10-04 10:51+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -28,22 +28,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-he@kde.org"
 
-#: main.cpp:77
+#: main.cpp:79
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:79
+#: main.cpp:81
 #, kde-format
 msgid "Public transport assistant"
 msgstr "ניווט בתחבורה ציבורית"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 קהילת KDE"
 
-#: main.cpp:82
+#: main.cpp:84
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "ניקולס פלה"
@@ -69,7 +69,13 @@ msgctxt "@title"
 msgid "Details"
 msgstr "פרטים"
 
-#: qml/ConnectionDetailsPage.qml:46
+#: qml/ConnectionDetailsPage.qml:23
+#, kde-format
+msgctxt "book ticket"
+msgid "Book…"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:55
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
@@ -78,7 +84,7 @@ msgstr[1] "הליכה (שתי דקות)"
 msgstr[2] "הליכה (%1 דקות)"
 msgstr[3] "הליכה (%1 דקות)"
 
-#: qml/ConnectionDetailsPage.qml:54
+#: qml/ConnectionDetailsPage.qml:63
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
@@ -87,7 +93,7 @@ msgstr[1] "המתנה (שתי דקות)"
 msgstr[2] "המתנה (%1 דקות)"
 msgstr[3] "המתנה (%1 דקות)"
 
-#: qml/ConnectionDetailsPage.qml:62
+#: qml/ConnectionDetailsPage.qml:71
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
@@ -96,12 +102,12 @@ msgstr[1] "החלפה (שתי דקות)"
 msgstr[2] "החלפה (%1 דקות)"
 msgstr[3] "החלפה (%1 דקות)"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "הסתרת תחנות ביניים"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "הצגת תחנות ביניים"

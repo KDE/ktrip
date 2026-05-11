@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-06 00:47+0000\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
 "PO-Revision-Date: 2026-04-27 16:53+0200\n"
 "Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -27,22 +27,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-i18n-de@kde.org"
 
-#: main.cpp:77
+#: main.cpp:79
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:79
+#: main.cpp:81
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Assistent für öffentliche Verkehrsmittel"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 KDE-Gemeinschaft"
 
-#: main.cpp:82
+#: main.cpp:84
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
@@ -68,33 +68,39 @@ msgctxt "@title"
 msgid "Details"
 msgstr "Details"
 
-#: qml/ConnectionDetailsPage.qml:46
+#: qml/ConnectionDetailsPage.qml:23
+#, kde-format
+msgctxt "book ticket"
+msgid "Book…"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:55
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
 msgstr[0] "Fußweg (%1 Minute)"
 msgstr[1] "Fußweg (%1 Minuten)"
 
-#: qml/ConnectionDetailsPage.qml:54
+#: qml/ConnectionDetailsPage.qml:63
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
 msgstr[0] "Wartezeit (%1 Minute)"
 msgstr[1] "Wartezeit (%1 Minuten)"
 
-#: qml/ConnectionDetailsPage.qml:62
+#: qml/ConnectionDetailsPage.qml:71
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
 msgstr[0] "Transfer (%1 Minute)"
 msgstr[1] "Transfer (%1 Minuten)"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Zwischenhalte ausblenden"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Zwischenhalte anzeigen"

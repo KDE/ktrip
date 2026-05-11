@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-06 00:47+0000\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
 "PO-Revision-Date: 2025-10-03 18:10+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -30,22 +30,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: main.cpp:77
+#: main.cpp:79
 #, kde-format
 msgid "KTrip"
 msgstr "KTrip"
 
-#: main.cpp:79
+#: main.cpp:81
 #, kde-format
 msgid "Public transport assistant"
 msgstr "Розклади роботи громадського транспорту"
 
-#: main.cpp:81
+#: main.cpp:83
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© Спільнота KDE, 2019"
 
-#: main.cpp:82
+#: main.cpp:84
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
@@ -71,7 +71,13 @@ msgctxt "@title"
 msgid "Details"
 msgstr "Подробиці"
 
-#: qml/ConnectionDetailsPage.qml:46
+#: qml/ConnectionDetailsPage.qml:23
+#, kde-format
+msgctxt "book ticket"
+msgid "Book…"
+msgstr ""
+
+#: qml/ConnectionDetailsPage.qml:55
 #, kde-format
 msgid "Walking (%1 minute)"
 msgid_plural "Walking (%1 minutes)"
@@ -80,7 +86,7 @@ msgstr[1] "Пішки (%1 хвилини)"
 msgstr[2] "Пішки (%1 хвилин)"
 msgstr[3] "Пішки (%1 хвилина)"
 
-#: qml/ConnectionDetailsPage.qml:54
+#: qml/ConnectionDetailsPage.qml:63
 #, kde-format
 msgid "Waiting (%1 minute)"
 msgid_plural "Waiting (%1 minutes)"
@@ -89,7 +95,7 @@ msgstr[1] "Очікування (%1 хвилини)"
 msgstr[2] "Очікування (%1 хвилин)"
 msgstr[3] "Очікування (%1 хвилина)"
 
-#: qml/ConnectionDetailsPage.qml:62
+#: qml/ConnectionDetailsPage.qml:71
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
@@ -98,12 +104,12 @@ msgstr[1] "Пересадка (%1 хвилини)"
 msgstr[2] "Пересадка (%1 хвилин)"
 msgstr[3] "Пересадка (%1 хвилина)"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Hide intermediate Stops"
 msgstr "Приховати проміжні зупинки"
 
-#: qml/ConnectionDetailsPage.qml:98
+#: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Show intermediate Stops"
 msgstr "Показати проміжні зупинки"
