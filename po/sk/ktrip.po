@@ -70,7 +70,7 @@ msgstr "Podrobnosti"
 #, kde-format
 msgctxt "book ticket"
 msgid "Book…"
-msgstr ""
+msgstr "Rezervovať…"
 
 #: qml/ConnectionDetailsPage.qml:55
 #, kde-format
