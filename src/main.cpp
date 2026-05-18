@@ -92,6 +92,10 @@ int main(int argc, char *argv[])
 
     engine.loadFromModule("org.kde.ktrip", "Main");
 
+    if (engine.rootObjects().isEmpty()) {
+        return -1;
+    }
+
     if (parser.isSet(selfTestOpt)) {
         QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
     }
