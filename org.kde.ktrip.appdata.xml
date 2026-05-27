@@ -241,6 +241,7 @@
         <p xml:lang="ia">Plasma Mobile Gear version 22.06</p>
         <p xml:lang="it">Rilascio di Plasma Mobile Gear 22.06</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 22.06</p>
+        <p xml:lang="ko">Plasma 모바일 기어 22.06 릴리스</p>
         <p xml:lang="nl">Plasma Mobile Gear 22.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 22.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 22.06</p>
@@ -264,6 +265,7 @@
           <li xml:lang="ia">Actualisationes de traduction</li>
           <li xml:lang="it">Aggiornamenti alle traduzioni</li>
           <li xml:lang="ka">თარგმანის განახლებები</li>
+          <li xml:lang="ko">번역 업데이트</li>
           <li xml:lang="nl">Vertalingen bijgewerkt</li>
           <li xml:lang="pt-BR">Atualizações de traduções</li>
           <li xml:lang="ru">Обновления перевода;</li>
@@ -294,6 +296,7 @@
           <li xml:lang="ia">Corrige icone de application sur Windows</li>
           <li xml:lang="it">È stata sistemata l'icona in Windows</li>
           <li xml:lang="ka">გასწორდა აპლიკაციის ხატულა Windows-ზე</li>
+          <li xml:lang="ko">Windows에서 앱 아이콘 수정</li>
           <li xml:lang="nl">Het toepassingspictogram in Windows repareren</li>
           <li xml:lang="pt-BR">Corrigido ícone de aplicativo no Windows</li>
           <li xml:lang="ru">Исправление значка приложения в Windows;</li>
@@ -316,6 +319,7 @@
           <li xml:lang="ia">Refactorisar de codice e melioramentos</li>
           <li xml:lang="it">Rifattorizzazione e miglioramenti del codice.</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და გაუმჯობესება.</li>
+          <li xml:lang="ko">코드 리팩토링과 개선.</li>
           <li xml:lang="nl">Code herzieningen en verbeteringen.</li>
           <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
@@ -345,6 +349,7 @@
           <li xml:lang="ia">Refactorisar de codice e melioramentos</li>
           <li xml:lang="it">Rifattorizzazione e miglioramenti del codice.</li>
           <li xml:lang="ka">კოდის რეფაქტორინგი და გაუმჯობესება.</li>
+          <li xml:lang="ko">코드 리팩토링과 개선.</li>
           <li xml:lang="nl">Code herzieningen en verbeteringen.</li>
           <li xml:lang="pt-BR">Refatoração e melhorias do código.</li>
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
@@ -381,6 +386,7 @@
         <p xml:lang="ia">Plasma Mobile Gear version 21.06</p>
         <p xml:lang="it">Rilascio di Plasma Mobile Gear 21.06</p>
         <p xml:lang="ka">გამოშვება Plasma Mobile Gear 21.06</p>
+        <p xml:lang="ko">Plasma 모바일 기어 21.06 릴리스</p>
         <p xml:lang="nl">Plasma Mobile Gear 21.06 uitgave</p>
         <p xml:lang="pt-BR">Lançamento do Plasma Mobile Gear 21.06</p>
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
@@ -404,6 +410,7 @@
           <li xml:lang="ia">Monstra numero correcte de version in pagina de A proposito</li>
           <li xml:lang="it">Visione del numero della versione corretto nella pagina Informazioni su</li>
           <li xml:lang="ka">სწორი ვერსიის ჩვენება გვერდზე 'შესახებ'</li>
+          <li xml:lang="ko">정보 페이지에 올바른 버전 번호 표시</li>
           <li xml:lang="nl">Toon het juiste versienummer op de pagina 'Info over.</li>
           <li xml:lang="pt-BR">Exibe o número da versão correto na página Sobre</li>
           <li xml:lang="ru">Отображение правильного номера версии на странице «О программе»;</li>
@@ -426,6 +433,7 @@
           <li xml:lang="ia">Corrige icone de app que non es affilate in pagina de A Proposito </li>
           <li xml:lang="it">È stata sistemata l'icona del programma, che era sfocata nella pagina Informazioni su</li>
           <li xml:lang="ka">გასწორდა აპის ხატულას სისწორე გვერდზე 'შესახებ'</li>
+          <li xml:lang="ko">정보 페이지의 아이콘 선명도 수정</li>
           <li xml:lang="nl">Het probleem met het onscherpe toepassingspictogram op de pagina 'Info over' is opgelost.</li>
           <li xml:lang="pt-BR">Corrigido o problema de desfocagem do ícone do aplicativo na página Sobre</li>
           <li xml:lang="ru">Исправлена нечёткость значка приложения на странице «О программе»;</li>
@@ -448,6 +456,7 @@
           <li xml:lang="ia">Corrige disbordar de texto in pagina de departita</li>
           <li xml:lang="it">È stato sistemato il testo che sborda nella pagina delle partenze</li>
           <li xml:lang="ka">გასწორდა ტექსტის გადავსება გამგზავრებების გვერდზე</li>
+          <li xml:lang="ko">출발 페이지의 텍스트 넘침 수정</li>
           <li xml:lang="nl">Corrigeer tekstoverloop op de vertrekpagina</li>
           <li xml:lang="pt-BR">Corrigido o excesso de texto na página de partidas</li>
           <li xml:lang="ru">Исправлено переполнение текста на странице отправлений;</li>
@@ -470,6 +479,7 @@
           <li xml:lang="ia">Assigna proprie categoria in file de scriptorio</li>
           <li xml:lang="it">È stata impostata la categoria corretta nel file desktop</li>
           <li xml:lang="ka">სწორი კატეგორიის დაყენება სამუშაო მაგიდის ფაილში</li>
+          <li xml:lang="ko">데스크톱 파일에 올바른 분류 설정</li>
           <li xml:lang="nl">Stel de juiste categorie in voor het desktop-bestand.</li>
           <li xml:lang="pt-BR">Define a categoria adequada no arquivo da área de trabalho</li>
           <li xml:lang="ru">Исправлена категория в файле .desktop.</li>
