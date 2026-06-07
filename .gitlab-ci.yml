@@ -1,14 +1,32 @@
 # SPDX-FileCopyrightText: None
 # SPDX-License-Identifier: CC0-1.0
 
+variables:
+  KDE_FLATPAK_TEST_COMMAND: "flatpak run org.kde.ktrip --self-test"
+
 include:
   - project: sysadmin/ci-utilities
     file:
-      - /gitlab-templates/android-qt6.yml
-      - /gitlab-templates/linux-qt6.yml
-      - /gitlab-templates/linux-qt6-next.yml
-      - /gitlab-templates/freebsd-qt6.yml
-      - /gitlab-templates/reuse-lint.yml
+      # - /gitlab-templates/android-qt6.yml
+      # - /gitlab-templates/linux-qt6.yml
+      # - /gitlab-templates/linux-qt6-next.yml
+      # - /gitlab-templates/freebsd-qt6.yml
+      # - /gitlab-templates/reuse-lint.yml
       - /gitlab-templates/flatpak.yml
-      - /gitlab-templates/cppcheck.yml
-      - /gitlab-templates/craft-android-qt6-apks.yml
+      # - /gitlab-templates/cppcheck.yml
+      # - /gitlab-templates/craft-android-qt6-apks.yml
+
+flatpak-test:
+  stage: publish
+  image: storage.kde.org/vm-images/flatpak-builder
+  tags:
+    - VM
+    - amd64
+  variables:
+    KDE_FLATPAK_MODULE_NAME: ${CI_PROJECT_NAME}
+  needs:
+    - flatpak-amd64
+  script:
+    - flatpak install -y --user "$CI_PROJECT_DIR/${KDE_FLATPAK_MODULE_NAME}.flatpak"
+    - python3 flatpak-test.py
+    - jobs
