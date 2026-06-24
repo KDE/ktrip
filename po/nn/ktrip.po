@@ -1,12 +1,11 @@
 # Translation of ktrip to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2022-06-19 13:48+0200\n"
+"PO-Revision-Date: 2026-06-23 18:19+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -14,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 26.07.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -74,7 +73,7 @@ msgstr "Detaljar"
 #, kde-format
 msgctxt "book ticket"
 msgid "Book…"
-msgstr ""
+msgstr "Bestill …"
 
 #: qml/ConnectionDetailsPage.qml:55
 #, kde-format
@@ -139,7 +138,7 @@ msgstr "Fann ingen samband"
 #, kde-format
 msgctxt "@title"
 msgid "Arrivals"
-msgstr ""
+msgstr "Framkomstar"
 
 #: qml/DeparturesPage.qml:20
 #, kde-format
@@ -148,16 +147,14 @@ msgid "Departures"
 msgstr "Avgangar"
 
 #: qml/DeparturesPage.qml:76
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgid "No arrivals found."
-msgstr "Avgangar"
+msgstr "Fann ingen framkomst."
 
 #: qml/DeparturesPage.qml:76
-#, fuzzy, kde-format
-#| msgid "Departures"
+#, kde-format
 msgid "No departures found."
-msgstr "Avgangar"
+msgstr "Fann ingen avgang."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -209,13 +206,13 @@ msgid "Select Arrival Stop"
 msgstr ""
 
 #: qml/QueryPage.qml:92
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "departure train station"
 msgid "From:"
 msgstr "Frå:"
 
 #: qml/QueryPage.qml:107
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "arrival train station"
 msgid "To:"
 msgstr "Til:"
@@ -224,10 +221,10 @@ msgstr "Til:"
 #, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
-msgstr ""
+msgstr "Byt avgang og framkomst"
 
 #: qml/QueryPage.qml:144
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
 msgstr "Avgangar"
@@ -239,10 +236,10 @@ msgid "Arrival"
 msgstr ""
 
 #: qml/QueryPage.qml:160
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "train or bus departure"
 msgid "Departure time"
-msgstr "Klokkeslett avgang:"
+msgstr "Klokkeslett avgang"
 
 #: qml/QueryPage.qml:160
 #, kde-format
@@ -251,9 +248,7 @@ msgid "Arrival time"
 msgstr ""
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
-#| msgctxt "@title"
-#| msgid "Query Departures"
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
 msgstr "Søk etter avgangar"
