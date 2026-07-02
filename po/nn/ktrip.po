@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-06-23 18:19+0200\n"
+"PO-Revision-Date: 2026-07-01 22:13+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -254,57 +254,58 @@ msgid "Search Departures"
 msgstr "Søk etter avgangar"
 
 #: qml/QueryPage.qml:171
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Start reisa"
+msgstr "Søk etter reise"
 
 #: qml/QueryPage.qml:219
 #, kde-format
 msgid "Mode of transportation"
-msgstr ""
+msgstr "Transportmiddel"
 
 #: qml/QueryPage.qml:225
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Long distance trains"
-msgstr ""
+msgstr "Fjerntog"
 
 #: qml/QueryPage.qml:226
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "High speed or intercity trains"
-msgstr ""
+msgstr "Høgfartstog og intercitytog"
 
+# Omfattar òg regiontog, så «lokaltog» vert feil (sjå neste, utdjupande tekst).
 #: qml/QueryPage.qml:235
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Local trains"
-msgstr ""
+msgstr "Lokale tog"
 
 #: qml/QueryPage.qml:236
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Regional or local trains"
-msgstr ""
+msgstr "Region- og lokaltog"
 
 #: qml/QueryPage.qml:245
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr ""
+msgstr "Skinnegåande (by)"
 
 #: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr ""
+msgstr "T-bane, bybane, trikk"
 
 #: qml/QueryPage.qml:255
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Bus"
-msgstr ""
+msgstr "Buss"
 
 #: qml/QueryPage.qml:256
 #, kde-format
@@ -316,16 +317,16 @@ msgstr ""
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ferry"
-msgstr ""
+msgstr "Ferje"
 
 #: qml/QueryPage.qml:266
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Boats or ferries"
-msgstr ""
+msgstr "Båtar og ferjer"
 
 #: qml/QueryPage.qml:275
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
-msgstr ""
+msgstr "Fly"
