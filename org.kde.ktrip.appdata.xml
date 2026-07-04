@@ -251,6 +251,7 @@
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 22.06</p>
         <p xml:lang="sk">Plasma Mobile Gear 22.06 release</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 22.06</p>
+        <p xml:lang="sv">Utgivning av Plasma Mobile Gear 22.06</p>
         <p xml:lang="tr">Plasma Mobile Gear 22.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 22.06</p>
         <p xml:lang="zh-CN">Plasma Mobile Gear 22.06 release</p>
@@ -277,6 +278,7 @@
           <li xml:lang="ru">Обновления перевода;</li>
           <li xml:lang="sk">Translation updates</li>
           <li xml:lang="sl">Posodobitve prevodov</li>
+          <li xml:lang="sv">Översättningsuppdateringar</li>
           <li xml:lang="tr">Çeviri güncellemeleri</li>
           <li xml:lang="uk">Оновлення перекладів</li>
           <li xml:lang="zh-CN">翻译更新</li>
@@ -310,6 +312,7 @@
           <li xml:lang="ru">Исправление значка приложения в Windows;</li>
           <li xml:lang="sk">Fix application icon on Windows</li>
           <li xml:lang="sl">Popravi ikono aplikacije v sistemu Windows</li>
+          <li xml:lang="sv">Rätta program på Windows</li>
           <li xml:lang="tr">Windows üzerindeki uygulama simgesi düzeltildi.</li>
           <li xml:lang="uk">Виправлено піктограму програми у Windows</li>
           <li xml:lang="zh-CN">修复 Windows 上的应用程序图标</li>
@@ -335,6 +338,7 @@
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
           <li xml:lang="sk">Code refactoring and improvements.</li>
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
+          <li xml:lang="sv">Omstrukturering av kod och förbättringar</li>
           <li xml:lang="tr">Kodun yeniden yapılandırılması ve iyileştirmeler</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
           <li xml:lang="zh-CN">代码重构和改进。</li>
@@ -367,6 +371,7 @@
           <li xml:lang="ru">Рефакторинг и улучшение кода;</li>
           <li xml:lang="sk">Code refactoring and improvements.</li>
           <li xml:lang="sl">Refaktoriranje in izboljšave kode.</li>
+          <li xml:lang="sv">Omstrukturering av kod och förbättringar</li>
           <li xml:lang="tr">Kodun yeniden yapılandırılması ve iyileştirmeler</li>
           <li xml:lang="uk">Переформатування та удосконалення програмного коду.</li>
           <li xml:lang="zh-CN">代码重构和改进。</li>
@@ -406,6 +411,7 @@
         <p xml:lang="ru">Выпуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="sk">Plasma Mobile Gear 21.06 release</p>
         <p xml:lang="sl">Izdaja Plasma Mobile Gear 21.06</p>
+        <p xml:lang="sv">Utgivning av Plasma Mobile Gear 21.06</p>
         <p xml:lang="tr">Plasma Mobile Gear 21.06 yayımı</p>
         <p xml:lang="uk">Випуск Plasma Mobile Gear 21.06</p>
         <p xml:lang="zh-CN">Plasma Mobile Gear 21.06 release</p>
@@ -431,6 +437,7 @@
           <li xml:lang="ru">Отображение правильного номера версии на странице «О программе»;</li>
           <li xml:lang="sk">Show correct version number in About page</li>
           <li xml:lang="sl">Prikaže pravilno številko različice na strani O programu</li>
+          <li xml:lang="sv">Visa rätt versionsnummer på sidan Om</li>
           <li xml:lang="tr">Hakkında sayfasında doğru sürüm numarası gösteriliyor.</li>
           <li xml:lang="uk">Реалізовано показ правильного номера версії на сторінці «Про програму»</li>
           <li xml:lang="zh-CN">在关于页面中显示正确的版本号</li>
@@ -455,6 +462,7 @@
           <li xml:lang="ru">Исправлена нечёткость значка приложения на странице «О программе»;</li>
           <li xml:lang="sk">Fix app icon being unsharp in About page</li>
           <li xml:lang="sl">Odpravljena je bila neostra ikona aplikacije na strani O programu</li>
+          <li xml:lang="sv">Rätta att programikonen är oskarp på sidan Om</li>
           <li xml:lang="tr">Hakkında sayfasındaki uygulama simgesinin bulanık olması düzeltildi.</li>
           <li xml:lang="uk">Виправлено розмиття піктограми програми на сторінці «Про програму»</li>
           <li xml:lang="zh-CN">修复关于页面的应用图标不清晰的问题</li>
@@ -479,6 +487,7 @@
           <li xml:lang="ru">Исправлено переполнение текста на странице отправлений;</li>
           <li xml:lang="sk">Fix text overflow in departures page</li>
           <li xml:lang="sl">Popravleno prelivanje besedila na strani z odhodi</li>
+          <li xml:lang="sv">Åtgärda textöverflöd på avgångssidan</li>
           <li xml:lang="tr">Kalkışlar sayfasındaki metin taşması düzeltildi.</li>
           <li xml:lang="uk">Виправлено переповнення вікна текстом на сторінці відправлень</li>
           <li xml:lang="zh-CN">修复离开页面中的文本溢出</li>
@@ -503,6 +512,7 @@
           <li xml:lang="ru">Исправлена категория в файле .desktop.</li>
           <li xml:lang="sk">Nastaviť proper category in desktop file</li>
           <li xml:lang="sl">Nastavi ustrezno kategorijo v datoteki namizja</li>
+          <li xml:lang="sv">Ange rätt kategori i skrivbordsfilen</li>
           <li xml:lang="tr">Masaüstü dosyasında uygun kategori ayarlandı.</li>
           <li xml:lang="uk">Встановлено належну категорію програми у файлі .desktop</li>
           <li xml:lang="zh-CN">在 desktop 文件中设置适当的类别</li>
