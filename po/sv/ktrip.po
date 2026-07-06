@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
 #
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2025 Stefan Asserhäll <stefan.asserhall@gmail.com>
+# SPDX-FileCopyrightText: 2019-2021, 2025-2026 Stefan Asserhäll <stefan.asserhall@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2025-10-05 08:48+0200\n"
+"PO-Revision-Date: 2026-07-05 17:29+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -72,7 +72,7 @@ msgstr "Detaljinformation"
 #, kde-format
 msgctxt "book ticket"
 msgid "Book…"
-msgstr ""
+msgstr "Bok…"
 
 #: qml/ConnectionDetailsPage.qml:55
 #, kde-format
