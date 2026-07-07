@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-07-01 22:13+0200\n"
+"PO-Revision-Date: 2026-07-06 20:01+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.07.70\n"
+"X-Generator: Lokalize 26.11.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -194,16 +194,16 @@ msgid "Configure providers"
 msgstr "Set opp leverandørar"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Dato avgang:"
+msgstr "Vel avgangsstad"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr ""
+msgstr "Vel framkomststad"
 
 #: qml/QueryPage.qml:92
 #, kde-format
@@ -227,13 +227,13 @@ msgstr "Byt avgang og framkomst"
 #, kde-format
 msgctxt "train or bus departure"
 msgid "Departure"
-msgstr "Avgangar"
+msgstr "Avgang"
 
 #: qml/QueryPage.qml:147
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival"
-msgstr ""
+msgstr "Framkomst"
 
 #: qml/QueryPage.qml:160
 #, kde-format
@@ -245,7 +245,7 @@ msgstr "Klokkeslett avgang"
 #, kde-format
 msgctxt "train or bus arrival"
 msgid "Arrival time"
-msgstr ""
+msgstr "Tid framme"
 
 #: qml/QueryPage.qml:171
 #, kde-format
@@ -311,7 +311,7 @@ msgstr "Buss"
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr ""
+msgstr "Lokale eller regionale busstenester"
 
 #: qml/QueryPage.qml:265
 #, kde-format
