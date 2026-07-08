@@ -435,6 +435,7 @@
           <li xml:lang="ka">სწორი ვერსიის ჩვენება გვერდზე 'შესახებ'</li>
           <li xml:lang="ko">정보 페이지에 올바른 버전 번호 표시</li>
           <li xml:lang="nl">Toon het juiste versienummer op de pagina 'Info over.</li>
+          <li xml:lang="nn">Viser rett versjonsnummer på «Om»-sida</li>
           <li xml:lang="pt-BR">Exibe o número da versão correto na página Sobre</li>
           <li xml:lang="ru">Отображение правильного номера версии на странице «О программе»;</li>
           <li xml:lang="sk">Show correct version number in About page</li>
@@ -460,6 +461,7 @@
           <li xml:lang="ka">გასწორდა აპის ხატულას სისწორე გვერდზე 'შესახებ'</li>
           <li xml:lang="ko">정보 페이지의 아이콘 선명도 수정</li>
           <li xml:lang="nl">Het probleem met het onscherpe toepassingspictogram op de pagina 'Info over' is opgelost.</li>
+          <li xml:lang="nn">Rett eit appikon som var uskarpt på «Om»-sida</li>
           <li xml:lang="pt-BR">Corrigido o problema de desfocagem do ícone do aplicativo na página Sobre</li>
           <li xml:lang="ru">Исправлена нечёткость значка приложения на странице «О программе»;</li>
           <li xml:lang="sk">Fix app icon being unsharp in About page</li>
@@ -485,6 +487,7 @@
           <li xml:lang="ka">გასწორდა ტექსტის გადავსება გამგზავრებების გვერდზე</li>
           <li xml:lang="ko">출발 페이지의 텍스트 넘침 수정</li>
           <li xml:lang="nl">Corrigeer tekstoverloop op de vertrekpagina</li>
+          <li xml:lang="nn">Retta tekstoverflyt på avgangssida</li>
           <li xml:lang="pt-BR">Corrigido o excesso de texto na página de partidas</li>
           <li xml:lang="ru">Исправлено переполнение текста на странице отправлений;</li>
           <li xml:lang="sk">Fix text overflow in departures page</li>
@@ -510,6 +513,7 @@
           <li xml:lang="ka">სწორი კატეგორიის დაყენება სამუშაო მაგიდის ფაილში</li>
           <li xml:lang="ko">데스크톱 파일에 올바른 분류 설정</li>
           <li xml:lang="nl">Stel de juiste categorie in voor het desktop-bestand.</li>
+          <li xml:lang="nn">Definert rett kategori i .desktop-fila</li>
           <li xml:lang="pt-BR">Define a categoria adequada no arquivo da área de trabalho</li>
           <li xml:lang="ru">Исправлена категория в файле .desktop.</li>
           <li xml:lang="sk">Nastaviť proper category in desktop file</li>
