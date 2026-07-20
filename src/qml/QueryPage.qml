@@ -48,7 +48,7 @@ FormCard.FormCardPage {
     // either true/false if all mode switches are in that position, undefined otherwise
     function fullModeSwitchState() {
         let state = longDistanceSwitch.checked;
-        for (const s of [localTrainSwitch, rapidTransitSwitch, busSwitch, ferrySwitch]) {
+        for (const s of [localTrainSwitch, rapidTransitSwitch, busSwitch, ferrySwitch, rideshareSwitch, aircraftSwitch]) {
             if (s.checked != state) {
                 return undefined;
             }
@@ -203,6 +203,8 @@ FormCard.FormCardPage {
                         lineModes.push(PublicTransport.Line.Bus, PublicTransport.Line.Coach);
                     if (ferrySwitch.checked)
                         lineModes.push(PublicTransport.Line.Ferry, PublicTransport.Line.Boat);
+                    if (rideshareSwitch.checked)
+                        lineModes.push(PublicTransport.Line.RideShare);
                     if (aircraftSwitch.checked)
                         lineModes.push(PublicTransport.Line.Air);
                 }
@@ -267,6 +269,16 @@ FormCard.FormCardPage {
             checked: true
             leading: Kirigami.Icon {
                 source: PublicTransport.LineMode.iconName(PublicTransport.Line.Ferry)
+                isMask: true
+            }
+        }
+        FormCard.FormSwitchDelegate {
+            id: rideshareSwitch
+            text: i18nc("journey query search constraint, title", "Ride sharing")
+            description: i18nc("journey query search constraint, description", "Hitch a ride")
+            checked: false
+            leading: Kirigami.Icon {
+                source: PublicTransport.LineMode.iconName(PublicTransport.Line.RideShare)
                 isMask: true
             }
         }
