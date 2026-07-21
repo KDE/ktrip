@@ -44,7 +44,7 @@ msgstr "Assistent de transport públic"
 #: main.cpp:83
 #, kde-format
 msgid "© 2019 KDE Community"
-msgstr "© 2019 Comunitat KDE"
+msgstr "© 2019 La comunitat KDE"
 
 #: main.cpp:84
 #, kde-format
