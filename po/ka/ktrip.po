@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-27 00:49+0000\n"
-"PO-Revision-Date: 2026-05-11 05:49+0200\n"
+"PO-Revision-Date: 2026-07-27 07:27+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -328,13 +328,13 @@ msgstr "გემი ან ბორანი"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ride sharing"
-msgstr ""
+msgstr "მგზავრობის გაზიარება"
 
 #: qml/QueryPage.qml:278
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Hitch a ride"
-msgstr ""
+msgstr "გასეირნება"
 
 #: qml/QueryPage.qml:287
 #, kde-format
