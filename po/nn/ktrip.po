@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-27 00:49+0000\n"
-"PO-Revision-Date: 2026-07-06 20:01+0200\n"
+"PO-Revision-Date: 2026-08-02 11:03+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -330,13 +330,13 @@ msgstr "Båtar og ferjer"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ride sharing"
-msgstr ""
+msgstr "Bildeling"
 
 #: qml/QueryPage.qml:278
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Hitch a ride"
-msgstr ""
+msgstr "Vert passasjer"
 
 #: qml/QueryPage.qml:287
 #, kde-format
