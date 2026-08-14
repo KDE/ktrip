@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-07-01 21:36+0200\n"
+"PO-Revision-Date: 2026-08-13 21:57+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -43,7 +43,7 @@ msgstr "Garraio publikoko laguntzailea"
 #: main.cpp:83
 #, kde-format
 msgid "© 2019 KDE Community"
-msgstr "© 2019 KDE Community"
+msgstr "© 2019 KDE Komunitatea"
 
 #: main.cpp:84
 #, kde-format
@@ -58,7 +58,7 @@ msgstr "Hornitzaileak"
 #: qml/BackendPage.qml:18
 #, kde-format
 msgid "Select the providers relevant for your area"
-msgstr "Aukeratu zure esparrurako egokiak diren hornitzaileak"
+msgstr "Zure eremurako egokiak diren hornitzaileak hautatu"
 
 #: qml/BackendPage.qml:25
 #, kde-format
@@ -95,24 +95,24 @@ msgstr[1] "Zain (%1 minutu)"
 #, kde-format
 msgid "Transfer (%1 minute)"
 msgid_plural "Transfer (%1 minutes)"
-msgstr[0] "Ibilgailu-aldaketa (minutu %1)"
-msgstr[1] "Ibilgailu-aldaketa (%1 minutu)"
+msgstr[0] "Garraio-tartea (minutu %1)"
+msgstr[1] "Garraio-tartea (%1 minutu)"
 
 #: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Hide intermediate Stops"
-msgstr "Ezkutatu tarteko geldialdiak"
+msgstr "Tarteko geralekuak ezkutatu"
 
 #: qml/ConnectionDetailsPage.qml:107
 #, kde-format
 msgid "Show intermediate Stops"
-msgstr "Erakutsi tarteko geldialdiak"
+msgstr "Tarteko geralekuak erakutsi"
 
 #: qml/ConnectionsPage.qml:15
 #, kde-format
 msgctxt "@title"
 msgid "Connections"
-msgstr "Konexioak"
+msgstr "Loturak"
 
 #: qml/ConnectionsPage.qml:61 qml/ConnectionsPage.qml:87
 #, kde-format
@@ -128,13 +128,13 @@ msgstr "+%1"
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] "Aldaketa %1"
-msgstr[1] "%1 aldaketa"
+msgstr[0] "Ibilgailu-aldaketa %1"
+msgstr[1] "%1 ibilgailu-aldaketa"
 
 #: qml/ConnectionsPage.qml:109
 #, kde-format
 msgid "No connections found"
-msgstr "Ez da konexiorik aurkitu"
+msgstr "Ez da loturarik aurkitu"
 
 #: qml/DeparturesPage.qml:20
 #, kde-format
@@ -151,12 +151,12 @@ msgstr "Irteerak"
 #: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No arrivals found."
-msgstr "Ez du iritsierarik aurkitu."
+msgstr "Ez da iritsierarik aurkitu."
 
 #: qml/DeparturesPage.qml:76
 #, kde-format
 msgid "No departures found."
-msgstr "Ez du irteerarik aurkitu."
+msgstr "Ez da irteerarik aurkitu."
 
 #: qml/Main.qml:36
 #, kde-format
@@ -171,41 +171,41 @@ msgstr "Irteerak"
 #: qml/Main.qml:64
 #, kde-format
 msgid "About KTrip"
-msgstr "«KTrip»eri buruz"
+msgstr "KTripi buruz"
 
 #: qml/QueryPage.qml:33
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
-msgstr "Kontsultatu irteerak"
+msgstr "Irteerak itaundu"
 
 #: qml/QueryPage.qml:33
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
-msgstr "Abiatu bidaia"
+msgstr "Bidaia hasi"
 
 #: qml/QueryPage.qml:37
 #, kde-format
 msgid "No providers enabled"
-msgstr "Ez da hornitzailerik gaitu"
+msgstr "Ez dago hornitzailerik gaituta"
 
 #: qml/QueryPage.qml:42
 #, kde-format
 msgid "Configure providers"
-msgstr "Konfiguratu hornitzaileak"
+msgstr "Hornitzaileak konfiguratu"
 
 #: qml/QueryPage.qml:62 qml/QueryPage.qml:93
 #, kde-format
 msgctxt "departure train station"
 msgid "Select Departure Stop"
-msgstr "Hautatu irteera-geralekua"
+msgstr "Irteerako geralekua hautatu"
 
 #: qml/QueryPage.qml:75 qml/QueryPage.qml:108
 #, kde-format
 msgctxt "arrival train station"
 msgid "Select Arrival Stop"
-msgstr "Hautatu iritsiera-geralekua"
+msgstr "Iritsierako geralekua hautatu"
 
 #: qml/QueryPage.qml:92
 #, kde-format
@@ -223,7 +223,7 @@ msgstr "Nora:"
 #, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
-msgstr "Trukatu irteera eta iritsiera"
+msgstr "Irteera eta iritsiera trukatu"
 
 #: qml/QueryPage.qml:144
 #, kde-format
@@ -253,13 +253,13 @@ msgstr "Iritsiera-ordua"
 #, kde-format
 msgctxt "@action:button"
 msgid "Search Departures"
-msgstr "Bilatu irteerak"
+msgstr "Irteerak bilatu"
 
 #: qml/QueryPage.qml:171
 #, kde-format
 msgctxt "@action:button"
 msgid "Search Journey"
-msgstr "Bilatu bidaia"
+msgstr "Bidaia bilatu"
 
 #: qml/QueryPage.qml:219
 #, kde-format
@@ -294,13 +294,13 @@ msgstr "Eskualdeko edo tokiko trenak"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Rapid transit"
-msgstr "Igarotze azkarra"
+msgstr "Garraio azkarra"
 
 #: qml/QueryPage.qml:246
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Rapid transit, metro, trams"
-msgstr "Igarotze azkarra, metroa, tranbia"
+msgstr "Garraio azkarra, metroa, tranbiak"
 
 #: qml/QueryPage.qml:255
 #, kde-format
@@ -312,7 +312,7 @@ msgstr "Autobusa"
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Local or regional bus services"
-msgstr "Tokiko edo eskualdeko autobus zerbitzuak"
+msgstr "Tokiko edo eskualdeko autobus-zerbitzuak"
 
 #: qml/QueryPage.qml:265
 #, kde-format
