@@ -329,13 +329,13 @@ msgstr "Lode alebo trajekty"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ride sharing"
-msgstr ""
+msgstr "Spolujazda"
 
 #: qml/QueryPage.qml:278
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Hitch a ride"
-msgstr ""
+msgstr "Odviezť sa s niekým"
 
 #: qml/QueryPage.qml:287
 #, kde-format
