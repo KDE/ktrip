@@ -94,7 +94,7 @@
     <p xml:lang="en-GB">KTrip helps you navigate in public transport. It allows you to find journeys between specified locations, departures for a specific station and shows real-time delay and disruption information.</p>
     <p xml:lang="eo">KTrip helpas vin navigi en publika transporto. Ĝi permesas vin trovi vojaĝojn inter specifitaj lokoj, forirojn al specifa stacio kaj montras realtempajn informojn pri prokrasto kaj interrompo.</p>
     <p xml:lang="es">KTrip le ayuda a navegar por el transporte público. Le permite encontrar viajes entre las ubicaciones indicadas, salidas desde una determinada estación y muestra información de retrasos y alteraciones en tiempo real.</p>
-    <p xml:lang="eu">«KTrip»ek garraio publikoan nabigatzen laguntzen dizu. Zehaztutako kokapenen arteko bidaiak, geltoki jakin baterako irteerak, aurkitzen laguntzen dizu, eta atzerapenei eta zerbitzu-eteteak denbora errealean erakusten ditu.</p>
+    <p xml:lang="eu">KTripek garraio publikoan nabigatzen laguntzen dizu. Zehaztutako kokapenen arteko bidaiak eta geltoki jakin bateko irteerak aurkitzeko aukera ematen dizu, eta atzerapenei eta gorabeherei buruzko zuzeneko informazioa erakusten du.</p>
     <p xml:lang="fi">KTrip auttaa navigoimaan julkisessa liikenteessä. Se etsii matkat annettujen paikkojen välillä, lähdöt tietyltä asemalta ja näyttää tosiaikaisesti viive- ja häiriötilannetietoa.</p>
     <p xml:lang="fr">KTrip vous aide à naviguer dans les transports publics. Il vous permet de planifier des itinéraires entre des emplacements donnés et des départs à partir d'une gare spécifique. Il vous affiche aussi les retards en temps réel et des informations sur des interruptions de services.</p>
     <p xml:lang="gl">KTrip axúdalle a viaxar en transporte público. Permítelle atopar rutas e saídas de estacións, e mostra información de atrasos e interrupcións en tempo real.</p>
@@ -132,7 +132,7 @@
       <caption xml:lang="eo">Vojaĝa vido</caption>
       <caption xml:lang="es">Vista de viaje</caption>
       <caption xml:lang="et">Teekonnavaade</caption>
-      <caption xml:lang="eu">Bidaia ikuspegia</caption>
+      <caption xml:lang="eu">Bidaia-ikuspegia</caption>
       <caption xml:lang="fi">Matkanäkymä</caption>
       <caption xml:lang="fr">Vue itinéraire</caption>
       <caption xml:lang="gl">Vista da viaxe.</caption>
@@ -267,7 +267,7 @@
           <li xml:lang="cs">Aktualizace překladů</li>
           <li xml:lang="de">Aktualisierte Übersetzungen</li>
           <li xml:lang="es">Actualizaciones de las traducciones.</li>
-          <li xml:lang="eu">Itzulpenetan eguneratzeak</li>
+          <li xml:lang="eu">Itzulpenen eguneraketak</li>
           <li xml:lang="fr">Mises à jour des traductions</li>
           <li xml:lang="he">תרגומים עודכנו</li>
           <li xml:lang="hu">Frissített fordítások</li>
@@ -301,7 +301,7 @@
           <li xml:lang="cs">Opravena ikona aplikace ve Windows</li>
           <li xml:lang="de">Fehler mit dem Anwendungssymbol unter Windows behoben</li>
           <li xml:lang="es">Se ha corregido el icono de la aplicación en Windows.</li>
-          <li xml:lang="eu">Windowsen aplikazioaren ikonoa konpondu</li>
+          <li xml:lang="eu">Windowsen aplikazioaren ikonoa konpondu da</li>
           <li xml:lang="fr">Correction de l'icône de l'application sous Windows</li>
           <li xml:lang="he">סמל היישום ב־Windows תוקן</li>
           <li xml:lang="hu">Alkalmazásikon javítása Windowson</li>
@@ -427,7 +427,7 @@
           <li xml:lang="cs">Zobrazeno správné číslo verze na stránce O aplikaci</li>
           <li xml:lang="de">Die richtige Versionsnummer auf der „Über”-Seite anzeigen</li>
           <li xml:lang="es">Mostrar el número de versión correcto en la página «Acerca de».</li>
-          <li xml:lang="eu">Honi buruz orrialdean bertsio zuzena erakutsi</li>
+          <li xml:lang="eu">Honi buruz orrialdean bertsio-zenbaki zuzena erakusten da</li>
           <li xml:lang="fr">Afficher le numéro correct de version dans la page « À propos »</li>
           <li xml:lang="he">הצגת מספר הגרסה הנכונה בעמוד על אודות</li>
           <li xml:lang="hu">Helyes verziószám megjelenítése a Névjegy oldalon</li>
@@ -453,7 +453,7 @@
           <li xml:lang="cs">Oprava neostré ikony aplikace na stránce O aplikaci</li>
           <li xml:lang="de">Verschwommenes Anwendungssymbol auf der „Über“-Seite behoben</li>
           <li xml:lang="es">Se ha corregido la visualización del icono de la aplicación borroso en la página «Acerca de».</li>
-          <li xml:lang="eu">Honi buruz orrialdean aplikazioaren ikonoa zorrotza ez izatea konpondu</li>
+          <li xml:lang="eu">Honi buruz orrialdean aplikazioaren ikonoa lausoa agertzea konpondu da</li>
           <li xml:lang="fr">Correction de l’icône de l’application, affichée floue sur la page « À propos »</li>
           <li xml:lang="he">תוקנה הבעיה שסמל היישום היה מטושטוש בעמוד על אודות</li>
           <li xml:lang="hu">Elmosódott alkalmazásikon javítása a Névjegy oldalon</li>
@@ -479,7 +479,7 @@
           <li xml:lang="cs">Opraveno přetečení textu na stránce odletů</li>
           <li xml:lang="de">Textüberlauf auf der „Abfahrten“-Seite behoben</li>
           <li xml:lang="es">Se ha corregido el desbordamiento del texto en la página de salidas.</li>
-          <li xml:lang="eu">Irteeren orrialdeko testu-gainezkatzea konpondu</li>
+          <li xml:lang="eu">Irteeren orrialdeko testu-gainezkatzea konpondu da</li>
           <li xml:lang="fr">Correction du débordement de texte sur la page des départs</li>
           <li xml:lang="he">תוקן טקסט צף בעמוד יציאות</li>
           <li xml:lang="hu">Szövegtúlcsordulás javítása az indulások oldalon</li>
@@ -505,7 +505,7 @@
           <li xml:lang="cs">Nastavena správná kategorie v desktop souboru</li>
           <li xml:lang="de">Richtige Kategorie in der Desktop-Datei festgelegt</li>
           <li xml:lang="es">Definir la categoría correcta en el archivo de escritorio.</li>
-          <li xml:lang="eu">Mahaigaineko fitxategian kategoria egokia ezarri</li>
+          <li xml:lang="eu">Mahaigaineko fitxategian kategoria egokia ezarri da</li>
           <li xml:lang="fr">Définir la catégorie appropriée dans le fichier de bureau</li>
           <li xml:lang="he">הוגדרה הקטגוריה המתאימה בקובץ שולחן העבודה (desktop)</li>
           <li xml:lang="hu">Megfelelő kategória beállítása a desktop fájlban</li>
