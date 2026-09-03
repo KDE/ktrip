@@ -168,6 +168,7 @@
   </recommends>
   <url type="homepage">https://apps.kde.org/ktrip</url>
   <url type="bugtracker">https://invent.kde.org/utilities/ktrip/-/issues</url>
+  <url type="vcs-browser">https://invent.kde.org/utilities/ktrip</url>
   <project_group>KDE</project_group>
   <provides>
     <binary>ktrip</binary>

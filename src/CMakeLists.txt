@@ -25,7 +25,17 @@ ecm_add_qml_module(ktrip URI "org.kde.ktrip"
     "org.kde.kpublictransport"
 )
 
-target_link_libraries(ktrip PRIVATE Qt::Qml Qt::Gui Qt::QuickControls2 KF6::CoreAddons KF6::I18n KF6::ConfigGui KPublicTransport)
+target_compile_definitions(ktrip PRIVATE TRANSLATION_DOMAIN=\"ktrip\")
+target_link_libraries(ktrip PRIVATE
+    Qt::Qml
+    Qt::Gui
+    Qt::QuickControls2
+    KF6::CoreAddons
+    KF6::I18n
+    KF6::I18nQml
+    KF6::ConfigGui
+    KPublicTransport
+)
 target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
 
 if (ANDROID)

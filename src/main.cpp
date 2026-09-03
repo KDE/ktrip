@@ -23,7 +23,7 @@
 #endif
 
 #include <KAboutData>
-#include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #include <KPublicTransport/LocationRequest>
 #include <KPublicTransport/Manager>
@@ -61,29 +61,28 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationDomain(QStringLiteral("kde.org"));
     QCoreApplication::setApplicationVersion(QStringLiteral(KTRIP_VERSION_STRING));
 
-    QGuiApplication::setApplicationDisplayName(QStringLiteral("KTrip"));
+    QGuiApplication::setApplicationDisplayName(i18n("KTrip"));
     QGuiApplication::setDesktopFileName(QStringLiteral("org.kde.ktrip"));
 
+#if KCOREADDONS_VERSION >= QT_VERSION_CHECK(6, 28, 0)
+    KAboutData about = KAboutData::fromAppStreamForApplication();
+#else
+    KAboutData about = KAboutData::applicationData();
+    about.setShortDescription(i18n("Public transport assistant"));
+    about.setLicense(KAboutLicense::GPL);
+    about.setBugAddress("https://invent.kde.org/utilities/ktrip/-/issues");
+#endif
+    about.setCopyrightStatement(i18n("© 2019 KDE Community"));
+    about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
+    KAboutData::setApplicationData(about);
+
     KLocalizedString::setApplicationDomain("ktrip");
-    parser.addVersionOption();
-    parser.addHelpOption();
+    about.setupCommandLine(&parser);
     parser.process(app);
+    about.processCommandLine(&parser);
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-
-    qRegisterMetaType<KPublicTransport::LocationRequest>();
-
-    // this is a mispelled coment
-    KAboutData about(QStringLiteral("ktrip"),
-                     i18n("KTrip"),
-                     QStringLiteral(KTRIP_VERSION_STRING),
-                     i18n("Public transport assistant"),
-                     KAboutLicense::GPL,
-                     i18n("© 2019 KDE Community"));
-    about.addAuthor(i18n("Nicolas Fella"), QString(), QStringLiteral("nicolas.fella@gmx.de"));
-    about.setBugAddress("https://invent.kde.org/utilities/ktrip/-/issues");
-    KAboutData::setApplicationData(about);
+    KLocalization::setupLocalizedContext(&engine);
 
 #ifndef Q_OS_ANDROID
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.ktrip")));
