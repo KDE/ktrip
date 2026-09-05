@@ -34,6 +34,7 @@ target_link_libraries(ktrip PRIVATE
     KF6::I18n
     KF6::I18nQml
     KF6::ConfigGui
+    KF6::Crash
     KPublicTransport
 )
 target_include_directories(ktrip PRIVATE ${CMAKE_BINARY_DIR})
@@ -72,7 +73,7 @@ if (ANDROID)
 
     ecm_add_android_apk(ktrip ANDROID_DIR ${CMAKE_SOURCE_DIR}/android)
 else()
-    target_link_libraries(ktrip PRIVATE Qt::Widgets KF6::Crash)
+    target_link_libraries(ktrip PRIVATE Qt::Widgets)
 endif()
 
 ecm_add_app_icon(ktrip ICONS 256-org.kde.ktrip.png 150-org.kde.ktrip.png)

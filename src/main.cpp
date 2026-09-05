@@ -18,11 +18,11 @@
 #ifdef Q_OS_ANDROID
 #include <QGuiApplication>
 #else
-#include <KCrash>
 #include <QApplication>
 #endif
 
 #include <KAboutData>
+#include <KCrash>
 #include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #include <KPublicTransport/LocationRequest>
@@ -86,8 +86,8 @@ int main(int argc, char *argv[])
 
 #ifndef Q_OS_ANDROID
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.ktrip")));
-    KCrash::initialize();
 #endif
+    KCrash::initialize();
 
     engine.loadFromModule("org.kde.ktrip", "Main");
 
