@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-05-17 09:20+0200\n"
+"PO-Revision-Date: 2026-07-29 11:34+0200\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -125,8 +125,8 @@ msgstr "+%1"
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] "Una modifica"
-msgstr[1] "%1 modifiche"
+msgstr[0] "Un cambio"
+msgstr[1] "%1 cambi"
 
 #: qml/ConnectionsPage.qml:109
 #, kde-format
