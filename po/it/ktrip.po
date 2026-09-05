@@ -125,8 +125,8 @@ msgstr "+%1"
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
-msgstr[0] "Una modifica"
-msgstr[1] "%1 modifiche"
+msgstr[0] "Un cambio"
+msgstr[1] "%1 cambi"
 
 #: qml/ConnectionsPage.qml:109
 #, kde-format
