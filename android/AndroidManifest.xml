@@ -55,5 +55,6 @@
             <!-- auto screen scale factor -->
             <meta-data android:name="android.app.auto_screen_scale_factor" android:value="true"/>
         </activity>
+        <meta-data android:name="io.sentry.dsn" android:value="https://4f6959d92b5f4ed58613748e24dca452@crash-reports.kde.org/765"/>
     </application>
 </manifest>
