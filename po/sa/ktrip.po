@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-07-27 00:49+0000\n"
+"POT-Creation-Date: 2026-09-06 00:49+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -29,22 +29,22 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: main.cpp:79
+#: main.cpp:64
 #, kde-format
 msgid "KTrip"
 msgstr "के त्रिप्"
 
-#: main.cpp:81
+#: main.cpp:71
 #, kde-format
 msgid "Public transport assistant"
 msgstr "सार्वजनिक परिवहन सहायक"
 
-#: main.cpp:83
+#: main.cpp:75
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 केडीई समुदाय"
 
-#: main.cpp:84
+#: main.cpp:76
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "निकोलस फेला"
