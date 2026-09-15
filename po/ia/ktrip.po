@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-06 00:49+0000\n"
-"PO-Revision-Date: 2026-05-12 12:25+0200\n"
+"PO-Revision-Date: 2026-09-14 17:27+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -328,13 +328,13 @@ msgstr "Barcas o ferries"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ride sharing"
-msgstr ""
+msgstr "Compartir de Viages"
 
 #: qml/QueryPage.qml:278
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Hitch a ride"
-msgstr ""
+msgstr "Facer autostop (peter un passage)"
 
 #: qml/QueryPage.qml:287
 #, kde-format
