@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-06 00:49+0000\n"
-"PO-Revision-Date: 2026-06-25 14:28+0200\n"
+"PO-Revision-Date: 2026-09-22 21:42+0200\n"
 "Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -338,13 +338,13 @@ msgstr "Лодки или паромы"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ride sharing"
-msgstr ""
+msgstr "Совместные поездки"
 
 #: qml/QueryPage.qml:278
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Hitch a ride"
-msgstr ""
+msgstr "Поехать попутчиком"
 
 #: qml/QueryPage.qml:287
 #, kde-format
