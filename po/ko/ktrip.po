@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-06 00:49+0000\n"
-"PO-Revision-Date: 2026-05-25 21:38+0200\n"
+"PO-Revision-Date: 2026-09-29 00:57+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -323,13 +323,13 @@ msgstr "선박 및 페리"
 #, kde-format
 msgctxt "journey query search constraint, title"
 msgid "Ride sharing"
-msgstr ""
+msgstr "승차 공유"
 
 #: qml/QueryPage.qml:278
 #, kde-format
 msgctxt "journey query search constraint, description"
 msgid "Hitch a ride"
-msgstr ""
+msgstr "다른 차량에 함께 타기"
 
 #: qml/QueryPage.qml:287
 #, kde-format
