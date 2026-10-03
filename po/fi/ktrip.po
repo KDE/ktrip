@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
-# SPDX-FileCopyrightText: 2021, 2022, 2025 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2021, 2022, 2025, 2026 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2025-10-13 21:12+0300\n"
+"PO-Revision-Date: 2026-09-05 11:06+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -72,7 +72,7 @@ msgstr "Tiedot"
 #, kde-format
 msgctxt "book ticket"
 msgid "Book…"
-msgstr ""
+msgstr "Varaa…"
 
 #: qml/ConnectionDetailsPage.qml:55
 #, kde-format
