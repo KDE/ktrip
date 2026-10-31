@@ -332,21 +332,3 @@ msgstr "Vaixells o ferris"
 msgctxt "journey query search constraint, title"
 msgid "Airplane"
 msgstr "Avió"
-
-#~ msgctxt "time"
-#~ msgid "Now"
-#~ msgstr "Ara"
-
-#~ msgctxt "time"
-#~ msgid "%1 min ago"
-#~ msgid_plural "%1 min ago"
-#~ msgstr[0] "Fa %1 minut"
-#~ msgstr[1] "Fa %1 minuts"
-
-#~ msgctxt "@info"
-#~ msgid "Platform %1"
-#~ msgstr "Andana %1"
-
-#~ msgctxt "journey query search constraint, title"
-#~ msgid "Aircraft"
-#~ msgstr "Aeronau"
