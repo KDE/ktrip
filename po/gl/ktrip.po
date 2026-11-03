@@ -217,8 +217,7 @@ msgid "To:"
 msgstr "A:"
 
 #: qml/QueryPage.qml:129
-#, fuzzy, kde-format
-#| msgid "Swap departure and arrival"
+#, kde-format
 msgctxt "departure and arrival stops"
 msgid "Swap departure and arrival"
 msgstr "Intercambiar a saída e a chegada"
